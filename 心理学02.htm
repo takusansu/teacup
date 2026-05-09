@@ -1,0 +1,3437 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head><!-- 2210 -->
+<meta name="robots" content="nofollow">
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://8254.teacup.com/kakezannojunjo/bbs/t58/rss15.xml">
+<title>心理学
+</title>
+<style type="text/css">
+<!--
+
+/*******************************************
+管理画面設定
+*******************************************/
+body{
+ background-color:#d0ffff; /*背景の色*/ background-image:none; /*背景のイメージ*/
+  color:#000000; /*本文色*/}
+
+a:link,
+div#entry table th i{
+}
+a:visited{
+}
+a:active{
+}
+
+div#header h1 a{
+text-decoration: none;
+ color:#000000; /*掲示板タイトル色*/}
+
+div#contents .kiji ul li.title{
+}
+
+div#contents .kiji ul li .name{
+}
+
+div#contents .admin,
+div#contents .admin_name,
+div#contents .admin_text{
+}
+
+
+/*******************************************
+共通設定
+*******************************************/
+
+/*全体*/
+body{
+ font-family: "Mona","IPA MONAPGOTHIC","MS PGothic","ＭＳ Ｐゴシック","MS Pｺﾞｼｯｸ","MS Pゴシック",sans-serif;
+}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote{
+ margin:0;
+ padding:0;
+}
+
+input {
+    margin: 5px 0px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+/*全体*/
+body{
+ font-size:medium;
+}
+
+/*floatクリア*/
+.clear{
+ clear:both;
+}
+
+/*ボタン*/
+.form_sbmit{
+ padding:3px 10px;
+ line-height:1em;
+}
+
+.spacer {
+ font-size: 1pt;
+ height: 6px;
+}
+
+/*******************************************
+レイアウト設定
+*******************************************/
+
+/*大外枠*/
+div#wrapper{
+ min-width:800px;
+}
+
+/*ヘッダー*/
+div#header{
+ text-align:center;
+ margin:10px auto 20px auto;
+}
+
+/*コンテンツ*/
+div#contents{
+ text-align:left;
+}
+
+/*フッター*/
+div#footer{
+ text-align:left;
+ margin:10px 0px;
+}
+
+
+/*投稿フォーム*/
+div#entry{
+ padding:10px 5px;
+}
+
+/*テーマ関連*/
+div#mythema{
+ background:#FCFCFC;
+ padding:5px;
+ border:1px solid #CCCCCC;
+ margin:5px 0px 50px 125px;
+ width:650px;
+ font-size:12px;
+}
+
+
+/*******************************************
+ヘッダー設定
+*******************************************/
+
+/*掲示板タイトル*/
+div#header h1{
+ font-size:x-large;
+}
+
+
+div#head_info{
+ padding-left:15px;
+}
+
+div#head_info ul{
+ list-style-position: outside;
+ padding:5px 5px 5px 10px;
+ margin-left:10px;
+}
+
+/*******************************************
+投稿記事設定　開始
+*******************************************/
+
+/*全体*/
+div#contents .kiji{
+ margin:0px;
+ float:left;
+ width:95%;
+ height:auto;
+ padding-right:10px;
+ padding-bottom:10px;
+}
+
+/*レイアウト*/
+div#contents .kiji dd{
+ float:left;
+}
+
+/*本文*/
+div#contents div.kiji dd.text,
+div#contents from div.kiji dd.text{
+ text-align:left;
+ width:auto;
+ height:auto;
+ padding:5px 0px 0px 0px;
+ max-width:800px;
+ min-width:300px;
+}
+
+/*プロフ画像*/
+div#contents .kiji dd.img{
+ width:70px;
+ height:auto;
+ margin:0px auto;
+ text-align:center;
+}
+
+/*投稿画像*/
+div#contents .kiji dd.text img{
+ margin:5px 0px;
+}
+
+
+/*URL　アイコン*/
+/*div#contents .kiji dd.text .link_url{
+ padding:2px 15px 2px 0px;
+ background:url(icon_linkb15x15.gif) right top no-repeat;
+}*/
+
+/*投稿情報　全体*/
+div#contents .kiji ul{
+ text-align:left;
+ margin:0px;
+}
+
+/*投稿情報　詳細*/
+div#contents .kiji ul li{
+ display:inline;
+ list-style-type:none;
+}
+
+/*投稿情報　タイトル*/
+div#contents .kiji ul li.title h2{
+ font-size:117%;
+ font-weight:bold;
+ display:inline;
+}
+
+
+/*管理者返信　全体*/
+div#contents .admin{
+ padding:5px;
+ margin:20px 0px;
+ width:100%;
+}
+
+/*管理者返信　返信者名*/
+div#contents .admin_name{
+ font-weight:bold;
+}
+
+/*管理者返信　返信内容*/
+div#contents .admin_text{
+ margin:0px;
+ padding:5px 0px;
+}
+
+
+/*******************************************
+ナビゲーション設定
+*******************************************/
+
+/*全体*/
+div.navi,
+div.navi ul{
+ margin:0px auto;
+ padding:0px;
+ text-align:center;
+ min-width:700px;
+}
+
+/*リスト*/
+div.navi ul li{
+ display:inline;
+ padding:0px 5px;
+ list-style-type:none;
+}
+
+/*リンク　全体*/
+div.navi ul li a{
+ font-weight:bold;
+ padding:3px;
+ border:1px solid #d0ffff;
+}
+
+
+/*リンク　hover*/
+div.navi ul li a:hover,
+div.navi ul li a.on{
+ background:#FF9999;
+ color:#333333;
+ font-weight:bold;
+ padding:3px;
+ border:1px solid #666666;
+}
+
+
+/*******************************************
+投稿フォーム設定
+*******************************************/
+
+/*テーブル全体*/
+div#entry table,
+div#entry table tr{
+ margin:0px; 
+ padding:0px;
+}
+
+/*テーブル　見出し*/
+div#entry table th{
+ padding:3px;
+ white-space: nowrap;
+ font-weight:normal;
+ text-align:right;
+ width:110px;
+}
+
+/*テーブル　見出し必須項目*/
+div#entry table th i{
+ font-style:normal;
+}
+
+/*テーブル　項目*/
+div#entry table td{
+ text-align:left;
+ padding:3px;
+ white-space: nowrap;
+}
+
+/*テーブル　入力：テキスト*/
+div#entry .form_input_m{
+ width:300px;
+}
+
+/*テーブル　入力：テキストエリア*/
+div#entry .form_textarea{
+ width:500px;
+}
+
+div#entry .form_submit{
+ padding:2px 5px;
+
+}
+
+div#entry .notice {
+font-size: x-small;
+vertical-align: bottom;
+}
+div#entry #file_additional td {
+    width: 900px;
+}
+div#entry #file_additional div {
+    float: left;
+}
+div#entry .ad_file_additional {
+    margin: 0px 0px 0px 10px;
+}
+
+#cke_CO {
+margin:10px 0 10px 0;
+}
+
+/*******************************************
+ログイン設定開始
+*******************************************/
+
+/*ログイン　全体*/
+div#footer #login{
+ text-align:left;
+}
+
+
+/*******************************************
+テーマ関連設定
+*******************************************/
+
+/*全体*/
+div#mythema .mycontents{
+ text-align:left;
+ padding:5px 0px;
+ color:#333333;
+}
+
+/*見出し*/
+div#mythema .mycontents h4{
+ margin:0px;
+ padding:3px;
+ border-left:5px solid #FF0000;
+ font-size:14px;
+ color:#FF0000;
+}
+
+/*内容　検索フォーム*/
+div#mythema .mycontents ol{
+ padding:10px 10px 10px 10px;
+}
+
+/*リスト*/
+div#mythema .mycontents ol li{
+ display:inline;
+ text-align:justify;
+ word-break: keep-all;
+ line-height: 1.5em;
+ margin: 0px 4px 0px 0px;
+}
+
+/*リンク　全体*/
+div#mythema .mycontents ol li a,
+div#mythema .mycontents a{
+ color:#0000FF;
+ line-height: 1.5em;
+}
+
+/*リンク　hover*/
+div#mythema .mycontents ol li a:hover,
+div#mythema .mycontents a:hover{
+ color:#FF0000;
+ line-height: 1.5em;
+}
+
+div#mythema hr{
+ border-width:1px 0px 0px 0px;
+ border-style:dashed;
+ border-color: #CCCCCC;
+ height:1px;
+}
+
+div#mythema span{
+ font-weight:bold;
+ line-height:130%;
+}
+
+/*******************************************
+オプションメニュー　開始
+*******************************************/
+
+/*全体*/
+div.bookmark,
+div.home{
+ margin:10px 0px;
+ font-size:small;
+}
+
+/*上部メニュー　全体*/
+div.bookmark,
+div.bookmark ul{
+ text-align:right;
+ list-style-type:none;
+}
+
+/*下部メニュー　全体*/
+div.home,
+div.home ul{
+ text-align:left;
+ list-style-type:none;
+}
+
+/*リスト*/
+div.bookmark ul li,
+div.home ul li{
+ display:inline;
+}
+
+/*リンク　全体*/
+div.bookmark ul li a,
+div.home ul li a,
+div.bookmark ul li a:visited,
+div.home ul li a:visited{
+ background:#FED8E1;
+ font-weight:bold;
+ padding:2px;
+ color:#3300FF;
+}
+
+/*リンク　hover*/
+div.bookmark ul li a:hover,
+div.home ul li a:hover{
+ background:#FF9999;
+ color:#333333;
+ font-weight:bold;
+ padding:2px;
+}
+
+/*アイコン*/
+div.bookmark img,
+div.home img{
+ vertical-align: middle;
+}
+
+
+/*******************************************
+広告設定
+*******************************************/
+
+/*テキスト広告　全体*/
+div.pr_list{
+ text-align:center;
+ margin:5px auto;
+ font-size:small;
+}
+
+div.pr_list ul{
+ padding:5px 5px 1em 5px;
+}
+
+/*テキスト広告　リスト*/
+div.pr_list ul li{
+ display:inline;
+ list-style-type:none;
+ text-align:center;
+ margin:5px auto;
+ padding:0px 5px;
+}
+
+/*バナー広告　全体*/
+div.pr_banner{
+ text-align:center;
+ margin:5px auto;
+}
+
+/*記事中バナー広告　全体*/
+div.pr_banner_comment{
+ text-align:left;
+ margin:40px auto 0px auto;
+}
+
+/*最フッターテキスト広告　全体*/
+div#teacupfooterPR{
+ margin: 0px auto;
+ padding: 0px;
+ text-align: center;
+ background: #EEEBD9;
+ border-top: 1px solid #BFBDB0;
+ width: 100%;
+}
+
+/*最フッターテキスト広告　テキスト*/
+div#teacupfooterPRtext{
+ margin: 0px;
+ text-align: center;
+ padding: 5px;
+ font-size: 12px;
+ color: #000000;
+}
+
+/*最フッターテキスト広告　リンク*/
+div#teacupfooterPRtext a,
+div#teacupfooterPRtext a:link,
+div#teacupfooterPRtext a:hover,
+div#teacupfooterPRtext a:visited,
+div#teacupfooterPRtext a:active{
+ text-decoration: underline;
+ color: #0000FF;
+}
+
+/*******************************************
+ポップアップヘルプ
+*******************************************/
+.popstyle {
+	position:absolute;
+	visibility:hidden;
+	color:#000000; 
+	font-size:10pt;
+	border:1px gray solid;
+	padding:5px;
+	background-color:#fff8e1;
+	z-index:100;
+	width: 300px;
+}
+
+//-->
+
+</style>
+<script type="text/javascript">
+<!--
+function init() {
+    var frm = document.forms[0];
+    if (frm.PROFLINK) {
+        toggle(frm.PROFLINK, 'MA');
+    }
+}
+
+function toggle(fromObj, name) {
+    var obj = eval("document.forms[0]." + name);
+    if (obj != undefined) {
+        if (fromObj.checked) {
+            obj.disabled = true;
+            clearCookie("bbsprof");
+        } else {
+            obj.disabled = false;
+            setCookie("bbsprof", "1");
+        }
+    }
+}
+function setCookie(key, val, tmp) {
+    exDay = new Date();
+    exDay.setHours(exDay.getHours()+1);
+    tmp = key + "=" + escape(val) + "; ";
+    tmp += "expires=" + exDay.toGMTString() + ";domain=8254.teacup.com;path=/kakezannojunjo/";
+    document.cookie = tmp;
+}
+function clearCookie(key) {
+    exDay = new Date();
+    exDay.setHours(exDay.getHours()-1);
+    document.cookie = key + "=" + "delete;expires=" + exDay.toGMTString() + ";domain=8254.teacup.com;path=/kakezannojunjo/";
+}
+
+function checkExpand(ch) {
+    var obj=document.all && document.all(ch) || document.getElementById && document.getElementById(ch);
+    if(obj && obj.style) obj.style.display=
+        "none" == obj.style.display ? "" : "none"
+}
+
+function addFavorite() {
+    var supported = false;
+    if (window.sidebar && window.sidebar.addPanel) {
+        window.sidebar.addPanel(document.title, location.href, "");
+        supported = true;
+    }
+    else if (window.external) {
+        try {
+            window.external.AddFavorite(location.href, document.title);
+            supported = true;
+        }
+        catch (e) {}
+    }
+    if (!supported)
+        alert("お使いのブラウザではサポートされていません");
+}
+
+function postFormChange() {
+    var frm = document.frmPost;
+    frm.M.value = 'CHANGE_INPUT_HELPER';
+    frm.BODA.value = frm.BODA.value == 1 ? 0 : 1;
+    frm.action = '/kakezannojunjo/bbs/threadpost/index/thread_id/58';
+    frm.submit();
+}
+// -->
+</script>
+  
+  
+  
+
+  
+
+</head>
+<body onload="init()">
+<a name="top"></a>
+
+<!--wrapper 開始--->
+<div id="wrapper">
+  <!--header 開始--->
+  <div id="header">
+
+<!--bookmark オプションメニュー開始-->
+<div class="bookmark">
+<ul>
+<li><img src="%E5%BF%83%E7%90%86%E5%AD%A6_files/icon_file15x15.gif" alt="ファイル" height="15" width="15"><a href="javascript:addFavorite()">ブックマーク</a></li>
+<li><img src="%E5%BF%83%E7%90%86%E5%AD%A6_files/icon_rss15x15.gif" alt="RSS" height="15" width="15"><a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/rss15.xml">RSS1.0</a></li></ul>
+</div>
+<!--bookmark オプションメニュー終了-->
+
+
+<!--タイトル-->
+<h1><a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/l50">心理学</a></h1>
+
+
+<div align="left"></div>
+
+<!--タイトル下広告 開始-->
+<div class="pr_list">
+  
+<!-- BEGIN CRITEO CDB -->
+
+<div id="criteo_slot_1371408"></div>
+<script>
+    !function(){
+        /* CONFIG CRITEO ZONE ID, SLOT DIV ID, PASSBACK */
+        var criteoZoneId = 1371408;
+        var criteoSlotId = "criteo_slot_1371408";
+        var passback = function () {
+            var width = "728", height = "90";
+            var div = document.getElementById(criteoSlotId);
+            if (div) { var ifr = document.createElement('iframe'); ifr.setAttribute("id", criteoSlotId+"_iframe"), ifr.setAttribute("frameborder","0"), ifr.setAttribute("allowtransparency","true"), ifr.setAttribute("hspace","0"), ifr.setAttribute("marginwidth","0"), ifr.setAttribute("marginheight","0"), ifr.setAttribute("scrolling","no"), ifr.setAttribute("vspace","0"), ifr.setAttribute("width", width), ifr.setAttribute("height", height);
+            div.appendChild(ifr);
+            var htmlcode = "<html><head></head><body>\n"+
+                "<center><table cellspacing=\"2px\" style=\"background: rgb(255,255,255);font-size:large\"><tr><td>\n"+
+                "あなたも高機能な無料レンタル掲示板を作りませんか？<BR>\n"+
+                "<A href='//www.teacup.com/fbbs' target='_blank'>作成は、こちらから→</A>\n"+
+                "</td></tr></table></center>\n"+
+                "</body></html>";
+            var ifrd = ifr.contentWindow.document; ifrd.open(); ifrd.write(htmlcode); ifrd.close(); }
+        }
+ 
+        var CriteoAdUnits = { "placements": [{ "slotid": criteoSlotId, "zoneid": criteoZoneId }]};
+        window.Criteo = window.Criteo || {}; window.Criteo.events = window.Criteo.events || [];
+        var processCdbBid = function() {
+            var bids = Criteo.GetBidsForAdUnit(criteoSlotId);
+            if (bids.length > 0) {
+                var bidFound = bids[0]; Criteo.RenderAd({ bidId: bidFound.id, containerId: bidFound.impressionId });
+            } else { passback(); }
+        };
+        Criteo.events.push(function() { Criteo.RequestBids(CriteoAdUnits, processCdbBid, 2000);});
+    }();
+</script>
+<!-- END CRITEO CDB -->
+
+
+
+</div>
+
+<!--タイトル下広告 終了-->
+
+
+</div>
+<!--header 終了--->
+
+  <div style="text-align:left;border:4px double red; padding: 1em;margin: 1em;line-height:1.75;">
+<div style="text-align:center;" width="80%">
+<a href="https://www.teacup.com/information/view?id=243" target="_blank">【重要】teacup. byGMOのサービス終了について</a><br>
+</div>
+</div>
+
+
+
+
+
+<hr>
+
+<!--navi ページナビゲーション開始-->
+<div class="navi">
+<ul>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs">掲示板に戻る</a></li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/146n-">新着レス</a></li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/l50">最新50件</a></li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/-100">1-100件</a></li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/search?thread_id=58">検索</a></li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/2-101">次の100件≫</a></li>
+
+<li><a href="#bottom">▼ページ下へ</a></li>
+</ul>
+</div>
+<!--navi ページナビゲーション終了-->
+
+<!--contents 開始--->
+<div id="contents">
+
+
+<hr>
+<!--kiji0 記事0開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li>[0]</li>
+<li class="title"><h2>心理学</h2></li>
+<li>投稿者：<span class="name">TaKu</span></li>
+</ul>
+</dt>
+
+<dd class="img">&nbsp;</dd>
+
+<dd class="text">
+心理学も教育に少なからず影響を与えていそうなのでスレッドを立てておきます。
+<div class="spacer"></div>
+<div class="pr_list">
+
+  
+<!-- BEGIN CRITEO CDB -->
+<script async="async" type="text/javascript" src="%E5%BF%83%E7%90%86%E5%AD%A6_files/publishertag.js"></script>
+<div id="criteo_slot_1371406"></div>
+<script>
+    !function(){
+        /* CONFIG CRITEO ZONE ID, SLOT DIV ID, PASSBACK */
+        var criteoZoneId = 1371406;
+        var criteoSlotId = "criteo_slot_1371406";
+        var passback = function () {
+            var width = "336", height = "280";
+            var div = document.getElementById(criteoSlotId);
+            if (div) { var ifr = document.createElement('iframe'); ifr.setAttribute("id", criteoSlotId+"_iframe"), ifr.setAttribute("frameborder","0"), ifr.setAttribute("allowtransparency","true"), ifr.setAttribute("hspace","0"), ifr.setAttribute("marginwidth","0"), ifr.setAttribute("marginheight","0"), ifr.setAttribute("scrolling","no"), ifr.setAttribute("vspace","0"), ifr.setAttribute("width", width), ifr.setAttribute("height", height);
+            div.appendChild(ifr);
+            var htmlcode = "<html><head></head><body><div style=\"padding: 4px 8px;\">\n"+
+                "<div style=\"width: 300px; height: 250px;\"><a href=\"//www.teacup.com/fbbs\" target=\"_blank\"><img src=\"//adimg.teacup.com/teacup/img/ver09/regist_rbbs_b.jpg\" alt=\"レンタル掲示板\" border=\"0\" width=\"300\" height=\"250\"></a></div>\n"+
+                "</div>\n"+
+                "</body></html>";
+            var ifrd = ifr.contentWindow.document; ifrd.open(); ifrd.write(htmlcode); ifrd.close(); }
+        }
+ 
+        var CriteoAdUnits = { "placements": [{ "slotid": criteoSlotId, "zoneid": criteoZoneId }]};
+        window.Criteo = window.Criteo || {}; window.Criteo.events = window.Criteo.events || [];
+        var processCdbBid = function() {
+            var bids = Criteo.GetBidsForAdUnit(criteoSlotId);
+            if (bids.length > 0) {
+                var bidFound = bids[0]; Criteo.RenderAd({ bidId: bidFound.id, containerId: bidFound.impressionId });
+            } else { passback(); }
+        };
+        Criteo.events.push(function() { Criteo.RequestBids(CriteoAdUnits, processCdbBid, 2000);});
+    }();
+</script>
+<!-- END CRITEO CDB -->
+
+
+</div>
+</dd>
+</dl>
+</div>
+
+
+<div class="clear"></div>
+<!--kiji0 記事0終了-->
+
+
+<hr>
+
+<!--entry 投稿フォーム開始--->
+<div id="entry">
+<script type="text/javascript">
+<!--
+function $get (id) {
+  return document.getElementById(id);
+}
+function chkUpload(frm) {
+  if ($get('file1').value !== '' ||
+      $get('file2').value !== '' ||
+      $get('file3').value !== '') {
+    if (frm.action.indexOf('?',0)>0) {
+      frm.action = frm.action + '&fupload=1';
+    } else {
+      frm.action = frm.action + '?fupload=1';
+    }
+  }
+}
+// -->
+</script>
+<form name="frmPost" method="post" action="/kakezannojunjo/bbs/threadpost/exec/thread_id/58/?upload=1" enctype="multipart/form-data" onsubmit="javascript:chkUpload(this);">
+
+<input name="BODA" value="" type="hidden">
+<input name="tstamp" value="1650162607" type="hidden">
+<input name="CPTPS" value="b60cZpCUUZ" type="hidden">
+<input name="M" value="" type="hidden">
+
+　＜思いやりのあるコミュニティ宣言＞<br>
+　teacup.掲示板は、皆様の権利を守りながら、思いやり、温かみのあるコミュニティづくりを応援します。<br>
+　いつもご協力いただきありがとうございます。<br>
+<br>
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tbody><tr>
+<th>投稿者</th>
+<td><input name="NA" size="20" maxlength="24" class="form_input_m" type="text">
+
+</td>
+</tr>
+<tr>
+<th>題名</th>
+<td><input name="SU" size="36" maxlength="60" class="form_input_m" type="text">
+
+
+<input value="確認" name="PPF" type="submit">
+
+</td>
+</tr>
+<tr>
+<th><i>*</i>内容</th>
+<td>
+<a id="postFormChange" href="javascript:postFormChange()"><img src="%E5%BF%83%E7%90%86%E5%AD%A6_files/button_html.gif" alt="入力補助" height="25" border="0" width="80"></a><span id="file_additional_button"><a href="javascript:void(0)" onclick="checkExpand('file_additional');checkExpand('file_additional_button')"><img src="%E5%BF%83%E7%90%86%E5%AD%A6_files/button_form_file.gif" alt="画像・ファイル" height="25" border="0" width="100"></a></span><span class="notice">&lt;IMG&gt;タグが利用可能です。<a href="https://orange.ap.teacup.com/rbbs_faq/36.html" target="_blank">(詳細)</a>
+</span>
+<br>
+<textarea name="CO" class="form_textarea" rows="5" cols="82" id="comment"></textarea>
+</td>
+</tr>
+<tr id="file_additional" style="display:none;">
+<th>ファイル</th>
+<td>
+<div>
+<input name="FI[]" size="45" class="form_input_m" id="file1" type="file">
+<br>
+<input name="FI[]" size="45" class="form_input_m" id="file2" type="file">
+<br>
+<input name="FI[]" size="45" class="form_input_m" id="file3" type="file">
+</div>
+<div class="ad_file_additional">
+
+<span class="notice">
+アップロード可能な形式(各4MB以内)：<br>
+画像(gif,png,jpg,bmp)
+音楽(mmf,mld)
+動画(amc,3gp,3g2)
+</span>
+</div>
+<div class="clear"><!-- --></div>
+</td>
+</tr>
+<tr>
+<th>URL</th>
+<td><input name="UR" size="62" value="http://" class="form_input_m" type="text"></td>
+</tr>
+
+
+<tr>
+<th>sage</th>
+<td><input name="SAGE" value="1" type="checkbox"></td>
+</tr>
+
+</tbody></table>
+</form>
+</div>
+<!--entry 終了--->
+
+
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="146"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/146">146</a>]</li>
+<li class="title"><h2>認知カウンセリングによる学習スキルの支援とその展開― 図表活用方略に着目して ―</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2022年 1月 7日(金)17時23分21秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/58/comm_id/10981/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+認知カウンセリングによる学習スキルの支援とその展開― 図表活用方略に着目して ―<br>
+植阪 友理<br>
+認知科学 / 16 巻 (2009) 3 号<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Fjcss%2F16%2F3%2F16_3_313%2F_article%2F-char%2Fja%2F" target="_blank" rel="nofollow">https://www.jstage.jst.go.jp/article/jcss/16/3/16_3_313/_article/-char/ja/</a><br>
+<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/62" target="_blank" rel="nofollow">https://8254.teacup.com/kakezannojunjo/bbs/t53/62</a><br>
+で取り上げましたが、心理学という点でも興味深い内容でした。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="145"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/145">145</a>]</li>
+<li class="title"><h2>教育課程部会での市川伸一氏の発言</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2020年 9月29日(火)17時16分27秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/58/comm_id/10890/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+教育課程部会（第118回）　議事録：文部科学省<br>
+令和2年7月27日<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.mext.go.jp%2Fb_menu%2Fshingi%2Fchukyo%2Fchukyo3%2F004%2Fgijiroku%2Fmext_00492.html" target="_blank" rel="nofollow">https://www.mext.go.jp/b_menu/shingi/chukyo/chukyo3/004/gijiroku/mext_00492.html</a><br>
+【市川 伸一　副部会長】<br>
+＞<font color="#0000CD">この段落の後半については，私も発表のときに申し上げた点，どちらかというと，低学年，中学年では反復，習熟的な学習も大事ですよと。高学年になるにつれて，理解を重視した学習方略を使用していくというようなことは述べました。</font><br>
+<br>
+低学年，中学年では、【理解を重視した学習方略を使用】していないような発言です。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="144"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/144">144</a>]</li>
+<li class="title"><h2>算数問題解決を育む心理学の基礎理論とその応用研究の融合 の雑感</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2020年 8月19日(水)20時58分28秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/explain/index/comm_id/10882/" target="_blank">編集済</a></li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/58/comm_id/10882/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+算数問題解決を育む心理学の基礎理論とその応用研究の融合<br>
+多鹿 秀継,堀田 千絵　2020年03月31日<br>
+神戸親和女子大学大学院研究紀要<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fkobe-shinwa.repo.nii.ac.jp%2F%3Faction%3Dpages_view_main%26active_action%3Drepository_view_main_item_detail%26item_id%3D3284%26item_no%3D1%26page_id%3D13%26block_id%3D39" target="_blank" rel="nofollow">https://kobe-shinwa.repo.nii.ac.jp/?action=pages_view_main&amp;active_action=repository_view_main_item_detail&amp;item_id=3284&amp;item_no=1&amp;page_id=13&amp;block_id=39</a><br>
+P14<br>
+＞<font color="#0000CD">たとえば、算数問題解決を言語知識の発達に基礎をおく理論によって説明されるよく知られた例として、
+Hudson(1983)の「とりとむしの関係」を示した文章題をあげることができる。幼稚園児と小学1年生に「とりが8わいます。むしが5ひきいます。
+とりはむしよりいくら多くいますか。」の問題を与えたときに、幼稚園児の正解率はわずか25％で、小学1年生の正解率が64％であった。しかし、問題文を
+「とりが8わいます。むしが5ひきいます。いちわのとりが1ぴきのむしをたべるとしたら、なんわのとりがむしをたべることができませんか。」と算数問題文
+の構造は同じであるが表現を変えて与えたところ、幼稚園児でも96％の正解率をみた。また、小学1年生では100％の正解率であった。</font><br>
+<br>
+【言語知識の発達に基礎をおく理論】という言い方には疑問を感じますが、教授側が【算数問題文の構造は同じ】と思っていても、生徒側には別物だったりします。<br>
+算数教育界ｗは、「求残・求差」とかやっているせいで、生徒目線の問題分類や難易度設定が進まないと感じています。<br>
+<br>
+＞<font color="#0000CD">また、多鹿(1996)では、小学校6年生に教科書に記述された割合の算数文章題に加えて、当該の文章題
+と同一の構造を有する割合の文章題を提示して解かせた。教科書の割合文章題は、「ひさ子さんの町から月見がおかへ行くには、全体の3/4は電車に乗り、そ
+の残りの2/3はバスにのり後の2kmは歩きます。月見がおかまでは全体で何kmあるでしょう。」であり、総額6年生の担任の教師とともに作成した自作の
+割合の文章題は、「バスケットボールの大会で全体の3/4はてるあき君が得点し、その残りの2/3はやすお君、後の2点はたかのり君としんじ君がいれまし
+た。全部で何点はいったでしょう。」であった、自作問題は教科書問題の文章表現のみを変えたものであり、子どもの名前やバスケットボールが、子どもにとっ
+てなじみのあるものであった。このような2種類の割合文章題を用意して子どもに解かせたところ教科書問題が解けた6年生の割合は35％であったのに対し
+て、自作問題が解けた6年生の割合は70％であった。このように、自作問題は教科書問題の2倍の割合で正しく解くことができた。このことから、小学生には
+難しいとさてる割合の概念も、問題文の表現を子どもにとって容易に理解できる親しみのある身近な出来事に買えることにより、子どもの有する割合の理論・数
+学的な知識を適切に活性化できることを示している。</font><br>
+<br>
+これも、教授側が【同一の構造】と思っているが、生徒側では同じような問題と認識されていないと感じています。<br>
+生徒側から見た難易度を把握しようとしていないのが算数教育界ｗの伝統であり、問題の分類も適切ではないと思っています。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="143"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/143">143</a>]</li>
+<li class="title"><h2>「教えて考えさせる授業」に「予習」をプラス</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2020年 5月 5日(火)17時24分46秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/58/comm_id/10823/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+算数科における問題解決的学習の充実（Ⅱ）－予習を生かした２つの問題解決的学習指導の実践の開発を通して－<br>
+森 保之　2020年03月10日<br>
+福岡教育大学大学院教育学研究科教職実践専攻（教職大学院）年報<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Flibopac.fukuoka-edu.ac.jp%2Fdspace%2Fhandle%2F10780%2F2403" target="_blank" rel="nofollow">http://libopac.fukuoka-edu.ac.jp/dspace/handle/10780/2403</a><br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Flibopac.fukuoka-edu.ac.jp%2Fdspace%2Fbitstream%2F10780%2F2403%2F1%2FP95%25E7%25A0%2594%25E7%25A9%25B6%25E8%25AB%2596%25E6%2596%2587-%25E6%25A3%25AE%25E4%25BF%259D%25E4%25B9%258B.pdf" target="_blank" rel="nofollow">http://libopac.fukuoka-edu.ac.jp/dspace/bitstream/10780/2403/1/P95%E7%A0%94%E7%A9%B6%E8%AB%96%E6%96%87-%E6%A3%AE%E4%BF%9D%E4%B9%8B.pdf</a><br>
+市川伸一氏の提案する「教えて考えさせる授業」の理論を踏まえて、更に「予習」を追加した授業を行ったようです。<br>
+<br>
+＞<font color="#0000CD">数学的な見方・考え方を強化したり、統合発展したりしていくために、以下のような８つの視点を提案したい。<br>
+＞１．条件の変更 ２．数範囲の変更 ３．図形の変更 ４．情報過多・不足 ５．逆思考 ６．誤答 ７．吟味 ８．判断</font><br>
+<br>
+【情報過多・不足】という部分は気になりますね。<br>
+<br>
+<br>
+ちなみに森保之氏の文献は、以前取り上げた事があります。<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t21/3022" target="_blank" rel="nofollow">https://8254.teacup.com/kakezannojunjo/bbs/t21/3022</a><br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="142"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/142">142</a>]</li>
+<li class="title"><h2>教育学　心理学　闇が深そう</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2019年12月22日(日)12時47分39秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/58/comm_id/10762/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+研究態度<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fblog.goo.ne.jp%2Faohito01%2Fe%2F9949d0b9c0ce0ffc1e23344bf7e6833d" target="_blank" rel="nofollow">https://blog.goo.ne.jp/aohito01/e/9949d0b9c0ce0ffc1e23344bf7e6833d</a><br>
+＞当時私が習った心理学の先生たちは，自信満々で，「心理学は自然科学の方法論に則っている。人文科学だといわれているが，自然科学と同じだ」「教育学な
+んて夢物語を述べているだけだ。自分たちは教育学部にいるがきちんと科学を究めている」などなどの発言を学生の前で繰り返していましたが・・・。まっとう
+な研究者の論文も上記の記事のようになっているとしたら，科学なのか何なのか。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="141"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/141">141</a>]</li>
+<li class="title"><h2>「全部やれ」という「極論」</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2019年10月 1日(火)19時29分54秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/58/comm_id/10716/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+新学習指導要領に教育心理学はどう活かされたか<br>
+――中央教育審議会の議論を追って――<br>
+植阪 友理, 無藤 隆, 市川 伸一, 奈須 正裕<br>
+教育心理学年報 2019年 58巻<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Farepj%2F58%2F0%2F58_317%2F_article%2F-char%2Fja" target="_blank" rel="nofollow">https://www.jstage.jst.go.jp/article/arepj/58/0/58_317/_article/-char/ja</a><br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Farepj%2F58%2F0%2F58_317%2F_pdf%2F-char%2Fja" target="_blank" rel="nofollow">https://www.jstage.jst.go.jp/article/arepj/58/0/58_317/_pdf/-char/ja</a><br>
+<br>
+<font color="#0000CD"><strong>教育心理学がリードしたバランスと統合<br>
+市川伸一</strong></font><br>
+<br>
+＞<font color="#0000CD">・外発的動機づけと内発的動機づけ<br>
+＞・受容学習と発見学習<br>
+＞・知識と思考(推論、問題解決、創造性)<br>
+＞・領域固有性と領域普遍性<br>
+＞・相対評価と絶対評価(到達度評価)<br>
+＞といった対立概念は、教育心理学で論争が繰り返されてきただけに、現実の教育でどう統合するかというときに、立場を相対化して長所・短所を語ることがで
+きる。ところが教育学や社会一般では素朴な二者択一論が多く、どちらか一方を善にされたり、悪にされたりする。今でこそ、「ゆとりか詰め込みかといった二
+者択一を越えたもの」として中教審答申や学習指導要領が意義づけられているが、かつては、教育学者、教育行政、マスコミがいっしょになって極論をゆれ動く
+「振り子現象」が起こっていたのである。</font><br>
+<br>
+「教育心理学がリード」しているのか「市川伸一氏がリード」しているのか疑問ですが、「全部やれ」という「極論」を振りかざしているように感じています。<br>
+観点別学習状況の評価での例<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t82/100" target="_blank" rel="nofollow">https://8254.teacup.com/kakezannojunjo/bbs/t82/100</a><br>
+【具体的な評価方法としては、ペーパーテストにおいて、事実的な知識の習得を問う問題と、知識の概念的な理解を問う問題とのバランスに配慮するなどの工夫改善を図るとともに、】<br>
+からは、「知識」を【事実的な知識の習得】と【知識の概念的な理解】に分類し、【バランスに配慮】してという「全部やれ」的になっていると感じています。<br>
+(「観点別学習状況の評価」そのものが、評価内容を「観点」に分類して「全部やれ」的になっています)<br>
+<br>
+＞<font color="#0000CD">　教育界にはまだまだその名残が残っており、それをどう科学的・実証的で、かつバランスのとれたものにするかは、今後の課題である。</font><br>
+<br>
+市川伸一氏の【科学的】は相当怪しいと思っています。<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/81-82" target="_blank" rel="nofollow">https://8254.teacup.com/kakezannojunjo/bbs/t58/81-82</a><br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="140"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/140">140</a>]</li>
+<li class="title"><h2>市川伸一　「教えて考えさせる授業」を創る―基礎基本の定着・深化・活用を促す「習得型」授業設計 (教育の羅針盤) ?</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2019年 5月31日(金)13時00分28秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/58/comm_id/10658/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+市川伸一　「教えて考えさせる授業」を創る―基礎基本の定着・深化・活用を促す「習得型」授業設計 (教育の羅針盤) ?<br>
+<br>
+批判を書いた<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Ftwitter.com%2Fsekibunnteisuu%2Fstatus%2F1134299065921880064" target="_blank" rel="nofollow">https://twitter.com/sekibunnteisuu/status/1134299065921880064</a><br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="139"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/139">139</a>]</li>
+<li class="title"><h2>気になった文献</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2018年11月 9日(金)20時16分50秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/58/comm_id/10445/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+数字がないと公式が使えないのはなぜかー小学生の関係操作の成否とその原因ー<br>
+麻柄 啓一　2009年(2018年04月01日に訂正されているようです)<br>
+教育心理学研究<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Fjjep%2F57%2F2%2F57_2_180%2F_article%2F-char%2Fja" target="_blank" rel="nofollow">https://www.jstage.jst.go.jp/article/jjep/57/2/57_2_180/_article/-char/ja</a><br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Fjjep%2F57%2F2%2F57_2_180%2F_pdf%2F-char%2Fja" target="_blank" rel="nofollow">https://www.jstage.jst.go.jp/article/jjep/57/2/57_2_180/_pdf/-char/ja</a><br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="138"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/138">138</a>]</li>
+<li class="title"><h2>学力の評価と測定をめぐって その１</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2018年10月 3日(水)19時59分3秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/58/comm_id/10408/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+学力の評価と測定をめぐって<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Farepj%2F57%2F0%2F57_209%2F_article%2F-char%2Fja" target="_blank" rel="nofollow">https://www.jstage.jst.go.jp/article/arepj/57/0/57_209/_article/-char/ja</a><br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Farepj%2F57%2F0%2F57_209%2F_pdf%2F-char%2Fja" target="_blank" rel="nofollow">https://www.jstage.jst.go.jp/article/arepj/57/0/57_209/_pdf/-char/ja</a><br>
+P210<br>
+<font size="5"><strong>討論の趣旨と論点<br>
+大塚雄作</strong></font><br>
+<br>
+<font color="#0000CD"><strong>調査と選抜試験の違い</strong></font><br>
+<br>
+＞<font color="#0000CD">　例えば，「思考力・判断力・表現力」を測定する入試問題の参照すべき例として，PISA 
+や全国学力・学習状況調査の問題が取り上げられることが少なくないのであるが，それらはあくまで調査であって，個人の学力のレベルを識別してそれによって
+選抜しなければならない入学試験とは目的が異なっている。問題が出されてそれに解答するというテストの形式を両者とも同様に採用しているとしても，調査で
+は基本的に集団の統計量によって「集団」の学力レベルを表現するのが目的となるのに対して，選抜試験では「個人」の学力レベルを識別する必要がある。</font><br>
+<br>
+P211<br>
+<font color="#0000CD"><strong>形成的評価と総括的評価の違い</strong></font><br>
+<br>
+＞<font color="#0000CD">　しかし，元来，評価・測定の手法は，ある目的の達成のために開発されてきているものであって，例えば，
+教育実践の文脈の中で指導や学習の改善のために向いている評価手法が，必ずしも，大規模に行われる選抜試験などに有効とは限らない。言い換えれば，教育の
+プロセスの中で利用される形成的評価 （formative 
+evalua-tion）に有効な評価手法が，必ずしも，選抜をはじめとする総括的評価（summative 
+evaluation）にも同じように有効というわけではないということである。</font><br>
+<br>
+＞<font color="#0000CD">論述をどのレベルで，どの視点から行うかは，そのような文脈が何も共有されていない場合には非常に多岐に
+わたるはずのものであって，その多様性のゆえに，採点基準なども一意には定めることが難しいということになりがちである。その点で，多様な受験生を対象と
+する大規模共通試験には，論述式の問題が必ずしも適当とは言えないことが帰結されるであろう。</font><br>
+<br>
+P211-212<br>
+<font color="#0000CD"><strong>非認知的能力の評価</strong></font><br>
+<br>
+＞<font color="#0000CD">　そもそも，「主体的に学習に取り組む態度」などは，とりわけ，大学のレベルではすべての学習領域におい
+て要求すべきものでもなく，個人個人，領域固有のことであってよいものである。また，ハイステイクスな選抜試験において評価するということになったとき
+に，どういう波及効果が起こりうるのかということを考えると，受験産業などが準備するであろうハウツーの浸透は当然予想されることであり，「主体性」等を
+測定するために開発された測定・評価ツールの持つ当初の妥当性は，おそらく年ごとに劣化していってしまうことにもなるであろう。</font><br>
+<br>
+<br>
+<br>
+<br>
+P212<br>
+<font size="5"><strong>大規模学力アセスメント―大学入試センター<br>
+「共通テスト」への批判的考察<br>
+柴山直</strong></font><br>
+<br>
+P213<br>
+<font color="#0000CD"><strong>「学力の 3 要素」とテスト理論の不在</strong></font><br>
+<br>
+P213-214<br>
+＞<font color="#0000CD">しかし「学力の 3 
+要素」については学術的な背景なしに，また審議会等での議論もなしに，行政主導で導入されたことによる弊害が生じる可能性に関する指摘がある 
+（南風原,2016）。実際に学校現場でも教科教育の中でそれをどう組み込むのか，あるいは具体的な教授・学習，その結果把握のための測定・評価の際に，
+いかに 3 つの要素を切り分けて扱うのか，そもそもそれは不可能ではないのかという観点からの戸惑いないし困惑が早くも広がっていると聞く。<br>
+＞　さらに池田 （1970），Arai &amp; Mayekawa（2005）柴山（2008） 
+などによって長年にわたり繰り返し指摘されてきたように，国際水準から見れば「逆さま現象」（前川,2007）とでもいうべき，大規模テストを裏で支えて
+いるテスト理論およびそれに基づく学力の測定技術への無理解・誤解ないし無視の傾向が，わが国の教育行政にはある。それが特に著しいのがここ数年行政主導
+で推し進められている大学入試センター試験の「改革」である。テスト理論の利用を無視して大規模テストを実施しようとしているこのような動きをもって，わ
+が国の「大規模共通テストのガラパゴス化現象」と批判されることもある。これらの問題点が集約的に出現してしまっている例が，昨今マスメディア等でもとみ
+に迷走が指摘される，2020 年度の共通テストに向けた記述式，英語 4 技能の導入の動きと見ることも可能である。</font><br>
+<br>
+P214<br>
+<font color="#0000CD"><strong>大規模学力調査を設計する際のポイント</strong></font><br>
+<br>
+＞<font color="#0000CD">　次に，調査目的あるいは選抜なのか指導なのか，それとも診断なのかといった，実施目的にテストの設計仕
+様を合致させなければならない。たとえば選抜目的なら合否の分割点付近で個人差を識別できる情報が最大となる設計が必要となろう。しかし現実には相反する
+目的が一つのテストに課せられることはしばしば生じる。</font><br>
+<br>
+＞<font color="#0000CD">全国学力学習状況調査結果の向上策としていくつかの自治体がすでに実施しているように，分布の左裾のあた
+りに位置する集団の平均を上げる方がそうでない部分の集団の平均を上げるよりも効率的な対策となる。しかしそのような対策は，いわゆる学力が十分でない児
+童生徒達には良いかもしれないが，全国学力学習状況調査が目的として掲げている，わが国のすべての児童生徒達の学力向上に資する指導とは言い難い。</font><br>
+<br>
+P215<br>
+<font color="#0000CD"><strong>大学入試センター共通テストの課題</strong></font><br>
+<br>
+＞<font color="#0000CD">特に多肢選択形式の項目に対する表面的な批判は頻繁になされる。選択肢の中に正答があるから当てずっぽう
+でも正答できる上，マークするだけだから深く考えなくてもすむといった批判がその典型である。残念ながらこれらは表面的な見かけにとらわれた批判といわざ
+るをえない。たとえばここに 6 肢選択方式の 5 つの項目があったとしよう。これを当てずっぽうで鉛筆を転がして 5 点中3 
+点を取れる確率は，すぐに計算できるように 216 分の 1，小数点表示にして約 0.005 でしかない。実際のテストでは項目数は 30 
+程度は確保されているため，当てずっぽうだけでそれなりの得点をするのはほとんど不可能である。<br>
+＞　さらに，よく吟味して作題された項目セットを準備すれば多肢選択方式であってもかなり高次の学力まで測定できることはこれまでの長年の実証的研究で分
+かっている （Haladyna et al., 
+2002）。このほかにも，受験生に考えさせようとするあまり，多肢選択形式において正答を一つにせずいくつかの正答を組み合わせた選択肢を準備し，その
+中から正しい組み合わせの選択肢を選ばせるような無理な工夫も散見する。しかしこれも難易度を見かけ上高くするだけでそこから獲得できる情報は，一つ一つ
+分離して問うていくよりも遙かに少なくなってしまう。受験生に無駄な時間を使わせることで難易度を見かけ上高くしてしまう，間違った項<br>
+目作成の例としては，資料を大量に与えられた受験生がパズルを解くかのような作業を経たのち，ようやくそのテストが本来測定しようとしている能力が使えるといった構成になっているような場合が典型である。<br>
+＞　わが国においては医学共用試験などでも採用されている多肢選択形式の客観式テストは，そもそも大規模なテストにおいて判定したい能力，測定したい学力
+をいかに低コストで効率よくまた正確に得るかという実務的な観点から考案され，100 
+年あまりの年月をかけ，理論的にも技術的にも洗練されてきたものである。そこには大規模な試験にふさわしい項目の作成のノウハウ・基礎基本というものがす
+でに確立されてある。大規模テストにおける記述式のコストパフォーマンスの低さ（井本・柴山, 
+2016），および記述式を客観式項目群の中に混在させる実施上の不整合なども含めて，現在進められている大学入試センター試験の「改革」は，本稿執筆時
+おいては，大規模テストを支える測定技術の点から見ても，その基礎・基本から大きく外れた方向に進んでいるとしか筆者には思えないのである。</font><br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="137"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/137">137</a>]</li>
+<li class="title"><h2>教育心理学年報 2018年57巻</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2018年10月 1日(月)20時14分40秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/58/comm_id/10407/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+教育心理学年報 2018年57巻がネット上で公開されていました。<br>
+発行日:2018年03月30日<br>
+公開日:2018年09月14日<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.jstage.jst.go.jp%2Fbrowse%2Farepj%2F57%2F0%2F_contents%2F-char%2Fja" target="_blank" rel="nofollow">https://www.jstage.jst.go.jp/browse/arepj/57/0/_contents/-char/ja</a><br>
+<br>
+個人的に気になる物を挙げておきます。<br>
+<br>
+関連づけの視点から見た教授・学習研究の動向と展開可能性<br>
+篠ヶ谷 圭太<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Farepj%2F57%2F0%2F57_40%2F_article%2F-char%2Fja" target="_blank" rel="nofollow">https://www.jstage.jst.go.jp/article/arepj/57/0/57_40/_article/-char/ja</a><br>
+<br>
+測定・評価・研究法に関する研究動向と展望<br>
+鈴木 雅之<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Farepj%2F57%2F0%2F57_136%2F_article%2F-char%2Fja" target="_blank" rel="nofollow">https://www.jstage.jst.go.jp/article/arepj/57/0/57_136/_article/-char/ja</a><br>
+<br>
+学習動機づけ研究の動向と展望<br>
+鹿毛 雅治<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Farepj%2F57%2F0%2F57_155%2F_article%2F-char%2Fja" target="_blank" rel="nofollow">https://www.jstage.jst.go.jp/article/arepj/57/0/57_155/_article/-char/ja</a><br>
+<br>
+学力の評価と測定をめぐって<br>
+大塚 雄作, 柴山 直, 植阪 友理, 遠藤 利彦, 野口 裕之<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Farepj%2F57%2F0%2F57_209%2F_article%2F-char%2Fja" target="_blank" rel="nofollow">https://www.jstage.jst.go.jp/article/arepj/57/0/57_209/_article/-char/ja</a><br>
+<br>
+学習動機づけ研究の未来<br>
+中谷 素之, 田中 あゆみ, 伊藤 崇達, 外山 美樹, 大坊 郁夫, 鹿毛 雅治<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Farepj%2F57%2F0%2F57_250%2F_article%2F-char%2Fja" target="_blank" rel="nofollow">https://www.jstage.jst.go.jp/article/arepj/57/0/57_250/_article/-char/ja</a><br>
+<br>
+第15回（2016年度）優秀論文賞　選考経過および講評<br>
+氏家 達夫, 大塚 雄作, 谷口 明子, 富田 英司, 小田切 歩, 鹿毛 雅治, 藤本 和久, 大島 崇, 庭山 和貴, 松見 淳子<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Farepj%2F57%2F0%2F57_358%2F_article%2F-char%2Fja" target="_blank" rel="nofollow">https://www.jstage.jst.go.jp/article/arepj/57/0/57_358/_article/-char/ja</a><br>
+<br>
+<br>
+第15回（2016年度）優秀論文も興味深いので挙げておきます。<br>
+<br>
+高校の数学授業での協同学習における個人の説明構築による理解深化メカニズム<br>
+ー数列と関数の関連づけに着目してー<br>
+小田切 歩<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Fjjep%2F64%2F4%2F64_456%2F_article%2F-char%2Fja" target="_blank" rel="nofollow">https://www.jstage.jst.go.jp/article/jjep/64/4/64_456/_article/-char/ja</a><br>
+<br>
+「当事者型授業研究」の実践と評価<br>
+鹿毛 雅治, 藤本 和久, 大島 崇<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Fjjep%2F64%2F4%2F64_583%2F_article%2F-char%2Fja" target="_blank" rel="nofollow">https://www.jstage.jst.go.jp/article/jjep/64/4/64_583/_article/-char/ja</a><br>
+<br>
+自己記録手続きを用いた教師の言語賞賛の増加が児童の授業参加行動に及ぼす効果<br>
+ー担任教師によるクラスワイドな“褒めること”の効果ー<br>
+庭山 和貴, 松見 淳子<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Fjjep%2F64%2F4%2F64_598%2F_article%2F-char%2Fja" target="_blank" rel="nofollow">https://www.jstage.jst.go.jp/article/jjep/64/4/64_598/_article/-char/ja</a><br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="136"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/136">136</a>]</li>
+<li class="title"><h2>Re: 実際の生徒への難易度</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2018年 8月 4日(土)08時31分41秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/58/comm_id/10368/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/134">&gt;&gt;134</a><br>
+&gt; PF002 「違和感の喚起」が割合の加法操作の修正に及ぼす影響(教授・学習・認知,ポスター発表F)<br>
+&gt; 蛯名 正司　2014年<br>
+&gt; 日本教育心理学会 第56回総会発表論文集<br>
+&gt; <a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Fpamjaep%2F56%2F0%2F56_647%2F_article%2F-char%2Fja%2F" target="_blank" rel="nofollow">https://www.jstage.jst.go.jp/article/pamjaep/56/0/56_647/_article/-char/ja/</a><br>
+&gt; ＞<font color="#0000CD">これは、オレンジジュースの濃さと食塩水の濃さに対する理解の仕方は異なっていることを示唆するものといえる。</font><br>
+&gt;<br>
+&gt; 濃度に関して、果汁を合わせる問題と、食塩水を合わせる問題では、生徒の感覚では違うものと感じているようです。<br>
+&gt; 当然、難易度にも影響があるでしょう。<br>
+&gt;<br>
+&gt; 算数教育界ｗでは、実際の生徒への難易度を調査するのは極めて稀です。<br>
+&gt; 割合だと三用法という考えがあるせいで、その他の見方で難易度を調査するのを阻害しているのではないでしょうか。<br>
+<br>
+「果汁160％が存在しないことは明白」かな？水分飛ばすのとかは？濃縮還元ジュースってあるしね。<br>
+<br>
+<br>
+それはともかく、数教協もそうだけど、算数教育界ｗでは、「子供の思考に寄り添った分類」と称する大人が勝手に考えた分類が幅をきかせているように思いました。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="135"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/135">135</a>]</li>
+<li class="title"><h2>平成28年(2016年)以降の中教審で、市川伸一氏が委員となっている案件</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2018年 7月30日(月)20時08分20秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/58/comm_id/10357/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+教育課程部会　委員名簿：文部科学省<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.mext.go.jp%2Fb_menu%2Fshingi%2Fchukyo%2Fchukyo3%2Fmeibo%2F1393854.htm" target="_blank" rel="nofollow">http://www.mext.go.jp/b_menu/shingi/chukyo/chukyo3/meibo/1393854.htm</a><br>
+初等中等教育分科会　委員名簿：文部科学省<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.mext.go.jp%2Fb_menu%2Fshingi%2Fchukyo%2Fchukyo3%2Fmeibo%2F1405966.htm" target="_blank" rel="nofollow">http://www.mext.go.jp/b_menu/shingi/chukyo/chukyo3/meibo/1405966.htm</a><br>
+教育課程部会　教育課程企画特別部会　委員名簿：文部科学省<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.mext.go.jp%2Fb_menu%2Fshingi%2Fchukyo%2Fchukyo3%2Fmeibo%2F1375813.htm" target="_blank" rel="nofollow">http://www.mext.go.jp/b_menu/shingi/chukyo/chukyo3/meibo/1375813.htm</a><br>
+教育課程部会　総則・評価特別部会　委員名簿：文部科学省<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.mext.go.jp%2Fb_menu%2Fshingi%2Fchukyo%2Fchukyo3%2Fmeibo%2F1364298.htm" target="_blank" rel="nofollow">http://www.mext.go.jp/b_menu/shingi/chukyo/chukyo3/meibo/1364298.htm</a><br>
+教育課程部会　中学校部会　委員名簿：文部科学省<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.mext.go.jp%2Fb_menu%2Fshingi%2Fchukyo%2Fchukyo3%2Fmeibo%2F1372232.htm" target="_blank" rel="nofollow">http://www.mext.go.jp/b_menu/shingi/chukyo/chukyo3/meibo/1372232.htm</a><br>
+教育課程部会　児童生徒の学習評価に関するワーキンググループ　委員名簿：文部科学省<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.mext.go.jp%2Fb_menu%2Fshingi%2Fchukyo%2Fchukyo3%2Fmeibo%2F1397541.htm" target="_blank" rel="nofollow">http://www.mext.go.jp/b_menu/shingi/chukyo/chukyo3/meibo/1397541.htm</a><br>
+<br>
+未だに市川伸一氏の影響力は大きそうです。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="134"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/134">134</a>]</li>
+<li class="title"><h2>実際の生徒への難易度</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2018年 5月 6日(日)17時05分34秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/58/comm_id/10300/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+PF002 「違和感の喚起」が割合の加法操作の修正に及ぼす影響(教授・学習・認知,ポスター発表F)<br>
+蛯名 正司　2014年<br>
+日本教育心理学会 第56回総会発表論文集<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Fpamjaep%2F56%2F0%2F56_647%2F_article%2F-char%2Fja%2F" target="_blank" rel="nofollow">https://www.jstage.jst.go.jp/article/pamjaep/56/0/56_647/_article/-char/ja/</a><br>
+＞<font color="#0000CD">これは、オレンジジュースの濃さと食塩水の濃さに対する理解の仕方は異なっていることを示唆するものといえる。</font><br>
+<br>
+濃度に関して、果汁を合わせる問題と、食塩水を合わせる問題では、生徒の感覚では違うものと感じているようです。<br>
+当然、難易度にも影響があるでしょう。<br>
+<br>
+算数教育界ｗでは、実際の生徒への難易度を調査するのは極めて稀です。<br>
+割合だと三用法という考えがあるせいで、その他の見方で難易度を調査するのを阻害しているのではないでしょうか。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="133"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/133">133</a>]</li>
+<li class="title"><h2>放送大学</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2018年 3月21日(水)20時48分28秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/58/comm_id/10248/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+放送大学 授業科目案内 心理学概論（'18）<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.ouj.ac.jp%2Fhp%2Fkamoku%2FH30%2Fkyouyou%2FC%2Fsinri%2F1720066.html" target="_blank" rel="nofollow">http://www.ouj.ac.jp/hp/kamoku/H30/kyouyou/C/sinri/1720066.html</a><br>
+<br>
+開設年度が2018年度となっているので、新しくなっているようです。<br>
+ちなみに第8回の「発達心理学」では、キーワードに発達段階という言葉があります。<br>
+<br>
+<br>
+発達心理学概論（'17）<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.ouj.ac.jp%2Fhp%2Fkamoku%2FH30%2Fkyouyou%2FC%2Fsinri%2F1720023.html" target="_blank" rel="nofollow">http://www.ouj.ac.jp/hp/kamoku/H30/kyouyou/C/sinri/1720023.html</a><br>
+<br>
+こちらは開設年度が2017年度で、比較的新しいようです。<br>
+第1回の「発達とは」では、キーワードに発達段階という言葉があります。<br>
+第2回の「発達心理学の諸理論」では、【５人の代表的な研究者（ピアジェ、ヴィゴツキー、エリクソン、ブロンフェンブレンナー、バルテス）による理論を紹介する。】とあります。<br>
+<br>
+<br>
+4月からテレビ放送されるので、気になる人はチェックしてみて下さい。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="132"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/132">132</a>]</li>
+<li class="title"><h2>「教えて考えさせる授業」の事例</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2018年 2月25日(日)13時49分43秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/58/comm_id/10214/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+市川伸一氏の提唱する「教えて考えさせる授業」の事例です。<br>
+どういう事が何に影響しているか、いくら実践を重ねても不明なままにしかならない感じです。<br>
+ちなみに個人的には、「教えて考えさせる授業」でやっている事を全否定している訳ではありません。<br>
+教師側の意識改革として有用な部分も結構あると思っています。<br>
+しかし、いくら事例を重ねて、このような文献を作成しても、何が有用か妄想する材料にしかならないという印象を持っています。<br>
+<br>
+知識の習得・活用および学習方略に焦点をあてた授業改善の取り組み<br>
+―算数の「教えて考えさせる授業」を軸に―<br>
+深谷 達史,植阪 友理,太田 裕子,小泉 一弘,市川 伸一　2017年<br>
+教育心理学研究<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Fjjep%2F65%2F4%2F65_512%2F_article%2F-char%2Fja" target="_blank" rel="nofollow">https://www.jstage.jst.go.jp/article/jjep/65/4/65_512/_article/-char/ja</a><br>
+<br>
+図表について、気になった点を指摘しておきます。<br>
+<br>
+P513-514<br>
+＞<font color="#0000CD">図表は学習すべき課題の構造や意味を理解するのに有効な思考ツールであるとともに、他者に的確に考えを伝えるための表現ツールともなる。</font><br>
+<br>
+有用性がどの程度あるか一切考慮しないのは、算数教育学ｗ標準ですね。<br>
+<br>
+P519<br>
+＞<font color="#0000CD">Figure 3からも分かるように、1年目に比べて、2年目の方が図表をかかずに間違えてしまうケースは少なかった一方で、図表をかいて正解にいたるケースは多かったことが確認された。</font><br>
+<br>
+図表なしで不正解が減り、図表ありで正解が増えただけでは、図表なしでも正解する生徒が図表を描いただけの可能性があります。<br>
+図表を描く指導を続ければ、当然起こる現象でしょう。<br>
+最低限、図表なしで正解、図表ありで不正解のデータくらいは採って欲しいですね。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="131"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/131">131</a>]</li>
+<li class="title"><h2>順序指導は不毛</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2018年 1月26日(金)20時01分2秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/explain/index/comm_id/10186/" target="_blank">編集済</a></li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/58/comm_id/10186/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+日本教育心理学会総会発表論文集<br>
+PF038 小学校算数における乗法の導入問題に関する研究(教授・学習・認知,ポスター発表F)<br>
+上岡 学　2014年<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Fpamjaep%2F56%2F0%2F56_683%2F_article%2F-char%2Fja%2F" target="_blank" rel="nofollow">https://www.jstage.jst.go.jp/article/pamjaep/56/0/56_683/_article/-char/ja/</a><br>
+<br>
+大学生80名を対象に、「5人の友達にチョコレートを3つずつ配ります。全部でいくつでしょうか。」という問題を提示して、それに対する立式の考えを5択から選択させています。<br>
+逆順こそが正しい　16．3％<br>
+逆順が望ましい　　28．8％<br>
+合わせると　　　　45．1％<br>
+という結果です。<br>
+掛け算は順序を考慮するというイメージのみが残っている可能性大です。<br>
+<br>
+順序はどちらでも良いを積極的に選択したのは、僅か10．0％しかいません。<br>
+<br>
+追記<br>
+順序を守らないと誤りという視点で見ると、31．3％もの学生がそういう認識です。<br>
+望ましい順序がある(違う順序でも誤りではない)は、58．8％もいます。<br>
+<div class="Kiji_Img">
+<a href="https://8254.teacup.com/kakezannojunjo/img/bbs/0010186.png" target="_blank">
+<img src="%E5%BF%83%E7%90%86%E5%AD%A6_files/0010186M.png" id="IMGID10186" style="cursor:pointer" class="clickable" vspace="5" height="726" border="0" width="399">
+</a>
+</div>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="130"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/130">130</a>]</li>
+<li class="title"><h2>「発達心理学」「認知心理学」「初等教育」など</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2018年 1月23日(火)21時54分4秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/58/comm_id/10182/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Ftwitter.com%2Fshirowassaaaan%2Fstatus%2F955084575868203013" target="_blank" rel="nofollow">https://twitter.com/shirowassaaaan/status/955084575868203013</a><br>
+数学側から算数を見ると不完全に見えるかもしれないが、<br>
+それは抽象的な数学を未習である、子どもの立場から編まれたものだから。<br>
+理科なんかを見るとよくわかる。<br>
+林先生ともあろう人が、自身の影響力を考えず、一面的な見方だけで、教員を追い詰める世論を煽るなんて…。<br>
+<br>
+<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Ftwitter.com%2Fshirowassaaaan%2Fstatus%2F955103372842946560" target="_blank" rel="nofollow">https://twitter.com/shirowassaaaan/status/955103372842946560</a><br>
+コメントありがとうございます。<br>
+林先生には、ご自身が既にマスメディア、マスコミの一員であることを改めて認識していただいた上で、<br>
+「発達心理学」「認知心理学」「初等教育」などにも目を向けて調べ、発信していっていただきたいです…<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="129"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/129">129</a>]</li>
+<li class="title"><h2>古い文献</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2018年 1月 7日(日)18時48分7秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/58/comm_id/10170/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+シンポジウム I 算数授業の問題点<br>
+教育心理学年報　15巻(1976)<br>
+細谷 純, 八島 正秋, 銀林 浩, 駒林 邦男, 南館 忠智<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Farepj1962%2F15%2F0%2F15_81%2F_article%2F-char%2Fja%2F" target="_blank" rel="nofollow">https://www.jstage.jst.go.jp/article/arepj1962/15/0/15_81/_article/-char/ja/</a><br>
+P81<br>
+＞<font color="#0000CD">3.授業における児童・生徒の学習活動を,例えば年齢・学年などによる「発達段階」のみに帰国させることは,教材内容とのつながりを遮断し,教授活動への操作化を放棄させることとなり,有効・適切な理論化とはいえない,のではないか?</font><br>
+<br>
+当時には、「発達段階」の使い方に疑問があったようです。<br>
+<br>
+＞<font color="#0000CD">4.授業における児童・生徒の学習活動は,コンピューターへのプログラム入力のようなものではなくて,既有のルール体系の組み変えである,のではないか？</font><br>
+<br>
+この点も、現在の教育心理学ではどう捉えられているのか気になります。<br>
+<br>
+P82<br>
+＞<font color="#0000CD">銀井浩 数学嫌いの心理学</font><br>
+<br>
+おそらく誤植で、「銀林 浩」氏の発言だと思われます。<br>
+水道方式の効果が思い通りでない事に触れています。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="127"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/127">127</a>]</li>
+<li class="title"><h2>逆効果である可能性</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2017年10月 6日(金)22時12分26秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/58/comm_id/10109/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+教育心理学年報<br>
+Vol. 56 (2017)&nbsp;&nbsp;p. 235-242<br>
+授業でメタ認知を育成するには<br>
+富田 英司, 惠羅 修吉, 吉野 巌, 瀬尾 美紀子, 鹿毛 雅治<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Farepj%2F56%2F0%2F56_235%2F_article%2F-char%2Fja%2F" target="_blank" rel="nofollow">https://www.jstage.jst.go.jp/article/arepj/56/0/56_235/_article/-char/ja/</a><br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Farepj%2F56%2F0%2F56_235%2F_pdf" target="_blank" rel="nofollow">https://www.jstage.jst.go.jp/article/arepj/56/0/56_235/_pdf</a><br>
+P241<br>
+指定討論　　鹿毛雅治<br>
+＞<font color="#0000CD">すなわち、「すでにできている人」のモデル(心理現象の理論化)が、「これからできるようになる人」のモ
+デルに合致するとは必ずしもいえず、前者に基づいて知識やスキルをリスト化、ステップ化、パッケージ化すること(教育方法化)が無益であるばかりか、逆効
+果である可能性さえある。</font><br>
+<br>
+熟達者の真似事をさせようとしたり、スキーマ図を外部から与えるような教育法の批判にも繋がる考えだと受け取れます。<br>
+スモールステップ化に対する警鐘とも受け取れるような内容も含んでいます。<br>
+【逆効果である可能性さえある。】というところまで踏み込んだ表現になっているのは喜ばしいですね。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="126"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/126">126</a>]</li>
+<li class="title"><h2>教育心理学研究 Vol. 65(2017) No. 1の気になった論文</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2017年 5月 2日(火)20時35分56秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/58/comm_id/9960/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+しばらくじっくり読めそうにないので、紹介だけしておきます。<br>
+<br>
+教育心理学研究 Vol. 65(2017) No. 1<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.jstage.jst.go.jp%2Fbrowse%2Fjjep%2F65%2F1%2F_contents%2F-char%2Fja%2F" target="_blank" rel="nofollow">https://www.jstage.jst.go.jp/browse/jjep/65/1/_contents/-char/ja/</a><br>
+<br>
+数学的思考の視点から見た算数障害<br>
+秋元 有子<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Fjjep%2F65%2F1%2F65_106%2F_article%2F-char%2Fja%2F" target="_blank" rel="nofollow">https://www.jstage.jst.go.jp/article/jjep/65/1/65_106/_article/-char/ja/</a><br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Fjjep%2F65%2F1%2F65_106%2F_pdf" target="_blank" rel="nofollow">https://www.jstage.jst.go.jp/article/jjep/65/1/65_106/_pdf</a><br>
+<br>
+質問と回答を取り入れた授業による認識的信念の変容<br>
+野村 亮太, 丸野 俊一<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Fjjep%2F65%2F1%2F65_145%2F_article%2F-char%2Fja%2F" target="_blank" rel="nofollow">https://www.jstage.jst.go.jp/article/jjep/65/1/65_145/_article/-char/ja/</a><br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Fjjep%2F65%2F1%2F65_145%2F_pdf" target="_blank" rel="nofollow">https://www.jstage.jst.go.jp/article/jjep/65/1/65_145/_pdf</a><br>
+<br>
+目標設定と成績のグラフ化が計算スキルの流暢性の形成に及ぼす効果<br>
+ー小学3・4年生を対象とした学級規模での指導を通してー<br>
+尾之上 高哉, 井口 豊, 丸野 俊一<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Fjjep%2F65%2F1%2F65_132%2F_article%2F-char%2Fja%2F" target="_blank" rel="nofollow">https://www.jstage.jst.go.jp/article/jjep/65/1/65_132/_article/-char/ja/</a><br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Fjjep%2F65%2F1%2F65_132%2F_pdf" target="_blank" rel="nofollow">https://www.jstage.jst.go.jp/article/jjep/65/1/65_132/_pdf</a><br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="124"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/124">124</a>]</li>
+<li class="title"><h2>「非認知能力」</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2017年 2月22日(水)17時31分53秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/58/comm_id/9818/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+「学力」の経済学 | 中室 牧子　　に、「非認知能力」という言葉が出てくる。<br>
+<br>
+要するに、数学の問題が解けるなどのテストで直接測る能力ではなくて、「意欲」だとか「忍耐力」だとか「生きる力」とか、そんな感じ。<br>
+<br>
+これが人生に大きな影響を与えうると言う。<br>
+<br>
+また学校の機能として、単に勉強を教わるだけではなく同級生や教師との関わりの中で非認知能力が培われるというようなことも書いてある。<br>
+<br>
+このあたりは、ヒドゥンカリキュラムとも関係していそう。<br>
+<br>
+<br>
+で、これ自体はなるほどと思うのだけど、認知できない能力を測定しようとか伸ばそうとなるとおかしな方向にいくのでは、といういやな予感がする。<br>
+<br>
+入試での「人物重視」とか、市川伸一氏とか、このあたりと関係していそうな気がする。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="123"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/123">123</a>]</li>
+<li class="title"><h2>スキーマ図を肯定する文献</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2017年 2月10日(金)20時12分55秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/explain/index/comm_id/9802/" target="_blank">編集済</a></li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/58/comm_id/9802/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/38">&gt;&gt;38</a> 等を見ると、心理学ではスキーマ図を肯定する考えがあるようです。<br>
+基になっていそうな海外の文献がありました。<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Feric.ed.gov%2F%3Fid%3DEJ388084" target="_blank" rel="nofollow">https://eric.ed.gov/?id=EJ388084</a><br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Feric.ed.gov%2F%3Fid%3DEJ571133" target="_blank" rel="nofollow">https://eric.ed.gov/?id=EJ571133</a><br>
+本文が見れないので、文献内容の詳細を知っている方がいらしたら、教えて欲しいです。<br>
+<br>
+この手の考えは問題があると思っており、更に、きはじ図等も肯定する可能性があります。<br>
+きはじ図等を批判する声を上げても、専門家が根拠がある指導法だと取り合わない危険性もありえます。<br>
+<br>
+<br>
+小学生における割合文章題の問題表象 ―子どもたちは問題をどのように図示するか―<br>
+坂本 美紀　1999<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Frepository.aichi-edu.ac.jp%2Fdspace%2Fhandle%2F10424%2F1280" target="_blank" rel="nofollow">http://repository.aichi-edu.ac.jp/dspace/handle/10424/1280</a><br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Frepository.aichi-edu.ac.jp%2Fdspace%2Fbitstream%2F10424%2F1280%2F1%2Fjissenkiyo24754.pdf" target="_blank" rel="nofollow">http://repository.aichi-edu.ac.jp/dspace/bitstream/10424/1280/1/jissenkiyo24754.pdf</a><br>
+P47<br>
+＞<font color="#0000CD">例えば、Willis ＆ 
+Fuson(1988)は、小学2年生に文章題のカテゴリーを表象する図であるスキーマ図を教えた。被験児は、平均および平均以上の数学の能力を持つ児童
+で、数の合成・変化・比較を扱う加減算の文章題が課題であった。児童には、問題文中の要素に言葉でラベリングをすること、問題にあったスキーマ図を作るこ
+と、未知数を求めるための解法を選ぶことが指導された。その結果、スキーマ図の導入によって、方略を選択する力や正答を見つけだす力が向上した。</font><br>
+<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Feric.ed.gov%2F%3Fid%3DEJ388084" target="_blank" rel="nofollow">https://eric.ed.gov/?id=EJ388084</a><br>
+<br>
+<br>
+算数文章題における解決の支援 ―割合文章題での知識利用を支援する試み―<br>
+坂本 美紀　2002<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Frepository.aichi-edu.ac.jp%2Fdspace%2Fhandle%2F10424%2F1279" target="_blank" rel="nofollow">http://repository.aichi-edu.ac.jp/dspace/handle/10424/1279</a><br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Frepository.aichi-edu.ac.jp%2Fdspace%2Fbitstream%2F10424%2F1279%2F1%2Fjissenkiyo5105111.pdf" target="_blank" rel="nofollow">http://repository.aichi-edu.ac.jp/dspace/bitstream/10424/1279/1/jissenkiyo5105111.pdf</a><br>
+P105<br>
+＞<font color="#0000CD">特に、Jitendra et 
+al.(1998)では、スキーマに基づく解決方略(schema-based 
+strategy)と伝統的な方略の比較を行い、直後ポストテストに加えて、遅延ポストテストと一般化テストでも、スキーマ方略を指導された郡の成績が、
+伝統的な方略を指導された郡の成績を上回っていることを示した。</font><br>
+<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Feric.ed.gov%2F%3Fid%3DEJ571133" target="_blank" rel="nofollow">https://eric.ed.gov/?id=EJ571133</a><br>
+<br>
+<br>
+引用した部分からは、「言葉の式」のようなものを思い浮かべました。<br>
+「言葉の式」への影響もあるかもしれません。<br>
+公式を暗記して当て嵌めるような作業をしているだけの可能性もありそうです。<br>
+理解せずに正答する手段だとしたら、問題ありありです。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="122"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/122">122</a>]</li>
+<li class="title"><h2>数直線は役に立つ？</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2016年12月11日(日)21時46分10秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/58/comm_id/9668/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+21世紀の学習・教育実践に期待される教授・学習研究<br>
+教育心理学年報　Vol.55(2016) p.68-82<br>
+瀬尾 美紀子<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Farepj%2F55%2F0%2F55_68%2F_article%2F-char%2Fja%2F" target="_blank" rel="nofollow">https://www.jstage.jst.go.jp/article/arepj/55/0/55_68/_article/-char/ja/</a><br>
+P70<br>
+＞<font color="#0000CD">小学校の割合の指導では、数直線を用いた説明が行われることが多い。進藤・守屋(2015)は、数直線の使用が割合の問題解決に対して有効に機能しているか否かについて、大学生を対象とした調査によって検討した。</font><br>
+<br>
+＞<font color="#0000CD">数直線による説明は、多くの小学校算数科教科書に採用されている。文章中の数量と割合の関係を視覚的に整
+理することが、割合についての理解を促進という考え(信念)が背後にあると思われる。しかし、この研究からは、数直線が割合の問題解決を促進することを強
+く支持する結果は得られなかった。また、そもそも、数直線を適切に理解する段階に至っていない者も4割程度見られた。</font><br>
+<br>
+やはり数直線で教えても、割合の理解には役立たないようです。<br>
+【(信念)が背後にあると思われる。】は良い表現ですね。<br>
+<br>
+<br>
+参考文献は、これのようです。<br>
+PG028 割合に関する問題解決の困難さ : 数直線の把握の観点から(教授・学習・認知,ポスター発表G)<br>
+日本教育心理学会総会発表論文集 (57), 605, 2015-08-19<br>
+進藤 聡彦、守屋 誠司<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fci.nii.ac.jp%2Fnaid%2F110010014490" target="_blank" rel="nofollow">http://ci.nii.ac.jp/naid/110010014490</a><br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="121"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/121">121</a>]</li>
+<li class="title"><h2>マイサイドバイアス</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2016年11月12日(土)20時15分40秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/58/comm_id/9612/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+低学年児童を対象とした意見文産出指導<br>
+ーマイサイドバイアスの克服に焦点を当てた実践事例の検討ー<br>
+小野田 亮介, 松村 英治　2016<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Fjjep%2F64%2F3%2F64_407%2F_article%2F-char%2Fja%2F" target="_blank" rel="nofollow">https://www.jstage.jst.go.jp/article/jjep/64/3/64_407/_article/-char/ja/</a><br>
+P407<br>
+＞<font color="#0000CD">したがって、説得的な意見文を産出する上でも、論題についての思考を深める上でも、反論を想定し、それに対する再反論を通して自分の主張を示すことは重要な活動になるといえる。</font><br>
+<br>
+自分の意見が正しいか、再度見直す方が重要だと思うのですが。<br>
+最初の意見は曲げず、反論には再反論では健全な議論になりません。<br>
+<br>
+P407<br>
+＞<font color="#0000CD">なぜなら、我々は意見を提示する際に、自分に有利な賛成論は積極的に提示するものの、自分に不利な反論の提示には消極的になるという傾向を有するためである。このような傾向は、マイサイドバイアスと呼ばれ、児童期から、青年期以上にまで広く確認されている。</font><br>
+<br>
+反論の想定と、それへの再反論をセットにしては、結局はマイサイドバイアスから抜け出しているとは思えません。<br>
+自分に有利な内容を提示しているだけです。<br>
+<br>
+P412<br>
+＞<font color="#0000CD">①立場選択：黒板に課題を提示し、2つの対立する立場のうち、どちらかの立場に半数ずつ別れるように求め
+る。立場選択者数が偏った場合は、「これは意見文を書く授業です。どちらの立場が良い、悪いというのではなく、本当はどちらの立場からでも書けるようにな
+るのがみなさんの目標です。」と教示し、数人に移動を促す。</font><br>
+<br>
+最初に自分の取った立場は変えない訓練にしか見えません。<br>
+<br>
+例えば、ある教育法を考えたとして、デメリットと注意点(やってはいけない事等)もセットで公開するべきだと思っています。<br>
+都合のいい事だけを公開するのは、日本社会に蔓延しているように感じています。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="120"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/120">120</a>]</li>
+<li class="title"><h2>Re: ３囚人問題とベイズの定理</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">QJE</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2016年10月23日(日)02時18分7秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/58/comm_id/9581/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+BとCが処刑される場合、看守が処刑されるのはBと答える場合とCと答える場合を<br>
+区別しなければいけないのに区別しそこねるのが間違いなんでしょうね。<br>
+<br>
+AB処刑 Bと答える 1/2<br>
+BC処刑 Bと答える 1/8<br>
+BC処刑 Cと答える 1/8<br>
+AC処刑 Cと答える 1/4<br>
+<br>
+と考えるべきなのに<br>
+<br>
+AB処刑 Bと答える 1/2<br>
+BC処刑 Bと答える 1/4<br>
+AC処刑 Cと答える 1/4<br>
+<br>
+と考えてしまい、看守が処刑されるのはBと答えた場合<br>
+<br>
+AB処刑 4/5<br>
+BC処刑 1/5<br>
+<br>
+ではなく<br>
+<br>
+AB処刑 2/3<br>
+BC処刑 1/3<br>
+<br>
+としてしまう。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="119"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/119">119</a>]</li>
+<li class="title"><h2>３囚人問題とベイズの定理</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">おおくぼ</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2016年10月22日(土)09時55分19秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/58/comm_id/9579/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/118">&gt;&gt;118</a><br>
+&gt; 参考文献の中に、ネットで公開しているものがありました。<br>
+&gt;<br>
+&gt; 市川伸一、下條信輔「第4回日本認知心理学会独創賞記念論文 3囚人問題研究の展開と意義をふり返って」、『認知心理学研究』第7巻第2号、日本認知心理学会、2010年2月、 pp. 137-145<br>
+<br>
+<br>
+この論文で分析されている「３囚人問題の変形版」は難しいですね<br>
+考え中なんですが、よくわかりません。<br>
+<br>
+参考画像は市川伸一氏の『考えることの科学　推論の認知心理学への招待』（１９９７年）より<br>
+<div class="Kiji_Img">
+<a href="https://8254.teacup.com/kakezannojunjo/img/bbs/0009579.png" target="_blank">
+<img src="%E5%BF%83%E7%90%86%E5%AD%A6_files/0009579M.png" id="IMGID9579" style="cursor:pointer" class="clickable" vspace="5" height="682" border="0" width="399">
+</a>
+</div>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="118"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/118">118</a>]</li>
+<li class="title"><h2>Re: モンティ・ホール問題</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2016年10月21日(金)19時47分2秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/58/comm_id/9578/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/117">&gt;&gt;117</a><br>
+&gt; 「モンティ・ホール問題」と似た問題に「３囚人問題」というのがあります。<br>
+&gt; 日本版ウイキペディアの「３囚人問題」の参考文献を見たら「小学校の掛け算順序」とかぶる人名を発見。<br>
+&gt; 市川伸一氏と守一雄氏<br>
+<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fja.wikipedia.org%2Fwiki%2F3" target="_blank" rel="nofollow">https://ja.wikipedia.org/wiki/3</a>囚人問題<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fja.wikipedia.org%2Fwiki%2F3%25E5%259B%259A%25E4%25BA%25BA%25E5%2595%258F%25E9%25A1%258C" target="_blank" rel="nofollow">https://ja.wikipedia.org/wiki/3%E5%9B%9A%E4%BA%BA%E5%95%8F%E9%A1%8C</a><br>
+参考文献の中に、ネットで公開しているものがありました。<br>
+<br>
+市川伸一、下條信輔「第4回日本認知心理学会独創賞記念論文 3囚人問題研究の展開と意義をふり返って」、『認知心理学研究』第7巻第2号、日本認知心理学会、2010年2月、 pp. 137-145<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Fjcogpsy%2F7%2F2%2F7_2_137%2F_article%2F-char%2Fja%2F" target="_blank" rel="nofollow">https://www.jstage.jst.go.jp/article/jcogpsy/7/2/7_2_137/_article/-char/ja/</a><br>
+<br>
+式見拓仙「3囚人問題再考」、『経営と経済』第87巻第3号、長崎大学経済学会、2007年12月、 pp. 55-66<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fnaosite.lb.nagasaki-u.ac.jp%2Fdspace%2Fhandle%2F10069%2F21379" target="_blank" rel="nofollow">http://naosite.lb.nagasaki-u.ac.jp/dspace/handle/10069/21379</a><br>
+<br>
+南学、森敏昭「確率判断課題における直観的理解と論理的理解――「3囚人問題」に対する教授的介入の効果」、『広島大学教育学部紀要 第一部, 心理学』、広島大学教育学部、 pp. 49-57<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fir.lib.hiroshima-u.ac.jp%2Fja%2F00027175" target="_blank" rel="nofollow">http://ir.lib.hiroshima-u.ac.jp/ja/00027175</a><br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="117"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/117">117</a>]</li>
+<li class="title"><h2>モンティ・ホール問題</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">おおくぼ</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2016年10月20日(木)21時36分14秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/58/comm_id/9576/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+「モンティ・ホール問題」と似た問題に「３囚人問題」というのがあります。<br>
+日本版ウイキペディアの「３囚人問題」の参考文献を見たら「小学校の掛け算順序」とかぶる人名を発見。<br>
+市川伸一氏と守一雄氏<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="116"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/116">116</a>]</li>
+<li class="title"><h2>心理学実験の再現性について</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2016年10月14日(金)22時22分15秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/58/comm_id/9572/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+心理学実験の再現性について<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fd.hatena.ne.jp%2Fshorebird%2F20161007" target="_blank" rel="nofollow">http://d.hatena.ne.jp/shorebird/20161007</a><br>
+＞<font color="#0000CD">アブストは抑えて表現しているが，追試の成功がわずかに1/3から1/2しかないというのは衝撃的だ．こ
+れを普通に解釈すれば，ジャーナルで主張されている心理学的知見の半分以上については主張される効果は疑わしいと扱った方がいいということになる．リサー
+チャーにとっては，自分たちのやってきたことの信頼性が疑われているということになるし，実務的にも先行リサーチが正しいとしてその上に知見を求めるよう
+なことも多いだろうから，土台の半分はウソかもしれないといわれてはたまったものではないだろう．</font><br>
+<br>
+心理学の影響も大きいであろう教育学も怪しいのは、想像に難くないです。<br>
+客観性の高い情報を収集するという姿勢も無いと感じています。<br>
+<br>
+<br>
+以下のサイトへのリンクがありました。<br>
+心理学評論 Vol.59 No.1 2016<br>
+特集「心理学の再現可能性：我々はどこから来たのか　我々は何者か　我々はどこへ行くのか」<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fteam1mile.com%2Fsjpr59-1%2F" target="_blank" rel="nofollow">http://team1mile.com/sjpr59-1/</a><br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="115"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/115">115</a>]</li>
+<li class="title"><h2>放送大学</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2016年10月 1日(土)19時40分22秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/58/comm_id/9561/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+BSで放送大学が無料で視聴出来るようです。<br>
+BSが見れる環境なら、チェックするのもいいかもしれません。<br>
+<br>
+ちなみに「学力と学習支援の心理学」は、<br>
+10/5(水) 7:30～8:15<br>
+毎週放映されます。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="114"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/114">114</a>]</li>
+<li class="title"><h2>Re: 学力と学習支援の心理学</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2016年 6月26日(日)22時00分26秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/58/comm_id/9429/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/113">&gt;&gt;113</a><br>
+<br>
+&gt; 算数に関しては、「教える人は算数が出来ればいいのであって、中学以上の数学の理解は不要」という理屈も通ってしまいそうな気がします。<br>
+<br>
+あえて算数に限定したとしても、質の高い高度な算数はありますよね。<br>
+掛け算の順序とかは、質の低い内容に拘る愚策だと思っています。<br>
+協同学習で質を高めようとするふしがありそうですが、「教師本人が高度な算数の使い手として手本を見せるという発想がない」のは問題だと思います。<br>
+<br>
+<br>
+余談ですが、斎藤 兆史氏は自主学習が軽視されていると指摘していました。<br>
+限られた時間の授業の中だけで、上質な英語を身に付けるさせるのは無理で、自主学習を前提にする必要があるという立場のようでした。<br>
+<br>
+教育現場では、自主学習を否定するような指導がまかり通っている印象があるのが怖いです。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="113"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/113">113</a>]</li>
+<li class="title"><h2>Re: 学力と学習支援の心理学</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2016年 6月24日(金)10時53分53秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/58/comm_id/9428/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/112">&gt;&gt;112</a><br>
+&gt; <a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/111">&gt;&gt;111</a><br>
+&gt;<br>
+&gt; &gt; これはリンク先から読めるのでしょうか？<br>
+&gt;<br>
+&gt; テレビで放映されたものを、私がテキストにしたものなので、読めないです。<br>
+&gt;<br>
+&gt; &gt; 数学と数学教育は違う、算数と数学は違う　　という屁理屈は、英語でもあるのでしょうかね？<br>
+&gt;<br>
+&gt; 算数教育学ｗの一面として、「誰にでも教えられる」というのがあると思っています。<br>
+&gt; 同様に、「誰にでも教えられる」英語教育学ｗもありそうですね。<br>
+&gt;<br>
+<br>
+算数に関しては、「教える人は算数が出来ればいいのであって、中学以上の数学の理解は不要」という理屈も通ってしまいそうな気がします。<br>
+<br>
+　英語だとどうなんでしょうね？私自身、中高生に英語を教えているけど、文法と読解、試験対策などに限定している。会話だとかなら、英語圏の子どもの方がずっと私より優秀なはず。<br>
+<br>
+　英語教師の英語力って、どの程度まで求められているのでしょうね？<br>
+<br>
+　私が読解や文法しか教えられないのは、ニュアンスとか、「文法上は正しいけど、そうは言わない、ネイティブは違和感を持つ」とかいうのが分からないから。<br>
+<br>
+　英語全般を教える英語教師など自分はどんなに努力してもなれないように思う。<br>
+<br>
+　「実際に話されている英語と、学校でやる英語は別」ということにして、算数みたく、実際の英語とは別の学校英語体系があったほうが教えるほうが都合がいいけど、どうなんでしょうかね？<br>
+<br>
+　日本語で考えた場合、日本語を教えている人が２ちゃんスラングに精通しているとは限らないだろうし、「あれは本来の日本語ではない」といいたくもなるだろう。<br>
+<br>
+　「実際に話されている英語よりも、教室で教える英語のほうが本来の英語だ」と言い出す人がいても不思議はない。<br>
+<br>
+　私自身教えていて、教科書的な英語の理解が不十分な生徒が、「ゴナー」とか言うと、「そんなこと覚えるのは後回しにしろ」といいたくなる。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="112"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/112">112</a>]</li>
+<li class="title"><h2>Re: 学力と学習支援の心理学</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2016年 6月22日(水)20時15分13秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/58/comm_id/9427/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/111">&gt;&gt;111</a><br>
+<br>
+&gt; これはリンク先から読めるのでしょうか？<br>
+<br>
+テレビで放映されたものを、私がテキストにしたものなので、読めないです。<br>
+<br>
+&gt; 数学と数学教育は違う、算数と数学は違う　　という屁理屈は、英語でもあるのでしょうかね？<br>
+<br>
+算数教育学ｗの一面として、「誰にでも教えられる」というのがあると思っています。<br>
+同様に、「誰にでも教えられる」英語教育学ｗもありそうですね。<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="111"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/111">111</a>]</li>
+<li class="title"><h2>Re: 学力と学習支援の心理学</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2016年 6月22日(水)15時41分11秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/58/comm_id/9426/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/110">&gt;&gt;110</a><br>
+&gt; 学力と学習支援の心理学<br>
+&gt; 主任講師： 市川　伸一<br>
+&gt; <a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.ouj.ac.jp%2Fkamoku%2Fdetail%2F1528890%2F" target="_blank" rel="nofollow">http://www.ouj.ac.jp/kamoku/detail/1528890/</a><br>
+&gt; 第11回 英語力を育てる<br>
+&gt;<br>
+&gt; 心理学者ではありませんが、斎藤 兆史氏の気になる発言がありました。<br>
+<br>
+これはリンク先から読めるのでしょうか？<br>
+<br>
+数学と数学教育は違う、算数と数学は違う　　という屁理屈は、英語でもあるのでしょうかね？<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="110"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/110">110</a>]</li>
+<li class="title"><h2>学力と学習支援の心理学</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2016年 6月21日(火)21時14分31秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/58/comm_id/9424/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+学力と学習支援の心理学<br>
+主任講師： 市川　伸一<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.ouj.ac.jp%2Fkamoku%2Fdetail%2F1528890%2F" target="_blank" rel="nofollow">http://www.ouj.ac.jp/kamoku/detail/1528890/</a><br>
+第11回 英語力を育てる<br>
+<br>
+心理学者ではありませんが、斎藤 兆史氏の気になる発言がありました。<br>
+<br>
+②　教育内容の軽視（＝教授法偏重）<br>
+＞<font color="#0000CD">ここで教育内容というのは、英語教育の話ですから、当然英語という事になります。<br>
+<font color="#FF0000">英語の授業で英語が軽視されている</font>というのは、一見的外れの指摘のようですけれどね、実は英語の授業で一番大事な事はこれは英語をきちんと教え学ばせる事だ、というなんですけれども、それが十分認識されていません。<br>
+英語をきちんと教えて学ばせる為には、<font color="#FF0000">まず教師の側に十分な英語力というのが必要になってきます</font>ね。つまり教師の側にない能力が何かをする事で生徒の側に生まれるということは無いわけですから、教師がまずしっかりとした英語を身に付けているという事が前提になります。<br>
+ところが昨今の教室を見ていますとですね、<font color="#FF0000">教授法をどうするか</font>とか、<font color="#FF0000">どういう活動をさせる</font>だとか、どういう機会(機械？)を持ちうるかとか、<font color="#FF0000">どういう評価法を導入するか</font>とか、そういう所ばかり議論が集中していてですね、<font color="#FF0000">そもそも教師本人が高度な英語の使い手として手本を見せるという発想がありません。</font></font><br>
+<br>
+【教授法をどうするか】アクティブラーニングとか教えて考えさせる授業とかｗ<br>
+【どういう活動をさせる】算数的活動とかｗ<br>
+【どういう評価法を導入するか】観点別評価とかｗ<br>
+文科省への批判かと思いました。<br>
+<div class="Kiji_Img">
+<a href="https://8254.teacup.com/kakezannojunjo/img/bbs/0009424.jpg" target="_blank">
+<img src="%E5%BF%83%E7%90%86%E5%AD%A6_files/0009424M.jpg" id="IMGID9424" style="cursor:pointer" class="clickable" vspace="5" height="300" border="0" width="400">
+</a>
+</div>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="109"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/109">109</a>]</li>
+<li class="title"><h2>取り敢えず貼っておく</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2016年 5月 9日(月)15時32分59秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/58/comm_id/9340/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Ftwitter.com%2Fkushiro00001%2Fstatus%2F729556963114160128" target="_blank" rel="nofollow">https://twitter.com/kushiro00001/status/729556963114160128</a><br>
+教訓帰納（心理学を応用した算数・数学の指導法）<br>
+＞『学力と学習支援の心理学』の『第８回　数学力を育てる』を視ました。私自身、学生時代、数学（と体育実技）が得意科目だったので、今でも数学そのものに興味があります。<br>
+　なんでも、問題解決のプロセスは問題理解と問題解決の段階に分かれ、問題理解はさらに、変換と統合。問題解決は計画と実行に分かれるそうです。<br>
+　学生時代は、学テで言うB問題（応用問題）の申し子みたいな子どもだったので、ここらへんのメカニズムの説明は感覚的に理解できます。<br>
+　統合の段階で必要となるのが問題スキーマ。これは、問題文が表す状況を統合的に理解するための枠組み（考え方）です。これができていると、問題の前提となる条件が異なっていても、問題を解けます。<br>
+　全国学テの算数B問題が解けないのは、多くはこの段階が達成されていないから、だそうです。（放送大学上記講座より）<br>
+　さらに、問題スキーマを身につけるためにスキーマ図、というものがアメリカで開発されているという説明がされました。問題スキーマの次には数学的概念が認知的能力として必要とされ、それらが全体的にまとめられる段階での学習活動が「教訓帰納」です。<br>
+　教訓帰納とは、「問題を解いた後に結果を振り返り、正解や不正解の理由・原因及び今後の対策・注意点などを、教訓として言語化しておく学習活動」です。<br>
+<br>
+<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.ouj.ac.jp%2Fkamoku%2Fdetail%2F1528890%2F" target="_blank" rel="nofollow">http://www.ouj.ac.jp/kamoku/detail/1528890/</a><br>
+＞学力と学習支援の心理学（’１４）<br>
+主任講師： 市川　伸一<br>
+学習・教育に関わる認知心理学の基礎概念を理解し、それを通して、教育現象の説明やコミュニケーション、教育方法の評価・立案などができるようにするこ
+と。具体的には、授業を設計し、事後の検討会などを通じて改善を図ること、学習者の理解状態をとらえ、学習改善を図れること。<br>
+<br>
+第8回 数学力を育てる<br>
+算数・数学は，苦手意識を持ちやすい教科の1つである。数学力を育てるためには，学習者がどのように思考しているか，その認知過程を理解することが重要で
+ある。数学的問題解決に関する研究成果を中心に紹介し，数学力を育てるためには，どのような指導や支援が必要か解説する。<br>
+担当講師： 瀬尾　美紀子 (日本女子大学准教授) <br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="108"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/108">108</a>]</li>
+<li class="title"><h2> 守一雄氏</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2016年 4月 1日(金)08時22分33秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/58/comm_id/9062/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.mext.go.jp%2Fresult_p.htm%3FsearchTextHed%3D%25E5%25AE%2588%25E4%25B8%2580%25E9%259B%2584%23resultstop" target="_blank" rel="nofollow">http://www.mext.go.jp/result_p.htm?searchTextHed=%E5%AE%88%E4%B8%80%E9%9B%84#resultstop</a><br>
+<br>
+胡散臭い人を文科省のページで検索すると結構ヒットするのはなぜ？<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="107"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/107">107</a>]</li>
+<li class="title"><h2>Re: 放送大学</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2016年 4月 1日(金)07時36分45秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/58/comm_id/9060/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/106">&gt;&gt;106</a><br>
+&gt; 当時は市川伸一氏についてよく知らずに見ていたので、再度チェックしようと思います。<br>
+<br>
+この人は要注意ですね。<br>
+<br>
+「ネットワークのソフィストたち」<br>
+<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fkatsu.watanabe.name%2Funifiedfj%2Fnamazu-fjall.cgi%3Fquery%3D%25B9%25F5%25CC%25DA%25A1%25A1%25BB%25D4%25C0%25EE%26submit%3DSearch%2521%26whence%3D0%26max%3D20%26result%3Dnormal%26sort%3Dscore" target="_blank" rel="nofollow">http://katsu.watanabe.name/unifiedfj/namazu-fjall.cgi?query=%B9%F5%CC%DA%A1%A1%BB%D4%C0%EE&amp;submit=Search%21&amp;whence=0&amp;max=20&amp;result=normal&amp;sort=score</a><br>
+（全部は読んでいない）<br>
+<br>
+によれば、20年以上前に黒木さんらにフルボコにされたらしいけど、その後、文科省の委員や東京書籍教科書著者になっている。<br>
+<br>
+文科省で「市川伸一」を検索した結果<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.mext.go.jp%2Fresult_p.htm%3FsearchTextHed%3D%25E5%25B8%2582%25E5%25B7%259D%25E4%25BC%25B8%25E4%25B8%2580%23resultstop" target="_blank" rel="nofollow">http://www.mext.go.jp/result_p.htm?searchTextHed=%E5%B8%82%E5%B7%9D%E4%BC%B8%E4%B8%80#resultstop</a><br>
+<br>
+<br>
+市川伸一氏が、新学力観や観点別、今回の入試改革とどう関わっているのか分からないけど、20年前の同氏の発想と近いものを感じる。<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="106"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/106">106</a>]</li>
+<li class="title"><h2>Re: 放送大学</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2016年 3月30日(水)21時07分37秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/58/comm_id/9049/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/105">&gt;&gt;105</a><br>
+<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/22">&gt;&gt;22</a> <a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/38">&gt;&gt;38</a> では、<br>
+学力と学習支援の心理学　第8回「数学力を育てる」<br>
+瀬尾 美紀子<br>
+で触れました。<br>
+放送内容が分かるようにリンクしていたのですが、年度が替わるとリンク切れになってしまいました。<br>
+放送大学へのリンクは注意が必要です。<br>
+<br>
+当時は市川伸一氏についてよく知らずに見ていたので、再度チェックしようと思います。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="105"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/105">105</a>]</li>
+<li class="title"><h2>放送大学</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2016年 3月30日(水)20時20分14秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/58/comm_id/9046/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+これは既出だったっけ？<br>
+<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.ouj.ac.jp%2Fhp%2Fkamoku%2FH27%2Fkyouyou%2FB%2Fsinri%2F1528890.html" target="_blank" rel="nofollow">http://www.ouj.ac.jp/hp/kamoku/H27/kyouyou/B/sinri/1528890.html</a><br>
+学力と学習支援の心理学（'14）<br>
+主任講師<br>
+市川 伸一 （東京大学大学院教授）<br>
+教員志望の学生、あるいは、学習・教育に関心のある一般学生を対象とする。近年の学力低下論争と、学習指導要領の改訂を背景とし、学力と学習支援につい
+て、基本的な理論と実践を解説する。学習に関する基本的な考え方として、行動主義、認知主義、状況主義があるが、現在の教科指導に対しては、情報処理アプ
+ローチに立った認知主義を中心に考えることが有効であることを述べる。認知理論の基礎、動機づけ、学習方略、記憶・学習のメカニズム、文章の理解と生成、
+素朴概念の克服、数学的問題解決、協同学習などのテーマを、教科教育の実践ビデオをまじえて紹介していく。また、評価システム、学級運営、地域との交流な
+ど、学習者をとりまく環境づくりについても視野に入れる。<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="104"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/104">104</a>]</li>
+<li class="title"><h2>麻柄啓一氏 その3</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">おおくぼ</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2016年 3月30日(水)08時48分20秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/58/comm_id/9039/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+&nbsp;&nbsp;『子どものつまずきと授業づくり　わかる算数をめざして』（１９９５年）<br>
+<br>
+<div class="Kiji_Img">
+<a href="https://8254.teacup.com/kakezannojunjo/img/bbs/0009039.jpg" target="_blank">
+<img src="%E5%BF%83%E7%90%86%E5%AD%A6_files/0009039M.jpg" id="IMGID9039" style="cursor:pointer" class="clickable" vspace="5" height="619" border="0" width="400">
+</a>
+</div>
+
+
+
+<div class="Kiji_Img">
+<a href="https://8254.teacup.com/kakezannojunjo/img/bbs/0009039_2.jpg" target="_blank">
+<img src="%E5%BF%83%E7%90%86%E5%AD%A6_files/0009039_2M.jpg" id="IMGID9039_2" style="cursor:pointer" class="clickable" vspace="5" height="603" border="0" width="400">
+</a>
+</div>
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="103"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/103">103</a>]</li>
+<li class="title"><h2>麻柄啓一氏 その2</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">おおくぼ</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2016年 3月30日(水)08時47分8秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/58/comm_id/9038/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+『子どものつまずきと授業づくり　わかる算数をめざして』（１９９５年）<br>
+<div class="Kiji_Img">
+<a href="https://8254.teacup.com/kakezannojunjo/img/bbs/0009038.jpg" target="_blank">
+<img src="%E5%BF%83%E7%90%86%E5%AD%A6_files/0009038M.jpg" id="IMGID9038" style="cursor:pointer" class="clickable" vspace="5" height="621" border="0" width="399">
+</a>
+</div>
+
+
+
+<div class="Kiji_Img">
+<a href="https://8254.teacup.com/kakezannojunjo/img/bbs/0009038_2.jpg" target="_blank">
+<img src="%E5%BF%83%E7%90%86%E5%AD%A6_files/0009038_2M.jpg" id="IMGID9038_2" style="cursor:pointer" class="clickable" vspace="5" height="618" border="0" width="400">
+</a>
+</div>
+
+<div class="Kiji_Img">
+<a href="https://8254.teacup.com/kakezannojunjo/img/bbs/0009038_3.jpg" target="_blank">
+<img src="%E5%BF%83%E7%90%86%E5%AD%A6_files/0009038_3M.jpg" id="IMGID9038_3" style="cursor:pointer" class="clickable" vspace="5" height="619" border="0" width="400">
+</a>
+</div>
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<a name="bottom"></a><dl>
+<dt>
+<ul>
+<li><a name="102"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/102">102</a>]</li>
+<li class="title"><h2>麻柄啓一氏   その１</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">おおくぼ</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2016年 3月30日(水)08時44分5秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/58/comm_id/9037/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+『子どものつまずきと授業づくり　わかる算数をめざして』（１９９５年）<br>
+<br>
+<div class="Kiji_Img">
+<a href="https://8254.teacup.com/kakezannojunjo/img/bbs/0009037.jpg" target="_blank">
+<img src="%E5%BF%83%E7%90%86%E5%AD%A6_files/0009037M.jpg" id="IMGID9037" style="cursor:pointer" class="clickable" vspace="5" height="618" border="0" width="400">
+</a>
+</div>
+
+
+
+<div class="Kiji_Img">
+<a href="https://8254.teacup.com/kakezannojunjo/img/bbs/0009037_2.jpg" target="_blank">
+<img src="%E5%BF%83%E7%90%86%E5%AD%A6_files/0009037_2M.jpg" id="IMGID9037_2" style="cursor:pointer" class="clickable" vspace="5" height="624" border="0" width="400">
+</a>
+</div>
+
+<div class="Kiji_Img">
+<a href="https://8254.teacup.com/kakezannojunjo/img/bbs/0009037_3.jpg" target="_blank">
+<img src="%E5%BF%83%E7%90%86%E5%AD%A6_files/0009037_3M.jpg" id="IMGID9037_3" style="cursor:pointer" class="clickable" vspace="5" height="618" border="0" width="400">
+</a>
+</div>
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+</div>
+<!--contents 終了--->
+
+<hr>
+<!--navi ページナビゲーション開始-->
+<div class="navi">
+<ul>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs">掲示板に戻る</a></li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/146n-">新着レス</a></li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/l50">最新50件</a></li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/-100">1-100件</a></li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/search?thread_id=58">検索</a></li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/2-101">次の100件≫</a></li>
+
+<li><a href="#top">▲ページ上へ</a></li>
+</ul>
+</div>
+<!--navi ページナビゲーション終了-->
+<hr>
+
+
+
+  <center><div style="margin: 10px 0px 10px 0px;">
+  <table border="0px;">
+  <tbody><tr>
+  <td style="padding: 5px;" valign="top">
+<!--      fluct グループ名「レンタル掲示板：300x250（フッター左_AdSense以外用SSL）」      -->
+
+<!--      fluct ユニット名「レンタル掲示板：300x250（フッター左_AdSense以外用SSL）」     -->
+<script type="text/javascript">
+//<![CDATA[
+if(typeof(adingoFluct)!="undefined") adingoFluct.showAd('1000138850');
+//]]>
+</script>
+
+  </td>
+  <td style="padding: 5px; vertical-align: top;">
+<div style="width: 300px; height: 250px;"><a href="https://www.teacup.com/fbbs" target="_blank"><img src="%E5%BF%83%E7%90%86%E5%AD%A6_files/regist_rbbs_b.jpg" alt="レンタル掲示板" height="250" border="0" width="300"></a></div>
+
+  </td>
+  </tr>
+  </tbody></table>
+</div>
+</center><div class="spacer"></div>
+
+<!--管理スレッド関連開始-->
+<div id="mythema">
+<div class="mycontents">
+<!--掲示板　スレッド一覧開始-->
+<div id="thread_list">
+<h4>スレッド一覧</h4>
+<ol>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t47/l50" title="22/03/03(木)22:17">某氏ウォッチング</a>(452)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t21/l50" title="22/01/13(木)17:45">コメント欄１０代目</a>(3140)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/l50" title="22/01/07(金)17:23">心理学</a>(143)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/l50" title="22/01/07(金)17:15">テープ図　比例直線図　など</a>(62)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t50/l50" title="21/12/16(木)17:59">指導要領の研究</a>(151)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/l50" title="21/11/17(水)21:53">正方形は長方形なのか？　正三角形は二等辺三角形なのか？</a>(144)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t27/l50" title="21/09/30(木)03:39">桜井進氏 &amp; 根上生也氏 がひどすぎる件</a>(23)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t78/l50" title="21/09/01(水)16:54">海外の事例</a>(17)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t94/l50" title="21/06/01(火)20:18">動画授業</a>(2)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t61/l50" title="21/05/20(木)21:36">大学附属小学校（筑波を除く）関係</a>(41)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t70/l50" title="21/03/22(月)13:35">中学数学・高校数学に関して</a>(74)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t84/l50" title="21/02/22(月)17:41">「言語活動の充実」、「言語能力の向上」</a>(23)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t40/l50" title="21/02/01(月)06:59">国語教育について</a>(65)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t28/l50" title="21/01/03(日)12:31">理科の時間</a>(234)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t71/l50" title="20/12/19(土)20:13">０は偶数でも奇数でもない？</a>(83)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t32/l50" title="20/12/16(水)14:12">計算の工夫</a>(22)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t83/l50" title="20/07/07(火)16:37">算数・数学の学び方・教え方について、あれこれ</a>(62)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t86/l50" title="20/07/05(日)22:48">数学教育協議会（数教協）・水道方式など</a>(43)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t43/l50" title="20/07/01(水)06:54">微分の読み方　ｄｙ／ｄｘを「ディーワイディーエックス」と読むことについて</a>(91)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t79/l50" title="20/06/30(火)20:38">算数教育界では「2.5個」はアウト？</a>(18)</li>
+</ol>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/index/all">スレッド一覧(全93)</a>&nbsp;
+<img src="%E5%BF%83%E7%90%86%E5%AD%A6_files/icon_search15x15.gif" height="15" width="15"><a href="https://www.teacup.com/list/" target="_blank" rel="nofollow">他のスレッドを探す</a>&nbsp;
+<img src="%E5%BF%83%E7%90%86%E5%AD%A6_files/DE6AE.gif" height="15" width="15"><a href="https://8254.teacup.com/kakezannojunjo/bbsadm/userthread/" target="_top">スレッド作成</a>
+
+<img src="%E5%BF%83%E7%90%86%E5%AD%A6_files/icon_memo15x15.gif"><a href="https://8254.teacup.com/kakezannojunjo/bbs">掲示板に戻る</a>
+<br>
+<br>
+*掲示板をお持ちでない方へ、まずは掲示板を作成しましょう。<img src="%E5%BF%83%E7%90%86%E5%AD%A6_files/icon_memo15x15.gif"><a href="https://my.teacup.com/regist/bbs" target="_blank">無料掲示板作成</a></div>
+<!--掲示板　スレッド一覧終了-->
+<hr>
+
+</div>
+</div>
+<!--管理スレッド関連終了-->
+
+</div>
+
+
+<!--footer 開始--->
+<div id="footer">
+
+    
+    <script language="JavaScript" src="%E5%BF%83%E7%90%86%E5%AD%A6_files/pop.js" type="text/javascript"></script><div id="span0" class="popstyle">現在この掲示板は、記事からはメールを送れない設定になっています。メールアドレスを入力して投稿した場合、管理人は管理画面の投稿の管理の投稿者名からメールが送れます。 </div><div id="span1" class="popstyle">検索した動画を記事に埋め込むことができます。<br>※掲示板設定で、[画像の貼付][動画の貼付]を共に許可している必要があります</div><div id="span2" class="popstyle"></div><div id="span3" class="popstyle"></div><div id="span4" class="popstyle"></div><div id="span5" class="popstyle"></div><div id="span6" class="popstyle"></div><div id="span7" class="popstyle"></div><div id="span8" class="popstyle"></div><div id="span9" class="popstyle"></div><div id="span10" class="popstyle"></div><div id="span11" class="popstyle"></div><div id="span12" class="popstyle"></div><div id="span13" class="popstyle"></div><div id="span14" class="popstyle"></div><div id="span15" class="popstyle"></div><div id="span16" class="popstyle"></div><div id="span17" class="popstyle"></div><div id="span18" class="popstyle"></div><div id="span19" class="popstyle"></div><div id="span20" class="popstyle"></div>
+
+    <!--home オプションメニュー開始-->
+    <div class="home">
+    <ul>
+    <li><img src="%E5%BF%83%E7%90%86%E5%AD%A6_files/icon_home15x15.gif" alt="ホーム" height="15" width="15">
+        <a href="http://www.teacup.com/" target="_blank">ホームページへ</a>
+        </li>
+    <li><img src="%E5%BF%83%E7%90%86%E5%AD%A6_files/icon_mail15x15.gif" alt="メール" height="15" width="15"><a href="https://8254.teacup.com/kakezannojunjo/bbs/mailform">管理者にメール</a></li>
+    </ul>
+    </div>
+    <!--home オプションメニュー終了-->
+    
+    
+    <!--login ログイン開始-->
+    <div id="login">
+    <table cellspacing="0" cellpadding="2" border="0">
+    <tbody><tr>
+    <td>
+        <form method="post" action="/kakezannojunjo/bbsadm/login" target="_top">
+        <input value="管理メニュー" name="submit" type="submit">
+        </form>
+    </td>
+            <td>
+        <form method="post" action="/kakezannojunjo/bbs/mypost/index/thread_id/58">
+        <input name="submit" value="自分の投稿の編集・削除" type="submit">
+        </form>
+    </td>
+            </tr>
+    </tbody></table>
+    
+    </div>
+
+    <div align="right">
+    <!--login ログイン開始-->
+        <!--閲覧パスログイン中開始 -->
+            <!--閲覧パスログイン中終了 -->
+  
+  <h4><a href="https://www.teacup.com/fbbs/" target="_blank">
+teacup.レンタル掲示板</a></h4>
+<!--新google新-analytics開始-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-37971288-6', 'auto');
+  ga('send', 'pageview');
+
+  ga('create', 'UA-37971288-3', 'auto', {'name': 'oldTracker'});
+  ga('oldTracker.set', 'dimension2', '2210');
+  ga('oldTracker.set', 'dimension3', 'L0');
+    ga('oldTracker.set', 'dimension4', 'flag');
+      ga('oldTracker.set', 'dimension5', 'none');
+    ga('oldTracker.send', 'pageview');
+</script>
+<!--新google新-analytics終了-->
+
+
+    </div>
+
+</div>
+<!--footer 終了--->
+
+
+<!--wrapper 終了--->
+
+
+
+
+</body></html>

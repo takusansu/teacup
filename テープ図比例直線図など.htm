@@ -1,0 +1,4577 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head><!-- 3002 -->
+<meta name="robots" content="nofollow">
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://8254.teacup.com/kakezannojunjo/bbs/t53/rss15.xml">
+<title>テープ図　比例直線図　など
+</title>
+<style type="text/css">
+<!--
+
+/*******************************************
+管理画面設定
+*******************************************/
+body{
+ background-color:#d0ffff; /*背景の色*/ background-image:none; /*背景のイメージ*/
+  color:#000000; /*本文色*/}
+
+a:link,
+div#entry table th i{
+}
+a:visited{
+}
+a:active{
+}
+
+div#header h1 a{
+text-decoration: none;
+ color:#000000; /*掲示板タイトル色*/}
+
+div#contents .kiji ul li.title{
+}
+
+div#contents .kiji ul li .name{
+}
+
+div#contents .admin,
+div#contents .admin_name,
+div#contents .admin_text{
+}
+
+
+/*******************************************
+共通設定
+*******************************************/
+
+/*全体*/
+body{
+ font-family: "Mona","IPA MONAPGOTHIC","MS PGothic","ＭＳ Ｐゴシック","MS Pｺﾞｼｯｸ","MS Pゴシック",sans-serif;
+}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote{
+ margin:0;
+ padding:0;
+}
+
+input {
+    margin: 5px 0px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+/*全体*/
+body{
+ font-size:medium;
+}
+
+/*floatクリア*/
+.clear{
+ clear:both;
+}
+
+/*ボタン*/
+.form_sbmit{
+ padding:3px 10px;
+ line-height:1em;
+}
+
+.spacer {
+ font-size: 1pt;
+ height: 6px;
+}
+
+/*******************************************
+レイアウト設定
+*******************************************/
+
+/*大外枠*/
+div#wrapper{
+ min-width:800px;
+}
+
+/*ヘッダー*/
+div#header{
+ text-align:center;
+ margin:10px auto 20px auto;
+}
+
+/*コンテンツ*/
+div#contents{
+ text-align:left;
+}
+
+/*フッター*/
+div#footer{
+ text-align:left;
+ margin:10px 0px;
+}
+
+
+/*投稿フォーム*/
+div#entry{
+ padding:10px 5px;
+}
+
+/*テーマ関連*/
+div#mythema{
+ background:#FCFCFC;
+ padding:5px;
+ border:1px solid #CCCCCC;
+ margin:5px 0px 50px 125px;
+ width:650px;
+ font-size:12px;
+}
+
+
+/*******************************************
+ヘッダー設定
+*******************************************/
+
+/*掲示板タイトル*/
+div#header h1{
+ font-size:x-large;
+}
+
+
+div#head_info{
+ padding-left:15px;
+}
+
+div#head_info ul{
+ list-style-position: outside;
+ padding:5px 5px 5px 10px;
+ margin-left:10px;
+}
+
+/*******************************************
+投稿記事設定　開始
+*******************************************/
+
+/*全体*/
+div#contents .kiji{
+ margin:0px;
+ float:left;
+ width:95%;
+ height:auto;
+ padding-right:10px;
+ padding-bottom:10px;
+}
+
+/*レイアウト*/
+div#contents .kiji dd{
+ float:left;
+}
+
+/*本文*/
+div#contents div.kiji dd.text,
+div#contents from div.kiji dd.text{
+ text-align:left;
+ width:auto;
+ height:auto;
+ padding:5px 0px 0px 0px;
+ max-width:800px;
+ min-width:300px;
+}
+
+/*プロフ画像*/
+div#contents .kiji dd.img{
+ width:70px;
+ height:auto;
+ margin:0px auto;
+ text-align:center;
+}
+
+/*投稿画像*/
+div#contents .kiji dd.text img{
+ margin:5px 0px;
+}
+
+
+/*URL　アイコン*/
+/*div#contents .kiji dd.text .link_url{
+ padding:2px 15px 2px 0px;
+ background:url(icon_linkb15x15.gif) right top no-repeat;
+}*/
+
+/*投稿情報　全体*/
+div#contents .kiji ul{
+ text-align:left;
+ margin:0px;
+}
+
+/*投稿情報　詳細*/
+div#contents .kiji ul li{
+ display:inline;
+ list-style-type:none;
+}
+
+/*投稿情報　タイトル*/
+div#contents .kiji ul li.title h2{
+ font-size:117%;
+ font-weight:bold;
+ display:inline;
+}
+
+
+/*管理者返信　全体*/
+div#contents .admin{
+ padding:5px;
+ margin:20px 0px;
+ width:100%;
+}
+
+/*管理者返信　返信者名*/
+div#contents .admin_name{
+ font-weight:bold;
+}
+
+/*管理者返信　返信内容*/
+div#contents .admin_text{
+ margin:0px;
+ padding:5px 0px;
+}
+
+
+/*******************************************
+ナビゲーション設定
+*******************************************/
+
+/*全体*/
+div.navi,
+div.navi ul{
+ margin:0px auto;
+ padding:0px;
+ text-align:center;
+ min-width:700px;
+}
+
+/*リスト*/
+div.navi ul li{
+ display:inline;
+ padding:0px 5px;
+ list-style-type:none;
+}
+
+/*リンク　全体*/
+div.navi ul li a{
+ font-weight:bold;
+ padding:3px;
+ border:1px solid #d0ffff;
+}
+
+
+/*リンク　hover*/
+div.navi ul li a:hover,
+div.navi ul li a.on{
+ background:#FF9999;
+ color:#333333;
+ font-weight:bold;
+ padding:3px;
+ border:1px solid #666666;
+}
+
+
+/*******************************************
+投稿フォーム設定
+*******************************************/
+
+/*テーブル全体*/
+div#entry table,
+div#entry table tr{
+ margin:0px; 
+ padding:0px;
+}
+
+/*テーブル　見出し*/
+div#entry table th{
+ padding:3px;
+ white-space: nowrap;
+ font-weight:normal;
+ text-align:right;
+ width:110px;
+}
+
+/*テーブル　見出し必須項目*/
+div#entry table th i{
+ font-style:normal;
+}
+
+/*テーブル　項目*/
+div#entry table td{
+ text-align:left;
+ padding:3px;
+ white-space: nowrap;
+}
+
+/*テーブル　入力：テキスト*/
+div#entry .form_input_m{
+ width:300px;
+}
+
+/*テーブル　入力：テキストエリア*/
+div#entry .form_textarea{
+ width:500px;
+}
+
+div#entry .form_submit{
+ padding:2px 5px;
+
+}
+
+div#entry .notice {
+font-size: x-small;
+vertical-align: bottom;
+}
+div#entry #file_additional td {
+    width: 900px;
+}
+div#entry #file_additional div {
+    float: left;
+}
+div#entry .ad_file_additional {
+    margin: 0px 0px 0px 10px;
+}
+
+#cke_CO {
+margin:10px 0 10px 0;
+}
+
+/*******************************************
+ログイン設定開始
+*******************************************/
+
+/*ログイン　全体*/
+div#footer #login{
+ text-align:left;
+}
+
+
+/*******************************************
+テーマ関連設定
+*******************************************/
+
+/*全体*/
+div#mythema .mycontents{
+ text-align:left;
+ padding:5px 0px;
+ color:#333333;
+}
+
+/*見出し*/
+div#mythema .mycontents h4{
+ margin:0px;
+ padding:3px;
+ border-left:5px solid #FF0000;
+ font-size:14px;
+ color:#FF0000;
+}
+
+/*内容　検索フォーム*/
+div#mythema .mycontents ol{
+ padding:10px 10px 10px 10px;
+}
+
+/*リスト*/
+div#mythema .mycontents ol li{
+ display:inline;
+ text-align:justify;
+ word-break: keep-all;
+ line-height: 1.5em;
+ margin: 0px 4px 0px 0px;
+}
+
+/*リンク　全体*/
+div#mythema .mycontents ol li a,
+div#mythema .mycontents a{
+ color:#0000FF;
+ line-height: 1.5em;
+}
+
+/*リンク　hover*/
+div#mythema .mycontents ol li a:hover,
+div#mythema .mycontents a:hover{
+ color:#FF0000;
+ line-height: 1.5em;
+}
+
+div#mythema hr{
+ border-width:1px 0px 0px 0px;
+ border-style:dashed;
+ border-color: #CCCCCC;
+ height:1px;
+}
+
+div#mythema span{
+ font-weight:bold;
+ line-height:130%;
+}
+
+/*******************************************
+オプションメニュー　開始
+*******************************************/
+
+/*全体*/
+div.bookmark,
+div.home{
+ margin:10px 0px;
+ font-size:small;
+}
+
+/*上部メニュー　全体*/
+div.bookmark,
+div.bookmark ul{
+ text-align:right;
+ list-style-type:none;
+}
+
+/*下部メニュー　全体*/
+div.home,
+div.home ul{
+ text-align:left;
+ list-style-type:none;
+}
+
+/*リスト*/
+div.bookmark ul li,
+div.home ul li{
+ display:inline;
+}
+
+/*リンク　全体*/
+div.bookmark ul li a,
+div.home ul li a,
+div.bookmark ul li a:visited,
+div.home ul li a:visited{
+ background:#FED8E1;
+ font-weight:bold;
+ padding:2px;
+ color:#3300FF;
+}
+
+/*リンク　hover*/
+div.bookmark ul li a:hover,
+div.home ul li a:hover{
+ background:#FF9999;
+ color:#333333;
+ font-weight:bold;
+ padding:2px;
+}
+
+/*アイコン*/
+div.bookmark img,
+div.home img{
+ vertical-align: middle;
+}
+
+
+/*******************************************
+広告設定
+*******************************************/
+
+/*テキスト広告　全体*/
+div.pr_list{
+ text-align:center;
+ margin:5px auto;
+ font-size:small;
+}
+
+div.pr_list ul{
+ padding:5px 5px 1em 5px;
+}
+
+/*テキスト広告　リスト*/
+div.pr_list ul li{
+ display:inline;
+ list-style-type:none;
+ text-align:center;
+ margin:5px auto;
+ padding:0px 5px;
+}
+
+/*バナー広告　全体*/
+div.pr_banner{
+ text-align:center;
+ margin:5px auto;
+}
+
+/*記事中バナー広告　全体*/
+div.pr_banner_comment{
+ text-align:left;
+ margin:40px auto 0px auto;
+}
+
+/*最フッターテキスト広告　全体*/
+div#teacupfooterPR{
+ margin: 0px auto;
+ padding: 0px;
+ text-align: center;
+ background: #EEEBD9;
+ border-top: 1px solid #BFBDB0;
+ width: 100%;
+}
+
+/*最フッターテキスト広告　テキスト*/
+div#teacupfooterPRtext{
+ margin: 0px;
+ text-align: center;
+ padding: 5px;
+ font-size: 12px;
+ color: #000000;
+}
+
+/*最フッターテキスト広告　リンク*/
+div#teacupfooterPRtext a,
+div#teacupfooterPRtext a:link,
+div#teacupfooterPRtext a:hover,
+div#teacupfooterPRtext a:visited,
+div#teacupfooterPRtext a:active{
+ text-decoration: underline;
+ color: #0000FF;
+}
+
+/*******************************************
+ポップアップヘルプ
+*******************************************/
+.popstyle {
+	position:absolute;
+	visibility:hidden;
+	color:#000000; 
+	font-size:10pt;
+	border:1px gray solid;
+	padding:5px;
+	background-color:#fff8e1;
+	z-index:100;
+	width: 300px;
+}
+
+//-->
+
+</style>
+<script type="text/javascript">
+<!--
+function init() {
+    var frm = document.forms[0];
+    if (frm.PROFLINK) {
+        toggle(frm.PROFLINK, 'MA');
+    }
+}
+
+function toggle(fromObj, name) {
+    var obj = eval("document.forms[0]." + name);
+    if (obj != undefined) {
+        if (fromObj.checked) {
+            obj.disabled = true;
+            clearCookie("bbsprof");
+        } else {
+            obj.disabled = false;
+            setCookie("bbsprof", "1");
+        }
+    }
+}
+function setCookie(key, val, tmp) {
+    exDay = new Date();
+    exDay.setHours(exDay.getHours()+1);
+    tmp = key + "=" + escape(val) + "; ";
+    tmp += "expires=" + exDay.toGMTString() + ";domain=8254.teacup.com;path=/kakezannojunjo/";
+    document.cookie = tmp;
+}
+function clearCookie(key) {
+    exDay = new Date();
+    exDay.setHours(exDay.getHours()-1);
+    document.cookie = key + "=" + "delete;expires=" + exDay.toGMTString() + ";domain=8254.teacup.com;path=/kakezannojunjo/";
+}
+
+function checkExpand(ch) {
+    var obj=document.all && document.all(ch) || document.getElementById && document.getElementById(ch);
+    if(obj && obj.style) obj.style.display=
+        "none" == obj.style.display ? "" : "none"
+}
+
+function addFavorite() {
+    var supported = false;
+    if (window.sidebar && window.sidebar.addPanel) {
+        window.sidebar.addPanel(document.title, location.href, "");
+        supported = true;
+    }
+    else if (window.external) {
+        try {
+            window.external.AddFavorite(location.href, document.title);
+            supported = true;
+        }
+        catch (e) {}
+    }
+    if (!supported)
+        alert("お使いのブラウザではサポートされていません");
+}
+
+function postFormChange() {
+    var frm = document.frmPost;
+    frm.M.value = 'CHANGE_INPUT_HELPER';
+    frm.BODA.value = frm.BODA.value == 1 ? 0 : 1;
+    frm.action = '/kakezannojunjo/bbs/threadpost/index/thread_id/53';
+    frm.submit();
+}
+// -->
+</script>
+  
+  
+  
+
+  
+
+</head>
+<body onload="init()">
+<a name="top"></a>
+
+<!--wrapper 開始--->
+<div id="wrapper">
+  <!--header 開始--->
+  <div id="header">
+
+<!--bookmark オプションメニュー開始-->
+<div class="bookmark">
+<ul>
+<li><img src="%E3%83%86%E3%83%BC%E3%83%97%E5%9B%B3%E3%80%80%E6%AF%94%E4%BE%8B%E7%9B%B4%E7%B7%9A%E5%9B%B3%E3%80%80%E3%81%AA%E3%81%A9_files/icon_file15x15.gif" alt="ファイル" height="15" width="15"><a href="javascript:addFavorite()">ブックマーク</a></li>
+<li><img src="%E3%83%86%E3%83%BC%E3%83%97%E5%9B%B3%E3%80%80%E6%AF%94%E4%BE%8B%E7%9B%B4%E7%B7%9A%E5%9B%B3%E3%80%80%E3%81%AA%E3%81%A9_files/icon_rss15x15.gif" alt="RSS" height="15" width="15"><a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/rss15.xml">RSS1.0</a></li></ul>
+</div>
+<!--bookmark オプションメニュー終了-->
+
+
+<!--タイトル-->
+<h1><a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/l50">テープ図　比例直線図　など</a></h1>
+
+
+<div align="left"></div>
+
+<!--タイトル下広告 開始-->
+<div class="pr_list">
+  
+<!-- BEGIN CRITEO CDB -->
+
+<div id="criteo_slot_1371408"></div>
+<script>
+    !function(){
+        /* CONFIG CRITEO ZONE ID, SLOT DIV ID, PASSBACK */
+        var criteoZoneId = 1371408;
+        var criteoSlotId = "criteo_slot_1371408";
+        var passback = function () {
+            var width = "728", height = "90";
+            var div = document.getElementById(criteoSlotId);
+            if (div) { var ifr = document.createElement('iframe'); ifr.setAttribute("id", criteoSlotId+"_iframe"), ifr.setAttribute("frameborder","0"), ifr.setAttribute("allowtransparency","true"), ifr.setAttribute("hspace","0"), ifr.setAttribute("marginwidth","0"), ifr.setAttribute("marginheight","0"), ifr.setAttribute("scrolling","no"), ifr.setAttribute("vspace","0"), ifr.setAttribute("width", width), ifr.setAttribute("height", height);
+            div.appendChild(ifr);
+            var htmlcode = "<html><head></head><body>\n"+
+                "<center><table cellspacing=\"2px\" style=\"background: rgb(255,255,255);font-size:large\"><tr><td>\n"+
+                "あなたも高機能な無料レンタル掲示板を作りませんか？<BR>\n"+
+                "<A href='//www.teacup.com/fbbs' target='_blank'>作成は、こちらから→</A>\n"+
+                "</td></tr></table></center>\n"+
+                "</body></html>";
+            var ifrd = ifr.contentWindow.document; ifrd.open(); ifrd.write(htmlcode); ifrd.close(); }
+        }
+ 
+        var CriteoAdUnits = { "placements": [{ "slotid": criteoSlotId, "zoneid": criteoZoneId }]};
+        window.Criteo = window.Criteo || {}; window.Criteo.events = window.Criteo.events || [];
+        var processCdbBid = function() {
+            var bids = Criteo.GetBidsForAdUnit(criteoSlotId);
+            if (bids.length > 0) {
+                var bidFound = bids[0]; Criteo.RenderAd({ bidId: bidFound.id, containerId: bidFound.impressionId });
+            } else { passback(); }
+        };
+        Criteo.events.push(function() { Criteo.RequestBids(CriteoAdUnits, processCdbBid, 2000);});
+    }();
+</script>
+<!-- END CRITEO CDB -->
+
+
+
+</div>
+
+<!--タイトル下広告 終了-->
+
+
+</div>
+<!--header 終了--->
+
+  <div style="text-align:left;border:4px double red; padding: 1em;margin: 1em;line-height:1.75;">
+<div style="text-align:center;" width="80%">
+<a href="https://www.teacup.com/information/view?id=243" target="_blank">【重要】teacup. byGMOのサービス終了について</a><br>
+</div>
+</div>
+
+
+
+
+
+<hr>
+
+<!--navi ページナビゲーション開始-->
+<div class="navi">
+<ul>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs">掲示板に戻る</a></li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/62n-">新着レス</a></li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/l50">最新50件</a></li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/-100">1-100件</a></li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/search?thread_id=53">検索</a></li>
+
+<li><a href="#bottom">▼ページ下へ</a></li>
+</ul>
+</div>
+<!--navi ページナビゲーション終了-->
+
+<!--contents 開始--->
+<div id="contents">
+
+
+<hr>
+<!--kiji0 記事0開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li>[0]</li>
+<li class="title"><h2>テープ図　比例直線図　など</h2></li>
+<li>投稿者：<span class="name">積分定数</span></li>
+</ul>
+</dt>
+
+<dd class="img">&nbsp;</dd>
+
+<dd class="text">
+テープ図、さらに発展した線分図や比例直線図についても色々問題がありそうなことが分かってきたので、スレッドとして独立させることにします。
+<div class="spacer"></div>
+<div class="pr_list">
+
+  
+<!-- BEGIN CRITEO CDB -->
+<script async="async" type="text/javascript" src="%E3%83%86%E3%83%BC%E3%83%97%E5%9B%B3%E3%80%80%E6%AF%94%E4%BE%8B%E7%9B%B4%E7%B7%9A%E5%9B%B3%E3%80%80%E3%81%AA%E3%81%A9_files/publishertag.js"></script>
+<div id="criteo_slot_1371406"></div>
+<script>
+    !function(){
+        /* CONFIG CRITEO ZONE ID, SLOT DIV ID, PASSBACK */
+        var criteoZoneId = 1371406;
+        var criteoSlotId = "criteo_slot_1371406";
+        var passback = function () {
+            var width = "336", height = "280";
+            var div = document.getElementById(criteoSlotId);
+            if (div) { var ifr = document.createElement('iframe'); ifr.setAttribute("id", criteoSlotId+"_iframe"), ifr.setAttribute("frameborder","0"), ifr.setAttribute("allowtransparency","true"), ifr.setAttribute("hspace","0"), ifr.setAttribute("marginwidth","0"), ifr.setAttribute("marginheight","0"), ifr.setAttribute("scrolling","no"), ifr.setAttribute("vspace","0"), ifr.setAttribute("width", width), ifr.setAttribute("height", height);
+            div.appendChild(ifr);
+            var htmlcode = "<html><head></head><body><div style=\"padding: 4px 8px;\">\n"+
+                "<div style=\"width: 300px; height: 250px;\"><a href=\"//www.teacup.com/fbbs\" target=\"_blank\"><img src=\"//adimg.teacup.com/teacup/img/ver09/regist_rbbs_b.jpg\" alt=\"レンタル掲示板\" border=\"0\" width=\"300\" height=\"250\"></a></div>\n"+
+                "</div>\n"+
+                "</body></html>";
+            var ifrd = ifr.contentWindow.document; ifrd.open(); ifrd.write(htmlcode); ifrd.close(); }
+        }
+ 
+        var CriteoAdUnits = { "placements": [{ "slotid": criteoSlotId, "zoneid": criteoZoneId }]};
+        window.Criteo = window.Criteo || {}; window.Criteo.events = window.Criteo.events || [];
+        var processCdbBid = function() {
+            var bids = Criteo.GetBidsForAdUnit(criteoSlotId);
+            if (bids.length > 0) {
+                var bidFound = bids[0]; Criteo.RenderAd({ bidId: bidFound.id, containerId: bidFound.impressionId });
+            } else { passback(); }
+        };
+        Criteo.events.push(function() { Criteo.RequestBids(CriteoAdUnits, processCdbBid, 2000);});
+    }();
+</script>
+<!-- END CRITEO CDB -->
+
+
+</div>
+</dd>
+</dl>
+</div>
+
+
+<div class="clear"></div>
+<!--kiji0 記事0終了-->
+
+
+<hr>
+
+<!--entry 投稿フォーム開始--->
+<div id="entry">
+<script type="text/javascript">
+<!--
+function $get (id) {
+  return document.getElementById(id);
+}
+function chkUpload(frm) {
+  if ($get('file1').value !== '' ||
+      $get('file2').value !== '' ||
+      $get('file3').value !== '') {
+    if (frm.action.indexOf('?',0)>0) {
+      frm.action = frm.action + '&fupload=1';
+    } else {
+      frm.action = frm.action + '?fupload=1';
+    }
+  }
+}
+// -->
+</script>
+<form name="frmPost" method="post" action="/kakezannojunjo/bbs/threadpost/exec/thread_id/53/?upload=1" enctype="multipart/form-data" onsubmit="javascript:chkUpload(this);">
+
+<input name="BODA" value="" type="hidden">
+<input name="tstamp" value="1650162547" type="hidden">
+<input name="CPTPS" value="lx8QUw97Rz" type="hidden">
+<input name="M" value="" type="hidden">
+
+　＜思いやりのあるコミュニティ宣言＞<br>
+　teacup.掲示板は、皆様の権利を守りながら、思いやり、温かみのあるコミュニティづくりを応援します。<br>
+　いつもご協力いただきありがとうございます。<br>
+<br>
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tbody><tr>
+<th>投稿者</th>
+<td><input name="NA" size="20" maxlength="24" class="form_input_m" type="text">
+
+</td>
+</tr>
+<tr>
+<th>題名</th>
+<td><input name="SU" size="36" maxlength="60" class="form_input_m" type="text">
+
+
+<input value="確認" name="PPF" type="submit">
+
+</td>
+</tr>
+<tr>
+<th><i>*</i>内容</th>
+<td>
+<a id="postFormChange" href="javascript:postFormChange()"><img src="%E3%83%86%E3%83%BC%E3%83%97%E5%9B%B3%E3%80%80%E6%AF%94%E4%BE%8B%E7%9B%B4%E7%B7%9A%E5%9B%B3%E3%80%80%E3%81%AA%E3%81%A9_files/button_html.gif" alt="入力補助" height="25" border="0" width="80"></a><span id="file_additional_button"><a href="javascript:void(0)" onclick="checkExpand('file_additional');checkExpand('file_additional_button')"><img src="%E3%83%86%E3%83%BC%E3%83%97%E5%9B%B3%E3%80%80%E6%AF%94%E4%BE%8B%E7%9B%B4%E7%B7%9A%E5%9B%B3%E3%80%80%E3%81%AA%E3%81%A9_files/button_form_file.gif" alt="画像・ファイル" height="25" border="0" width="100"></a></span><span class="notice">&lt;IMG&gt;タグが利用可能です。<a href="https://orange.ap.teacup.com/rbbs_faq/36.html" target="_blank">(詳細)</a>
+</span>
+<br>
+<textarea name="CO" class="form_textarea" rows="5" cols="82" id="comment"></textarea>
+</td>
+</tr>
+<tr id="file_additional" style="display:none;">
+<th>ファイル</th>
+<td>
+<div>
+<input name="FI[]" size="45" class="form_input_m" id="file1" type="file">
+<br>
+<input name="FI[]" size="45" class="form_input_m" id="file2" type="file">
+<br>
+<input name="FI[]" size="45" class="form_input_m" id="file3" type="file">
+</div>
+<div class="ad_file_additional">
+
+<span class="notice">
+アップロード可能な形式(各4MB以内)：<br>
+画像(gif,png,jpg,bmp)
+音楽(mmf,mld)
+動画(amc,3gp,3g2)
+</span>
+</div>
+<div class="clear"><!-- --></div>
+</td>
+</tr>
+<tr>
+<th>URL</th>
+<td><input name="UR" size="62" value="http://" class="form_input_m" type="text"></td>
+</tr>
+
+
+<tr>
+<th>sage</th>
+<td><input name="SAGE" value="1" type="checkbox"></td>
+</tr>
+
+</tbody></table>
+</form>
+</div>
+<!--entry 終了--->
+
+
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="62"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/62">62</a>]</li>
+<li class="title"><h2>認知カウンセリングによる学習スキルの支援とその展開― 図表活用方略に着目して ― の雑感</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2022年 1月 7日(金)17時15分50秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/10980/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+認知カウンセリングによる学習スキルの支援とその展開― 図表活用方略に着目して ―<br>
+植阪 友理<br>
+認知科学 / 16 巻 (2009) 3 号<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Fjcss%2F16%2F3%2F16_3_313%2F_article%2F-char%2Fja%2F" target="_blank" rel="nofollow">https://www.jstage.jst.go.jp/article/jcss/16/3/16_3_313/_article/-char/ja/</a><br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Fjcss%2F16%2F3%2F16_3_313%2F_pdf%2F-char%2Fja" target="_blank" rel="nofollow">https://www.jstage.jst.go.jp/article/jcss/16/3/16_3_313/_pdf/-char/ja</a><br>
+＞<font color="#0000CD">中でも，自ら図表を作成することは，与えられた図表を使いながら考える以上の効果を持つ可能性がある．例
+えば，Stern et al. (2003) 
+は，経済の学習をする際に，与えられた図表を使って考えるのではなく，自らグラフを作成しながら考えることによって，学習後の転移が促進されることを明ら
+かにしている．図表にするということは，自分が少し理解したことを外化し，そこで外化されたことを活用しながら，さらに理解を深める活動と考えることもで
+きるだろう．これらを別の言葉で表現すると，内的リソースを使って理解し，その途中過程を外的リソースによって客観化し，内的リソースによる処理に役立て
+る．すなわち，内的リソースと外的リソースをうまく組み合わせていると言える．こうした活動の有効性は図 1 
+にも示されており，図表といった外的資源を用いて問題解決を行うという方略は非常に有効なものと考えられる．</font><br>
+<br>
+教えた特定の図表を書かせるのでは効果が薄いのでしょう。<br>
+試行錯誤し【自ら図表を作成すること】が重要なんだと思っています。<br>
+<br>
+＞<font color="#0000CD">すなわち，図表を利用した指導を受けただけでは，学習者自身では自発的に図表を利用するようにはならないことを示している．さらに，図表をなかなか自発的に利用しないという報告は，この事例のみならず，認知カウンセリングの多くの事例においても見られている．</font><br>
+<br>
+「教えた図表を書きなさい」では自発的に利用しないのは当然だと思われます。<br>
+有用性を実感させる工夫は必要でしょうし、算数教育界ｗでは生徒に有用性を実感させるという発想が希薄だと感じています。<br>
+<br>
+＞<font color="#0000CD">また，日本はニュージーランドに比べて図表の利用が少ないことが示され，日本の学習者は図表を「教師の説明のための道具」として認識しており，「自分自身の問題解決のための道具」としては認識していない可能性が示唆された．</font><br>
+<br>
+さもありなん。<br>
+<br>
+＞<font color="#0000CD">ケース検討会で教師から出された事例には，分からないという児童に対して，図や表を使いながら教えたとい
+うものが多く見られた．その一方で，「難しい問題に出会ったら，自分で図や表をかいて考えてみるとよい」という学習方法を指導した事例は見られなかった．
+教師自身は多くの図や表を使いながら指導しているにもかかわらず，学習者自身が難しい問題に出会ったときに，自ら図や表を使おうとはしていないという問題
+点は，繰り返し述べているように認知カウンセリングからも指摘され，実証研究も蓄積されている内容である．</font><br>
+<br>
+教師の意識改革も必要そうです。<br>
+<br>
+＞<font color="#0000CD">例えば，ある教師から出た意見は「とにかくたくさんの図や表を使って教えよう」といったものであった．教
+師が利用している方略を，学習者に意識化させるという発想が薄い様子が見受けられた．そこで，研究知見を踏まえ，日本の学習者は図や表を教師の説明のため
+の道具として捉えがちであり，自らの問題解決の道具としてはあまり捉えられていないことや，教師が授業の中で図表を用いて教えるだけでは十分ではなく，表
+に対する有効性を言葉ではっきりと伝え，かつ実際に自ら図表を作成する場所を提供することが重要であることなどを伝えた．</font><br>
+<br>
+教師の側も有用性を実感しているか怪しいですね。<br>
+おそらくですが、小学生の時に有効性を実感した経験無い教師が数多くいると感じています。<br>
+生徒に有効性を感じ取れるような指導法まで考えないと、教師主導では限界がありそうです。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="61"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/61">61</a>]</li>
+<li class="title"><h2>小学校第6学年「比」の単元における割合の指導実践 の雑感</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2022年 1月 1日(土)13時56分54秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/explain/index/comm_id/10979/" target="_blank">編集済</a></li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/10979/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+小学校第6学年「比」の単元における割合の指導実践<br>
+平等 正基, 熊倉 啓之<br>
+発行日: 2021年<br>
+J-STAGE公開日: 2020年12月20日<br>
+日本科学教育学会年会論文集 / 45<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Fjssep%2F45%2F0%2F45_393%2F_article%2F-char%2Fja%2F" target="_blank" rel="nofollow">https://www.jstage.jst.go.jp/article/jssep/45/0/45_393/_article/-char/ja/</a><br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Fjssep%2F45%2F0%2F45_393%2F_pdf%2F-char%2Fja" target="_blank" rel="nofollow">https://www.jstage.jst.go.jp/article/jssep/45/0/45_393/_pdf/-char/ja</a><br>
+P393<br>
+＞<font color="#0000CD">児童の反応として，数直線図以外の図表現を用いることや割合の第 3 
+用法の公式を活用できないこと，比による解決が有効だと感じた児童が多いこと，多様な解決方法を用いることが観察された．以上の結果を踏まえて，割合の理
+解を深めるための体系的な指導への示唆として，(a)数直線図以外の図も扱う，(b)第 3 用法の公式の指導に注力しない，(c) 割合を小 6 
+でも体系的に指導する，の 3 つを得た．</font><br>
+<br>
+P395<br>
+＞<font color="#0000CD">本実践においては，児童の学習経験を生かすという観点から，単元の学習を通して，数直線図(図 
+2)を中心的な図表現に据え，授業を進めていた．しかし，それでも，テープ図や線分図などの他の図表現を用いたり，図表現を用いることなく思考を進めたり
+する，数直線図を用いなかった児童が見られた．また，授業参観者の観察やワークシートの分析により，それらの児童は，数直線図を用いた児童よりも，高い割
+合で正答を得ていたことがわかった．</font><br>
+<br>
+二重数直線図を教えても、あまり活用されていない実態があるようです。<br>
+習った二重数直線図を使おうとしている生徒より、他の方法で試行錯誤する生徒の方が正答を得ているようです。<br>
+当たり前の内容のように思えますが、算数教育界ｗではこのような視点は当たり前ではないのが問題ですね。<br>
+<br>
+＞<font color="#0000CD">その中で，割合の第 3 用法の公式による解決について分析すると，1 人の児童しかその方法で解決していないことがわかった．割合の第 3 用法で解決したと判断できる児童も，図表現から第 2 用法で立式した後に式変形し，第 3 用法の式をつくっていた．<br>
+つまり，ほとんどの児童は割合の第 3 用法の公式を活用できていないということである．理由としては，他の 2 
+つの用法に比べ，意味が分かりにくく，特に，小数や分数の除法であることが計算の意味理解を困難にしていると考えられる．小5 での割合の第 3 
+用法の公式の指導のあり方について検討する必要性が示唆される．</font><br>
+<br>
+特定の式を書かせる指導が失敗しているという事例ですね。<br>
+<br>
+＞<font color="#0000CD">植阪(2009)は，図表に対する有効性の認知とコスト感が自発的な図表の利用と関連していると指摘している．本実践においても，自発的に，自分にとって使いやすい図表現を活用し，問題を解決する様子が見られ，それらの児童の方が高い割合で正答を得られていた．<br>
+以上のことから，図表現を数直線図に限定して指導するのではなく，他の図表現も扱うなどして，それぞれの児童にとって分かりやすく，使いやすい図表現を選択できるような指導が重要であると考える．</font><br>
+<br>
+やり方を教えてそれを再現しろ、という方式が駄目という事でしょう。<br>
+自分で試行錯誤するという当然の行為を行わせるべきでしょう。<br>
+<br>
+【植阪(2009)】の文献はこちらになります。<br>
+認知カウンセリングによる学習スキルの支援とその展開― 図表活用方略に着目して ―<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Fjcss%2F16%2F3%2F16_3_313%2F_article%2F-char%2Fja%2F" target="_blank" rel="nofollow">https://www.jstage.jst.go.jp/article/jcss/16/3/16_3_313/_article/-char/ja/</a><br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="60"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/60">60</a>]</li>
+<li class="title"><h2>小学校教員養成段階における大学生の割合の理解に関する調査研究</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2021年 4月 4日(日)17時25分40秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/10923/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+小学校教員養成段階における大学生の割合の理解に関する調査研究 : 中学生・高校生の調査結果との比較を通して<br>
+柗元 新一郎,熊倉 啓之,國宗 進　2021年03月25日<br>
+静岡大学教育実践総合センター紀要<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fshizuoka.repo.nii.ac.jp%2F%3Faction%3Dpages_view_main%26active_action%3Drepository_view_main_item_detail%26item_id%3D12984%26item_no%3D1%26page_id%3D13%26block_id%3D21" target="_blank" rel="nofollow">https://shizuoka.repo.nii.ac.jp/?action=pages_view_main&amp;active_action=repository_view_main_item_detail&amp;item_id=12984&amp;item_no=1&amp;page_id=13&amp;block_id=21</a><br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fshizuoka.repo.nii.ac.jp%2F%3Faction%3Drepository_uri%26item_id%3D12984%26file_id%3D31%26file_no%3D1" target="_blank" rel="nofollow">https://shizuoka.repo.nii.ac.jp/?action=repository_uri&amp;item_id=12984&amp;file_id=31&amp;file_no=1</a><br>
+P142<br>
+＞<font color="#0000CD">ウ 類型 4「数直線図」をかいた大学生は，殆どいなかった．中高生の場合も同様の結果である．多くの算数教科書で扱っている図であるが，大多数の中高生・大学生は「第 3 用法の問題がよくわからない」という友だちに説明する方法として利用しないことが明らかになった．</font><br>
+<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/54">&gt;&gt;54</a> の続編のようです。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="59"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/59">59</a>]</li>
+<li class="title"><h2>小数の乗法・除法の文章題解決における児童のつまずきに関する一考察 の雑感</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2020年11月29日(日)16時57分8秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/10902/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+小数の乗法・除法の文章題解決における児童のつまずきに関する一考察<br>
+北堀 榛花,澁谷 久,辻 宏子　2019年12月<br>
+日本科学教育学会研究会研究報告<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Fjsser%2F34%2F3%2F34_No_3_190304%2F_article%2F-char%2Fja" target="_blank" rel="nofollow">https://www.jstage.jst.go.jp/article/jsser/34/3/34_No_3_190304/_article/-char/ja</a><br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Fjsser%2F34%2F3%2F34_No_3_190304%2F_pdf%2F-char%2Fja" target="_blank" rel="nofollow">https://www.jstage.jst.go.jp/article/jsser/34/3/34_No_3_190304/_pdf/-char/ja</a><br>
+＞<font color="#0000CD">上記の文章題を考える際には，３つの数量の関係を数直線を使って，一直線に示することが望ましいと考えら
+れるが，図８のように一直線に示しておらず，文章題に出てくる対象を具体的に示す図が見受けられる．対象を具体的に示すことの方が，児童にとってわかりや
+すいことがインタビューの回答から判断できる．</font><br>
+<br>
+当たり前の事ですよね。<br>
+<br>
+＞<font color="#0000CD">また，数直線を用いることが望まれる場面で数直線を用いていない児童は，基本的な問題も基準が問題文に明
+示されていない問題にも正答し，安定して文章題を解決することができる児童の中にもいる．以上より，基本的な問題に誤答しているが，基準が問題文に明示さ
+れていない問題に図を示して正答している児童は，文章題解決の過程を遂行することはできるが，数学的な表現である数直線を用いることにつまずきあるといえ
+る．</font><br>
+<br>
+二重数直線図が分かり難いだけでしょう。<br>
+【数学的な表現である数直線】という表現が、二重数直線図に拘る駄目な考えが潜んでいそうです。<br>
+<br>
+＞<font color="#0000CD">また，文章題を解決することができることと数学的な表現を使えることは必ずしも一致しないことがいえる．</font><br>
+<br>
+二重数直線図は分かり難いから、当然の事かと。<br>
+<br>
+＞<font color="#0000CD">今回の調査で，数学的な表現を用いずに自分自身にとってわかりやすい図を用いて問題に取り組む児童がいることが明らかとなった．そのため，文章題解決の過程の遂行力とは別に，数学的な表現を用いることができるようになる過程について検討する必要がある．</font><br>
+<br>
+二重数直線図は小学校の授業でしか使わない印象があります。<br>
+無理矢理使わせる必要性は感じません。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="58"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/58">58</a>]</li>
+<li class="title"><h2>Re: 数直線の呪縛</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2020年11月 2日(月)06時32分52秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/10893/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/57">&gt;&gt;57</a><br>
+&gt; 小学校教員はとにかく数直線を書かせようとします。<br>
+&gt; 教科書に出てくるからです。<br>
+&gt; でも6年生になっても書けない子がたくさんいます。<br>
+&gt; 数直線は本当に有効なのでしょうか。<br>
+&gt; それとも数直線を書かせる指導が不十分なのでしょうか。<br>
+<br>
+書かせること自体が目的になってしまっているのでしょうね。 <br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="57"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/57">57</a>]</li>
+<li class="title"><h2>数直線の呪縛</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">みけ</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2020年10月30日(金)21時16分48秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/10891/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+小学校教員はとにかく数直線を書かせようとします。<br>
+教科書に出てくるからです。<br>
+でも6年生になっても書けない子がたくさんいます。<br>
+数直線は本当に有効なのでしょうか。<br>
+それとも数直線を書かせる指導が不十分なのでしょうか。<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="56"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/56">56</a>]</li>
+<li class="title"><h2>算数授業における図が媒介した知識構築過程の分析 の雑感</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2020年 8月16日(日)11時15分27秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/10881/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+算数授業における図が媒介した知識構築過程の分析<br>
+「立ち戻り」過程に支えられた子どもたち同士の足場がけに注目して<br>
+河野 麻沙美　東京大学大学院教育学研究科<br>
+質的心理学研究<br>
+発行日:2007年<br>
+公開日:2020年07月06日<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Fjaqp%2F6%2F1%2F6_25%2F_article%2F-char%2Fja%2F" target="_blank" rel="nofollow">https://www.jstage.jst.go.jp/article/jaqp/6/1/6_25/_article/-char/ja/</a><br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Fjaqp%2F6%2F1%2F6_25%2F_pdf%2F-char%2Fja" target="_blank" rel="nofollow">https://www.jstage.jst.go.jp/article/jaqp/6/1/6_25/_pdf/-char/ja</a><br>
+＞<font color="#0000CD">本研究では，教師によって与えられた「数直線図」という数学ツールを使用して理解を深めることが意図され
+た授業過程で，教師の意図に反し，子どもたちが独自の絵図によって，互いの理解深化を支えた事例をとりあげる。この図は，子どもたちの理解を促す資源と
+なっているが，教師によって持ち込まれたのではなく，子どもたち自身が，自分たちの知識と思考スタイルを集約して作り上げたものである。子どもたちは，与
+えられた数直線図を十分に理解できず，使用できなかったが，自分たちの知識や思考スタイルを教室に持ち寄り，互いの説明活動を支援していった。</font><br>
+<br>
+＞<font color="#0000CD">十分に数直線図を理解していない子どもたちの理解活動を支えたのは，教師が持ち込んだ数直線図ではなく，
+教室にいた子どもたちが持っていた知識を融合させていく中でできた他の図であった。この図は，子どもたちの持っている知識が教室で共有される中で徐々に仕
+上がっていったものである。</font><br>
+<br>
+数直線図が理解を促さない様子が見て取れます。<br>
+<br>
+＞<font color="#0000CD">教師はこの絵図を見たときに，数直線図と非常に似たものができあがったと感じ，子どもたちがそれに気づく
+ことを期待していたが，結局，子どもたちには，気づいた様子はまったく見られなかった。教師は数直線図を使用して理解を深めていくことを意図していたが，
+子どもたちは，数直線図ではなく，この図によって，曖昧だった説明から抜け出すことができた。</font><br>
+<br>
+教師の意図や期待は的外れなのでしょう。<br>
+算数教育学ｗでは、的外れな意図や期待が大量に潜んでいると思っています。<br>
+<br>
+＞<font color="#0000CD">次に，数直線図が教室で十分に使用されなかったことについて検討する。M 
+さんらの図では，数量関係を目盛の数と幅で捉えていた子どもたちの数直線図理解の様相と合致している。しかし，子どもたちは関係図と最小限の目盛しかない
+簡潔な数直線図を立式以外では十分に使用できなかった。この点から，教師の意図とのズレを検討することができる。教師は，関係図で示される倍関係に注目
+し，数直線図の理解に対する有効性を注目しているのに対し，子どもたちは，数量の関係を捉える際に目盛を重要な理解資源としていた。子どもたちが数直線図
+に好んで等間隔で正確な目盛を打っていたのは，丁寧に書くことで使える道具にするという意識から，自分がわかりやすいような図にしていたためと考えられ
+る。自分たちがわかりやすい図は，自分の理解を支援する図であり，使いやすい図でなければならない。この点で，マスの図は自分たちが理解した乗法の考え方
+や説明を組み合わせて作られており，自分たちの理解を活かせる図であったといえる。</font><br>
+<br>
+＞<font color="#0000CD">本事例において，子どもたちの理解過程を検討すると，子どもたちの学習を支援したのは，教師が提供した数直線図ではなく，知識と思考スタイルを説明するという活動を通して，子どもたちが創り出した図であった。</font><br>
+<br>
+＞<font color="#0000CD">ここで教師は，標準的，模範的な考え方を子どもたちに強制し，習得させ，権威的に存在していたのではな
+く，理解・学習を支援するために，次の学年での学習をも考慮して，数直線図を使用することを勧める一方で，子どもたちの学習活動にあわせて即興的にマスの
+実物を見せたり，話し合いの中での問題点や話し合いを滞らせている不明点を明確にするなど，教室という集団の学習の場において，ファシリテーターとしての
+役割を担っていた。時に，ともに学習するもののように疑問を投げかけたり，時に，算数を先に知るものとして，不十分な点を指摘する役割を果たしている。</font><br>
+<br>
+この文献を見ると、数直線図に拘る指導の稚拙さが浮き彫りになっていると思っています。<br>
+現役の教師にも、是非とも目を通して欲しい文献です。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="55"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/55">55</a>]</li>
+<li class="title"><h2>Re: 中学生・高校生の割合の理解に関する調査研究 の雑感の抜粋</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2020年 3月24日(火)08時41分49秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/10800/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/54">&gt;&gt;54</a><br>
+&gt; だからといって、新しい図を持ち出して「これこそが素晴らしい図だ！」とか言い出さない事を祈りましょう。<br>
+<br>
+<br>
+いかにもありそう。<br>
+<br>
+仲松庸次氏は「はじきは駄目」といいつつ、「田の字」推し<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Ftogetter.com%2Fli%2F1239923" target="_blank" rel="nofollow">https://togetter.com/li/1239923</a><br>
+<br>
+メタメタさんもしょうもない内ゲバについて、どっちがいいの悪いのと、あれこれ論評している。<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fameblo.jp%2Fmetameta7%2Fentry-11134977342.html" target="_blank" rel="nofollow">https://ameblo.jp/metameta7/entry-11134977342.html</a><br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="54"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/54">54</a>]</li>
+<li class="title"><h2>中学生・高校生の割合の理解に関する調査研究 の雑感の抜粋</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2020年 3月22日(日)13時09分13秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/10797/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t5/78" target="_blank" rel="nofollow">https://8254.teacup.com/kakezannojunjo/bbs/t5/78</a><br>
+<br>
+中学生・高校生の割合の理解に関する調査研究<br>
+熊倉 啓之,國宗 進,松元 新一郎　2019年03月27日<br>
+静岡大学教育実践総合センター紀要<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fshizuoka.repo.nii.ac.jp%2F%3Faction%3Dpages_view_main%26active_action%3Drepository_view_main_item_detail%26item_id%3D11388%26item_no%3D1%26page_id%3D13%26block_id%3D21" target="_blank" rel="nofollow">https://shizuoka.repo.nii.ac.jp/?action=pages_view_main&amp;active_action=repository_view_main_item_detail&amp;item_id=11388&amp;item_no=1&amp;page_id=13&amp;block_id=21</a><br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fshizuoka.repo.nii.ac.jp%2F%3Faction%3Drepository_uri%26item_id%3D11388%26file_id%3D31%26file_no%3D1" target="_blank" rel="nofollow">https://shizuoka.repo.nii.ac.jp/?action=repository_uri&amp;item_id=11388&amp;file_id=31&amp;file_no=1</a><br>
+P85<br>
+＞<font color="#0000CD">ウ 類型4の「数直線図」は，２(1)の正答者に限定すれば1人もいなかった．不正解の解答を含めても，中1で1人のみであった．<font size="5"><strong>算
+数教科書で扱われている説明にも関わらず，2本の数直線図をかかない生徒が大多数であることから，指導者が有効なツールであると感じていても，子どもは必
+ずしもわかりやすい図とは感じていない実態が明らかになった．小学校での図の活用のあり方についても検討する必要がある．</strong></font></font><br>
+<br>
+やはり二重数直線図は分かり易くないですよね。<br>
+だからといって、新しい図を持ち出して「これこそが素晴らしい図だ！」とか言い出さない事を祈りましょう。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="53"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/53">53</a>]</li>
+<li class="title"><h2>『収束型』『拡散型』</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2019年 1月 7日(月)20時55分15秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/10498/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+日本認知科学会第32回大会<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.jcss.gr.jp%2Fmeetings%2Fjcss2015%2Fproceedings%2FP3.html%234" target="_blank" rel="nofollow">https://www.jcss.gr.jp/meetings/jcss2015/proceedings/P3.html#4</a><br>
+一人ひとりが使いやすい図を活用する協調的な算数授業の効果<br>
+中村 嘉美(放送大学教養学部),白水 始(国立教育政策研究所)　2015年度<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.jcss.gr.jp%2Fmeetings%2Fjcss2015%2Fproceedings%2Fpdf%2FJCSS2015_P3-4.pdf" target="_blank" rel="nofollow">https://www.jcss.gr.jp/meetings/jcss2015/proceedings/pdf/JCSS2015_P3-4.pdf</a><br>
+＞<font color="#0000CD">特に，経験の少ない教師は一律な指導になりがちで，同じ図，同じ解法で指導し，授業の最終場面で収束的に
+解法を絞る．いわゆる「教え込み」と形容される授業である．教師は「教える人」，子どもは「教えられる人」という立場で固定化され，子どもは学習の主体者
+として尊重されず，学習活動の随所に教師の説明やまとめを入れ，子どもを指示待ちにさせてしまう．<br>
+＞白水(2010)は上記のような授業モデルを「収束型」と言い，「拡散型」モデルと区別している．<br>
+<br>
+＞「協調学習において，多様な意見の『収束』が全員共通に起きるのか，各自が多様な意見を『統合』しようとはするが，その過程も結果もちがっており，その
+ちがいがさらなる学びを引き起こすと見るのかがより大事な区分だろう．前者を『収束型』，後者を『拡散型』とよんでもよい．学びが各自の説明モデルをつく
+ることであり，協調がちがいの相互作用を通して独自な理解を深める性質をもつものだとすれば，『拡散型』のモデルの方が協調学習の効果をいっそう高め得
+る．」(白水,2010,p147 より一部編集)</font><br>
+<br>
+『拡散型』というまともな考えを、国立教育政策研究所の人が提唱しているようです。<br>
+それなのに、全国学力・学習状況調査で二重数直線図を問題に出したり、指導法として固執してるように見えるのは・・・<br>
+<br>
+<br>
+白水始氏については、ここでも取り上げていてます。<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/66" target="_blank" rel="nofollow">https://8254.teacup.com/kakezannojunjo/bbs/t58/66</a><br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="52"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/52">52</a>]</li>
+<li class="title"><h2>役に立ちそうにない、全国学力・学習状況調査 授業アイディア例</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2018年 9月 2日(日)10時18分31秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/10393/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t21/2961" target="_blank" rel="nofollow">https://8254.teacup.com/kakezannojunjo/bbs/t21/2961</a><br>
+からの転記です。<br>
+<br>
+平成30年度　全国学力・学習状況調査 授業アイディア例　小学校　算数：国立教育政策研究所 National Institute for Educational Policy Research<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.nier.go.jp%2Fjugyourei%2Fh30%2Fidea-02.html&amp;TEACUPRBBS=d6ffedea73f95eb0c0fb57188f9e2b03" target="_blank" rel="nofollow">http://www.nier.go.jp/jugyourei/h30/idea-02.html</a><br>
+「かけ算やわり算の意味を考えよう」<br>
+～問題場面の数量の関係を的確に捉えて，立式する～<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.nier.go.jp%2Fjugyourei%2Fh30%2Fdata%2F18idea-pmath_01.pdf&amp;TEACUPRBBS=d6ffedea73f95eb0c0fb57188f9e2b03" target="_blank" rel="nofollow">http://www.nier.go.jp/jugyourei/h30/data/18idea-pmath_01.pdf</a><br>
+タイトルから既にヤバさが漂ってきますね。<br>
+【立式する】のが目標になっていますしね。<br>
+<br>
+＞<font color="#0000CD">①－１　問題場面で提示された事柄について考察する。</font><br>
+<br>
+ここの内容は比較的まともですね。<br>
+しかし、生徒の発言例らしきものは茶番にしか思えないのは私だけでしょうか。<br>
+<br>
+＞<font color="#0000CD">①－２　問題場面を数直線に表し，数量の関係を捉えて立式する。<br>
+＞それでは，針金の長さと重さを，数直線に表してみましょう。</font><br>
+<br>
+ここでいきなり数直線を書かせる展開になります。<br>
+そんなものを書かなくても、60gの2倍と半分で150gと分かったりするのですが、意地でも数直線を書かせたいのでしょう。<br>
+更に、何が何でも「60÷0.4」と「立式」させようという執念が感じ取れます。<br>
+<br>
+＞<font color="#0000CD">二つの数量の関係を捉えることができるようにするために，数直線などに表すことが大切です。</font><br>
+<br>
+数直線に表す事が簡単なら一つの手段でしょうが、【二つの数量の関係を捉えることができ】ない生徒には数直線に表せないという本末転倒なお粗末さです。<br>
+<br>
+＞<font color="#0000CD">また，求めた商が基にする大きさであることを確認することも大切です。</font><br>
+<br>
+こんな分かり難い説明をされてもね～<br>
+この問題から【基にする大きさ】は何かと聞かれたら、私なら「60g」とか「0.4m」とか答えますしね～<br>
+<br>
+＞<font color="#0000CD">②　問題場面と数直線を，式と関連付けて考え，乗法と除法の関係を捉える。</font><br>
+<br>
+完全に、出てきた数字を、乗法か除法に当て嵌めれば良いという考えに基づいていますね。<br>
+これで問題解決能力が伸びるなら、奇跡としか言いようが無いでしょう。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="51"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/51">51</a>]</li>
+<li class="title"><h2>図や数直線を書くのは何の為？</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2018年 8月 8日(水)20時07分29秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/10372/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t21/2952" target="_blank" rel="nofollow">https://8254.teacup.com/kakezannojunjo/bbs/t21/2952</a><br>
+からの抜粋＆追記です。<br>
+<br>
+平成30年度　全国学力・学習状況調査　報告書　小学校　算数：国立教育政策研究所 National Institute for Educational Policy Research<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.nier.go.jp%2F18chousakekkahoukoku%2Freport%2F18primary%2F18math%2F" target="_blank" rel="nofollow">http://www.nier.go.jp/18chousakekkahoukoku/report/18primary/18math/</a><br>
+平成30年度　全国学力・学習状況調査　報告書 【小学校／算数】<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.nier.go.jp%2F18chousakekkahoukoku%2Freport%2Fdata%2F18pmath.pdf" target="_blank" rel="nofollow">http://www.nier.go.jp/18chousakekkahoukoku/report/data/18pmath.pdf</a><br>
+P28<br>
+＞<font color="#0000CD"><strong>問題場面を的確に捉え，数量の関係を図や数直線などに表すことができるようにする</strong><br>
+＞○ 問題場面を的確に捉え，数量の関係を図や数直線などに表すことは，問題を解決する上で大切である。</font><br>
+<br>
+【問題場面を的確に捉え】られていれば、【図や数直線などに表】さなくても【問題を解決する】事が出来ます。<br>
+【問題を解決する】のを目標にする事と、【数量の関係を図や数直線などに表すことができるようにする】のを目標にする事は別だと認識出来ないのでしょうかね。<br>
+画像で上げておきますが、二重数直線を書かせたい様子も伺えます。<br>
+この指導が成功する未来は、私には想像不可です。<br>
+<br>
+P34<br>
+＞<font color="#0000CD">○ 図や数直線などを用いて，数量の関係を的確に捉え，立式することができるようにすることが大切である。</font><br>
+<br>
+【数量の関係を的確に捉え】ないと【図や数直線など】に表せないと思うのですが・・・<br>
+<br>
+<br>
+<br>
+<br>
+国立教育政策研究所は、「数量の関係を的確に捉える為」に「図や数直線」を書かせたいのだろうか？<br>
+そうなると、「数量の関係を的確に捉えていない」のに「図や数直線」を書ける状態になる必要があります。<br>
+それだと「図や数直線」が書けても「数量の関係を的確に捉えていない」ので、「数量の関係を的確に捉えさせる指導」が更に必要になります。<br>
+まさに本末転倒ですね。<br>
+<br>
+実態は、「図や数直線を書く」のが目的になっていて、【問題を解決する】能力を身に付けるのとは別の方向に向かっていそうです。<br>
+そこで出てくるのが、【図や数直線などを用いて，数量の関係を的確に捉え，立式することができるようにすることが大切である。】！<br>
+<br>
+ここまで来ると、「図や数直線」はあまり有用ではないという結論に行き着くと思うのですが・・・<br>
+<br>
+そもそも、自分で試行錯誤して「図や数直線」を書こうとするならまだしも、決まった「図や数直線」があって、それを書かせよういう発想が根本にあるようです。<br>
+この文献からも、その匂いがぷんぷん漂ってきます。<br>
+このままでは手間が増える一方で、問題解決能力が高まらないように思えます。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="50"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/50">50</a>]</li>
+<li class="title"><h2>Re: テープ図もあまり役に立たない</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2018年 8月 5日(日)14時50分46秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/10369/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/44">&gt;&gt;44</a><br>
+<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/47-49">&gt;&gt;47-49</a> の、くろきげんさんの補足や意見に同意します。<br>
+私個人の考えを纏めておきます。<br>
+<br>
+子供が日常生活等で身に付くのを「子供の論理」<br>
+大人になって身に付いているのを「大人の論理」<br>
+教科書が押し付けるのを「教科書の論理」<br>
+としておきます。<br>
+<br>
+「子供の論理」の積み重ねが「大人の論理」になっていきます。<br>
+子供に「教科書の論理」を指導した時、<br>
+　①上手く「子供の論理」と統合して、新たな「子供の論理」となる場合。<br>
+　②子供に受け入れられない場合。<br>
+　③「子供の論理」と分離した知識として活用されている場合。<br>
+等が考えられます。<br>
+<br>
+例えばですが、後藤学さんは問題を解く場合、<br>
+　「立式」→計算→答え<br>
+の手順のみを想定していませんか？<br>
+しかし、実際には、<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t21/2946" target="_blank" rel="nofollow">https://8254.teacup.com/kakezannojunjo/bbs/t21/2946</a><br>
+<font color="#0000CD">＞ａ　計算をしてみてから，その計算にそった式を立てる。<br>
+＞ｂ　答えに適当な数値をあてはめてみて，その数値が問題に合うことがわかると，それに合った式を立てる。<br>
+＞ｃ　答えに適当な数値をあてはめてみて，その数値が問題に合うことがわかると，それを答えにする。式は立てない。</font><br>
+のような生徒が存在しているようです。<br>
+このような状況で、更に「立式」指導をしても効果があるとは思えません。<br>
+生徒が何を考えて答えを出したか観察と対話が必要であり、「立式」で判断するのは愚考としか思えません。<br>
+<br>
+算数教育界ｗでは、観察と対話が圧倒的に不足していると感じています。<br>
+教師が生徒の考えを読み取ろうと努力し、それを指導に反映するのは算数としては当然の行為ではないでしょうか。<br>
+酷い方向性として、根拠を説明させるというのがあります。<br>
+実態は、テープ図を教えたらテープ図を書くのが根拠説明となり、「教科書の論理」の反復させるだけにしかなりません。<br>
+下手をすると、生徒が自分なりに試行錯誤した説明に、問答無用に駄目だしする事に繋がります。<br>
+下手をしなくとも、教師が「教科書の論理」の反復を要求するので、生徒が自分なりに説明を試行錯誤しない方向性になってしまいます。<br>
+<br>
+<br>
+話が逸れましたが、子供にとって吸収し易い考えが自然と「子供の論理」に統合されていくと思っています。<br>
+吸収し難い考えは、いくら「教科書の論理」として押し付けても統合さてれいかないでしょう。<br>
+テープ図は吸収し難い考えで、なおかつ「大人の論理」として必要とも思えません。<br>
+大人が問題を解くのにテープ図を書き出したら、「こいつ大丈夫か？」と思ってしまいます。<br>
+無理矢理にテープ図を書けるように指導しても、「子供の論理」と統合しないのは今迄の研究から明らかではないでしょうか。<br>
+<br>
+「理解すればテープ図が書ける」と「テープ図が書ければ理解している」は全然別の事です。<br>
+<br>
+&gt;また，有効な方法にするには，まずテープ図そのものの勉強が必要だということです。<br>
+<br>
+テープ図や数直線を有効な方法にするというのが駄目な発想だと思います。<br>
+式やテープ図や数直線は道具でしかありません。<br>
+有効だと思う人が活用すればいいだけで、生徒全員を一律に同じように使えるようにしなければならないという発想を捨て去るべきです。<br>
+<br>
+理解させるのにどうするか、に対して<br>
+　式を書かせれば良い<br>
+　テープ図や数直線を書かせれば良い<br>
+　根拠を説明させれば良い<br>
+のような方向性だから、行き詰まりを感じているのではないでしょうか？<br>
+<br>
+<br>
+後藤学さんが算数教育に関して発言を控えるようなので、全ての質問に答えていませんが、ここ迄にします。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="49"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/49">49</a>]</li>
+<li class="title"><h2>子供にできるようになって欲しいこと</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">くろきげん</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2018年 8月 3日(金)15時03分20秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/10366/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+私は自分ちの子が、テープ図、数直線図、二重数直線図の類を割合がからむ多くの場面で使って考えたり説明するような子に育って欲しくありません。<br>
+<br>
+私の学生時代からの友人達(その多くが科学者や技術者になっている)が、それらの図を使って考えたり、説明したりしているのを見たことがありません。<br>
+<br>
+科学者・技術者達は、通常、直観的に具体的な場面と結び付けることが可能な図表を好み、無駄に抽象化されて直観的に分かり難くなった図を避ける傾向があります。<br>
+<br>
+そして、そういうスタイルの方が合理的で人間にとって優しいやり方だと思います。<br>
+<br>
+科学者・技術者達は割合概念を完璧に理解していてかつ、具体的な状況と結び付け易い直観的にわかりやい図を好む。次世代の子供に伝えるべきなのはそういう人間に優しい合理性だと思います。<br>
+<br>
+算数の教科書を見ると、狭い視野の中で根本的に誤解しているという印象を受けます。<br>
+<br>
+おそらく、人間に優しくないやり方が平均より算数が苦手な子達を窮地に追い込んでいる。人間にとって優しいスタイルを徹底するべき。<br>
+<br>
+しかも、視野の狭い人間にとって優しくない教え方をすすめている人達は、自分達は「できの悪い子でも理解できるように頑張っている」と思い込んでいる。<br>
+<br>
+こういうのは社会全体できちんと否定して行くべき。<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="48"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/48">48</a>]</li>
+<li class="title"><h2>【立式】が目的にすること自体が非常識でダメな考え方</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">くろきげん</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2018年 8月 3日(金)14時45分10秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/10365/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+Takuさんが<br>
+<br>
+＞P63<br>
+＞＞従ってテープ図をかくことは立式のための有効な手段にはなっていないため，改めてテープ図をえがくことの意義を考え直す必要がある。<br>
+<br>
+と引用して曰く<br>
+<br>
+＞やはりそうなりますよね。<br>
+＞ちなみに、【立式】が目的になっているなら、そこにも突っ込みを入れたいですね。<br>
+<br>
+これは個人的にとても重要な指摘。<br>
+<br>
+「立式」は普通の国語辞典に載っていない特殊な用語であるのに、その意味がきちんと説明されずに曖昧なまま使われている言葉です。<br>
+<br>
+世間一般の常識では理解できない用語を算数教育関係者は平気で使います。<br>
+<br>
+保護者からの問い合わせでも平気で使う無神経さがある。<br>
+<br>
+「立式」という用語はおおむね「問題文で示された場面などを3×4のような式に忠実に翻訳すること」という意味で使われています。<br>
+<br>
+これは私自身が読んだ文献から帰納的に推測した結果であり、「立式」の明瞭な定義を見たことはありません。<br>
+<br>
+「問題文で示された場面などを3×4のような式に忠実に翻訳すること」自体が私には非常識的過ぎて算数教育の世界から排除されるべきやり方に見えます。<br>
+<br>
+3×4のようなシンプルな記号列は場面を忠実に翻訳する先としては極めて不適切です。国語的には完全にデタラメな考え方でしょう。(普通の常識的な考え方
+は、3×4のような記号列に頼らずに、言葉や図やグラフや数表などあらゆる方法を使ってわかりやすく説明する努力をすること。国語の授業では実際そのよう
+に教えています)<br>
+<br>
+3×4のようなシンプルな記号列に場面を忠実に翻訳させるという無茶を子供にやらせようとしているせいで、「2×8ならタコ2本足」のような狂った教え方が堂々とされることになるのです。<br>
+<br>
+さらに「問題文にない数をいきなり使うと減点される」という理不尽なローカルルールで子供達を苦しめることも普通に行われている。<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Ftwitter.com%2Fgenkuroki%2Fstatus%2F995487850303926272" target="_blank" rel="nofollow">https://twitter.com/genkuroki/status/995487850303926272</a><br>
+<br>
+算数教育のひどいところのかなりの部分が「立式」という考え方がまるでまともであるかのように扱っている人達のせいで引き起こされているのだと思います。<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="47"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/47">47</a>]</li>
+<li class="title"><h2>「大人の考え」ではなく、「一部の人達の考え」</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">くろきげん</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2018年 8月 3日(金)13時49分52秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/10364/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+後藤さん曰く <a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/44">&gt;&gt;44</a><br>
+＞教科書を書いた人は，おはじきの列を抽象化したものをテープ図ととらえています。そしてテープ図はとても分かりやすく問題を解くのに有効だと思っています。それを大人の考えと言っています。<br>
+<br>
+「テープ図はとても分かりやすく問題を解くのに有効」という考え方を「大人の考え」と呼ぶのはおかしいとTakuさんが言っているように見えるので、後藤さんの側が何かを誤解しているように見えました。<br>
+<br>
+Takuさん曰く <a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/43">&gt;&gt;43</a><br>
+＞【大人の考えを押しつけるやり方】とありますが、多くの大人はテープ図で考えたりしないでしょう。<br>
+＞【大人の考え】と称した、一般的ではない考えを押しつけているのが現状でしょう。<br>
+<br>
+一般的ではない考えを「大人の考え」とあっさり言えてしまう様子を見ると、この人達は世間一般の常識的で正しい考えに沿って物事を考えているのではないように感じられます。<br>
+<br>
+割合の概念を理解している大抵の大人は自分と同じように子供も考えられるようになればよいと思うだろうし、そして、そういう普通の大人の考えは、独自に発
+明した奇妙なスタイルを子供に押し付ければ割合について子供が理解できるようになると思っている一部の人達よりも現実的にうまく行きそうな考え方をしてい
+ると思います。<br>
+<br>
+例えば、吉田甫著『学力低下をどう克服するか』で成功が報告されている割合の教え方はまさに私の意味で「大人の考え」を子供に適用してうまく行った例でしょう。<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="46"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/46">46</a>]</li>
+<li class="title"><h2>Re: テープ図もあまり役に立たない</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2018年 8月 3日(金)06時50分22秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/10363/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/44">&gt;&gt;44</a><br>
+&gt; &gt; P61-62<br>
+<br>
+<br>
+<br>
+&gt; &gt; ＞<font color="#0000CD">問4では，問題場面を表す式は7+□=18になるため，答を求める式は□=18-7
+となるが，誤答と判断された式では場面状況に沿った式である7+11が事前テストで4人，事後テストで6人いる。同様に見ていくと問5では□=11+6と
+すべきを17-6，問6では□=19-8とすべきところを19-11としている。</font><br>
+<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fair.repo.nii.ac.jp%2F%3Faction%3Dpages_view_main%26active_action%3Drepository_view_main_item_detail%26item_id%3D3159%26item_no%3D1%26page_id%3D13%26block_id%3D21" target="_blank" rel="nofollow">https://air.repo.nii.ac.jp/?action=pages_view_main&amp;active_action=repository_view_main_item_detail&amp;item_id=3159&amp;item_no=1&amp;page_id=13&amp;block_id=21</a><br>
+4.バスに おきゃくが ２７にん のって いました。あとから なんにんか のってきたので，おきゃくは<br>
+ぜんぶで ３８にんに なりました。あとから のってきたのは なんにんでしょうか。(27+□=38)<br>
+5.ともこさんは，おはじきを なんこか もっていました。いもうとに，６こ あげました。のこりを かぞ<br>
+えたら １１こに なって いました。はじめに なんこ もって いたのでしょうか。（□-6=11)<br>
+6.つばささんは，シールを １９まい もっていました。ともだちに なんまいか あげたので，のこりは<br>
+８まいに なりました。ともだちに あげたのは なんまいでしょうか。(19-□=8)<br>
+<br>
+<br>
+問4,5,6とはこのことでしょうか？問4の「問題場面を表す式は7+□=18になるため，答を求める式は□=18-7」の意味がよく分からないのですが、それはさておき、<br>
+<br>
+5.ともこさんは，おはじきを なんこか もっていました。いもうとに，６こ あげました。のこりを かぞ<br>
+えたら １１こに なって いました。はじめに なんこ もって いたのでしょうか。（□-6=11)<br>
+<br>
+「問5では□=11+6とすべきを17-6」とのことですが、17-6とした子は正しく認識していると思いますが、いかがでしょうか？<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="45"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/45">45</a>]</li>
+<li class="title"><h2>Re: テープ図もあまり役に立たない</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2018年 8月 3日(金)06時39分9秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/10362/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/44">&gt;&gt;44</a><br>
+<br>
+<font color="#FF0000"><font size="5">後藤学さんへ</font></font><br>
+<br>
+<font color="#FF0000"><font size="5">引用文と、ご自身の発言の間を1行以上開けると見やすいです。</font></font><br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="44"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/44">44</a>]</li>
+<li class="title"><h2>Re: テープ図もあまり役に立たない</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">後藤学</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2018年 8月 2日(木)23時55分46秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/10361/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+自分の論文なので補足します。<br>
+<br>
+&gt; 【大人の考えを押しつけるやり方】とありますが、多くの大人はテープ図で考えたりしないでしょう。<br>
+&gt; 【大人の考え】と称した、一般的ではない考えを押しつけているのが現状でしょう。<br>
+「大人の考え」というのは，石丸氏も私も同じような意味で使っていると思いますが，ご指摘とは意味が違います。教科書を書いた人は，おはじきの列を抽象化
+したものをテープ図ととらえています。そしてテープ図はとても分かりやすく問題を解くのに有効だと思っています。それを大人の考えと言っています。<br>
+<br>
+&gt; P61-62<br>
+&gt; ＞<font color="#0000CD">問4では，問題場面を表す式は7+□=18になるため，答を求める式は□=18-7となるが，
+誤答と判断された式では場面状況に沿った式である7+11が事前テストで4人，事後テストで6人いる。同様に見ていくと問5では□=11+6とすべきを
+17-6，問6では□=19-8とすべきところを19-11としている。</font><br>
+<br>
+&gt; P62<br>
+&gt; ＞<font color="#0000CD">これらは，設問の意図を理解するのが不十分であったにせよ，「聞かれているのは分からない数を求める式で，もともとの式を書くのではない」ことを教示すれば，未知数を求める式を書くことができると推測される。</font><br>
+<br>
+&gt; 未知数を求める式(求答式)を書かせる方針には疑問があります。<br>
+中学では方程式を学びますし，守屋氏の論文を読んでおられるならば，カザフスタンでは小１で扱われています。我々は，指導次第で小１でも十分にやれると考えています。疑問があるのは，なぜなのかが分かりません。<br>
+<br>
+&gt; ちなみに、学習指導要領には「場面を式に表す」という表現が使われています。(個人的には、この表現に反対しています)<br>
+&gt; 【問題場面を表す式】や【未知数を求める式】に拘ると矛盾が生じるとおもうのですが、どうなんですかね。<br>
+このあたりもよく意味が分からないので補足をお願いします。<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.mext.go.jp%2Fcomponent%2Fa_menu%2Feducation%2Fmicro_detail%2F__icsFiles%2Fafieldfile%2F2018%2F02%2F20%2F1401405_005.pdf" target="_blank" rel="nofollow"><br>
+<br>
+http://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2018/02/20/1401405_005.pdf</a><br>
+&gt; 各教科書では、テープ図や数直線を重要視しているようです。<br>
+&gt; もしかしたら、効果が無い事に力を入れている可能性が・・・<br>
+効果がないと思います。あるいはテープ図だけを専門に指導する単元が必要です。<br>
+教科書では，<br>
+おはじきの列⇒テープ図⇒線分図⇒数直線<br>
+というように抽象化？させたいのですが，この一連のものは，それぞれ個別に勉強する必要があると，昔から言われています。つまり，子どもにとって，これらのことは大人が思っているよりよほど難しいということです。<br>
+ですから，論文にも書いたように，テープ図は問題を解くための有効な方法にはなり得ないということです。<br>
+また，有効な方法にするには，まずテープ図そのものの勉強が必要だということです。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="43"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/43">43</a>]</li>
+<li class="title"><h2>テープ図もあまり役に立たない</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2018年 8月 2日(木)20時08分24秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/10360/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+逆思考文章題の解決における思考過程の様相<br>
+後藤 学　2017年03月31日<br>
+東北数学教育学会年報<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fair.repo.nii.ac.jp%2F%3Faction%3Dpages_view_main%26active_action%3Drepository_view_main_item_detail%26item_id%3D3159%26item_no%3D1%26page_id%3D13%26block_id%3D21" target="_blank" rel="nofollow">https://air.repo.nii.ac.jp/?action=pages_view_main&amp;active_action=repository_view_main_item_detail&amp;item_id=3159&amp;item_no=1&amp;page_id=13&amp;block_id=21</a><br>
+P55<br>
+＞<font color="#0000CD">また,説明の手段としてテープ図が用いられるが，文脈に沿って未知数を用いて立式をしたり,テープ図を描いたりすることがうまく結びついておらず，問題点の指摘も多い。</font><br>
+<br>
+やはり、テープ図もあまり役に立たないようです。<br>
+<br>
+P56<br>
+＞<font color="#0000CD">教科書では終始テープ図1つで理解させようとしており，連続量でもない人数や個数をいきなり線やテープで
+表して全体と部分，数量関係（加法・減法）をつかませようとしている,文部科学省(2008)のような大人の考えを押しつけるやり方では，子どもたちの力
+をつけることはできず子どもたちの思考に基づいて考え直す必要があると述べている。</font><br>
+<br>
+【大人の考えを押しつけるやり方】とありますが、多くの大人はテープ図で考えたりしないでしょう。<br>
+【大人の考え】と称した、一般的ではない考えを押しつけているのが現状でしょう。<br>
+<br>
+P58<br>
+＞<font color="#0000CD">しかし，平井(2012)の研究からは，立式の成否はテープ図の表現や活用以前に文脈の理解度によることが指摘されている。<br>
+＞本来は場面状況＝[加法・減法の相互関係の理解]を深めるためのテープ図の表現が，場面状況をよく理解できていなければ図の表現ができないという矛盾した結果になっている。</font><br>
+<br>
+やはりそうなりますよね。<br>
+<br>
+P61-62<br>
+＞<font color="#0000CD">問4では，問題場面を表す式は7+□=18になるため，答を求める式は□=18-7となるが，誤答と判断
+された式では場面状況に沿った式である7+11が事前テストで4人，事後テストで6人いる。同様に見ていくと問5では□=11+6とすべきを17-6，問
+6では□=19-8とすべきところを19-11としている。</font><br>
+<br>
+【問題場面を表す式】という文言が登場！<br>
+求答式ではないから【誤答と判断された式】となっているようです。<br>
+<br>
+P62<br>
+＞<font color="#0000CD">これらは，設問の意図を理解するのが不十分であったにせよ，「聞かれているのは分からない数を求める式で，もともとの式を書くのではない」ことを教示すれば，未知数を求める式を書くことができると推測される。</font><br>
+<br>
+未知数を求める式(求答式)を書かせる方針には疑問があります。<br>
+ちなみに、学習指導要領には「場面を式に表す」という表現が使われています。(個人的には、この表現に反対しています)<br>
+【問題場面を表す式】や【未知数を求める式】に拘ると矛盾が生じるとおもうのですが、どうなんですかね。<br>
+<br>
+P63<br>
+＞<font color="#0000CD">従ってテープ図をかくことは立式のための有効な手段にはなっていないため，改めてテープ図をえがくことの意義を考え直す必要がある。</font><br>
+<br>
+やはりそうなりますよね。<br>
+ちなみに、【立式】が目的になっているなら、そこにも突っ込みを入れたいですね。<br>
+<br>
+<br>
+<br>
+<br>
+平成31年度使用小学校 教科書編集趣意書 算数<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.mext.go.jp%2Fcomponent%2Fa_menu%2Feducation%2Fmicro_detail%2F__icsFiles%2Fafieldfile%2F2018%2F02%2F20%2F1401405_005.pdf" target="_blank" rel="nofollow">http://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2018/02/20/1401405_005.pdf</a><br>
+各教科書では、テープ図や数直線を重要視しているようです。<br>
+もしかしたら、効果が無い事に力を入れている可能性が・・・<br>
+文科省からの影響という邪推も捨てられない・・・<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="42"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/42">42</a>]</li>
+<li class="title"><h2>図の指導の効果は限定的だろう</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2018年 7月20日(金)20時32分19秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/10350/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t21/2946" target="_blank" rel="nofollow">https://8254.teacup.com/kakezannojunjo/bbs/t21/2946</a><br>
+の抜粋です。<br>
+<br>
+算数・数学科における学業成績の劣る子どもの思考とその指導(2) : 小学校高学年の文章題の解決について<br>
+片桐 安治　1967年03月30日<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fedu-niigata.repo.nii.ac.jp%2F%3Faction%3Dpages_view_main%26active_action%3Drepository_view_main_item_detail%26item_id%3D80%26item_no%3D1%26page_id%3D29%26block_id%3D46" target="_blank" rel="nofollow">https://edu-niigata.repo.nii.ac.jp/?action=pages_view_main&amp;active_action=repository_view_main_item_detail&amp;item_id=80&amp;item_no=1&amp;page_id=29&amp;block_id=46</a><br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fedu-niigata.repo.nii.ac.jp%2F%3Faction%3Drepository_uri%26item_id%3D80%26file_id%3D22%26file_no%3D1" target="_blank" rel="nofollow">https://edu-niigata.repo.nii.ac.jp/?action=repository_uri&amp;item_id=80&amp;file_id=22&amp;file_no=1</a><br>
+<br>
+P56<br>
+＞<font color="#0000CD">それは，図を見たり，おはじきを操作したりすることによって，問題の数量間の関係を把握することができた
+子どもは，「もうすこしでわかるような状態にあった子ども」ではなかったか，ということである。もうすこしでわかるような状態にある子どもは，図を見るこ
+とによってわかるようになるが，そうでない子どもには，図を見ることがあまり役だたないのではないかと思われるのである。具体物を操作することについても
+同じような推測をもつのである。</font><br>
+<br>
+この推測には、全面的に賛同します。<br>
+最近の図の指導は、現実から目を逸らしている風潮があると思っています。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="41"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/41">41</a>]</li>
+<li class="title"><h2>Re: 古い文献</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2018年 1月 9日(火)23時05分37秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/10176/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/40">&gt;&gt;40</a><br>
+<br>
+&gt; で現実に図や式が手段ではなく目的になってしまっている。<br>
+<br>
+その結果、<br>
+　理解していなくても図や式を書く方法が考え出される。<br>
+　図や式を書けるのが理解だとされたりする。<br>
+ようになりますね。<br>
+目的を評価に据えるのはある意味当然で、<br>
+評価されるからには、それが理解だと勘違いが発生し、<br>
+評価に繋がる指導が理解に直結しないようになってしまう。<br>
+<br>
+掛け算の順序指導がいい例です。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="40"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/40">40</a>]</li>
+<li class="title"><h2>Re: 古い文献</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2018年 1月 7日(日)07時31分16秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/10169/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/39">&gt;&gt;39</a><br>
+<br>
+全部は読んでいないけど、引用してくれた部分を見ると、図が役立っているようには思えない。<br>
+<br>
+図にしても式にしても、生徒が答えを求めるために自由に使っていいならともかく、形式が決まっていて、なおかつそれが役立たないとなると、<br>
+<br>
+「正しい図を書くこと」「正しい式を書くこと」自体を目的にしないと、教える意味がなくなる。<br>
+<br>
+で現実に図や式が手段ではなく目的になってしまっている。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="39"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/39">39</a>]</li>
+<li class="title"><h2>古い文献</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2018年 1月 2日(火)20時08分49秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/10164/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+算数・数学科における学業成績の劣る子どもの思考とその指導(3) : 文章題の解決における図示の効果の様態について<br>
+片桐 安治　1967-03-30<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fedu-niigata.repo.nii.ac.jp%2F%3Faction%3Dpages_view_main%26active_action%3Drepository_view_main_item_detail%26item_id%3D10%26item_no%3D1%26page_id%3D29%26block_id%3D46" target="_blank" rel="nofollow">https://edu-niigata.repo.nii.ac.jp/?action=pages_view_main&amp;active_action=repository_view_main_item_detail&amp;item_id=10&amp;item_no=1&amp;page_id=29&amp;block_id=46</a><br>
+P2-3<br>
+＞<font color="#0000CD">ところが，文章題の指導において，図の読みかたやかきかたをかなり指導したあとでも，図を読んたりかいたりするとについて，次のような子どもの行動を見受ける。<br>
+＞ア 文章題を解く一一式や答えを書くことができても，図を読んだりかいたりすることができない。まちがった図をかいた問題を正しく解くことがある。<br>
+＞イ ある文章題について，式や答えを書くことがむずかしいか，それとも図をかくことがむずかしいか，と，たずねると，図をかくことがむずかしい，と，答える子どもがいる。<br>
+＞ウ ある文章題について，問題のようすを表わす図をかいてから問題を解くように指示したとき，問題を解いてから図をかく子どもがいる。<br>
+＞エ ある文章題について，問題のようすを表わす図をかくように指示すると，その問題の解きかたを説明するような図，つまり，その問題の解きかたがすでにわかっていなければかけないような図をかく子どもがいる。<br>
+＞このような事例を，わたくしたちはどのように解釈すればよいのであろうか。上の事例などの場合は，図を読んだりかいたりすることが問題を解くことに役だ
+つようには恩われない。また，図をかくことによって数量閤の関係を把握し立式するととができるようになったのではなく，数量間の関係を把握したから図もか
+くこともでき解きかたもわかったのではないかと推測されるのである。</font><br>
+<br>
+50年前の文献ですが、生徒に対して真摯に向き合っているようです。<br>
+算数教育界ｗは年々劣化しているのはないでしょうか。<br>
+<br>
+P44<br>
+＞<font color="#0000CD">a テスト 3 
+の結呆では，下位群にとって，正しい立式をするよりも，正しい図をかくことがむずかしいといえる。しかし，このことは，下位群だけでなく，中位群について
+もいえることであり，むずかしい問題では，上位群もその傾向を示している。ーー＜T 3.8＞～＜T 3.10＞</font><br>
+<br>
+図が、問題を解くのに役だたない事がありますね。<br>
+現在の算数教育界ｗは、そこから眼を背けているようなので問題ありありです。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="38"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/38">38</a>]</li>
+<li class="title"><h2>Re: 中身の薄い結論ありきの文献</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2017年12月23日(土)18時02分49秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/10149/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/37">&gt;&gt;37</a><br>
+&gt; <a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/36">&gt;&gt;36</a><br>
+&gt;<br>
+&gt; 本末転倒とはこのこと。<br>
+&gt; 手段であるはずの数直線が目的になってしまっている。<br>
+<br>
+「指導」と「理解」と「表現」と「評価」がごっちゃになっている可能性があります。<br>
+<br>
+本来の目標は「理解」(幅広く言うと「資質・能力の育成」)の筈です。<br>
+「理解」に向けて「指導」を行う。<br>
+「理解」をしているか「評価」する。<br>
+「評価」する為に「表現」してもらう。<br>
+<br>
+算数教育界ｗでは、「評価」≒「表現」が目標になっている気がします。<br>
+「評価」に向けて「指導」する。<br>
+「評価」の基準は特定の「表現」である。<br>
+特定の「表現」を「理解」と判断し、「評価」する。<br>
+<br>
+「理解」しているから「評価」が高いのではなく、「評価」が高ければ「理解」している事にするという逆転現象が起こっていると思われます。<br>
+手段の目的化も、この点が絡んでいそうです。<br>
+<br>
+「観点別評価」や「指導と評価の一体化」等、「評価」を重視する風潮がありますが、上記逆転現象を助長するのは間違いないと思っています。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="37"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/37">37</a>]</li>
+<li class="title"><h2>Re: 中身の薄い結論ありきの文献</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2017年12月23日(土)07時27分31秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/10148/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/36">&gt;&gt;36</a><br>
+<br>
+本末転倒とはこのこと。<br>
+手段であるはずの数直線が目的になってしまっている。<br>
+<br>
+数直線が使いこなせていないなら、それは道具として不適切、というだけのことだと思うが。<br>
+<br>
+県学テとかがあって、適切な数直線を選ばせるなんて問題があるんですね。呆れました。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="36"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/36">36</a>]</li>
+<li class="title"><h2>Re: 中身の薄い結論ありきの文献</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2017年12月22日(金)23時30分42秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/10147/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/35">&gt;&gt;35</a><br>
+ちなみに、25頁では【４ 比例数直線はなぜ難しいのか】として、比例数直線(二重数直線)の問題は選択問題でも5割を切る正答率です。<br>
+その状況で、「第三者に説明するための道具として有効であることが明らかになった」と纏められても“何言ってるんだ？”としか思えませんね。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="35"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/35">35</a>]</li>
+<li class="title"><h2>中身の薄い結論ありきの文献</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2017年12月21日(木)22時32分11秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/10146/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+算数科における「数直線等の図」の道具性に関する研究 : 指導系統と機能の考察から<br>
+臼井 英成,根本 博　2017-11-30<br>
+茨城大学教育実践研究 Vol.36 p.17 -32<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fir.lib.ibaraki.ac.jp%2Fhandle%2F10109%2F13357" target="_blank" rel="nofollow">http://ir.lib.ibaraki.ac.jp/handle/10109/13357</a><br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fir.lib.ibaraki.ac.jp%2Fbitstream%2F10109%2F13357%2F1%2F20170087.pdf" target="_blank" rel="nofollow">http://ir.lib.ibaraki.ac.jp/bitstream/10109/13357/1/20170087.pdf</a><br>
+<br>
+という文献があるのですが、結論ありきという感じの内容でした。<br>
+<br>
+この文献の著者情報では、<br>
+臼井 英成:那珂市教育委員会<br>
+根本 博　:茨城大学教育学部<br>
+とありますが、根本 博氏の経歴は凄いようです。<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Finfo.ibaraki.ac.jp%2FProfiles%2F14%2F0001309%2Fprofile.html" target="_blank" rel="nofollow">https://info.ibaraki.ac.jp/Profiles/14/0001309/profile.html</a><br>
+経歴　文部科学省（旧文部省） 初等中等教育局 教科調査官、視学官、主任視学官 1991/04/01-2006/03/31<br>
+学歴　筑波大学大学院 教育学研究科 数学教育学専攻 博士後期 1981/03 修了<br>
+所属学協会　日本数学教育学会<br>
+<br>
+以下も参照すると、詳細が更に分かります。<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.shinko-keirin.co.jp%2Fkeirinkan%2Ftext%2Fchu%2Fdetail.html%3Fid%3Db103581f2c69cd4d99a1be82a6c80a01" target="_blank" rel="nofollow">https://www.shinko-keirin.co.jp/keirinkan/text/chu/detail.html?id=b103581f2c69cd4d99a1be82a6c80a01</a><br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.amazon.co.jp%2Fdp%2F4491020272%2Fref%3Dnosim%2F%3Ftag%3Dbiglobe06-src-link-22%26linkCode%3Das1" target="_blank" rel="nofollow">https://www.amazon.co.jp/dp/4491020272/ref=nosim/?tag=biglobe06-src-link-22&amp;linkCode=as1</a><br>
+<br>
+筑波、文科省、日本数学教育学会とくると、算数教育学ｗを広めるのに多大な貢献をしていそうですね。<br>
+<br>
+<br>
+文献の内容も色々気になる点があるのですが、ざっくりと挙げておきます。<br>
+P17<br>
+＞<font color="#0000CD">こうした活動の中で、児童は、折に触れ問題解決の道具として「数直線等の図」を学び、活用する経験を重ねてきてはいる。しかし、調査問題の児童の解答からは、問題解決のための道具として、図を必ずしも有効に使えないでいる様子をうかがうことができる。</font><br>
+<br>
+「数直線等の図」は、道具性が低い(あまり役に立たない)ようです。<br>
+他の文献でも見かける内容なので、道具性が低いのは間違いなさそうです。<br>
+<br>
+P28<br>
+＞<font color="#0000CD">児童が比例数直線の有用性を最も強く味わうことができるのが、比例数直線を道具として、演算決定することができたときと考える。複雑な問題場面であっても、関係を整理し比例数直線に表すことができれば、形式的に演算を決定することができるからである。</font><br>
+<br>
+児童が有用性を強く味わっているという情報がこの文献に無いので、脳内妄想爆発ですね。<br>
+内容も、理解していなくても演算決定できるから有用と言っているようです。<br>
+学習指導要領解説 算数編(平成29年６月)の【文章題は式に表すことができれば，あとは計算で答えを求めることができる。】と同根であり、理解を促す発想から遠ざかっていると感じています。<br>
+<br>
+P31<br>
+＞<font color="#0000CD">算数の学習をすすめていく中で度々登場してくる図、特に、比例数直線を問題解決のための道具として子どもが活用できるようにするために、数直線等の図の指導系統、機能について考察し、次のことが明らかになった。</font><br>
+<br>
+＞<font color="#0000CD">（２）数直線等の図の機能の考察から、数直線等の図は、問題解決のために考えるための道具や自分以外の第三者に説明するための道具、自分自身の理解を深めるための道具として有効であること、また、複雑な問題場面では、演算決定の根拠としての機能が発揮されること。</font><br>
+<br>
+ここでは脳内妄想が「明らかになった」とまとめていますね。<br>
+<br>
+道具性が低いという情報を集めても、「数直線等の図」を使わせる事に拘る、まさに結論ありきで中身の薄い文献でした。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="34"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/34">34</a>]</li>
+<li class="title"><h2>歴史的な視点の文献</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2017年 6月27日(火)23時03分37秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/10030/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+算数教育における図的表現の変遷に関する一考察 : 小数の乗法における教科書の記述の分析を基に<br>
+京極 邦明　2017-03-31<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fuekusa.repo.nii.ac.jp%2F%3Faction%3Dpages_view_main%26active_action%3Drepository_view_main_item_detail%26item_id%3D22%26item_no%3D1%26page_id%3D13%26block_id%3D21" target="_blank" rel="nofollow">https://uekusa.repo.nii.ac.jp/?action=pages_view_main&amp;active_action=repository_view_main_item_detail&amp;item_id=22&amp;item_no=1&amp;page_id=13&amp;block_id=21</a><br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fuekusa.repo.nii.ac.jp%2F%3Faction%3Drepository_uri%26item_id%3D22%26file_id%3D22%26file_no%3D1" target="_blank" rel="nofollow">https://uekusa.repo.nii.ac.jp/?action=repository_uri&amp;item_id=22&amp;file_id=22&amp;file_no=1</a><br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="33"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/33">33</a>]</li>
+<li class="title"><h2>言葉・図・式を関連させる活動</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2017年 4月27日(木)20時14分37秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/9944/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+二重数直線（線分図）で演算決定？ほか２編　～子どもの発想をだめにする形式的な指導<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fblog.goo.ne.jp%2Fmh0920-yh%2Fe%2F27612c9d49b247438da65b686713c956" target="_blank" rel="nofollow">http://blog.goo.ne.jp/mh0920-yh/e/27612c9d49b247438da65b686713c956</a><br>
+<br>
+大日本図書の算数教科書『新版　たのしい算数５』が引用されています。<br>
+特定の図や式に拘っているのが伺えます。<br>
+教科書から、このような選択問題を解くのが目標の授業になっては不味いと思います。<br>
+教科書会社から、特定の図を書く指導と、特定の式を書く指導を促していると受け取る教師も出てくるでしょう。<br>
+<br>
+発展問題という扱いらしいですが、発展問題が選択問題となっては何を目指しているのかよく分からないですね。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="32"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/32">32</a>]</li>
+<li class="title"><h2>図・文での指導</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2017年 4月 6日(木)20時48分1秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/9905/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+PG61 割合文章題解決における図と文の学習方略の効果<br>
+多鹿 秀継、坂本 美紀　1999年<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fci.nii.ac.jp%2Fnaid%2F110001879612" target="_blank" rel="nofollow">http://ci.nii.ac.jp/naid/110001879612</a><br>
+＞<font color="#0000CD">図あり群では、当該の問題文に続いて中央線のみを与え、中央線を使って当該の文章題を線分図で表現するように教示した。文あり群では、当該の文章題に続いて、「もとにする量は何か」「比べる量は何か」「求めるものは何か」の3つの質問文に答えさせた。</font><br>
+<br>
+図あり群は、簡単な指示のみで線分図を自由に書かせているように見えます。<br>
+<br>
+＞<font color="#0000CD">この結果は、子どもが図（絵画）と文（言語）の2つの異なるモダリティを適切には継時的に処理できないことから解釈した。</font><br>
+<br>
+どう解釈するか難しく、この解釈に個人的にはあまり賛同出来ません。<br>
+しかし、この解釈が正しいならば、言葉・図・式を関連させる類の指導はかなりの悪手のように思えます。<br>
+<br>
+ある程度客観的なデータがあり、比較実験もしているので素晴らしく感じます。<br>
+<br>
+<br>
+悲しい事に、現在CiNiiではPDFがダウンロード出来ません。<br>
+別の場所に公開して、CiNiiからリンクされる事を祈っています。<br>
+<div class="Kiji_Img">
+<a href="https://8254.teacup.com/kakezannojunjo/img/bbs/0009905.png" target="_blank">
+<img src="%E3%83%86%E3%83%BC%E3%83%97%E5%9B%B3%E3%80%80%E6%AF%94%E4%BE%8B%E7%9B%B4%E7%B7%9A%E5%9B%B3%E3%80%80%E3%81%AA%E3%81%A9_files/0009905M.png" id="IMGID9905" style="cursor:pointer" class="clickable" vspace="5" height="640" border="0" width="400">
+</a>
+</div>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="31"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/31">31</a>]</li>
+<li class="title"><h2>過剰教育</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2017年 2月 5日(日)18時10分50秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/9793/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+図や数直線に効果があったとしても、「一部の生徒」に「ある程度」しか影響しないのは間違いないと思います。<br>
+少しでも効果がある方法だったからといって、それを兎に角やらせても良い結果には繋がらないと思われます。<br>
+<br>
+算数教育界ｗでは、「過剰教育」と言えそうな対効果を考慮しない極端な考えも蔓延っていそうですね。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="30"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/30">30</a>]</li>
+<li class="title"><h2>岡山大学　算数・数学教育学会パピルス</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2017年 1月24日(火)21時17分18秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/9772/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+こちらの書き込みのリンクも貼っておきます。<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs/t61/38" target="_blank" rel="nofollow">http://8254.teacup.com/kakezannojunjo/bbs/t61/38</a><br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="29"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/29">29</a>]</li>
+<li class="title"><h2>特定の式を書かせる道具？</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2017年 1月 6日(金)20時36分5秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/9740/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Ftwitter.com%2Fsunchanuiguru%2Fstatus%2F666250243114012672%2Fphoto%2F1" target="_blank" rel="nofollow">https://twitter.com/sunchanuiguru/status/666250243114012672/photo/1</a><br>
+【例１と同様に、図を活用して立式の仕方を考えさせるようにする。】<br>
+<br>
+図を、特定の式を書かせる為の道具だと思っているように感じました。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="28"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/28">28</a>]</li>
+<li class="title"><h2>Re: 類似</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2017年 1月 4日(水)17時42分13秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/9729/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/27">&gt;&gt;27</a><br>
+<br>
+ちゃんと見ていなかったが、「伝え合いを通して公式を使うことのよさを」「よりよい方法に深めたりできるような<br>
+話し合い活動を大切にし, 表や図を使うことの有用性を実感させる」あたりも、気になる。<br>
+<br>
+公式や図や表を、他者に考えを伝える手段と捉えているようにも見える。<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="27"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/27">27</a>]</li>
+<li class="title"><h2>類似</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2017年 1月 3日(火)21時32分24秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/9727/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Ftwitter.com%2Fsekibunnteisuu%2Fstatus%2F816228943720161280" target="_blank" rel="nofollow">https://twitter.com/sekibunnteisuu/status/816228943720161280</a><br>
+より<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.yachiyo.ed.jp%2Femurakami%2Fkenkyu%2FH25%2520koukai_annai.pdf" target="_blank" rel="nofollow">http://www.yachiyo.ed.jp/emurakami/kenkyu/H25%20koukai_annai.pdf</a><br>
+<br>
+＞<font color="#0000CD">◎ 言葉,図,式を関連付けることにより,かけ算の意味理解を深める</font><br>
+<br>
+なかなか香ばしい感じしかしませんね。<br>
+<br>
+気になったので、教育研究をチェックしました。<br>
+八千代市立村上小学校<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.yachiyo.ed.jp%2Femurakami%2F" target="_blank" rel="nofollow">http://www.yachiyo.ed.jp/emurakami/</a><br>
+教育研究<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.yachiyo.ed.jp%2Femurakami%2Fkenkyu%2Fkenkyu.htm" target="_blank" rel="nofollow">http://www.yachiyo.ed.jp/emurakami/kenkyu/kenkyu.htm</a><br>
+一人一人が意欲的に取り組める算数科学習<br>
+　　～算数のよさを実感できる指導の工夫～<br>
+研究の概要について（平成２８年度研究紀要）<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.yachiyo.ed.jp%2Femurakami%2Fkenkyu%2F28%2520kenkyu%2520gaiyo.pdf" target="_blank" rel="nofollow">http://www.yachiyo.ed.jp/emurakami/kenkyu/28%20kenkyu%20gaiyo.pdf</a><br>
+＞<font color="#0000CD">【研究仮説１】</font><br>
+＞<font color="#0000CD">子どもの学びが引き起こされる工夫をすれば、意欲的に取り組めるようになるだろう。</font><br>
+<br>
+＞<font color="#0000CD">【研究仮説２】</font><br>
+＞<font color="#0000CD">子どもの考えをつなげることができるような工夫をすれば、意欲的に取り組めるようになるだろう。</font><br>
+<br>
+仮説として、なんだかなぁとしか思えません。<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/25">&gt;&gt;25</a> の<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.kyoiku-kensyu.metro.tokyo.jp%2F09seika%2Freports%2Ffiles%2Fkenkyusei%2Fh26%2Fk-7.pdf" target="_blank" rel="nofollow">http://www.kyoiku-kensyu.metro.tokyo.jp/09seika/reports/files/kenkyusei/h26/k-7.pdf</a><br>
+でも感じました。<br>
+<br>
+仮説を検証する客観的データがないまま、成果と課題とか書かれても・・・<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="26"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/26">26</a>]</li>
+<li class="title"><h2>Re: 東京都教職員研修センター</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2016年12月23日(金)04時33分42秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/9708/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/25">&gt;&gt;25</a><br>
+<br>
+１ページ目　「思考力を問う設問の正答率は、他の３観点と比べて低い」とあるけど、算数の問題なんて基本的にどれも思考力を問う問題じゃないのかな？<br>
+<br>
+観点別、「関心・意欲・態度」「思考・判断・表現」「技能」「知識・理解」だっけ、この分類の合理性ってあるのだろうか？<br>
+<br>
+<br>
+「言葉・図・式を対応させる問題」をやらせたようだけど、手段と目的が混乱してしまっているような印象。<br>
+<br>
+<br>
+＞ちなみに、この文献を真に受けると非常に大変です。<br>
+言葉→式、言葉→図、図→言葉、図→式、式→言葉、式→図<br>
+それぞれ教え込む必要が出てきます。<br>
+そもそも図を書くのに躓いた生徒には、理解する機会が来るのでしょうかね。<br>
+<br>
+<br>
+順列組み合わせで6通り、全部出題したようですね。<br>
+<br>
+<br>
+図なんか正しいとか正しくないとか関係なく、理解できれば何でもいいし、なしで理解できるならなくても構わないと思うけど、<br>
+<br>
+<br>
+３ページ目の「ノート交流」などを見ると、「自分だけ理解できればいいのではなく、他人が見てわかる図」が要求されそうな予感がする。<br>
+<br>
+で、そうなると共通のルールを設定しようという方向にいきかねない。<br>
+<br>
+式に関してはすでにそうなっているのでは、と危惧している。<br>
+<br>
+横浜市教委指導主事は私の電話での問い合わせに対して、「授業でやった解法・公式は、これは使ってもちゃんと答えが出ると確認されたのだから、説明なしで使ってもいいが、そうじゃない解法の場合は一言説明が必要。説明がない場合には減点もあり得る」と言っている。<br>
+<br>
+<br>
+単純に問題で問われていることを素で考えて答えを出す<br>
+<br>
+というのとは正反対の、恣意的で曖昧なルールに従って図や式を立てないとならない、といことになっているのではないだろうか？<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="25"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/25">25</a>]</li>
+<li class="title"><h2>東京都教職員研修センター</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2016年12月21日(水)20時31分54秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/9706/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+教員研究生報告書｜平成26年度東京都教員研究生カリキュラム開発研究報告 ―東京都教職員研修センター<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.kyoiku-kensyu.metro.tokyo.jp%2F09seika%2Freports%2Fkenkyusei%2Fh26.html%23san" target="_blank" rel="nofollow">http://www.kyoiku-kensyu.metro.tokyo.jp/09seika/reports/kenkyusei/h26.html#san</a><br>
+論理的に考え、表現する力を育てる指導の工夫<br>
+－言葉・図・式を関連させる活動を通して－<br>
+門田 剛和<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.kyoiku-kensyu.metro.tokyo.jp%2F09seika%2Freports%2Ffiles%2Fkenkyusei%2Fh26%2Fk-7.pdf" target="_blank" rel="nofollow">http://www.kyoiku-kensyu.metro.tokyo.jp/09seika/reports/files/kenkyusei/h26/k-7.pdf</a><br>
+P1<br>
+＞<font color="#0000CD">言葉・図・式を関連させることは、児童の表現力や問題解決力を高めることにつながるとする先行研究もあ
+り、言葉・図・式を関連させる活動が重要であることは言うまでもない。しかし、平成 20年度から平成 24 
+年度までの学力調査における文章題の正答率についての推移を見ても、 課題に対する変化は見られない。</font><br>
+<br>
+【言葉・図・式を関連させる活動が重要であること】が間違っていたように思えます。<br>
+信憑性のある【先行研究】があるかも怪しいですしね。<br>
+<br>
+＞<font color="#0000CD">その原因として、言葉・図・式を関連させる活動の重要性を認識していながらも、それをどのように授業に位置付ければよいのか、どのような手だてを講じればよいのかが明確になっていないからではないかと考えた。</font><br>
+<br>
+そもそもの前提がおかしいとは考えてはいけないのは、算数教育界ｗの流儀ですね。<br>
+<br>
+＞<font color="#0000CD">学習指導要領解説算数編から、言語を通した学習活動を充実することが、思考力・表現力等の育成につながるということが分かった。</font><br>
+<br>
+ｗｗｗ<br>
+<br>
+<br>
+P2<br>
+＞<font color="#0000CD">児童の調査からは、 「言葉と図を対応させる問題」の正答率に比べ、 「図と式を対応させる問題」の正答率は低い傾向あることが分かった(図２)。</font><br>
+<br>
+＞<font color="#0000CD">この結果から、問題文を図に表すことができても、その図をどのような式にすればよいのかが分からない児童がいることが分かった。</font><br>
+<br>
+図を書いても、理解に繋がっていないのでしょうね。<br>
+<br>
+＞<font color="#0000CD">このことから、図から式を考える指導を充実させる必要があると考えた。</font><br>
+<br>
+理解に繋がらなさそうな図に拘ってもねぇ。<br>
+<br>
+<br>
+P2<br>
+＞<font color="#0000CD">また、 「言葉と式を対応させる問題」の正答率の変化を見ると、学年が上がっていくに従って下がっていくことが分かった(図３)。</font><br>
+<br>
+【「言葉と式を対応させる問題」】がそもそも問題ありそうな予感が・・・<br>
+<br>
+<br>
+P4<br>
+＞<font color="#0000CD">イ 論理的に考える力の変容</font><br>
+<br>
+＞<font color="#0000CD">調査問題は、授業前と後で数値のみを変えて実施した。実施した問題の正答率の変化を比較すると、第２学年では34.4 ポイント、第６学年では 4.8 ポイント上昇した。</font><br>
+<br>
+数値のみを変えた問題なら、後の方が正答率が高いのは当然ですね。<br>
+<br>
+＞<font color="#0000CD">また、立式ができず無回答だった児童の割合は第２学年では 37.5％から 12.5％へ、 第６学年では 19.0％から 4.7％へという変化があった。このことは問題を見て、式の見通しを立てることができるようになった児童の割合が増えたことを表している。</font><br>
+<br>
+無回答が減っていても、式の見通しを立てることができるようになった事に繋がらないでしょう。<br>
+<br>
+これらを【論理的に考える力の変容】とするなんて、笑いでも取りに来てるんですかね。<br>
+<br>
+<br>
+P4<br>
+＞<font color="#0000CD">第４ 研究の成果</font><br>
+<br>
+図や数直線を書く事を、【問題場面を正しく把握した】【考えの根拠を分かりやすく表現した】【表現力の高まりが見られた】【数の意味を正しく把握した】事にしているようにしか見えません。<br>
+数直線とかは、算数教育学ｗの外で使われていないように思えるのですが、それで【分かりやすく表現した】【表現力の高まりが見られた】とかしては、疑問視するしかないです。<br>
+<br>
+ちなみに、この文献を真に受けると非常に大変です。<br>
+言葉→式、言葉→図、図→言葉、図→式、式→言葉、式→図<br>
+それぞれ教え込む必要が出てきます。<br>
+そもそも図を書くのに躓いた生徒には、理解する機会が来るのでしょうかね。<br>
+<br>
+<br>
+この手の研究報告をしている組織の文献のレベルは・・・以下省略<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="24"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/24">24</a>]</li>
+<li class="title"><h2>線分図や数直線は分かり難い？</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2016年12月12日(月)21時09分29秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/9674/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+せっかくなので、こちらの書き込みのリンクも貼っておきます。<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs/t58/87" target="_blank" rel="nofollow">http://8254.teacup.com/kakezannojunjo/bbs/t58/87</a><br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="23"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/23">23</a>]</li>
+<li class="title"><h2>数直線は割合理解に役立たない？</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2016年12月12日(月)07時41分12秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/9672/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+TaKuさんからの情報<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs/t58/122" target="_blank" rel="nofollow">http://8254.teacup.com/kakezannojunjo/bbs/t58/122</a><br>
+<br>
+<br>
+p70<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Farepj%2F55%2F0%2F55_68%2F_pdf" target="_blank" rel="nofollow">https://www.jstage.jst.go.jp/article/arepj/55/0/55_68/_pdf</a><br>
+<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="22"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/22">22</a>]</li>
+<li class="title"><h2>二重数直線を２つ並べるときのローカルルール</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2015年 8月27日(木)23時53分13秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/explain/index/comm_id/8480/" target="_blank">編集済</a></li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/8480/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fmath.artet.net%2F%3Feid%3D1421831" target="_blank" rel="nofollow">http://math.artet.net/?eid=1421831</a><br>
+<br>
+ブログ主の娘さんのノートが画像がある。<br>
+<br>
+「8分間に240Lの水をくみ出す機械と，12分間に300Lの水をくみだす機械があります。1分間当たりにくみ出す水の量は，どちらが多いでしょうか」<br>
+<br>
+この問題は、「どちらか？」を質問しているのだから、１分あたりの水量を直接もとめる必要はない。<br>
+４分当たりで比較してもいいし、同じ水量をくみ出すのに要する時間で比較してもいいはず。<br>
+<br>
+　しかし、出題者は「当然、１分あたりの水量を求めるもの」と考えているのだろう。<br>
+<br>
+<br>
+　ブログ主も指摘しているが、２つの二重数直線の時間をそろえるように訂正されているが、そうすると同じ位置の水量は異なることになる。<br>
+<br>
+　これがもし、「１２００Ｌくみ出すのに要する時間が短いのはどちらか？」だと、水量の目盛りを一致させるのだろうか？<br>
+<br>
+　答えがあっているのに、図の方が訂正されている。図が答えを求める手段ではなく、目的になってしまっていることが窺い知れる。<br>
+<br>
+　これで本当に分からない子が分かるようになるのだろうか？<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="21"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/21">21</a>]</li>
+<li class="title"><h2>瑣末な質問</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2015年 4月25日(土)07時14分40秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/8039/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.tokyo-shoseki.co.jp%2Fquestion%2Fe%2Fsansu.html%23q8" target="_blank" rel="nofollow">http://www.tokyo-shoseki.co.jp/question/e/sansu.html#q8</a><br>
+Ｑ８　例えば，2年上巻85ページ問題１の図では，テープ図の上部が部分（「きのうまでに作った数」「今日作った数」），下部が全体（「ぜんぶの数」）と
+なっています。一方，2年下巻74ページ問題１の図では，テープ図の上部が全体（「ぜんぶの数」），下部が部分（「赤の数」「青の数」）となっています。
+図で全体と部分の表し方には，何かきまりがあるのですか。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="20"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/20">20</a>]</li>
+<li class="title"><h2>算数教科書の「図」はこう教える！数学的な表現方法教え方ガイドブック</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2015年 3月25日(水)14時59分1秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/7878/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.meijitosho.co.jp%2Fdetail%2F4-18-179215-2" target="_blank" rel="nofollow">http://www.meijitosho.co.jp/detail/4-18-179215-2</a><br>
+はじめに<br>
+　本書は，算数教科書に登場する図について，系統的・継続的に指導する具体的な方法を紹介したものである。「教科書には，テープ図，線分図，数直線図，面
+積図，関係図などが出てきますが，その指導について詳しいものがありません。数学的な思考力・表現力の育成のためには，図の役割の位置づけと具体的な指導
+の手立てが必要かと思われます」と前川公一先生が提案しているように，最近の算数教科書では図の見方，かき方について手順を明記するように親切な記述に
+なってきたが，図の指導の仕方になると，十分であるかというとそうではない。現場に任せられているというのが現状である。<br>
+<br>
+　つまり，図については，「教師が指導の仕方がよく分からない」「指導の時間が確保しにくい」「適当な教材や資料がない」などの課題がある。<br>
+<br>
+　そこで，算数科で重要と考えられ，指導すべき数学的な表現方法を取り上げ，それらの効果的な指導の仕方（１ページ）と授業ですぐに使えるワークシート（１ページ）を見開きで紹介し，算数指導に役立てようと考えたのである。<br>
+<br>
+　問題解決において，図を使うよさは，簡潔性と関係把握にある。問題文にある情報を図に表現すると，多くの情報をぱっと見て捉えることができる。また，図に表現する段階で思考の外化がおき，思考過程を振り返ることでさらに関係を見抜くことができるようになる。<br>
+<br>
+　したがって，「数学的な思考力・表現力を育てる算数授業」の創造のためには，各学年で数学的な表現方法を系統的・継続的に指導することが大切である。<br>
+<br>
+　本書の企画については当初，面白いと思うと同時に困難な作業だと感じたが，実際に，できあがってきた原稿を見ると，よくぞここまで完成させたというのが
+実感である。とても使いやすいものとなっている。北九州市の算数研究会の有志の方々は，これまでにも『すぐに役立つ！　365日の算数授業づくりガイド
+ブック』，『活用力・思考力・表現力を育てる！　365日の算数学習指導案』１・２年編，３・４年編，５・６年編の３冊，『算数授業に役立つ！重要単元の
+学習指導案＆板書モデル35』（明治図書）の５冊を刊行されている。これらの研究の実績があるからこそできあがった本書である。<br>
+<br>
+　ぜひとも手元において，算数教科書にある図を問題解決において使いこなすような子どもの育成を図りたい。<br>
+<br>
+　北九州市の算数研究会の皆様のご尽力に対して敬意を表します。<br>
+<br>
+　　平成27年１月　　　愛知教育大学　／志水　廣<br>
+続きを折りたたむ<br>
+著者紹介<br>
+志水　廣（しみず　ひろし）<br>
+著書を検索?<br>
+1952年，神戸市生まれ，大阪教育大学卒業。神戸市の公立小学校に勤務後，兵庫教育大学大学院修了（数学教育専攻）。筑波大学附属小学校教諭，愛知教育大学数学教育講座教授を経て，現在同大学大学院教育実践研究科教授。各地の小学校で師範授業や指導講演をして活動中。<br>
+前川　公一（まえかわ　こういち）<br>
+著書を検索?<br>
+1949年，北九州市生まれ，長崎大学教育学部卒業。北九州市立小学校勤務後，兵庫教育大学大学院修了。北九州市立教育センター指導主事，北九州市立小学校の教頭・校長を経て，現在東筑紫短期大学准教授。各地の研究発表会等の講師として活躍中。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="19"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/19">19</a>]</li>
+<li class="title"><h2>関係図</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2014年 6月27日(金)23時02分31秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/7264/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fkiyotaka6.exblog.jp%2F17015369%2F" target="_blank" rel="nofollow">http://kiyotaka6.exblog.jp/17015369/</a><br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="18"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/18">18</a>]</li>
+<li class="title"><h2>テープ図　ｖｓ　線分図</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2014年 6月26日(木)16時37分7秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/7256/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fkiyotaka6.exblog.jp%2F19927900%2F" target="_blank" rel="nofollow">http://kiyotaka6.exblog.jp/19927900/</a><br>
+<br>
+<font color="#000080">しかし、線分図が理解の助けにならないことはもう何十年来の全国各地の実践と反省からはっきりとしているのです。なぜいつまでも線分図にこだわっているのか理解に苦しみます。（算数教育の進歩の妨げとなっているといっても過言ではないと思います。）<br>
+<br>
+数学教育協議会の提唱したテープ図は＜初めの数＞＜増えた数＞＜全部の数＞が量として示されその関係が図から読み取れるのです。線分図よりはるかに優れたモデルとなるのは確かです。 </font><br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="17"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/17">17</a>]</li>
+<li class="title"><h2>Re: なんとか図に関する調査</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2014年 6月23日(月)22時57分57秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/7243/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/16">&gt;&gt;16</a><br>
+<br>
+正しい図をかけなくて、正しい式を立てた子がそれなりにいる一方で、<br>
+正しい図をかけて、正しい式を立てられなかった子は皆無<br>
+<br>
+このことから【正しい式を書くよりも、正しい図を書く方が難しいので、正しい図を書かせることを指導することは本末転倒】という推論も出来る。<br>
+<br>
+正しい図をかけて、正しい式を立てられなかった子がそれなりにいたら、<br>
+<br>
+【正しい図をかけても正しい式を立てられないのだから、図の指導はナンセンス】<br>
+<br>
+ということだってできる。<br>
+<br>
+解釈次第でどうとでもなりうる。<br>
+<br>
+<br>
+図をかくことが有効かどうかをきちんと評価するには、<br>
+<br>
+図をかくことを指導した場合と指導しなかった場合で、正しい式を立てられる率がどうなるかを見るしかないのではないだろうか？<br>
+<br>
+<br>
+そこで、「図の指導が有効」となったら、「式を立てられない子に図をかくことを指導することが有効かもしれない」ということにはなるかもしれないが、<br>
+<br>
+<br>
+一律に全員に、提携の図をかかせる必要は無い。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="16"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/16">16</a>]</li>
+<li class="title"><h2>なんとか図に関する調査</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2014年 6月23日(月)22時39分46秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/7242/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+倍概念を育む指導の工夫<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.shinko-keirin.co.jp%2Fkeirinkan%2Fj-boshu%2F200903%2Fkekka8%2Ffuku_miya%2Findex.html" target="_blank" rel="nofollow">https://www.shinko-keirin.co.jp/keirinkan/j-boshu/200903/kekka8/fuku_miya/index.html</a><br>
+<br>
+表があるので、それを編集しなおしてみる。<br>
+<br>
+「正しい立式」という概念自体が算数教育界ｗ独特のものだが、ここではそれはおいておく。<br>
+<br>
+<br>
+各問題ごとに、<br>
+<br>
+正しい式を書いた人数<br>
+正しい図を書いて正しい式を書いた人数<br>
+正しい図を書かなかったが正しい式を書いた人数<br>
+<br>
+正しい式を書かなかった人数<br>
+正しい図をかいて正しい式を書かなかった人数<br>
+正しい図をかかないで正しい式を書かなかった人数<br>
+<br>
+を集計してみる。<br>
+<br>
+<br>
+太郎さんと花子さんがなわとびを跳んでいます。<br>
+太郎さんは80回，花子さんは16回とぶことができます。<br>
+太郎さんのとんだ回数は，花子さんのとんだ回数の何倍ですか。<br>
+（式）80÷16＝5　　　　　　　　　　（答え）5倍<br>
+<br>
+２３　正しい式を書いた人数<br>
+１６　正しい図を書いて正しい式を書いた人数<br>
+　７　正しい図を書かなかったが正しい式を書いた人数<br>
+<br>
+４　正しい式を書かなかった人数<br>
+０　正しい図をかいて正しい式を書かなかった人数<br>
+４　正しい図をかかないで正しい式を書かなかった人数<br>
+<br>
+<br>
+<br>
+トキのひながたまごからかえりました。2日後の体重は50ｋｇでしたが，21日後には950ｋｇになりました。21日後の体重は，2日後の何倍ですか。<br>
+（式）950÷50＝19　　　　　　　　　　　　　　　（答え）19倍<br>
+<br>
+<br>
+２０　正しい式を書いた人数<br>
+１１　正しい図を書いて正しい式を書いた人数<br>
+　９　正しい図を書かなかったが正しい式を書いた人数<br>
+<br>
+２　正しい式を書かなかった人数<br>
+０　正しい図をかいて正しい式を書かなかった人数<br>
+２　正しい図をかかないで正しい式を書かなかった人数<br>
+<br>
+マンガの値段は，240円です。物語の本の値段は，これの4倍にあたります。物語の本の値段は何円ですか。<br>
+（式）240×4＝960　　　　　　　　　　（答え）960円<br>
+<br>
+４８　正しい式を書いた人数<br>
+４１　正しい図を書いて正しい式を書いた人数<br>
+　７　正しい図を書かなかったが正しい式を書いた人数<br>
+<br>
+２　正しい式を書かなかった人数<br>
+０　正しい図をかいて正しい式を書かなかった人数<br>
+２　正しい図をかかないで正しい式を書かなかった人数<br>
+<br>
+親ヒョウの体重は，子どものヒョウの体重の6倍で，72kgです。子どものヒョウの体重は何kgですか。<br>
+（式）72÷6＝12　　　　　　　　　　（答え）12kg<br>
+<br>
+４５　正しい式を書いた人数<br>
+３３　正しい図を書いて正しい式を書いた人数<br>
+１２　正しい図を書かなかったが正しい式を書いた人数<br>
+<br>
+４　正しい式を書かなかった人数<br>
+０　正しい図をかいて正しい式を書かなかった人数<br>
+４　正しい図をかかないで正しい式を書かなかった人数<br>
+<br>
+<br>
+表の数値に一部整合性が無い部分があるが、とりあえず上記のようになった。計算間違いしていないよね？<br>
+<br>
+　正しい図を書いて、正しい立式を書かなかった、というのは皆無。<br>
+<br>
+○　正しい図を書いて正しい式を書いた<br>
+●　正しい図を書かなかったが正しい式を書いた<br>
+×　正しい図も正しい式も書かなかった<br>
+<br>
+としてあらわすと<br>
+<br>
+○○○○○○○○○○○○○○○○<br>
+●●●●●●●<br>
+××××<br>
+<br>
+○○○○○○○○○○○<br>
+●●●●●●●●●<br>
+××<br>
+<br>
+○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○<br>
+●●●●●●●<br>
+××<br>
+<br>
+○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○○<br>
+●●●●●●●●●●●●<br>
+××××<br>
+<br>
+<br>
+【図が正しくかけている児童は立式も正しく，また，立式ができていない児童は図もかけていないということがわかった。】<br>
+<br>
+というのは確かに事実だろうが、立式を正しくかけない子が少ないうえに、正しい図を書かないで正しい立式をしている子もそれなりにいる。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="15"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/15">15</a>]</li>
+<li class="title"><h2>算数の学習指導における図の役割に関する研究  鳥取大学地域学部</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2014年 6月11日(水)15時23分9秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/7191/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.rs.tottori-u.ac.jp%2Fmathedu%2Fmt%2Fsemina10_files%2F2010_yasui.pdf" target="_blank" rel="nofollow">http://www.rs.tottori-u.ac.jp/mathedu/mt/semina10_files/2010_yasui.pdf</a><br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="14"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/14">14</a>]</li>
+<li class="title"><h2>Re: 銀林浩の悪影響</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2014年 5月19日(月)16時52分30秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/6962/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/13">&gt;&gt;13</a><br>
+&gt; &gt; 　数教協の暴走と銀林先生は関係ないじゃん、と、あえて指摘しておきましょうか。<br>
+&gt;<br>
+&gt; 否、銀林浩さんが数教協の暴走の最大原因だと思います。<br>
+&gt; 開祖・遠山啓も悪いですが、この二人はマルクス主義で言うなら、マルクス＆エンゲルスの関係ですね。<br>
+<br>
+そのたとえで言うなら、スターリンが・・・<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="13"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/13">13</a>]</li>
+<li class="title"><h2>銀林浩の悪影響</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">おおくぼ</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2014年 5月19日(月)11時13分57秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/6960/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+&gt; 　数教協の暴走と銀林先生は関係ないじゃん、と、あえて指摘しておきましょうか。<br>
+<br>
+否、銀林浩さんが数教協の暴走の最大原因だと思います。<br>
+開祖・遠山啓も悪いですが、この二人はマルクス主義で言うなら、マルクス＆エンゲルスの関係ですね。<br>
+<br>
+銀林浩さんは数教協の初期メンバーで水道方式を纏める役割（裏方）もしています。<br>
+心理学者ピアジェを翻訳＆解説したり、算数（小学生向け数学）の心理学への悪影響も大きいです。<br>
+私は「算数の心理学」への悪影響が一番問題だと思っています。<br>
+<br>
+数教協関係の多くの本の監修＆編集もしています。<br>
+森毅への悪影響もそうです。<br>
+<br>
+
+
+
+
+
+<p><a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Ftwitter.com%2FOokuboTact" target="_blank" class="link_url">https://twitter.com/OokuboTact</a></p>
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="12"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/12">12</a>]</li>
+<li class="title"><h2>東京書籍 　演算決定に関わる図の取り扱いと系統</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2014年 5月19日(月)08時31分57秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/6958/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+教育出版に続き、東京書籍も<br>
+<br>
+演算決定に関わる図の取り扱いと系統<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Ften.tokyo-shoseki.co.jp%2Ftext%2Fshou%2Fsansu%2Ffiles%2Fweb_s_sansu_kaisetu_37.pdf" target="_blank" rel="nofollow">http://ten.tokyo-shoseki.co.jp/text/shou/sansu/files/web_s_sansu_kaisetu_37.pdf</a> …<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="11"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/11">11</a>]</li>
+<li class="title"><h2>Re: テープ図の起源は数教協らしい</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">Maria</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2014年 2月 6日(木)17時01分59秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/6502/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/10">&gt;&gt;10</a><br>
+　数教協の暴走と銀林先生は関係ないじゃん、と、あえて指摘しておきましょうか。<br>
+<br>
+　むしろ、<br>
+<br>
+『　しかしそのためには、「なんでこんな簡単なことができないのか」といった数学教師特有の感情を押し殺して「つまづき」を客観的に冷静に眺めてみなけれ
+ばなりません。教師 v.s. 
+生徒という状況を離れた第三の「分析者」としての視点に立つことが要求されるのです。あるいは、１個の石器や資料（子供の答案）を前にした考古学者の眼を
+もつのだ。あるいは、一匹の対象動物（子供自身）を観察しつつある動物行動学者の立場に立つのだといってよいかも知れません。』<br>
+<br>
+あたりのクールな視線は遠山梁山泊の真骨頂、という感じはします。<br>
+<br>
+　どーせ算数なんか四則計算ができれば御の字なんだから、そこはちゃっちゃと済ませてしまってその先を考えようよ、みたいなプラグマティズムが根底にあるような気がします。<br>
+<br>
+　「量の理論」は物理数学を含めた応用数学の基礎、米国流の「新数学（ニュー・マス）」なんかじゃなくって、日本には実用算術の伝統があって、それが文化
+として成立してるんだから、そこを（その先の応用を含めて）捉えなおせるように（たとえばタイルのシェーマとか１あたり量とかで）すればいいんじゃん？っ
+てな話だと思うんですけどね。<br>
+<br>
+　正直なところ、「子ども」とかいう言葉がイヤ。「障がい者」とかいった言葉がイヤ。出版社とかだったら使わざるを得ない、というその時点でイヤ。<br>
+<br>
+　四則演算の習得と子供の人間性はなんの関係もない。算数は必要悪。それでよくないですか？<br>
+<br>
+　「ゴミの山の前は鼻をつまんで走りぬけるしかない」。ｂｙ鉄のクラウス。<br>
+<br>
+
+
+
+
+
+<p><a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fanimaleconomicus.blog106.fc2.com%2F" target="_blank" class="link_url">http://animaleconomicus.blog106.fc2.com/</a></p>
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="10"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/10">10</a>]</li>
+<li class="title"><h2>テープ図の起源は数教協らしい</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2014年 2月 6日(木)00時30分4秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/6501/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fbooks.google.co.jp%2Fbooks%3Fid%3DGTW7KvD_fDIC%26pg%3DPA25%26lpg%3DPA25%26dq%3D%25E6%2595%25B0%25E6%2595%2599%25E5%258D%2594%25E3%2580%2580%25E3%2583%2586%25E3%2583%25BC%25E3%2583%2597%25E5%259B%25B3%26source%3Dbl%26ots%3Dc4sRoVGEEs%26sig%3Du0h8dybicZrGvQ0ujN23v5I_Hco%26hl%3Dja%26sa%3DX%26ei%3DayxeUuHdN4ykkwXAlIHgBw%26ved%3D0CEwQ6AEwBQ%23v%3Donepage%26q%3D%25E6%2595%25B0%25E6%2595%2599%25E5%258D%2594%25E3%2580%2580%25E3%2583%2586%25E3%2583%25BC%25E3%2583%2597%25E5%259B%25B3%26f%3Dfalse" target="_blank" rel="nofollow">http://books.google.co.jp/books?id=GTW7KvD_fDIC&amp;pg=PA25&amp;lpg=PA25&amp;dq=%E6%95%B0%E6%95%99%E5%8D%94%E3%80%80%E3%83%86%E3%83%BC%E3%83%97%E5%9B%B3&amp;source=bl&amp;ots=c4sRoVGEEs&amp;sig=u0h8dybicZrGvQ0ujN23v5I_Hco&amp;hl=ja&amp;sa=X&amp;ei=ayxeUuHdN4ykkwXAlIHgBw&amp;ved=0CEwQ6AEwBQ#v=onepage&amp;q=%E6%95%B0%E6%95%99%E5%8D%94%E3%80%80%E3%83%86%E3%83%BC%E3%83%97%E5%9B%B3&amp;f=false</a><br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="9"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/9">9</a>]</li>
+<li class="title"><h2>Re: 「くもわ」は駄目で、図ならいい？</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">Maria</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2014年 2月 5日(水)19時25分41秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/6498/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/8">&gt;&gt;8</a><br>
+　ごめんなさい。あたしは「くもわ」が理解できません m(_ _)m<br>
+<br>
+　現在でも、ｐＶ＝ｎＲＴ とか、Ｖ＝ＩＲ とか、そういう感じで記憶している数式を変形して「ああ、なるほど」的に納得しています。<br>
+<br>
+　そういう意味では、三用法のほうがむしろ安心できます。距離を速度で割れば時間が出るわけなんですが、速度を距離で割ることの意味を「時間の逆数」と捉えてなにが嬉しいか、みたいな話はありそうですし。<br>
+<br>
+　「量」というのは単なる定義ではなく、具体性のあるものを抽象したものとしての物理量の結びつきとしてある、というコンサバな立場を、個人的には取りたいと思います。<br>
+<br>
+
+
+
+
+
+<p><a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fanimaleconomicus.blog106.fc2.com%2F" target="_blank" class="link_url">http://animaleconomicus.blog106.fc2.com/</a></p>
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="8"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/8">8</a>]</li>
+<li class="title"><h2>「くもわ」は駄目で、図ならいい？</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2014年 2月 5日(水)18時14分28秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/6497/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.d1.dion.ne.jp%2F%7Eamajima%2Fwariai.htm" target="_blank" rel="nofollow">http://www.d1.dion.ne.jp/~amajima/wariai.htm</a><br>
+２月の初等教育研究会での提案<br>
+<br>
+　　　　割合の「公式」は，必要悪か？<br>
+<br>
+　　　　　　　　　　　　　　　　　Ｈ１３，１２，２２<br>
+<br>
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　 　　　附属新潟小学校　　間嶋　哲<br>
+<br>
+　公式といって，何を思い浮かべるだろうか。代表例は「図形の面積」であろう。次というと…，少し考える。<br>
+<br>
+「分数のわり算」にも公式らしきものがあるが，反対にしてかけるなんてのは，「公式」の名前に値しない。<br>
+<br>
+　実は，「図形の面積」と同じくらいに，いやそれ以上に，私たち小学校教師が重要視している公式が存在<br>
+<br>
+する。「割合」の公式である。こう言われても，ピンとこないかもしれない。どの教科書にもある公式である。<br>
+<br>
+　「もとにする量」「比べる量」「割合」の三つが登場する公式である。ここまで言われると，「ああ，あれかあ。」<br>
+<br>
+と気付くのではないかと思う。<br>
+<br>
+　「図形の面積」公式は，それでも，「公式を丸暗記してはいけません。」という意識が，私たちにある。しかし，<br>
+<br>
+「割合」公式は全く違う。そのものを教え込むことに，何の罪悪感もない。<br>
+<br>
+　私もこれまではそうやってきたのであるが，円を描いて，その真ん中に線を引き，上に「比べる」という文字<br>
+<br>
+を入れる。下半分は，さらに縦に線を入れ，「もとにする量」と「割合」という文字を入れる。こうやって，この三<br>
+<br>
+つの関係を覚えさせ，問題に応じて適用させていく。<br>
+<br>
+　どの教師も，ほとんど使うといっていい。事実，私が今もっている算数の教科書にも，前任者が丁寧に書い<br>
+<br>
+たであろう三つに分けた円が堂々とかかれてある。<br>
+<br>
+　私も，ずっとこうやってきた。さらには，文章題そのものを分解し，「□は△の」というときは，□が比べる量，<br>
+<br>
+△がもとにする量，と教えてきた。<br>
+<br>
+　割合の学習は，おそらく小学校の算数の中で，最も難解である。一番定着率が悪いと思う。さらに言えば，<br>
+<br>
+この学習ほど，考え方が大事にされる内容もない。しかしである。<br>
+<br>
+　実際は，この単元は教え込み。そして，この単元ほど，総合的な学習に使われる単元はない。（円グラフ，<br>
+<br>
+帯グラフが，その典型である。）<br>
+<br>
+　私は，今回，この単元を全く公式を使わずに，問題解決できる子どもを目指す。<br>
+<br>
+　簡単である。<br>
+<br>
+　割合の学習の際，必要な表現を教えればよいのである。ただ単に教えるのではない。我が校で主張してい<br>
+<br>
+る「数学的表現力」の三つの知（内容知・方法知・体験知）を獲得させるのである。<br>
+<br>
+　割合の学習で，問題解決する際に必要な表現とは何か？<br>
+<br>
+　ずばり，対応数直線と，関係図である。<br>
+<br>
+　どう獲得させるのか…。<br>
+<br>
+　それを研究会で提案する。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="7"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/7">7</a>]</li>
+<li class="title"><h2>教育出版　線分図・数直線の指導の系統</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2014年 2月 3日(月)14時25分8秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/6492/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+指導要領解説に<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/6">&gt;&gt;6</a>のような図が掲載されたのは初めてことらしく、それを契機に教育出版が作成したのが<br><br><font size="5">線分図・数直線の指導の系統</font><br><a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.kyoiku-shuppan.co.jp%2Fview.rbz%3Fpnp%3D100%26amp%3Bpnp%3D109%26amp%3Bpnp%3D237%26amp%3Bnd%3D237%26amp%3Bik%3D1%26amp%3Bcd%3D1934" target="_blank" rel="nofollow">https://www.kyoiku-shuppan.co.jp/view.rbz?pnp=100&amp;pnp=109&amp;pnp=237&amp;nd=237&amp;ik=1&amp;cd=1934</a><div>&nbsp;</div><div>　これを見ると、　ブロック　→　テープ図　→　線分図　→　比例直線図　という一連の「体系」になっていることが分かる。</div><div>&nbsp;</div><div><font size="3">ｐ７　「１ｍの値段が120 円のリボンを４ｍ買うと，代金は何円になるでしょうか。」</font></div><div><span>この問題をわ</span><span>ざわざ図で解く、さらに図の描き方まで、丁寧に（皮肉）書かれている。</span></div><div>&nbsp;</div><div>結局は「はじき」「みはじ」「くもわ」レベルの、「これさえやれば解ける」という代物になってしまっている。<br>&nbsp;</div><br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="6"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/6">6</a>]</li>
+<li class="title"><h2>学習指導要領解説　に掲載された比例直線図</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2014年 2月 3日(月)14時12分3秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/6491/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.shizuoka.ac.jp%2Fkyouyou%2FLicense_renewal_25%2Ftext%2F0821_kunimune_text.pdf" target="_blank" rel="nofollow">http://www.shizuoka.ac.jp/kyouyou/License_renewal_25/text/0821_kunimune_text.pdf</a><br><br>ｐ166<br><br>ア 小数の乗法，除法の意味<br>小数の乗法の意味<br>整数の乗法については，「一つ分の大きさが決まっているときに，その幾つ分かを求める」，「何倍かに当たる大きさを求めたりする」などの場合に用いる。<br>第５学年では，乗法を乗数が小数の場合にも用いることができるようにしたり，除<br>法との関係も考えて，より広い場面や意味に用いることができるようにしたりして一<br>般化していく。その際，数量関係を表している文脈が同じときには，整数の場合に成<br>り立つ式の形は，小数の場合にもそのまま使えるようにする。<br>例えば，１メートルの長さが 80 円の布を２メートル買ったときの代金は，80 ×２<br>という式で表せる。同じように，「１メートルの長さが 80 円の布を 2.5 メートル買っ<br>たときの代金が何円になるか」という場合，布の長さが 2.5 倍になっているので，代<br>金も 2.5 倍になるということから，80 × 2.5 という式で表せる。<div>&nbsp;</div><div><img src="%E3%83%86%E3%83%BC%E3%83%97%E5%9B%B3%E3%80%80%E6%AF%94%E4%BE%8B%E7%9B%B4%E7%B7%9A%E5%9B%B3%E3%80%80%E3%81%AA%E3%81%A9_files/BfM5ERMCQAARNtS.jpg" alt="埋め込み画像への固定リンク"></div><br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="5"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/5">5</a>]</li>
+<li class="title"><h2>逆思考の問題は本当に難しいのか？</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2014年 1月31日(金)10時03分58秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/6472/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+【探偵！ナイトスクープ】野生のニワトリを捕まえたい！<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DuUbEvI1FRS8" target="_blank" rel="nofollow">http://www.youtube.com/watch?v=uUbEvI1FRS8</a><br>
+<br>
+３羽いたけど、台風で逃げて今は１羽　　と保育園の子どもが言っている。<br>
+<br>
+「何羽逃げたの？」と質問したら恐らく「２羽逃げた」というのではないだろうか？<br>
+<br>
+<br>
+　増加だの合併だの求残だの求差だの、逆思考の問題だの、テープ図だの、<br>
+<br>
+そういう、算数教育理論の側の都合での分類や、「分かりやすくするための道具」というのが、子どもにとってはかえって、複雑で要らぬお節介になっているような気がしてならない。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="4"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/4">4</a>]</li>
+<li class="title"><h2>等分除だから□が左　and　比例直線図</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2014年 1月30日(木)00時46分34秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/6455/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<div><span>小学3年。 プリントは日本標準製の「15. □を使った式」（東京書籍教科書対応）</span></div><div><img src="%E3%83%86%E3%83%BC%E3%83%97%E5%9B%B3%E3%80%80%E6%AF%94%E4%BE%8B%E7%9B%B4%E7%B7%9A%E5%9B%B3%E3%80%80%E3%81%AA%E3%81%A9_files/BfI-NCbCEAAcqcS.jpg" alt="埋め込み画像への固定リンク"></div><br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="3"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/3">3</a>]</li>
+<li class="title"><h2>算数授業研究 VOL.87 問題文の通りに表しながら、修正していく　中田寿幸</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">鰹節猫吉</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2014年 1月28日(火)00時16分54秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/6440/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+東洋館出版 算数授業研究 2013(平成25)年 VOL.87 特集 「図」を使う子どもを育てる<br>p.30～31 問題文の通りに表しながら、修正していく<br><a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.toyokan.co.jp%2Fbook%2Fb110767.html" target="_blank" rel="nofollow">http://www.toyokan.co.jp/book/b110767.html</a><div>&nbsp;</div><div>&gt; 2.5平方メートルの花壇に4.2Lの水をまきます。1平方メートルには何Lまくことになるでしょうか。</div><div>&nbsp;</div><div>&gt; 数直線をかかせる目的は大きく２つあるととらえている。</div><div>&gt; ①演算決定のため</div><div>&gt; ②理解した関係を説明するため</div><div>&gt; 最終的には①の演算決定のための道具として数直線を使わせたい。</div><div>&nbsp;</div><div>　かなり無理がある。</div><div>　普通の人間は、見た瞬間に１０平米だと４×４．２＝１６．８だから１平米に１．６８リットルだと分かってしまう。４．２÷２．５を計算しようなどという馬鹿者はいないであろう。</div><div>&nbsp;</div><div>&gt; 数直線をかくときには、基本的には問題文の通りにかいていき、修正しながら最終的な形にしていく。本来は１を記入する直線を下に置きたいところだが、答えを出すためには下でも上でもよい。</div><div>&nbsp;</div><div>　本来は１が下なんだそうである。</div><div>　くだらん。</div><div>&nbsp;</div><br>
+<div class="Kiji_Img">
+<a href="https://8254.teacup.com/kakezannojunjo/img/bbs/0006440.jpg" target="_blank">
+<img src="%E3%83%86%E3%83%BC%E3%83%97%E5%9B%B3%E3%80%80%E6%AF%94%E4%BE%8B%E7%9B%B4%E7%B7%9A%E5%9B%B3%E3%80%80%E3%81%AA%E3%81%A9_files/0006440M.jpg" id="IMGID6440" style="cursor:pointer" class="clickable" vspace="5" height="590" border="0" width="400">
+</a>
+</div>
+
+
+
+<div class="Kiji_Img">
+<a href="https://8254.teacup.com/kakezannojunjo/img/bbs/0006440_2.jpg" target="_blank">
+<img src="%E3%83%86%E3%83%BC%E3%83%97%E5%9B%B3%E3%80%80%E6%AF%94%E4%BE%8B%E7%9B%B4%E7%B7%9A%E5%9B%B3%E3%80%80%E3%81%AA%E3%81%A9_files/0006440_2M.jpg" id="IMGID6440_2" style="cursor:pointer" class="clickable" vspace="5" height="627" border="0" width="400">
+</a>
+</div>
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="2"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/2">2</a>]</li>
+<li class="title"><h2>Re: 算数授業研究 VOL.87 線分図（テープ図）の指導　盛山隆雄</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">鰹節猫吉</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2014年 1月28日(火)00時02分27秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/6439/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/1">&gt;&gt;1</a><br>&gt; そんなことより、なんでもいいからなにかやってみて、だめだったら他の方法でやってみるということを指導してほしいです。<div>&nbsp;</div><div>　
+たとえば、「きのう１２個集めて、今日何個か集めて、合わせて２７個になった。今日は何個集めた？」という問題にひっかかって３９個と答えたとする。こう
+いうときに、１２個と３９個は合わせて何個ですか？２７個になりますか？というふうに検算することを指導するほうがよほど重要だと思うわけです。</div><div>&nbsp;</div><div>　
+算数は自分で正しいかどうか確かめることができるわけで、「正しい解法」を覚えてあてはめるのではないということを強調していただきたい。間違っていたこ
+とが分かったら別の方法でやればいいだけではないですか。そのような方法の１つとしてテープ図がある、という考え方で指導する。盛山氏のような指導的立場
+の人は、現場の教師に、このようなことを教えるようにしていただきたい。</div><div>&nbsp;</div><br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<a name="bottom"></a><dl>
+<dt>
+<ul>
+<li><a name="1"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/1">1</a>]</li>
+<li class="title"><h2>算数授業研究 VOL.87 線分図（テープ図）の指導　盛山隆雄</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">鰹節猫吉</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2014年 1月27日(月)23時51分11秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/53/comm_id/6438/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+東洋館出版 算数授業研究 2013(平成25)年 VOL.87 特集 「図」を使う子どもを育てる<br>p.18～19 線分図（テープ図）の指導　盛山隆雄<div><a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.toyokan.co.jp%2Fbook%2Fb110767.html" target="_blank" rel="nofollow">http://www.toyokan.co.jp/book/b110767.html</a></div><div>&nbsp;</div><div>&gt; このように状況は加法（減法）で、答えを求めるための演算が減法（加法）になる問題は、逆思考の問題と呼ばれている。</div><div>&gt; 演算決定を、「ぜんぶで」「あわせて」「のこりは」「へったので」「ちがいは」といった言葉を手がかりに判断している子どもは、立式で迷うことになる。そこで、正しい数量関係の把握のために、図をかいて考えさせる指導が大切になる。</div><div>&nbsp;</div><div>ということなんだそうですが、</div><div>&nbsp;</div><div>&gt;
+ 
+ところが、問題を読んで立式はできるが、図がかけない、という子どもを見ることがある。立式のために、または答えを導くために図を使おうとしているのに、
+かえって図が重荷になるのでは意味がない。問題の数量関係を把握してからかける図ではなく、素直に問題場面を図に表したら、数量関係が見えてきた、という
+順序になるように図をかく指導をすることが大切である。</div><div>&nbsp;</div><div>&nbsp;</div><div>　そんなことより、なんでもいいからなにかやってみて、だめだったら他の方法でやってみるということを指導してほしいです。</div><div>&nbsp;</div><br>
+<div class="Kiji_Img">
+<a href="https://8254.teacup.com/kakezannojunjo/img/bbs/0006438.jpg" target="_blank">
+<img src="%E3%83%86%E3%83%BC%E3%83%97%E5%9B%B3%E3%80%80%E6%AF%94%E4%BE%8B%E7%9B%B4%E7%B7%9A%E5%9B%B3%E3%80%80%E3%81%AA%E3%81%A9_files/0006438M.jpg" id="IMGID6438" style="cursor:pointer" class="clickable" vspace="5" height="597" border="0" width="400">
+</a>
+</div>
+
+
+
+<div class="Kiji_Img">
+<a href="https://8254.teacup.com/kakezannojunjo/img/bbs/0006438_2.jpg" target="_blank">
+<img src="%E3%83%86%E3%83%BC%E3%83%97%E5%9B%B3%E3%80%80%E6%AF%94%E4%BE%8B%E7%9B%B4%E7%B7%9A%E5%9B%B3%E3%80%80%E3%81%AA%E3%81%A9_files/0006438_2M.jpg" id="IMGID6438_2" style="cursor:pointer" class="clickable" vspace="5" height="577" border="0" width="400">
+</a>
+</div>
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+</div>
+<!--contents 終了--->
+
+<hr>
+<!--navi ページナビゲーション開始-->
+<div class="navi">
+<ul>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs">掲示板に戻る</a></li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/62n-">新着レス</a></li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/l50">最新50件</a></li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/-100">1-100件</a></li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/search?thread_id=53">検索</a></li>
+
+<li><a href="#top">▲ページ上へ</a></li>
+</ul>
+</div>
+<!--navi ページナビゲーション終了-->
+<hr>
+
+
+
+  <center><div style="margin: 10px 0px 10px 0px;">
+  <table border="0px;">
+  <tbody><tr>
+  <td style="padding: 5px;" valign="top">
+<!--      fluct グループ名「レンタル掲示板：300x250（フッター左_AdSense以外用SSL）」      -->
+
+<!--      fluct ユニット名「レンタル掲示板：300x250（フッター左_AdSense以外用SSL）」     -->
+<script type="text/javascript">
+//<![CDATA[
+if(typeof(adingoFluct)!="undefined") adingoFluct.showAd('1000138850');
+//]]>
+</script>
+
+  </td>
+  <td style="padding: 5px; vertical-align: top;">
+<div style="width: 300px; height: 250px;"><a href="https://www.teacup.com/fbbs" target="_blank"><img src="%E3%83%86%E3%83%BC%E3%83%97%E5%9B%B3%E3%80%80%E6%AF%94%E4%BE%8B%E7%9B%B4%E7%B7%9A%E5%9B%B3%E3%80%80%E3%81%AA%E3%81%A9_files/regist_rbbs_b.jpg" alt="レンタル掲示板" height="250" border="0" width="300"></a></div>
+
+  </td>
+  </tr>
+  </tbody></table>
+</div>
+</center><div class="spacer"></div>
+
+<!--管理スレッド関連開始-->
+<div id="mythema">
+<div class="mycontents">
+<!--掲示板　スレッド一覧開始-->
+<div id="thread_list">
+<h4>スレッド一覧</h4>
+<ol>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t47/l50" title="22/03/03(木)22:17">某氏ウォッチング</a>(452)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t21/l50" title="22/01/13(木)17:45">コメント欄１０代目</a>(3140)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/l50" title="22/01/07(金)17:23">心理学</a>(143)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/l50" title="22/01/07(金)17:15">テープ図　比例直線図　など</a>(62)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t50/l50" title="21/12/16(木)17:59">指導要領の研究</a>(151)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/l50" title="21/11/17(水)21:53">正方形は長方形なのか？　正三角形は二等辺三角形なのか？</a>(144)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t27/l50" title="21/09/30(木)03:39">桜井進氏 &amp; 根上生也氏 がひどすぎる件</a>(23)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t78/l50" title="21/09/01(水)16:54">海外の事例</a>(17)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t94/l50" title="21/06/01(火)20:18">動画授業</a>(2)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t61/l50" title="21/05/20(木)21:36">大学附属小学校（筑波を除く）関係</a>(41)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t70/l50" title="21/03/22(月)13:35">中学数学・高校数学に関して</a>(74)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t84/l50" title="21/02/22(月)17:41">「言語活動の充実」、「言語能力の向上」</a>(23)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t40/l50" title="21/02/01(月)06:59">国語教育について</a>(65)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t28/l50" title="21/01/03(日)12:31">理科の時間</a>(234)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t71/l50" title="20/12/19(土)20:13">０は偶数でも奇数でもない？</a>(83)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t32/l50" title="20/12/16(水)14:12">計算の工夫</a>(22)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t83/l50" title="20/07/07(火)16:37">算数・数学の学び方・教え方について、あれこれ</a>(62)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t86/l50" title="20/07/05(日)22:48">数学教育協議会（数教協）・水道方式など</a>(43)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t43/l50" title="20/07/01(水)06:54">微分の読み方　ｄｙ／ｄｘを「ディーワイディーエックス」と読むことについて</a>(91)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t79/l50" title="20/06/30(火)20:38">算数教育界では「2.5個」はアウト？</a>(18)</li>
+</ol>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/index/all">スレッド一覧(全93)</a>&nbsp;
+<img src="%E3%83%86%E3%83%BC%E3%83%97%E5%9B%B3%E3%80%80%E6%AF%94%E4%BE%8B%E7%9B%B4%E7%B7%9A%E5%9B%B3%E3%80%80%E3%81%AA%E3%81%A9_files/icon_search15x15.gif" height="15" width="15"><a href="https://www.teacup.com/list/" target="_blank" rel="nofollow">他のスレッドを探す</a>&nbsp;
+<img src="%E3%83%86%E3%83%BC%E3%83%97%E5%9B%B3%E3%80%80%E6%AF%94%E4%BE%8B%E7%9B%B4%E7%B7%9A%E5%9B%B3%E3%80%80%E3%81%AA%E3%81%A9_files/DE6AE.gif" height="15" width="15"><a href="https://8254.teacup.com/kakezannojunjo/bbsadm/userthread/" target="_top">スレッド作成</a>
+
+<img src="%E3%83%86%E3%83%BC%E3%83%97%E5%9B%B3%E3%80%80%E6%AF%94%E4%BE%8B%E7%9B%B4%E7%B7%9A%E5%9B%B3%E3%80%80%E3%81%AA%E3%81%A9_files/icon_memo15x15.gif"><a href="https://8254.teacup.com/kakezannojunjo/bbs">掲示板に戻る</a>
+<br>
+<br>
+*掲示板をお持ちでない方へ、まずは掲示板を作成しましょう。<img src="%E3%83%86%E3%83%BC%E3%83%97%E5%9B%B3%E3%80%80%E6%AF%94%E4%BE%8B%E7%9B%B4%E7%B7%9A%E5%9B%B3%E3%80%80%E3%81%AA%E3%81%A9_files/icon_memo15x15.gif"><a href="https://my.teacup.com/regist/bbs" target="_blank">無料掲示板作成</a></div>
+<!--掲示板　スレッド一覧終了-->
+<hr>
+
+</div>
+</div>
+<!--管理スレッド関連終了-->
+
+</div>
+
+
+<!--footer 開始--->
+<div id="footer">
+
+    
+    <script language="JavaScript" src="%E3%83%86%E3%83%BC%E3%83%97%E5%9B%B3%E3%80%80%E6%AF%94%E4%BE%8B%E7%9B%B4%E7%B7%9A%E5%9B%B3%E3%80%80%E3%81%AA%E3%81%A9_files/pop.js" type="text/javascript"></script><div id="span0" class="popstyle">現在この掲示板は、記事からはメールを送れない設定になっています。メールアドレスを入力して投稿した場合、管理人は管理画面の投稿の管理の投稿者名からメールが送れます。 </div><div id="span1" class="popstyle">検索した動画を記事に埋め込むことができます。<br>※掲示板設定で、[画像の貼付][動画の貼付]を共に許可している必要があります</div><div id="span2" class="popstyle"></div><div id="span3" class="popstyle"></div><div id="span4" class="popstyle"></div><div id="span5" class="popstyle"></div><div id="span6" class="popstyle"></div><div id="span7" class="popstyle"></div><div id="span8" class="popstyle"></div><div id="span9" class="popstyle"></div><div id="span10" class="popstyle"></div><div id="span11" class="popstyle"></div><div id="span12" class="popstyle"></div><div id="span13" class="popstyle"></div><div id="span14" class="popstyle"></div><div id="span15" class="popstyle"></div><div id="span16" class="popstyle"></div><div id="span17" class="popstyle"></div><div id="span18" class="popstyle"></div><div id="span19" class="popstyle"></div><div id="span20" class="popstyle"></div>
+
+    <!--home オプションメニュー開始-->
+    <div class="home">
+    <ul>
+    <li><img src="%E3%83%86%E3%83%BC%E3%83%97%E5%9B%B3%E3%80%80%E6%AF%94%E4%BE%8B%E7%9B%B4%E7%B7%9A%E5%9B%B3%E3%80%80%E3%81%AA%E3%81%A9_files/icon_home15x15.gif" alt="ホーム" height="15" width="15">
+        <a href="http://www.teacup.com/" target="_blank">ホームページへ</a>
+        </li>
+    <li><img src="%E3%83%86%E3%83%BC%E3%83%97%E5%9B%B3%E3%80%80%E6%AF%94%E4%BE%8B%E7%9B%B4%E7%B7%9A%E5%9B%B3%E3%80%80%E3%81%AA%E3%81%A9_files/icon_mail15x15.gif" alt="メール" height="15" width="15"><a href="https://8254.teacup.com/kakezannojunjo/bbs/mailform">管理者にメール</a></li>
+    </ul>
+    </div>
+    <!--home オプションメニュー終了-->
+    
+    
+    <!--login ログイン開始-->
+    <div id="login">
+    <table cellspacing="0" cellpadding="2" border="0">
+    <tbody><tr>
+    <td>
+        <form method="post" action="/kakezannojunjo/bbsadm/login" target="_top">
+        <input value="管理メニュー" name="submit" type="submit">
+        </form>
+    </td>
+            <td>
+        <form method="post" action="/kakezannojunjo/bbs/mypost/index/thread_id/53">
+        <input name="submit" value="自分の投稿の編集・削除" type="submit">
+        </form>
+    </td>
+            </tr>
+    </tbody></table>
+    
+    </div>
+
+    <div align="right">
+    <!--login ログイン開始-->
+        <!--閲覧パスログイン中開始 -->
+            <!--閲覧パスログイン中終了 -->
+  
+  <h4><a href="https://www.teacup.com/fbbs/" target="_blank">
+teacup.レンタル掲示板</a></h4>
+<!--新google新-analytics開始-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-37971288-6', 'auto');
+  ga('send', 'pageview');
+
+  ga('create', 'UA-37971288-3', 'auto', {'name': 'oldTracker'});
+  ga('oldTracker.set', 'dimension2', '3002');
+  ga('oldTracker.set', 'dimension3', 'L0');
+    ga('oldTracker.set', 'dimension4', 'flag');
+      ga('oldTracker.set', 'dimension5', 'none');
+    ga('oldTracker.send', 'pageview');
+</script>
+<!--新google新-analytics終了-->
+
+
+    </div>
+
+</div>
+<!--footer 終了--->
+
+
+<!--wrapper 終了--->
+
+
+
+
+</body></html>
