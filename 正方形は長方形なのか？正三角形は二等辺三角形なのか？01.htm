@@ -1,0 +1,6510 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head><!-- 3185 -->
+<meta name="robots" content="nofollow">
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://8254.teacup.com/kakezannojunjo/bbs/t44/rss15.xml">
+<title>正方形は長方形なのか？　正三角形は二等辺三角形なのか？
+</title>
+<style type="text/css">
+<!--
+
+/*******************************************
+管理画面設定
+*******************************************/
+body{
+ background-color:#d0ffff; /*背景の色*/ background-image:none; /*背景のイメージ*/
+  color:#000000; /*本文色*/}
+
+a:link,
+div#entry table th i{
+}
+a:visited{
+}
+a:active{
+}
+
+div#header h1 a{
+text-decoration: none;
+ color:#000000; /*掲示板タイトル色*/}
+
+div#contents .kiji ul li.title{
+}
+
+div#contents .kiji ul li .name{
+}
+
+div#contents .admin,
+div#contents .admin_name,
+div#contents .admin_text{
+}
+
+
+/*******************************************
+共通設定
+*******************************************/
+
+/*全体*/
+body{
+ font-family: "Mona","IPA MONAPGOTHIC","MS PGothic","ＭＳ Ｐゴシック","MS Pｺﾞｼｯｸ","MS Pゴシック",sans-serif;
+}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote{
+ margin:0;
+ padding:0;
+}
+
+input {
+    margin: 5px 0px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+/*全体*/
+body{
+ font-size:medium;
+}
+
+/*floatクリア*/
+.clear{
+ clear:both;
+}
+
+/*ボタン*/
+.form_sbmit{
+ padding:3px 10px;
+ line-height:1em;
+}
+
+.spacer {
+ font-size: 1pt;
+ height: 6px;
+}
+
+/*******************************************
+レイアウト設定
+*******************************************/
+
+/*大外枠*/
+div#wrapper{
+ min-width:800px;
+}
+
+/*ヘッダー*/
+div#header{
+ text-align:center;
+ margin:10px auto 20px auto;
+}
+
+/*コンテンツ*/
+div#contents{
+ text-align:left;
+}
+
+/*フッター*/
+div#footer{
+ text-align:left;
+ margin:10px 0px;
+}
+
+
+/*投稿フォーム*/
+div#entry{
+ padding:10px 5px;
+}
+
+/*テーマ関連*/
+div#mythema{
+ background:#FCFCFC;
+ padding:5px;
+ border:1px solid #CCCCCC;
+ margin:5px 0px 50px 125px;
+ width:650px;
+ font-size:12px;
+}
+
+
+/*******************************************
+ヘッダー設定
+*******************************************/
+
+/*掲示板タイトル*/
+div#header h1{
+ font-size:x-large;
+}
+
+
+div#head_info{
+ padding-left:15px;
+}
+
+div#head_info ul{
+ list-style-position: outside;
+ padding:5px 5px 5px 10px;
+ margin-left:10px;
+}
+
+/*******************************************
+投稿記事設定　開始
+*******************************************/
+
+/*全体*/
+div#contents .kiji{
+ margin:0px;
+ float:left;
+ width:95%;
+ height:auto;
+ padding-right:10px;
+ padding-bottom:10px;
+}
+
+/*レイアウト*/
+div#contents .kiji dd{
+ float:left;
+}
+
+/*本文*/
+div#contents div.kiji dd.text,
+div#contents from div.kiji dd.text{
+ text-align:left;
+ width:auto;
+ height:auto;
+ padding:5px 0px 0px 0px;
+ max-width:800px;
+ min-width:300px;
+}
+
+/*プロフ画像*/
+div#contents .kiji dd.img{
+ width:70px;
+ height:auto;
+ margin:0px auto;
+ text-align:center;
+}
+
+/*投稿画像*/
+div#contents .kiji dd.text img{
+ margin:5px 0px;
+}
+
+
+/*URL　アイコン*/
+/*div#contents .kiji dd.text .link_url{
+ padding:2px 15px 2px 0px;
+ background:url(icon_linkb15x15.gif) right top no-repeat;
+}*/
+
+/*投稿情報　全体*/
+div#contents .kiji ul{
+ text-align:left;
+ margin:0px;
+}
+
+/*投稿情報　詳細*/
+div#contents .kiji ul li{
+ display:inline;
+ list-style-type:none;
+}
+
+/*投稿情報　タイトル*/
+div#contents .kiji ul li.title h2{
+ font-size:117%;
+ font-weight:bold;
+ display:inline;
+}
+
+
+/*管理者返信　全体*/
+div#contents .admin{
+ padding:5px;
+ margin:20px 0px;
+ width:100%;
+}
+
+/*管理者返信　返信者名*/
+div#contents .admin_name{
+ font-weight:bold;
+}
+
+/*管理者返信　返信内容*/
+div#contents .admin_text{
+ margin:0px;
+ padding:5px 0px;
+}
+
+
+/*******************************************
+ナビゲーション設定
+*******************************************/
+
+/*全体*/
+div.navi,
+div.navi ul{
+ margin:0px auto;
+ padding:0px;
+ text-align:center;
+ min-width:700px;
+}
+
+/*リスト*/
+div.navi ul li{
+ display:inline;
+ padding:0px 5px;
+ list-style-type:none;
+}
+
+/*リンク　全体*/
+div.navi ul li a{
+ font-weight:bold;
+ padding:3px;
+ border:1px solid #d0ffff;
+}
+
+
+/*リンク　hover*/
+div.navi ul li a:hover,
+div.navi ul li a.on{
+ background:#FF9999;
+ color:#333333;
+ font-weight:bold;
+ padding:3px;
+ border:1px solid #666666;
+}
+
+
+/*******************************************
+投稿フォーム設定
+*******************************************/
+
+/*テーブル全体*/
+div#entry table,
+div#entry table tr{
+ margin:0px; 
+ padding:0px;
+}
+
+/*テーブル　見出し*/
+div#entry table th{
+ padding:3px;
+ white-space: nowrap;
+ font-weight:normal;
+ text-align:right;
+ width:110px;
+}
+
+/*テーブル　見出し必須項目*/
+div#entry table th i{
+ font-style:normal;
+}
+
+/*テーブル　項目*/
+div#entry table td{
+ text-align:left;
+ padding:3px;
+ white-space: nowrap;
+}
+
+/*テーブル　入力：テキスト*/
+div#entry .form_input_m{
+ width:300px;
+}
+
+/*テーブル　入力：テキストエリア*/
+div#entry .form_textarea{
+ width:500px;
+}
+
+div#entry .form_submit{
+ padding:2px 5px;
+
+}
+
+div#entry .notice {
+font-size: x-small;
+vertical-align: bottom;
+}
+div#entry #file_additional td {
+    width: 900px;
+}
+div#entry #file_additional div {
+    float: left;
+}
+div#entry .ad_file_additional {
+    margin: 0px 0px 0px 10px;
+}
+
+#cke_CO {
+margin:10px 0 10px 0;
+}
+
+/*******************************************
+ログイン設定開始
+*******************************************/
+
+/*ログイン　全体*/
+div#footer #login{
+ text-align:left;
+}
+
+
+/*******************************************
+テーマ関連設定
+*******************************************/
+
+/*全体*/
+div#mythema .mycontents{
+ text-align:left;
+ padding:5px 0px;
+ color:#333333;
+}
+
+/*見出し*/
+div#mythema .mycontents h4{
+ margin:0px;
+ padding:3px;
+ border-left:5px solid #FF0000;
+ font-size:14px;
+ color:#FF0000;
+}
+
+/*内容　検索フォーム*/
+div#mythema .mycontents ol{
+ padding:10px 10px 10px 10px;
+}
+
+/*リスト*/
+div#mythema .mycontents ol li{
+ display:inline;
+ text-align:justify;
+ word-break: keep-all;
+ line-height: 1.5em;
+ margin: 0px 4px 0px 0px;
+}
+
+/*リンク　全体*/
+div#mythema .mycontents ol li a,
+div#mythema .mycontents a{
+ color:#0000FF;
+ line-height: 1.5em;
+}
+
+/*リンク　hover*/
+div#mythema .mycontents ol li a:hover,
+div#mythema .mycontents a:hover{
+ color:#FF0000;
+ line-height: 1.5em;
+}
+
+div#mythema hr{
+ border-width:1px 0px 0px 0px;
+ border-style:dashed;
+ border-color: #CCCCCC;
+ height:1px;
+}
+
+div#mythema span{
+ font-weight:bold;
+ line-height:130%;
+}
+
+/*******************************************
+オプションメニュー　開始
+*******************************************/
+
+/*全体*/
+div.bookmark,
+div.home{
+ margin:10px 0px;
+ font-size:small;
+}
+
+/*上部メニュー　全体*/
+div.bookmark,
+div.bookmark ul{
+ text-align:right;
+ list-style-type:none;
+}
+
+/*下部メニュー　全体*/
+div.home,
+div.home ul{
+ text-align:left;
+ list-style-type:none;
+}
+
+/*リスト*/
+div.bookmark ul li,
+div.home ul li{
+ display:inline;
+}
+
+/*リンク　全体*/
+div.bookmark ul li a,
+div.home ul li a,
+div.bookmark ul li a:visited,
+div.home ul li a:visited{
+ background:#FED8E1;
+ font-weight:bold;
+ padding:2px;
+ color:#3300FF;
+}
+
+/*リンク　hover*/
+div.bookmark ul li a:hover,
+div.home ul li a:hover{
+ background:#FF9999;
+ color:#333333;
+ font-weight:bold;
+ padding:2px;
+}
+
+/*アイコン*/
+div.bookmark img,
+div.home img{
+ vertical-align: middle;
+}
+
+
+/*******************************************
+広告設定
+*******************************************/
+
+/*テキスト広告　全体*/
+div.pr_list{
+ text-align:center;
+ margin:5px auto;
+ font-size:small;
+}
+
+div.pr_list ul{
+ padding:5px 5px 1em 5px;
+}
+
+/*テキスト広告　リスト*/
+div.pr_list ul li{
+ display:inline;
+ list-style-type:none;
+ text-align:center;
+ margin:5px auto;
+ padding:0px 5px;
+}
+
+/*バナー広告　全体*/
+div.pr_banner{
+ text-align:center;
+ margin:5px auto;
+}
+
+/*記事中バナー広告　全体*/
+div.pr_banner_comment{
+ text-align:left;
+ margin:40px auto 0px auto;
+}
+
+/*最フッターテキスト広告　全体*/
+div#teacupfooterPR{
+ margin: 0px auto;
+ padding: 0px;
+ text-align: center;
+ background: #EEEBD9;
+ border-top: 1px solid #BFBDB0;
+ width: 100%;
+}
+
+/*最フッターテキスト広告　テキスト*/
+div#teacupfooterPRtext{
+ margin: 0px;
+ text-align: center;
+ padding: 5px;
+ font-size: 12px;
+ color: #000000;
+}
+
+/*最フッターテキスト広告　リンク*/
+div#teacupfooterPRtext a,
+div#teacupfooterPRtext a:link,
+div#teacupfooterPRtext a:hover,
+div#teacupfooterPRtext a:visited,
+div#teacupfooterPRtext a:active{
+ text-decoration: underline;
+ color: #0000FF;
+}
+
+/*******************************************
+ポップアップヘルプ
+*******************************************/
+.popstyle {
+	position:absolute;
+	visibility:hidden;
+	color:#000000; 
+	font-size:10pt;
+	border:1px gray solid;
+	padding:5px;
+	background-color:#fff8e1;
+	z-index:100;
+	width: 300px;
+}
+
+//-->
+
+</style>
+<script type="text/javascript">
+<!--
+function init() {
+    var frm = document.forms[0];
+    if (frm.PROFLINK) {
+        toggle(frm.PROFLINK, 'MA');
+    }
+}
+
+function toggle(fromObj, name) {
+    var obj = eval("document.forms[0]." + name);
+    if (obj != undefined) {
+        if (fromObj.checked) {
+            obj.disabled = true;
+            clearCookie("bbsprof");
+        } else {
+            obj.disabled = false;
+            setCookie("bbsprof", "1");
+        }
+    }
+}
+function setCookie(key, val, tmp) {
+    exDay = new Date();
+    exDay.setHours(exDay.getHours()+1);
+    tmp = key + "=" + escape(val) + "; ";
+    tmp += "expires=" + exDay.toGMTString() + ";domain=8254.teacup.com;path=/kakezannojunjo/";
+    document.cookie = tmp;
+}
+function clearCookie(key) {
+    exDay = new Date();
+    exDay.setHours(exDay.getHours()-1);
+    document.cookie = key + "=" + "delete;expires=" + exDay.toGMTString() + ";domain=8254.teacup.com;path=/kakezannojunjo/";
+}
+
+function checkExpand(ch) {
+    var obj=document.all && document.all(ch) || document.getElementById && document.getElementById(ch);
+    if(obj && obj.style) obj.style.display=
+        "none" == obj.style.display ? "" : "none"
+}
+
+function addFavorite() {
+    var supported = false;
+    if (window.sidebar && window.sidebar.addPanel) {
+        window.sidebar.addPanel(document.title, location.href, "");
+        supported = true;
+    }
+    else if (window.external) {
+        try {
+            window.external.AddFavorite(location.href, document.title);
+            supported = true;
+        }
+        catch (e) {}
+    }
+    if (!supported)
+        alert("お使いのブラウザではサポートされていません");
+}
+
+function postFormChange() {
+    var frm = document.frmPost;
+    frm.M.value = 'CHANGE_INPUT_HELPER';
+    frm.BODA.value = frm.BODA.value == 1 ? 0 : 1;
+    frm.action = '/kakezannojunjo/bbs/threadpost/index/thread_id/44';
+    frm.submit();
+}
+// -->
+</script>
+  
+  
+  
+
+  
+
+</head>
+<body onload="init()">
+<a name="top"></a>
+
+<!--wrapper 開始--->
+<div id="wrapper">
+  <!--header 開始--->
+  <div id="header">
+
+<!--bookmark オプションメニュー開始-->
+<div class="bookmark">
+<ul>
+<li><img src="%E6%AD%A3%E6%96%B9%E5%BD%A2%E3%81%AF%E9%95%B7%E6%96%B9%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F%E3%80%80%E6%AD%A3%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AF%E4%BA%8C%E7%AD%89%E8%BE%BA%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F_files/icon_file15x15.gif" alt="ファイル" height="15" width="15"><a href="javascript:addFavorite()">ブックマーク</a></li>
+<li><img src="%E6%AD%A3%E6%96%B9%E5%BD%A2%E3%81%AF%E9%95%B7%E6%96%B9%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F%E3%80%80%E6%AD%A3%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AF%E4%BA%8C%E7%AD%89%E8%BE%BA%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F_files/icon_rss15x15.gif" alt="RSS" height="15" width="15"><a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/rss15.xml">RSS1.0</a></li></ul>
+</div>
+<!--bookmark オプションメニュー終了-->
+
+
+<!--タイトル-->
+<h1><a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/l50">正方形は長方形なのか？　正三角形は二等辺三角形なのか？</a></h1>
+
+
+<div align="left"></div>
+
+<!--タイトル下広告 開始-->
+<div class="pr_list">
+  
+<!-- BEGIN CRITEO CDB -->
+
+<div id="criteo_slot_1371408"></div>
+<script>
+    !function(){
+        /* CONFIG CRITEO ZONE ID, SLOT DIV ID, PASSBACK */
+        var criteoZoneId = 1371408;
+        var criteoSlotId = "criteo_slot_1371408";
+        var passback = function () {
+            var width = "728", height = "90";
+            var div = document.getElementById(criteoSlotId);
+            if (div) { var ifr = document.createElement('iframe'); ifr.setAttribute("id", criteoSlotId+"_iframe"), ifr.setAttribute("frameborder","0"), ifr.setAttribute("allowtransparency","true"), ifr.setAttribute("hspace","0"), ifr.setAttribute("marginwidth","0"), ifr.setAttribute("marginheight","0"), ifr.setAttribute("scrolling","no"), ifr.setAttribute("vspace","0"), ifr.setAttribute("width", width), ifr.setAttribute("height", height);
+            div.appendChild(ifr);
+            var htmlcode = "<html><head></head><body>\n"+
+                "<center><table cellspacing=\"2px\" style=\"background: rgb(255,255,255);font-size:large\"><tr><td>\n"+
+                "あなたも高機能な無料レンタル掲示板を作りませんか？<BR>\n"+
+                "<A href='//www.teacup.com/fbbs' target='_blank'>作成は、こちらから→</A>\n"+
+                "</td></tr></table></center>\n"+
+                "</body></html>";
+            var ifrd = ifr.contentWindow.document; ifrd.open(); ifrd.write(htmlcode); ifrd.close(); }
+        }
+ 
+        var CriteoAdUnits = { "placements": [{ "slotid": criteoSlotId, "zoneid": criteoZoneId }]};
+        window.Criteo = window.Criteo || {}; window.Criteo.events = window.Criteo.events || [];
+        var processCdbBid = function() {
+            var bids = Criteo.GetBidsForAdUnit(criteoSlotId);
+            if (bids.length > 0) {
+                var bidFound = bids[0]; Criteo.RenderAd({ bidId: bidFound.id, containerId: bidFound.impressionId });
+            } else { passback(); }
+        };
+        Criteo.events.push(function() { Criteo.RequestBids(CriteoAdUnits, processCdbBid, 2000);});
+    }();
+</script>
+<!-- END CRITEO CDB -->
+
+
+
+</div>
+
+<!--タイトル下広告 終了-->
+
+
+</div>
+<!--header 終了--->
+
+  <div style="text-align:left;border:4px double red; padding: 1em;margin: 1em;line-height:1.75;">
+<div style="text-align:center;" width="80%">
+<a href="https://www.teacup.com/information/view?id=243" target="_blank">【重要】teacup. byGMOのサービス終了について</a><br>
+</div>
+</div>
+
+
+
+
+
+<hr>
+
+<!--navi ページナビゲーション開始-->
+<div class="navi">
+<ul>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs">掲示板に戻る</a></li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/101n-">新着レス</a></li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/l50">最新50件</a></li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/-100">1-100件</a></li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/search?thread_id=44">検索</a></li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/102-144">≪前の100件</a></li>
+
+<li><a href="#bottom">▼ページ下へ</a></li>
+</ul>
+</div>
+<!--navi ページナビゲーション終了-->
+
+<!--contents 開始--->
+<div id="contents">
+
+
+<hr>
+<!--kiji0 記事0開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li>[0]</li>
+<li class="title"><h2>正方形は長方形なのか？　正三角形は二等辺三角形なのか？</h2></li>
+<li>投稿者：<span class="name">積分定数</span></li>
+</ul>
+</dt>
+
+<dd class="img">&nbsp;</dd>
+
+<dd class="text">
+市販の算数問題集だと、正方形は長方形ではない、正三角形は二等辺三角形ではない、として扱っているケースが多い。<br><br>算数教科書だと、「次の図形のうち二等辺三角形をすべて選びなさい」という問題では、正三角形を選択肢からはずすことによって、「正三角形は二等辺三角形なのか？」という部分は避けている。<br><br>このあたりの事情を検証してみたい。
+<div class="spacer"></div>
+<div class="pr_list">
+
+  
+<!-- BEGIN CRITEO CDB -->
+<script async="async" type="text/javascript" src="%E6%AD%A3%E6%96%B9%E5%BD%A2%E3%81%AF%E9%95%B7%E6%96%B9%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F%E3%80%80%E6%AD%A3%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AF%E4%BA%8C%E7%AD%89%E8%BE%BA%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F_files/publishertag.js"></script>
+<div id="criteo_slot_1371406"></div>
+<script>
+    !function(){
+        /* CONFIG CRITEO ZONE ID, SLOT DIV ID, PASSBACK */
+        var criteoZoneId = 1371406;
+        var criteoSlotId = "criteo_slot_1371406";
+        var passback = function () {
+            var width = "336", height = "280";
+            var div = document.getElementById(criteoSlotId);
+            if (div) { var ifr = document.createElement('iframe'); ifr.setAttribute("id", criteoSlotId+"_iframe"), ifr.setAttribute("frameborder","0"), ifr.setAttribute("allowtransparency","true"), ifr.setAttribute("hspace","0"), ifr.setAttribute("marginwidth","0"), ifr.setAttribute("marginheight","0"), ifr.setAttribute("scrolling","no"), ifr.setAttribute("vspace","0"), ifr.setAttribute("width", width), ifr.setAttribute("height", height);
+            div.appendChild(ifr);
+            var htmlcode = "<html><head></head><body><div style=\"padding: 4px 8px;\">\n"+
+                "<div style=\"width: 300px; height: 250px;\"><a href=\"//www.teacup.com/fbbs\" target=\"_blank\"><img src=\"//adimg.teacup.com/teacup/img/ver09/regist_rbbs_b.jpg\" alt=\"レンタル掲示板\" border=\"0\" width=\"300\" height=\"250\"></a></div>\n"+
+                "</div>\n"+
+                "</body></html>";
+            var ifrd = ifr.contentWindow.document; ifrd.open(); ifrd.write(htmlcode); ifrd.close(); }
+        }
+ 
+        var CriteoAdUnits = { "placements": [{ "slotid": criteoSlotId, "zoneid": criteoZoneId }]};
+        window.Criteo = window.Criteo || {}; window.Criteo.events = window.Criteo.events || [];
+        var processCdbBid = function() {
+            var bids = Criteo.GetBidsForAdUnit(criteoSlotId);
+            if (bids.length > 0) {
+                var bidFound = bids[0]; Criteo.RenderAd({ bidId: bidFound.id, containerId: bidFound.impressionId });
+            } else { passback(); }
+        };
+        Criteo.events.push(function() { Criteo.RequestBids(CriteoAdUnits, processCdbBid, 2000);});
+    }();
+</script>
+<!-- END CRITEO CDB -->
+
+
+</div>
+</dd>
+</dl>
+</div>
+
+
+<div class="clear"></div>
+<!--kiji0 記事0終了-->
+
+
+<hr>
+
+<!--entry 投稿フォーム開始--->
+<div id="entry">
+<script type="text/javascript">
+<!--
+function $get (id) {
+  return document.getElementById(id);
+}
+function chkUpload(frm) {
+  if ($get('file1').value !== '' ||
+      $get('file2').value !== '' ||
+      $get('file3').value !== '') {
+    if (frm.action.indexOf('?',0)>0) {
+      frm.action = frm.action + '&fupload=1';
+    } else {
+      frm.action = frm.action + '?fupload=1';
+    }
+  }
+}
+// -->
+</script>
+<form name="frmPost" method="post" action="/kakezannojunjo/bbs/threadpost/exec/thread_id/44/?upload=1" enctype="multipart/form-data" onsubmit="javascript:chkUpload(this);">
+
+<input name="BODA" value="" type="hidden">
+<input name="tstamp" value="1650162442" type="hidden">
+<input name="CPTPS" value="IA89v6wZMS" type="hidden">
+<input name="M" value="" type="hidden">
+
+　＜思いやりのあるコミュニティ宣言＞<br>
+　teacup.掲示板は、皆様の権利を守りながら、思いやり、温かみのあるコミュニティづくりを応援します。<br>
+　いつもご協力いただきありがとうございます。<br>
+<br>
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tbody><tr>
+<th>投稿者</th>
+<td><input name="NA" size="20" maxlength="24" class="form_input_m" type="text">
+
+</td>
+</tr>
+<tr>
+<th>題名</th>
+<td><input name="SU" size="36" maxlength="60" class="form_input_m" type="text">
+
+
+<input value="確認" name="PPF" type="submit">
+
+</td>
+</tr>
+<tr>
+<th><i>*</i>内容</th>
+<td>
+<a id="postFormChange" href="javascript:postFormChange()"><img src="%E6%AD%A3%E6%96%B9%E5%BD%A2%E3%81%AF%E9%95%B7%E6%96%B9%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F%E3%80%80%E6%AD%A3%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AF%E4%BA%8C%E7%AD%89%E8%BE%BA%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F_files/button_html.gif" alt="入力補助" height="25" border="0" width="80"></a><span id="file_additional_button"><a href="javascript:void(0)" onclick="checkExpand('file_additional');checkExpand('file_additional_button')"><img src="%E6%AD%A3%E6%96%B9%E5%BD%A2%E3%81%AF%E9%95%B7%E6%96%B9%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F%E3%80%80%E6%AD%A3%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AF%E4%BA%8C%E7%AD%89%E8%BE%BA%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F_files/button_form_file.gif" alt="画像・ファイル" height="25" border="0" width="100"></a></span><span class="notice">&lt;IMG&gt;タグが利用可能です。<a href="https://orange.ap.teacup.com/rbbs_faq/36.html" target="_blank">(詳細)</a>
+</span>
+<br>
+<textarea name="CO" class="form_textarea" rows="5" cols="82" id="comment"></textarea>
+</td>
+</tr>
+<tr id="file_additional" style="display:none;">
+<th>ファイル</th>
+<td>
+<div>
+<input name="FI[]" size="45" class="form_input_m" id="file1" type="file">
+<br>
+<input name="FI[]" size="45" class="form_input_m" id="file2" type="file">
+<br>
+<input name="FI[]" size="45" class="form_input_m" id="file3" type="file">
+</div>
+<div class="ad_file_additional">
+
+<span class="notice">
+アップロード可能な形式(各4MB以内)：<br>
+画像(gif,png,jpg,bmp)
+音楽(mmf,mld)
+動画(amc,3gp,3g2)
+</span>
+</div>
+<div class="clear"><!-- --></div>
+</td>
+</tr>
+<tr>
+<th>URL</th>
+<td><input name="UR" size="62" value="http://" class="form_input_m" type="text"></td>
+</tr>
+
+
+<tr>
+<th>sage</th>
+<td><input name="SAGE" value="1" type="checkbox"></td>
+</tr>
+
+</tbody></table>
+</form>
+</div>
+<!--entry 終了--->
+
+
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="101"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/101">101</a>]</li>
+<li class="title"><h2>なんというか、・・・</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2018年 3月21日(水)06時59分34秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/10243/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+TaKuさんの集めてくれた情報を見ると、算数教育の専門家というのは<br>
+<br>
+客観的に事実としてＡ<br>
+Ａと教える<br>
+子どもはＡと認識する<br>
+<br>
+これらの区別が付いていないのではないのでは？と思ってしまう。<br>
+<br>
+<br>
+<br>
+これは、掛け算の順序でもそうだし、足し算の増加と合併の区別などでもそう感じる。<br>
+<br>
+数教協などの非主流派でも同様で、<br>
+<br>
+掛け算は累加ではない<br>
+累加として教えるべきではない<br>
+累加じゃないと教える<br>
+<br>
+これらの区別が付いていないように思える。遠山啓は「累加として教えるべきではない」「掛け算は累加のときもあるがそうじゃないときもある」という立場のようだが、伝言ゲームでごちゃごちゃになっている。<br>
+<br>
+<br>
+<br>
+これは何なんだろうか？<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="100"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/100">100</a>]</li>
+<li class="title"><h2>見てます</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">くろきげん</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2018年 3月18日(日)23時51分2秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/10241/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+こちらに最近書き込んでいないのですが見ています。<br>
+<br>
+小2の教科書での長方形と正方形の定義の仕方は、正方形も長方形である理由が子供(n=1)にとってはわかりやすいものでした。<br>
+<br>
+現実の子供とじっくり付き合わずに、勝手な決め付けで色々なことを決める伝統がひどすぎ。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="99"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/99">99</a>]</li>
+<li class="title"><h2>過去の取り扱い方の変化</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2018年 3月18日(日)21時15分4秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/10240/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+小中接続の視点から見た図形の包摂関係の取り扱い― 過去の取り扱い方の変化から示唆される論点―<br>
+小泉 健輔　2015年3月31日<br>
+高崎健康福祉大学紀要<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fgair.media.gunma-u.ac.jp%2Fdspace%2Fhandle%2F10087%2F9390" target="_blank" rel="nofollow">https://gair.media.gunma-u.ac.jp/dspace/handle/10087/9390</a><br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fgair.media.gunma-u.ac.jp%2Fdspace%2Fbitstream%2F10087%2F9390%2F1%2F73-82_%25E5%25B0%258F%25E6%25B3%2589%25E5%2581%25A5%25E8%25BC%2594.pdf" target="_blank" rel="nofollow">https://gair.media.gunma-u.ac.jp/dspace/bitstream/10087/9390/1/73-82_%E5%B0%8F%E6%B3%89%E5%81%A5%E8%BC%94.pdf</a><br>
+P73<br>
+＞<font color="#0000CD">基本図形1)の概念という観点からは、中学校での指導において図形間の関係が包摂関係としてまとめられ、これをもって一旦の整理がなされることとなる。</font><br>
+<br>
+基本図形について、注釈では以下のように扱っています。<br>
+＞<font color="#0000CD">1)本稿においては便宜上、平行四辺形、ひし形、長方形、正方形の 4つの図形を指すこととする。</font><br>
+<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/92">&gt;&gt;92</a> の中学校学習指導要領解説 数学編にある簡易ベン図は、基本図形という考えと関連があるかもしれませんね。<br>
+<br>
+<br>
+P76<br>
+＞<font color="#0000CD">当初児童の図形に対する捉え方としては、排他的に捉えていることが知られている。すなわち、むしろ図 2のような捉え方に近く、包摂関係についての意識はない。</font><br>
+<br>
+全員が【排他的に捉えている】【包摂関係についての意識はない】という訳では無いでしょう。<br>
+<br>
+＞<font color="#0000CD">ただ、後になって包摂的に解釈が可能なように、この段階から予め包摂関係を持つように（図 1のように）定義はしておく。そして、中学校になってから図形に対する捉え方を変えることによって、包摂関係として捉えていく、という流れである。</font><br>
+<br>
+著者の小泉健輔氏は、小学生に「排他的に捉えなければいけない」「包摂関係で考えてはいけない」という指導もある事をどう思っているのだろうか。<br>
+<br>
+<br>
+<font size="5"><strong>「生活単元学習期」<br>
+鍋島信太郎・戸田清（1957）．『算数教材研究講座第 3巻』．金子書房．　昭和32年</strong></font><br>
+P78<br>
+＞<font color="#0000CD">小学校では、正方形と長方形は一応異なる図形として扱うのが妥当であろう。</font><br>
+<br>
+<br>
+<font size="5"><strong>「系統学習期」<br>
+戸田清・和田義信 (1961）．『算数指導実例講座第 5巻図形の指導』．金子書房．　昭和36年</strong></font><br>
+P78<br>
+＞<font color="#0000CD">正方形が長方形の特殊なものであったり、立方体が直方体の特殊なものであることを理解することなしに、すじ道の通った思考や処理ができないことは明らかである。</font><br>
+<br>
+＞<font color="#0000CD">低学年の場合、長方形と正方形は区別され、弁別される。さらに学年が進み、図形をその要素や辺や角に着目
+して捉えるようになると、図形相互の関連はより明らかとなり、長方形の等角性が正方形のなかに保持されていることを知り、そこに正方形は長方形の特殊とし
+て位置づいてくる。<br>
+＞この論理関係の一般把握は小学校においてはなかなか困難であるが、指導いかんによって、意識させうるものと考える。一般的、原理的に取り扱うのではなく
+て、どこまでも図形を類別したり、作図したりする操作を通して、意識化され内面化されるように指導されなければなるまい。</font><br>
+<br>
+<br>
+<font size="5"><strong>「数学教育現代化期」<br>
+川口延 (1971）．『集合の考えの指導』．文部省編．大日本図書．　昭和46年</strong></font><br>
+P79<br>
+＞<font color="#0000CD">たとえば、正方形という概念が長方形という概念に包まれることなどを集合の考えに立って明らかにすることである。このように、一方を他方に論理的に統合して考えるような見方は、数学における考え方として重要なことである</font><br>
+<br>
+<br>
+<br>
+<br>
+P81<br>
+＞<font color="#0000CD">一方で、図形を相互に関係づけてみる見方を豊富に経験することが、図形の包摂関係の理解に直接寄与するか
+については疑問が残る。その知識獲得過程を、池田（2008）の述べる、累積的な知識獲得（これまで獲得した数学的知識を総動員して用いることで解決可能
+な問題場面を広げていく活動）と革命的な知識獲得（これまで獲得していた数学的知識が根底から覆され拡張されたり統合されたりしていく活動）といった数学
+的活動の 2つの側面から捉えると、これらの過程は前者の積み重ねによる指導が考えられていると捉えられる。</font><br>
+<br>
+参考文献は<br>
+池田敏和（2008）．「数学的活動を再考する：その性格と意図」．日本数学教育学会誌 90(9)．<br>
+のようです。<br>
+【革命的な知識獲得】とありますが、「算数と数学は別物」、「中等数学と高等数学は別物」とかを意識していそうですね。<br>
+やはり日本数学教育学会には要注意かも。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="98"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/98">98</a>]</li>
+<li class="title"><h2>ファン・ヒーレの幾何学的思考の水準</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2018年 3月18日(日)17時29分1秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/10239/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/97">&gt;&gt;97</a> で取り上げた文献の他にも、ファン・ヒーレの水準について記述されている文献があります。<br>
+<br>
+ファン・ヒーレ水準テスト（代数）とP-Pグラフ分析（1）<br>
+佐伯 卓也　	1985年10月01日<br>
+岩手大学教育学部研究年報<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fiwate-u.repo.nii.ac.jp%2F%3Faction%3Dpages_view_main%26active_action%3Drepository_view_main_item_detail%26item_id%3D11821%26item_no%3D1%26page_id%3D13%26block_id%3D21" target="_blank" rel="nofollow">https://iwate-u.repo.nii.ac.jp/?action=pages_view_main&amp;active_action=repository_view_main_item_detail&amp;item_id=11821&amp;item_no=1&amp;page_id=13&amp;block_id=21</a><br>
+<br>
+包摂関係の理解と空間図形の証明能力<br>
+宇佐美 直生　2008年<br>
+滋賀大学大学院教育学研究科論文集<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Flibdspace.biwako.shiga-u.ac.jp%2Fdspace%2Fhandle%2F10441%2F93" target="_blank" rel="nofollow">http://libdspace.biwako.shiga-u.ac.jp/dspace/handle/10441/93</a><br>
+<br>
+図形学習における数学的理解の「促進モデル」の研究 : カリキュラム構成原理としてのvan Hieleの学習水準理論の有用性の検討<br>
+向井 慶子　2009年<br>
+滋賀大学教育学部<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Flibdspace.biwako.shiga-u.ac.jp%2Fdspace%2Fhandle%2F10441%2F8180" target="_blank" rel="nofollow">http://libdspace.biwako.shiga-u.ac.jp/dspace/handle/10441/8180</a><br>
+＞資料 ① ：e Van Hiele の５つの思考水準の諸先行研究による記述（布川1 (1992),141 頁を一部改編）<br>
+<br>
+見比べてみると、同一の内容とは思えなかったりします。<br>
+伝言ゲーム状態や、都合よく捻じ曲げられている可能性があります。<br>
+<br>
+ざっと見ただけですが、ファン・ヒーレ氏が第1水準で<br>
+　正方形と長方形を区別する<br>
+ような事を行った可能性は高そうですが、<br>
+　長方形を選ぶ問題で、正方形を含めてはいけない<br>
+という事を行ったという記述は確認出来ませんでした。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="97"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/97">97</a>]</li>
+<li class="title"><h2>図形の分類法</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2018年 3月16日(金)18時33分50秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/10237/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+小中接続の視点から見た図形の包摂関係の取り扱い― 過去の取り扱い方の変化から示唆される論点―<br>
+小泉 健輔　2015年3月31日<br>
+高崎健康福祉大学紀要<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fgair.media.gunma-u.ac.jp%2Fdspace%2Fhandle%2F10087%2F9390" target="_blank" rel="nofollow">https://gair.media.gunma-u.ac.jp/dspace/handle/10087/9390</a><br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fgair.media.gunma-u.ac.jp%2Fdspace%2Fbitstream%2F10087%2F9390%2F1%2F73-82_%25E5%25B0%258F%25E6%25B3%2589%25E5%2581%25A5%25E8%25BC%2594.pdf" target="_blank" rel="nofollow">https://gair.media.gunma-u.ac.jp/dspace/bitstream/10087/9390/1/73-82_%E5%B0%8F%E6%B3%89%E5%81%A5%E8%BC%94.pdf</a><br>
+P73<br>
+＞<font color="#0000CD">基本図形1)の概念という観点からは、中学校での指導において図形間の関係が包摂関係としてまとめられ、これをもって一旦の整理がなされることとなる。</font><br>
+<br>
+基本図形について、注釈では以下のように扱っています。<br>
+＞<font color="#0000CD">1)本稿においては便宜上、平行四辺形、ひし形、長方形、正方形の 4つの図形を指すこととする。</font><br>
+<br>
+P75-76<br>
+＞<font color="#0000CD">一方で、例えば現在の幾何学の基盤となっているユークリッドの『原論』に記述されている定義にしたがえば、図形間は排他的な関係として規定されており、包摂関係は生じない。</font><br>
+<br>
+P76<br>
+＞<font color="#0000CD">ただ、『原論』においては、一般の四角形と基本図形との関係等については詳しい言及がない。すなわち、こ
+れらの基本図形が「四角形」という集合の中にも含まれない関係と考えるのかどうか、といった点に曖昧さは残るが、本稿においてはその点についての深入りは
+避け、上に掲げた基本図形間の関係のみに絞って考察することとしたい。</font><br>
+<br>
+ユークリッドの『原論』では、包摂関係は生じないという考えらしいです。<br>
+参考文献は、これのようです。<br>
+Heiberg.J.L編（1971）．『ユークリッド原論』．中村幸四郎訳．共立出版．<br>
+<br>
+<br>
+小学校算数科における新しい図形教育のあり方<br>
+松尾 七重　2013年01月25日<br>
+鳥取大学数学教育研究<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Frepository.lib.tottori-u.ac.jp%2FRepository%2Fmetadata%2F2735" target="_blank" rel="nofollow">http://repository.lib.tottori-u.ac.jp/Repository/metadata/2735</a><br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Frepository.lib.tottori-u.ac.jp%2FRepository%2Ffile%2F2735%2F20100210061520%2Ftjrme5_1.pdf" target="_blank" rel="nofollow">http://repository.lib.tottori-u.ac.jp/Repository/file/2735/20100210061520/tjrme5_1.pdf</a><br>
+＞<font color="#0000CD">３．ファンヒーレの幾何学的思考の水準理論とその具体化<br>
+＞3.1ファンヒーレの幾何学的思考の水準理論<br>
+＞オランダの数学教育学者であるディナ・ファンヒーレ－ゲルドフとピエール・マリー・ファンヒーレは幾何学的思考に関する次のような水準理論を確立した。
+彼らは適切な指導を行い，援助することにより，学習者が基本的な水準から徐々に進んでいくことを実証した。この幾何学的思考の発達水準は次の５つの水準か
+らなるものである。各水準の内容は以下の通りである。</font><br>
+<br>
+幾何学的思考の発達段階ｗのようです。<br>
+<br>
+＞<font color="#0000CD">例えば，第１水準では，長方形と正方形を弁別することができるが，第２水準では，両者が一般と特殊の関係になっているととらえられることから，この水準間は，我が国では，小学校３年生頃から中学校２年生頃までに相当することになる。</font><br>
+<br>
+【第１水準では，長方形と正方形を弁別することができる】とあり、低学年では正方形と長方形は別物であり、正方形は長方形の一種と考えてはいけないと受け取れます。<br>
+<br>
+<br>
+愛媛大学教育学部<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.ed.ehime-u.ac.jp%2F%7Eedhp%2Fmain%2Fgakubu%2Fkatei_course_senkou%2Fsenkou_suugaku.php" target="_blank" rel="nofollow">http://www.ed.ehime-u.ac.jp/~edhp/main/gakubu/katei_course_senkou/senkou_suugaku.php</a><br>
+藤本義明氏の個人サイト<br>
+藤本研究室<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fofficefujimoto.com%2F" target="_blank" rel="nofollow">http://officefujimoto.com/</a><br>
+* 図形の教材研究と指導事例<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fofficefujimoto.com%2Fzukei.pdf" target="_blank" rel="nofollow">http://officefujimoto.com/zukei.pdf</a><br>
+＞<font color="#0000CD">(1)二分法的分類と包摂関係による分類</font><br>
+＞<font color="#0000CD">子どもの図形概念は、はじめは、二分法的な分類に相当している。つまり、三角形については、正三角形、二
+等辺三角形、（不等辺）三角形は、それぞれ全く別のものであると捉える。高学年になると、部分的に包摂関係による分類に相当した捉え方ができるようにな
+る。正三角形は、その２辺の長さが等しいので、二等辺三角形でもあると、捉えられるようになる。</font><br>
+<br>
+【子どもの図形概念は、はじめは、二分法的な分類に相当している。】【それぞれ全く別のものであると捉える。】と決め付けています。<br>
+<br>
+余談ですが、算数教育学概論　片桐重男　東洋館出版社(2012/10/29)に『これは内包をゆるめて，外延を拡張することである。』とあるようですが、<br>
+＞<font color="#0000CD">(2) 内包と外延の関係</font><br>
+この文献に、内包と外延についての解説があります。<br>
+<br>
+＞<font color="#0000CD">10．ファン・ヒーレの学習水準理論</font><br>
+<br>
+この文献でもファン・ヒーレの水準理論に触れています。<br>
+もしかしたら、松尾七重氏とは同一見解ではないかもしれません。<br>
+<br>
+<br>
+「長方形とは四つの角が直角な四角形」と説明されれば、低学年でも正方形も長方形の一種と認識する生徒は一定数いるでしょう。<br>
+算数教育学ｗでは、長方形を選ぶ問題に正方形を含めると、長方形と正方形を正しく認識出来ていない事にされてしまう事例があるようです。<br>
+図形の問題は、発達段階ｗ説の有害性が表面化し易い題材だと思います。<br>
+低学年の生徒を対象に、正方形も長方形の一種と認識しているか調査をして、少数でもいれば良いだけですから。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="96"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/96">96</a>]</li>
+<li class="title"><h2>言葉に注目して学習指導要領を見てみる</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2018年 3月10日(土)14時35分52秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/explain/index/comm_id/10231/" target="_blank">編集済</a></li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/10231/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+注目する言葉は、「包摂関係」、「相互関係」、「図形の性質」です。<br>
+<br>
+昭和43年度改訂 小学校学習指導要領（昭和46年４月施行）<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.nier.go.jp%2Fguideline%2Fs43e%2Fchap2-3.htm" target="_blank" rel="nofollow">http://www.nier.go.jp/guideline/s43e/chap2-3.htm</a><br>
+〔第５学年〕<br>
+＞<font color="#0000CD">(３)　対称や包摂関係に着目したり簡単な性質を調ベたりするなど，基本的な図形について考察する能力をのばす。</font><br>
+<br>
+明確に「包摂関係」を扱うようになっています。<br>
+<br>
+<br>
+昭和52年度改訂 小学校学習指導要領（昭和55年４月施行）<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.nier.go.jp%2Fguideline%2Fs52e%2Fchap2-3.htm" target="_blank" rel="nofollow">http://www.nier.go.jp/guideline/s52e/chap2-3.htm</a><br>
+[第６学年]<br>
+＞<font color="#0000CD">(３)　図形を対称性，相互関係などに着目して考察し，図形についてまとめたり理解を深めたりする。</font><br>
+<br>
+平成元年度改訂 小学校学習指導要領（平成４年４月施行）<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.nier.go.jp%2Fguideline%2Fh01e%2Fchap2-3.htm" target="_blank" rel="nofollow">http://www.nier.go.jp/guideline/h01e/chap2-3.htm</a><br>
+〔第４学年〕<br>
+＞<font color="#0000CD">ウ　四角形について、作図などを通してそれらの相互の関係に着目すること。</font><br>
+<br>
+「相互関係」や「相互の関係」という言葉が使用されています。<br>
+包摂関係を指しているのか、<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/95">&gt;&gt;95</a> の片桐重男氏のような認識なのか、はたまた包摂関係とは無関係なのかは不明です。<br>
+当時の学習指導要領解説にあたる指導書をお持ちの方がいたら、指導書での扱いを調査してくれると助かります。<br>
+<br>
+<br>
+<br>
+平成10年度改訂 小学校学習指導要領（平成1４年４月施行）<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.nier.go.jp%2Fguideline%2Fh10e%2Fchap2-3.htm" target="_blank" rel="nofollow">http://www.nier.go.jp/guideline/h10e/chap2-3.htm</a><br>
+〔第５学年〕<br>
+＞<font color="#0000CD">(１)　図形についての観察や構成などの活動を通して，基本的な平面図形についての理解を一層深めるとともに，図形の構成要素及びそれらの位置関係に着目して考察できるようにする。<br>
+＞ア　直線の平行や垂直の関係について理解すること。<br>
+＞イ　平行四辺形，台形，ひし形について知り，それらをかいたり，作ったり，平面上で敷き詰めたりすること。<br>
+＞ウ　基本的な図形の簡単な性質を見いだし，それを用いて図形を調べたり構成したりすること。</font><br>
+<br>
+平成19年度改訂 小学校学習指導要領（平成２０年３月告示）<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.nier.go.jp%2Fguideline%2Fh19e%2Fchap2-3.htm" target="_blank" rel="nofollow">http://www.nier.go.jp/guideline/h19e/chap2-3.htm</a><br>
+〔第4学年〕<br>
+＞<font color="#0000CD">エ　平行四辺形，ひし形，台形で平面を敷き詰めて，図形の性質を調べる活動</font><br>
+<br>
+〔第5学年〕<br>
+＞<font color="#0000CD">ウ　図形の性質を見いだし，それを用いて図形を調べたり構成したりすること。</font><br>
+<br>
+<br>
+小学校学習指導要領 平成29年３月<br>
+〔第４学年〕<br>
+＞<font color="#0000CD">(ｱ) 図形を構成する要素及びそれらの位置関係に着目し，構成の仕方を考察し図形の性質を見いだすとともに，その性質を基に既習の図形を捉え直すこと。</font><br>
+<br>
+〔第５学年〕<br>
+＞<font color="#0000CD">(ｱ) 図形を構成する要素及び図形間の関係に着目し，構成の仕方を考察したり，図形の性質を見いだし，その性質を筋道を立てて考え説明したりすること。<br>
+<br>
+＞(ｱ) 図形を構成する要素に着目し，図形の性質を見いだすとともに，その性質を基に既習の図形を捉え直すこと。</font><br>
+<br>
+〔第６学年〕<br>
+＞<font color="#0000CD">(ｱ) 図形を構成する要素及び図形間の関係に着目し，構成の仕方を考察したり図形の性質を見いだしたりするとともに，その性質を基に既習の図形を捉え直したり日常生活に生かしたりすること。</font><br>
+<br>
+平成10年度改訂以降は、「図形の性質」という言葉が使用されています。<br>
+しかし、学習指導要領解説では、包摂関係を扱うようには書かれていません。<br>
+正方形と長方形は別物として認識出来るように編集しているようです。<br>
+平成29年の【図形間の関係】も、包摂関係とは無関係のようです。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="95"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/95">95</a>]</li>
+<li class="title"><h2>すどさんからの貴重な情報</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2018年 3月10日(土)14時07分40秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/10230/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Ftwitter.com%2Fysmemoirs%2Fstatus%2F971673380033257473%2Fphoto%2F1" target="_blank" rel="nofollow">https://twitter.com/ysmemoirs/status/971673380033257473/photo/1</a><br>
+初等科数学科教育学序説 杉山吉茂教授講義筆記　東洋館出版社(2008/2/1)<br>
+＞<font color="#0000CD">概念の形成のなかには図形の相互の関係（正確には、包摂関係）を知ることが含まれている。</font><br>
+<br>
+杉山吉茂氏は、「相互の関係」を「包摂関係」と捉えていそうな記述です。<br>
+<br>
+<br>
+啓林館の算数用語集では以下のようです。<br>
+図形の包摂関係｜算数用語集<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.shinko-keirin.co.jp%2Fkeirinkan%2Fsansu%2FWebHelp%2F04%2Fpage4_20.html" target="_blank" rel="nofollow">https://www.shinko-keirin.co.jp/keirinkan/sansu/WebHelp/04/page4_20.html</a><br>
+＞<font color="#0000CD">このような図形に関する相互の関係を図形の包摂関係といいます。</font><br>
+<br>
+「相互の関係」を「包摂関係」と扱っているようです。<br>
+<br>
+片桐重男氏は、少し違う立場のようです。<br>
+正方形は長方形である?～包摂関係に着目して - わさっき<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fd.hatena.ne.jp%2Ftakehikom%2F20140827%2F1409086771" target="_blank" rel="nofollow">http://d.hatena.ne.jp/takehikom/20140827/1409086771</a><br>
+算数教育学概論　片桐重男　東洋館出版社(2012/10/29)　孫引き<br>
+＞<font color="#0000CD">現在は，算数の段階では，「ある図形に，さらに1つ条件を加えるという他の図形になる」という相互関係にとどめ，包摂関係は中学校で行うことになっている。</font><br>
+<br>
+とあり、啓林館の内容とは別物になっています。<br>
+ちなみに、算数教育学概論では酷い記述が多々あるようです。<br>
+＞<font color="#0000CD">この一つの概念が，他の概念に含まれるという包摂関係をとらえさせることは，中学で論証をするまでには必ずしなくてはならない重要なことであるが，図形間の関係をこのようにとらえることは，改めて見直さない限りできないことである。</font><br>
+<br>
+これもその一部で、【改めて見直さない限りできないことである。】と、改めて見直す前では、正方形が長方形の一種と認識してはいけない事になっているようです。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="94"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/94">94</a>]</li>
+<li class="title"><h2>日本数学教育学会</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2018年 3月 6日(火)20時30分35秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/10225/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+正方形は長方形である?～包摂関係に着目して - わさっき<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fd.hatena.ne.jp%2Ftakehikom%2F20140827%2F1409086771" target="_blank" rel="nofollow">http://d.hatena.ne.jp/takehikom/20140827/1409086771</a><br>
+<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fd.hatena.ne.jp%2Fasin%2F431680264X%2Ftakesdiar-22" target="_blank" rel="nofollow">算数教育指導用語辞典　日本数学教育学会出版部　2009年02月01日</a>　孫引き<br>
+＞<font color="#0000CD">各図形の定義や性質に基づいて，特殊な図形がより一般的な図形に包括されるという関係を，図形の包摂関係という。<br>
+＞<font size="5"><strong>平成10年改訂学習指導要領では，正方形と長方形とは別の形として指導するように決められ，小学校では図形の包摂関係については取り扱われないことになった。</strong></font><br>
+＞（『算数教育指導用語辞典』p.45）</font><br>
+<br>
+<br>
+平成10年改訂　小学校学習指導要領解説 算数編　孫引き<br>
+＞<font color="#0000CD">b．正方形，長方形，直角三角形と構成要素（イ）<br>
+＞ここでは，四角形の中で最も基本的で，児童にとっても身近な，正方形と長方形について取り上げる。第2学年では，「四角形は4本の直線で囲まれた形」と
+して学習している。第3学年では，さらに，直角と辺の長さについて着目することを通して，正方形と長方形について理解できるようにする。<br>
+＞(略)<br>
+＞正方形には大きさは様々なものがあるが，形はすべて同じである。一方，長方形は縦と横の長さの組合わせで様々な形ができるが，どれもみな四つの角が直角である四角形である。いくつかの四角形を直角や辺の長さに着目して分類する。(略)<br>
+＞（『小学校学習指導要領解説 算数編』p.100）</font><br>
+<br>
+平成10年改訂　小学校学習指導要領 算数<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.nier.go.jp%2Fguideline%2Fh10e%2Fchap2-3.htm" target="_blank" rel="nofollow">http://www.nier.go.jp/guideline/h10e/chap2-3.htm</a><br>
+<br>
+学習指導要領や解説をいくら読んでも、【正方形と長方形とは別の形として指導するように決められ，小学校では図形の包摂関係については取り扱われないことになった。】とは読み取れません。<br>
+日本数学教育学会が暴走していると思われても当然の内容です。<br>
+もしかしたら、日本数学教育学会が学習指導要領解説の執筆に影響力を持っていて、こんな意図があったのだと記述した可能性も考えられます。<br>
+<br>
+<br>
+日本数学教育学会について、ちょっと調べてみました。<br>
+<br>
+ごあいさつ | 学会案内 | 公益社団法人　日本数学教育学会<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.sme.or.jp%2Fabout%2Fwelcome%2F" target="_blank" rel="nofollow">http://www.sme.or.jp/about/welcome/</a><br>
+藤井斉亮氏が会長を勤めています。<br>
+<br>
+教育課程部会　算数・数学ワーキンググループ　委員名簿：文部科学省<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.mext.go.jp%2Fb_menu%2Fshingi%2Fchukyo%2Fchukyo3%2Fmeibo%2F1370594.htm" target="_blank" rel="nofollow">http://www.mext.go.jp/b_menu/shingi/chukyo/chukyo3/meibo/1370594.htm</a><br>
+藤井斉亮氏は、平成27-28年の中央教育審議会の委員にもなっている人物です。<br>
+<br>
+藤井　斉亮 - 研究者 - researchmap<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fresearchmap.jp%2Fread0010259%2F" target="_blank" rel="nofollow">https://researchmap.jp/read0010259/</a><br>
+東京学芸大学　教育学部 数学講座 教授<br>
+1983年　筑波大学大学院博士課程 教育学研究科学校教育学専攻 数学教育学<br>
+<br>
+筑波大学数学教育研究室<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.human.tsukuba.ac.jp%2F%7Emathedu%2F03.htm" target="_blank" rel="nofollow">http://www.human.tsukuba.ac.jp/~mathedu/03.htm</a><br>
+ここにも名前が載っています。<br>
+筑波大学関係者を知りたければ、このページがチェックしやすいかも。<br>
+<br>
+役員一覧 - 新算研<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.shinsanken.org%2F" target="_blank" rel="nofollow">https://www.shinsanken.org/</a>新算数教育研究会/組織図/<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.shinsanken.org%2F%25E6%2596%25B0%25E7%25AE%2597%25E6%2595%25B0%25E6%2595%2599%25E8%2582%25B2%25E7%25A0%2594%25E7%25A9%25B6%25E4%25BC%259A%2F%25E7%25B5%2584%25E7%25B9%2594%25E5%259B%25B3%2F" target="_blank" rel="nofollow">https://www.shinsanken.org/%E6%96%B0%E7%AE%97%E6%95%B0%E6%95%99%E8%82%B2%E7%A0%94%E7%A9%B6%E4%BC%9A/%E7%B5%84%E7%B9%94%E5%9B%B3/</a><br>
+ここでは、副会長に就任しているようです。<br>
+算数教育界ｗに影響力がありそうな名前も沢山ありますね。<br>
+<br>
+平成27年度算数教科書の著者らをExcelにまとめてみた - わさっき<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fd.hatena.ne.jp%2Ftakehikom%2F20140623%2F1403471968" target="_blank" rel="nofollow">http://d.hatena.ne.jp/takehikom/20140623/1403471968</a><br>
+東京書籍の著者としても、名前を連ねています。<br>
+<br>
+こういう人物が、算数教育界ｗの多方面に繋がりを持ち、影響力を発揮しているのかもしれません。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="93"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/93">93</a>]</li>
+<li class="title"><h2>「数学教育の現代化の反動」説</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2018年 3月 5日(月)20時05分13秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/10223/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+どの文献か覚えていませんが、当時の教材を引用してるのを見て、これでは小学生が集合を理解出来ないのは当然と思った記憶があります。<br>
+当時の教師も、あのような教材で教えろと言われても、戸惑ったのではないかと推察しています。<br>
+(集合を理解せずに指導していたのが、当時の教師の中に多かった可能性も高そうですが)<br>
+<br>
+結局、集合の概念を生徒に分かり易く教える教材の作成に至らず、教師が拒否反応を起こしたのが「数学教育の現代化の反動」説の正体だと勘繰っています。<br>
+<br>
+ちなみに、図形の包含関係に関して、<br>
+　正方形が長方形の一種<br>
+　平行四辺形が台形の一種<br>
+　正三角形が二等辺三角形の一種<br>
+を受け入れられない(なかなか受け入れなかった)教師が一定数いて、強固に反対している可能性も高いと思っています。<br>
+<br>
+算数教育学ｗのせいで、集合の包含関係を受け入れられなくなった生徒も多そうですね。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="92"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/92">92</a>]</li>
+<li class="title"><h2>新学習指導要領の気になる点</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2018年 3月 2日(金)21時25分57秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/10221/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+小学校学習指導要領(平成29年３月)<br>
+P68<br>
+〔第５学年〕<br>
+＞<font color="#0000CD">(ｱ) 図形を構成する要素に着目し，図形の性質を見いだすとともに，その性質を基に既習の図形を捉え直すこと。</font><br>
+<br>
+という、現行の学習指導要領に無い内容が記述されています。<br>
+<br>
+<br>
+小学校学習指導要領解説 算数編(平成29年６月)<br>
+P201<br>
+２ 第４学年の内容<br>
+＞<font color="#0000CD">図形の性質を基に既習の図形を捉え直すこと<br>
+＞平行が何組あるかという視点から既習の四角形について振り返り，統合的にみることが肝要である。正方形，長方形は，二組の向かい合う辺が平行であること
+から，平行四辺形と同じ性質をもっている図形として捉え直すことができる。また，辺の長さも加味して考察すると，正方形は，二組の平行な辺の長さが全て等
+しいことから，ひし形と同じ性質をもっている図形として捉え直すことができる。</font><br>
+<br>
+正方形、長方形が平行四辺形の特別な形であるとは明記されていないのが気になります。<br>
+正方形が、長方形と同じ性質をもっているという記述が無いのは作意があるのかもしれません。<br>
+余談ですが、学習指導要領と解説で、学年が一致していないように思えるのですが・・・<br>
+<br>
+<br>
+中学校学習指導要領解説 数学編(平成29年7月)<br>
+P116<br>
+＞<font color="#0000CD">正方形，ひし形，長方形が平行四辺形の特別な形であること(［内容の取扱い］(1))</font><br>
+<br>
+中学校学習指導要領や解説では、【正方形，ひし形，長方形が平行四辺形の特別な形であること】と明記されています。<br>
+<br>
+＞<font color="#0000CD">小学校算数科では，正方形，ひし形，長方形，平行四辺形について考察し，それぞれの性質を見いだすとともに，その性質を基に既習の図形を捉え直すことを学んでいる。</font><br>
+<br>
+小学校算数科では、【正方形，ひし形，長方形が平行四辺形の特別な形であること】と認識させる必要は無いとも受け取れる記述です。<br>
+<br>
+図を見れば、「正方形が長方形の特別な形であること」は一目瞭然ですが、文章で書かれていないのは作意がある可能性が・・・<br>
+<div class="Kiji_Img">
+<a href="https://8254.teacup.com/kakezannojunjo/img/bbs/0010221.png" target="_blank">
+<img src="%E6%AD%A3%E6%96%B9%E5%BD%A2%E3%81%AF%E9%95%B7%E6%96%B9%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F%E3%80%80%E6%AD%A3%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AF%E4%BA%8C%E7%AD%89%E8%BE%BA%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F_files/0010221M.png" id="IMGID10221" style="cursor:pointer" class="clickable" vspace="5" height="276" border="0" width="400">
+</a>
+</div>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="91"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/91">91</a>]</li>
+<li class="title"><h2>わさっき氏からの情報</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2018年 3月 2日(金)14時28分56秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/10220/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fd.hatena.ne.jp%2Ftakehikom%2Ftouch%2F20141127%2F1417036309" target="_blank" rel="nofollow">http://d.hatena.ne.jp/takehikom/touch/20141127/1417036309</a><br>
+<br>
+＞2015年4月実施の全国学力テスト算数Bに「正方形は長方形」を踏まえた出題がなされた<br>
+<br>
+<br>
+東京都算数教育研究会は正方形は長方形ではないとしている<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+日本数学教育学会が出している<br>
+『算数教育指導用語辞典』には<br>
+<br>
+<br>
+＞図形の名称<br>
+＞各図形の名称については，次のように決められている。<br>
+<br>
+すなわち，一般の図形の集合から，条件が付加されて特殊な図形の集合が作られたとき，その特殊な図形の集合に名づけられた名称が，その図形の名称となると
+いうことである。例えば，長方形も正方形も平行四辺形の条件はもつが，平行四辺形とよばず，付加された条件でできた集合の名称を用いるのである。<br>
+<br>
+<br>
+<br>
+<br>
+＞第2学年で，長方形や正方形を学習する時点では，それらを区別すること，すなわち正方形を長方形の仲間に入れないという指導・採点の方針に，賛同します．<br>
+<br>
+<br>
+と相変わらず阿呆なこと言っているが、資料はありがたい。<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="90"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/90">90</a>]</li>
+<li class="title"><h2>小学生用国語辞典</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2018年 3月 2日(金)14時24分42秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/10219/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+くもんの辞書では正方形は長方形ではないとしているらしい。他にもあるようだ。<br>
+<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwawiwuwewomemo.free-time.jp.net%2F%3Feid%3D417" target="_blank" rel="nofollow">http://wawiwuwewomemo.free-time.jp.net/?eid=417</a><br>
+＞他の小学生向けの辞書では、この辞書と同様に縦横の長さの異なる長方形のみを長方形としているものと、明確に正方形も長方形であるとは記載されていないが、正方形も長方形の1種であることを内在している定義になっているものと両方あった。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="89"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/89">89</a>]</li>
+<li class="title"><h2>Re: 長方形のきまりを守っているか</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2017年 8月21日(月)21時51分49秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/10085/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/88">&gt;&gt;88</a><br>
+<br>
+「決まりを守っているか？」って、変な言い方だね。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="88"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/88">88</a>]</li>
+<li class="title"><h2>長方形のきまりを守っているか</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2017年 8月12日(土)14時42分55秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/10075/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+算数を学び続ける児童を支える授業に関する研究 : 定義から図形を捉える活動を通して<br>
+鳴門教育大学授業実践研究 : 学部・大学院の授業改善をめざして<br>
+三木 崇正,高井 翼,高田 晶平,長尾 俊輝,松浦 愛実,湯浅 佳優,秋田 美代,佐伯 昭彦,久次米 昌敏　公開日：2017-07-19<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.naruto-u.ac.jp%2Frepository%2Fmetadata%2F3948" target="_blank" rel="nofollow">http://www.naruto-u.ac.jp/repository/metadata/3948</a><br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.naruto-u.ac.jp%2Frepository%2Ffile%2F3948%2F20170719143100%2Fjj16009.pdf" target="_blank" rel="nofollow">http://www.naruto-u.ac.jp/repository/file/3948/20170719143100/jj16009.pdf</a><br>
+P67-68<br>
+第４学年の３０名<br>
+「長方形のきまりを守っているか」という発問に対する挙手人数<br>
+図形 ①正方形　６人（２０％）<br>
+<br>
+自然と正方形は長方形でもあると認識している生徒が２０％いるようです。<br>
+この授業後に調査すれば、ひしがたの反応から推察すると、８０％以上は正方形は長方形でもあると認識しているのではないでしょうか。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="87"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/87">87</a>]</li>
+<li class="title"><h2>学校図書教科書より</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2017年 8月12日(土)10時52分7秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/10074/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+学校図書算数教科書「みんなと学ぶ　小学校算数　4年上」（平成22年3月検定済み）より<br>
+<div class="Kiji_Img">
+<a href="https://8254.teacup.com/kakezannojunjo/img/bbs/0010074.jpg" target="_blank">
+<img src="%E6%AD%A3%E6%96%B9%E5%BD%A2%E3%81%AF%E9%95%B7%E6%96%B9%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F%E3%80%80%E6%AD%A3%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AF%E4%BA%8C%E7%AD%89%E8%BE%BA%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F_files/0010074M.jpg" id="IMGID10074" style="cursor:pointer" class="clickable" vspace="5" height="173" border="0" width="398">
+</a>
+</div>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="86"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/86">86</a>]</li>
+<li class="title"><h2>野暮は言うまい</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2017年 4月20日(木)12時16分15秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/9932/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.asahi.com%2Farticles%2FDA3S12900330.html" target="_blank" rel="nofollow">http://www.asahi.com/articles/DA3S12900330.html</a><br>
+＞長方形が主流の写真プリントに、「スクエア（正方形）」の波が来ている。<br>
+<br>
+「正方形ではない長方形が主流の写真プリント」が正しい、などという野暮は言うまい。<br>
+<br>
+この文脈で「長方形」は、「正方形ではない長方形」の意味であることぐらい私も分かる。<br>
+<br>
+言葉の意味は文脈によって違ってくる。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="85"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/85">85</a>]</li>
+<li class="title"><h2>長方形を選ぶ問題に対して、正方形を含めて解答して不正解</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2016年12月 3日(土)13時24分59秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/9640/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+「身勝手な主張」へのコメントから<br>
+<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fblog.goo.ne.jp%2Fmh0920-yh%2Fe%2F9a61a4f6bc24e4b6d13a121514846158" target="_blank" rel="nofollow">http://blog.goo.ne.jp/mh0920-yh/e/9a61a4f6bc24e4b6d13a121514846158</a><br>
+<br>
+2016-12-02 20:44:40<br>
+子供が、長方形を選ぶ問題に対して、正方形を含めて解答して不正解にされました。<br>
+<br>
+しかも、そのプリントに長方形の定義があり、「全て直角」だけでした。<br>
+<br>
+担任に問い合わせると、「正方形が長方形の仲間という学習は四年生の内容で、別物として学習いる」と返答されました。<br>
+<br>
+それに対して、「正方形は長方形の仲間ではない」と学習させているのか？そうでなければ、正方形を含めて解答しても正解ではないか？と問い合わせ中です。<br>
+<br>
+この正方形と長方形の問題は、本来数学で養うべき子供の考える力を止めてしまう、最悪な指導の方針だと思って、色々調べたところ、このブログにたどりつきました。<br>
+<br>
+是非、教科書を読むだけの教員をやめて、先生方にもこのブログをみて疑問を持っていただきたいです。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="84"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/84">84</a>]</li>
+<li class="title"><h2>平行四辺形を書けと言われて長方形を書いたらバツを付けられた</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2016年11月23日(水)22時26分48秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/9628/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fanond.hatelabo.jp%2F20161122110427" target="_blank" rel="nofollow">http://anond.hatelabo.jp/20161122110427</a><br>
+2016-11-22<br>
+■平行四辺形を書けと言われて長方形を書いたらバツを付けられた<br>
+<br>
+小学校の5年生の頃にテストで平行四辺形を書けという問題が出た。<br>
+少々捻くれていた僕は、退屈な問題出してんじゃねーよ、と長方形を書いて提出した。<br>
+学校の先生が求めている解答とは違っていることはわかっていた。<br>
+小さい頃は算数の問題で面白い見方ができたときに、父や塾の先生はとても褒めてくれていた。<br>
+なので、そういう見方もあるよね、と共感してくれることを学校の先生にも期待していた。<br>
+答案が返ってきてバツが付いていたので、僕は先生のもとへ行き説明を求めた。<br>
+平行四辺形としての定義は満たしてますよね、と伝えた。<br>
+先生は「でもこれは長方形だよね」と一言言った。<br>
+分かり合えない悲しさを感じ、僕は自分の席へと戻った。<br>
+定義として正しいかという基準と、先生が求める解答の基準が違っているということなんだな、と今は思う。<br>
+小学校の頃の自分が正しかったとは思わないけれど、モヤモヤとした気持ちは今でも残る。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="83"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/83">83</a>]</li>
+<li class="title"><h2>直線と平面が平行、とは？</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2016年 8月20日(土)10時07分57秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/9518/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+&nbsp;&nbsp;中学2年生の夏休みの宿題　数学<br>
+直方体ＡＢＣＤ-ＥＦＧＨ　がある。Ａの真下にＥ、Ｂの真下にＦ、という具合。<br>
+<br>
+問題　辺ＡＢと平行な面をすべて答えなさい<br>
+<br>
+正解が、面ＤＨＧＣ　面ＥＦＧＨ　となっている。<br>
+<br>
+面ＡＢＦＥ、面ＡＢＣＤは駄目らしい。<br>
+<br>
+「直線と平面が出会わないとき、平行である。」と解説にある。<br>
+<br>
+教科書を見ると、直線と平面が交わらないときを平行として定義している。<br>
+<br>
+直線と平面の関係は<br>
+<br>
+①直線が平面上にある　 ②交わる　③交わらない（平行である）<br>
+<br>
+の３つがあるとしている。<br>
+<br>
+　明確な証拠はないけど、おそらく中学数学では、直方体のある辺に平行な辺は3本であって4本ではないようです。平行関係は、反射律がなりたたないから同値関係ではない、となってしまっている。<br>
+<br>
+<br>
+「平行だと重なっていてはいけない」と思い込んでしまうと、高校数学のベクトルで戸惑うかも。<br>
+　直方体の辺ＡＢに平行な辺をすべて挙げよ<br>
+で、辺ＡＢを書かないとバツ、とする必要はないが、辺ＡＢを書いたらバツ、とすべきでもない。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="82"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/82">82</a>]</li>
+<li class="title"><h2>さんすう刑事ゼロ</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2016年 5月11日(水)13時27分39秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/9343/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.nhk.or.jp%2Fsansuu%2Fkeiji%2F%3Fdas_id%3DD0005160023_00000" target="_blank" rel="nofollow">http://www.nhk.or.jp/sansuu/keiji/?das_id=D0005160023_00000</a><br>
+消えた指輪を探し出せ　～四角形～<br>
+結婚式場から指輪が盗まれた。犯人が残したメッセージは「平行四辺形の中にある」。ゼロは会場の中にある「平行四辺形」を、意外な道具を使って探し出す。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="81"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/81">81</a>]</li>
+<li class="title"><h2>この世に「四角形」というものは存在しない。</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2016年 4月 2日(土)09時44分24秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/explain/index/comm_id/9078/" target="_blank">編集済</a></li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/9078/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+「正方形は長方形ではない」とする理屈は、「1つの図形が複数のカテゴリーに入ってはならない」というドグマに由来する。<br>
+<br>
+その理屈からしたら、正方形は四角形ではない。直角二等辺三角形は直角三角形でもないし二等辺三角形でもないし、三角形ですらない。<br>
+<br>
+では、「四角形を選びなさい」という問題では、正方形などの名前が付いた四角形を除いたものを答えればいいのか？<br>
+<br>
+ところがこれも難しい。名前が付いていない四角形だと思っても実は名前が付いている。<br>
+<br>
+たいていは凸四角形。凹四角形もある。<br>
+<br>
+<br>
+だから、どれも選べなくなる。<br>
+<br>
+<br>
+凸四角形でも凹四角形でもない四角形があるのか？<br>
+<br>
+ある。<br>
+<br>
+角の１つが180度の四角形は、凸四角形でも凹四角形でもない。<br>
+<br>
+これこそが、特別な名前の付いていたいごくありふれた単なる四角形。<br>
+<br>
+「四角形を選びなさい」という問題ではこのような四角形だけを選べばいい。<br>
+<br>
+<br>
+と思ったが、これには「三角形」という特別な名前が付いていたorz<br>
+<br>
+<br>
+結論<br>
+<br>
+<font color="#FF0000"><font size="6">この世に、「四角形」というものは存在しない。</font></font><br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="80"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/80">80</a>]</li>
+<li class="title"><h2>学校図書のベン図</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2016年 4月 1日(金)22時19分29秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/9073/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+2010年版　学校図書　4年上　にはベン図が掲載されている。<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Ftwitter.com%2Fgenkuroki%2Fstatus%2F715874652476690432%3Flang%3Dja" target="_blank" rel="nofollow">https://twitter.com/genkuroki/status/715874652476690432?lang=ja</a><br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="79"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/79">79</a>]</li>
+<li class="title"><h2>銀林浩　子どもを賢くするーよくわかる算数の授業 小数と分数</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2016年 4月 1日(金)17時21分5秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/9069/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+銀林浩　子どもを賢くするーよくわかる算数の授業<br>
+小数と分数<br>
+<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.kinokuniya.co.jp%2Ff%2Fdsg-01-9784535604063" target="_blank" rel="nofollow">https://www.kinokuniya.co.jp/f/dsg-01-9784535604063</a><br>
+<br>
+<br>
+この本は読んでいないが、新聞広告で「小数と分数はまったく異なる｣と言うような文言を見て、onz　となった記憶がある。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="78"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/78">78</a>]</li>
+<li class="title"><h2>「整数および小数を分数の特別なもの」</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2016年 4月 1日(金)17時15分48秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/9068/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="http://8254.teacup.com/kakezannojunjo/bbs/t50/65" target="_blank" rel="nofollow">http://8254.teacup.com/kakezannojunjo/bbs/t50/65</a>にも書いたが、現指導要領では、【整数および小数を分数の特別なものとみること。】という文言が削られているようだ。<br>
+<br>
+この変化が教育現場でどのような影響を与えているのかは不明。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="77"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/77">77</a>]</li>
+<li class="title"><h2>Re: 乗法の意味とその拡張的な取扱いについて</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">くろきげん</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2016年 4月 1日(金)16時02分10秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/explain/index/comm_id/9065/" target="_blank">編集済</a></li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/9065/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+おおくぼさん、改めてお礼を言わせて下さい。<br>
+資料を見せて頂き、どうもありがとうございます。<br>
+<br>
+### 追記：以下の内容は「指導要領の研究」スレッドの<br>
+### <a href="http://8254.teacup.com/kakezannojunjo/bbs/t50/65" target="_blank" rel="nofollow">http://8254.teacup.com/kakezannojunjo/bbs/t50/65</a><br>
+### に転載しました。<br>
+<br>
+最近ツイッター<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Ftwitter.com%2FElekiTan%2Fstatus%2F715454225421996032" target="_blank" rel="nofollow">https://twitter.com/ElekiTan/status/715454225421996032</a><br>
+の方でも昭和43年改定の学習指導要領<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.nier.go.jp%2Fguideline%2Fs43e%2Fchap2-3.htm" target="_blank" rel="nofollow">https://www.nier.go.jp/guideline/s43e/chap2-3.htm</a><br>
+が話題になっていたのですが、<br>
+昔の学習指導要領について勉強するために役に立つ情報でした。<br>
+関連部分資料を以下にまとめておきます。<br>
+<br>
+中島健三『算数・数学教育と数学的な考え方』復刻版2015(刊行1981)pp.15-16より<br>
+＞「整数についての除法は，分数を用いることによって，<br>
+＞常に一つの数として表わされること」(5年，A(1)ウ)として述べ、<br>
+＞「整数」を集合としてとらえることと相まって，<br>
+＞その閉包性に着目して新しい数を想像する考えで<br>
+＞「分数の意味を見直す」(6年，A(2)ウ)という観点に重点をおいて，<br>
+＞その取扱いを工夫することを考えた。<br>
+＞<br>
+＞　　子どもは，とかく，「a÷bが計算で，a/b(横線の分数表記)が答えだ」<br>
+＞　という見方に立っていることが多いが，上のねらいに沿って指導するとき，<br>
+＞　これがいつまでも残ることは適当ではない。a÷bは，(a, bというわかった<br>
+＞　数だけで所要の)一つの数を表わしているのだという見方がもてることが<br>
+＞　重要であるが，これは，本来，わり算をはじめて指導する段階(3年)での<br>
+＞　おさえがよくできているかどうかの問題でもある。<br>
+<br>
+「5年，A(1)ウ」は<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Fwww.nier.go.jp%2Fguideline%2Fs43e%2Fchap2-3.htm" target="_blank" rel="nofollow">https://www.nier.go.jp/guideline/s43e/chap2-3.htm</a><br>
+にそのままの文があります。「6年，A(2)ウ」の周辺を同頁から抜粋すると<br>
+<br>
+昭和43年改定の学習指導要領の算数6年の部分より<br>
+＞Ａ　数と計算<br>
+＞<br>
+＞(１)　分数の乗法，除法の意味について理解させ，それを用いることができるようにする。<br>
+＞　ア　乗数，除数が分数である場合も含めて乗法，除法の意味をまとめること。<br>
+＞　イ　分数の乗法，除法についての計算のしかたを知ること。<br>
+＞　ウ　逆数の考えを用いて，除法を乗法の計算としてみること。<br>
+＞　エ　整数，小数の乗法，除法が分数の場合の計算にまとめられること。<br>
+＞　　　また，乗法，除法に関する計算を一つの分数の形にまとめて表わすこと。<br>
+＞<br>
+＞(２)　数についての理解をまとめる。<br>
+＞　ア　整数，小数と分数の相互の関係について調べること。<br>
+＞　イ　大小，相等がきまることや数直線上の点との対応関係について調べること。<br>
+＞　ウ　四則の計算についての可能性，および加法，乗法に関して結合，<br>
+＞　　　交換，分配の法則がなりたつことなどについて調べること。<br>
+＞　エ　数は，二つの数量Ａ，Ｂについての割合(Ｂを単位にしてＡを測ったときの値)<br>
+＞　　　を表わしているともみられること。<br>
+<br>
+「6年，A(2)ウ」は「分数の意味を見直す」とはなっていませんね。<br>
+これは一体どういうことなのでしょうかね？<br>
+<br>
+あと、中島健三氏が引用している「子どもは，とかく，「a÷bが計算で～」」<br>
+の部分はどの文献からの引用なのでしょうかね？<br>
+<br>
+私がこの件が気になったのは、算数では「6÷2=3」(実際には四則演算すべてについて)<br>
+を「6÷2で表された数と3と表された数が等しい」と解釈するのではなく、<br>
+「6を2で割ると3になる」と解釈し、「6÷2」が数であることを明瞭に教えていない<br>
+ことを問題だと思っているからです。等号＝の意味も「左辺と右辺が等しい」<br>
+という意味ではなく、計算の結果を表わす記号だと誤解させ続けたままに<br>
+なっているのではないか？<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="76"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/76">76</a>]</li>
+<li class="title"><h2>Re: 乗法の意味とその拡張的な取扱いについて</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">おおくぼ</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2016年 4月 1日(金)03時34分41秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/9059/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/75">&gt;&gt;75</a><br>
+&gt; 資料　　『算数・数学教育と数学的な考え方』　復刻版　中島健三<br>
+<br>
+その２<br>
+<br>
+<br>
+<div class="Kiji_Img">
+<a href="https://8254.teacup.com/kakezannojunjo/img/bbs/0009059.png" target="_blank">
+<img src="%E6%AD%A3%E6%96%B9%E5%BD%A2%E3%81%AF%E9%95%B7%E6%96%B9%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F%E3%80%80%E6%AD%A3%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AF%E4%BA%8C%E7%AD%89%E8%BE%BA%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F_files/0009059M.png" id="IMGID9059" style="cursor:pointer" class="clickable" vspace="5" height="558" border="0" width="400">
+</a>
+</div>
+
+
+
+<div class="Kiji_Img">
+<a href="https://8254.teacup.com/kakezannojunjo/img/bbs/0009059_2.png" target="_blank">
+<img src="%E6%AD%A3%E6%96%B9%E5%BD%A2%E3%81%AF%E9%95%B7%E6%96%B9%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F%E3%80%80%E6%AD%A3%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AF%E4%BA%8C%E7%AD%89%E8%BE%BA%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F_files/0009059_2M.png" id="IMGID9059_2" style="cursor:pointer" class="clickable" vspace="5" height="570" border="0" width="400">
+</a>
+</div>
+
+<div class="Kiji_Img">
+<a href="https://8254.teacup.com/kakezannojunjo/img/bbs/0009059_3.png" target="_blank">
+<img src="%E6%AD%A3%E6%96%B9%E5%BD%A2%E3%81%AF%E9%95%B7%E6%96%B9%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F%E3%80%80%E6%AD%A3%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AF%E4%BA%8C%E7%AD%89%E8%BE%BA%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F_files/0009059_3M.png" id="IMGID9059_3" style="cursor:pointer" class="clickable" vspace="5" height="571" border="0" width="399">
+</a>
+</div>
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="75"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/75">75</a>]</li>
+<li class="title"><h2>乗法の意味とその拡張的な取扱いについて</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">おおくぼ</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2016年 4月 1日(金)03時33分11秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/9058/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+資料　　『算数・数学教育と数学的な考え方』　復刻版　中島健三<br>
+その１<br>
+<br>
+<br>
+<div class="Kiji_Img">
+<a href="https://8254.teacup.com/kakezannojunjo/img/bbs/0009058.png" target="_blank">
+<img src="%E6%AD%A3%E6%96%B9%E5%BD%A2%E3%81%AF%E9%95%B7%E6%96%B9%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F%E3%80%80%E6%AD%A3%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AF%E4%BA%8C%E7%AD%89%E8%BE%BA%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F_files/0009058M.png" id="IMGID9058" style="cursor:pointer" class="clickable" vspace="5" height="551" border="0" width="400">
+</a>
+</div>
+
+
+
+<div class="Kiji_Img">
+<a href="https://8254.teacup.com/kakezannojunjo/img/bbs/0009058_2.png" target="_blank">
+<img src="%E6%AD%A3%E6%96%B9%E5%BD%A2%E3%81%AF%E9%95%B7%E6%96%B9%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F%E3%80%80%E6%AD%A3%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AF%E4%BA%8C%E7%AD%89%E8%BE%BA%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F_files/0009058_2M.png" id="IMGID9058_2" style="cursor:pointer" class="clickable" vspace="5" height="556" border="0" width="400">
+</a>
+</div>
+
+<div class="Kiji_Img">
+<a href="https://8254.teacup.com/kakezannojunjo/img/bbs/0009058_3.png" target="_blank">
+<img src="%E6%AD%A3%E6%96%B9%E5%BD%A2%E3%81%AF%E9%95%B7%E6%96%B9%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F%E3%80%80%E6%AD%A3%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AF%E4%BA%8C%E7%AD%89%E8%BE%BA%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F_files/0009058_3M.png" id="IMGID9058_3" style="cursor:pointer" class="clickable" vspace="5" height="562" border="0" width="400">
+</a>
+</div>
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="74"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/74">74</a>]</li>
+<li class="title"><h2>Re: RE: 正方形は長方形なのか？　</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">おおくぼ</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2016年 4月 1日(金)03時24分3秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/9057/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/73">&gt;&gt;73</a><br>
+&gt; &gt; &gt; 資料　　『算数・数学教育と数学的な考え方』中島健三<br>
+&gt; &gt;<br>
+&gt;<br>
+<br>
+ 目次　その2<br>
+<br>
+<br>
+<br>
+<div class="Kiji_Img">
+<a href="https://8254.teacup.com/kakezannojunjo/img/bbs/0009057.png" target="_blank">
+<img src="%E6%AD%A3%E6%96%B9%E5%BD%A2%E3%81%AF%E9%95%B7%E6%96%B9%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F%E3%80%80%E6%AD%A3%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AF%E4%BA%8C%E7%AD%89%E8%BE%BA%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F_files/0009057M.png" id="IMGID9057" style="cursor:pointer" class="clickable" vspace="5" height="607" border="0" width="400">
+</a>
+</div>
+
+
+
+<div class="Kiji_Img">
+<a href="https://8254.teacup.com/kakezannojunjo/img/bbs/0009057_2.png" target="_blank">
+<img src="%E6%AD%A3%E6%96%B9%E5%BD%A2%E3%81%AF%E9%95%B7%E6%96%B9%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F%E3%80%80%E6%AD%A3%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AF%E4%BA%8C%E7%AD%89%E8%BE%BA%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F_files/0009057_2M.png" id="IMGID9057_2" style="cursor:pointer" class="clickable" vspace="5" height="598" border="0" width="400">
+</a>
+</div>
+
+<div class="Kiji_Img">
+<a href="https://8254.teacup.com/kakezannojunjo/img/bbs/0009057_3.png" target="_blank">
+<img src="%E6%AD%A3%E6%96%B9%E5%BD%A2%E3%81%AF%E9%95%B7%E6%96%B9%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F%E3%80%80%E6%AD%A3%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AF%E4%BA%8C%E7%AD%89%E8%BE%BA%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F_files/0009057_3M.png" id="IMGID9057_3" style="cursor:pointer" class="clickable" vspace="5" height="339" border="0" width="400">
+</a>
+</div>
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="73"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/73">73</a>]</li>
+<li class="title"><h2>Re: RE: 正方形は長方形なのか？　</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">おおくぼ</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2016年 4月 1日(金)03時22分25秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/9056/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/72">&gt;&gt;72</a><br>
+&gt; <a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/71">&gt;&gt;71</a><br>
+&gt; &gt; 資料　　『算数・数学教育と数学的な考え方』中島健三<br>
+&gt;<br>
+<br>
+目次　その１<br>
+<br>
+<br>
+<div class="Kiji_Img">
+<a href="https://8254.teacup.com/kakezannojunjo/img/bbs/0009056.png" target="_blank">
+<img src="%E6%AD%A3%E6%96%B9%E5%BD%A2%E3%81%AF%E9%95%B7%E6%96%B9%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F%E3%80%80%E6%AD%A3%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AF%E4%BA%8C%E7%AD%89%E8%BE%BA%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F_files/0009056M.png" id="IMGID9056" style="cursor:pointer" class="clickable" vspace="5" height="559" border="0" width="400">
+</a>
+</div>
+
+
+
+<div class="Kiji_Img">
+<a href="https://8254.teacup.com/kakezannojunjo/img/bbs/0009056_2.png" target="_blank">
+<img src="%E6%AD%A3%E6%96%B9%E5%BD%A2%E3%81%AF%E9%95%B7%E6%96%B9%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F%E3%80%80%E6%AD%A3%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AF%E4%BA%8C%E7%AD%89%E8%BE%BA%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F_files/0009056_2M.png" id="IMGID9056_2" style="cursor:pointer" class="clickable" vspace="5" height="551" border="0" width="400">
+</a>
+</div>
+
+<div class="Kiji_Img">
+<a href="https://8254.teacup.com/kakezannojunjo/img/bbs/0009056_3.png" target="_blank">
+<img src="%E6%AD%A3%E6%96%B9%E5%BD%A2%E3%81%AF%E9%95%B7%E6%96%B9%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F%E3%80%80%E6%AD%A3%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AF%E4%BA%8C%E7%AD%89%E8%BE%BA%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F_files/0009056_3M.png" id="IMGID9056_3" style="cursor:pointer" class="clickable" vspace="5" height="612" border="0" width="400">
+</a>
+</div>
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="72"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/72">72</a>]</li>
+<li class="title"><h2>Re: RE: 正方形は長方形なのか？　</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">おおくぼ</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2016年 3月31日(木)23時27分18秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/9055/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/71">&gt;&gt;71</a><br>
+&gt; 資料　　『算数・数学教育と数学的な考え方』中島健三<br>
+<br>
+その2<br>
+<br>
+<br>
+<div class="Kiji_Img">
+<a href="https://8254.teacup.com/kakezannojunjo/img/bbs/0009055.png" target="_blank">
+<img src="%E6%AD%A3%E6%96%B9%E5%BD%A2%E3%81%AF%E9%95%B7%E6%96%B9%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F%E3%80%80%E6%AD%A3%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AF%E4%BA%8C%E7%AD%89%E8%BE%BA%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F_files/0009055M.png" id="IMGID9055" style="cursor:pointer" class="clickable" vspace="5" height="599" border="0" width="400">
+</a>
+</div>
+
+
+
+<div class="Kiji_Img">
+<a href="https://8254.teacup.com/kakezannojunjo/img/bbs/0009055_2.png" target="_blank">
+<img src="%E6%AD%A3%E6%96%B9%E5%BD%A2%E3%81%AF%E9%95%B7%E6%96%B9%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F%E3%80%80%E6%AD%A3%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AF%E4%BA%8C%E7%AD%89%E8%BE%BA%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F_files/0009055_2M.png" id="IMGID9055_2" style="cursor:pointer" class="clickable" vspace="5" height="589" border="0" width="400">
+</a>
+</div>
+
+<div class="Kiji_Img">
+<a href="https://8254.teacup.com/kakezannojunjo/img/bbs/0009055_3.png" target="_blank">
+<img src="%E6%AD%A3%E6%96%B9%E5%BD%A2%E3%81%AF%E9%95%B7%E6%96%B9%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F%E3%80%80%E6%AD%A3%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AF%E4%BA%8C%E7%AD%89%E8%BE%BA%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F_files/0009055_3M.png" id="IMGID9055_3" style="cursor:pointer" class="clickable" vspace="5" height="306" border="0" width="399">
+</a>
+</div>
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="71"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/71">71</a>]</li>
+<li class="title"><h2>RE: 正方形は長方形なのか？　</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">おおくぼ</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2016年 3月31日(木)23時25分50秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/9054/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+資料　　『算数・数学教育と数学的な考え方』中島健三<br>
+その１<br>
+<div class="Kiji_Img">
+<a href="https://8254.teacup.com/kakezannojunjo/img/bbs/0009054.png" target="_blank">
+<img src="%E6%AD%A3%E6%96%B9%E5%BD%A2%E3%81%AF%E9%95%B7%E6%96%B9%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F%E3%80%80%E6%AD%A3%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AF%E4%BA%8C%E7%AD%89%E8%BE%BA%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F_files/0009054M.png" id="IMGID9054" style="cursor:pointer" class="clickable" vspace="5" height="581" border="0" width="400">
+</a>
+</div>
+
+
+
+<div class="Kiji_Img">
+<a href="https://8254.teacup.com/kakezannojunjo/img/bbs/0009054_2.png" target="_blank">
+<img src="%E6%AD%A3%E6%96%B9%E5%BD%A2%E3%81%AF%E9%95%B7%E6%96%B9%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F%E3%80%80%E6%AD%A3%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AF%E4%BA%8C%E7%AD%89%E8%BE%BA%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F_files/0009054_2M.png" id="IMGID9054_2" style="cursor:pointer" class="clickable" vspace="5" height="584" border="0" width="399">
+</a>
+</div>
+
+<div class="Kiji_Img">
+<a href="https://8254.teacup.com/kakezannojunjo/img/bbs/0009054_3.png" target="_blank">
+<img src="%E6%AD%A3%E6%96%B9%E5%BD%A2%E3%81%AF%E9%95%B7%E6%96%B9%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F%E3%80%80%E6%AD%A3%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AF%E4%BA%8C%E7%AD%89%E8%BE%BA%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F_files/0009054_3M.png" id="IMGID9054_3" style="cursor:pointer" class="clickable" vspace="5" height="588" border="0" width="400">
+</a>
+</div>
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="70"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/70">70</a>]</li>
+<li class="title"><h2>re:フィールズ賞受賞者が現代化を批判したらしい</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">おおくぼ</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2016年 3月30日(水)13時55分4秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/9044/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+『数学の50年 　数学セミナー創刊50周年記念 』<br>
+<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.nippyo.co.jp%2Fbook%2F6115.html" target="_blank" rel="nofollow">http://www.nippyo.co.jp/book/6115.html</a><br>
+<br>
+「座談会　初等数学よ　大らかであれ／小平邦彦・藤田 宏・前原昭二（1974年6月号）」<br>
+<br>
+この座談会でも、集合論による数学教育の現代化が批判されています。<br>
+１９７４年の座談会なので、昭和４９年ですね。<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="69"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/69">69</a>]</li>
+<li class="title"><h2>フィールズ賞受賞者が現代化を批判したらしい</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2016年 3月30日(水)11時39分46秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/9043/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww2.kobe-u.ac.jp%2F%7Etrex%2Fhme%2Findex8.html" target="_blank" rel="nofollow">http://www2.kobe-u.ac.jp/~trex/hme/index8.html</a><br>
+昭和４８年ごろから「算数ぎらい」とか「落ちこほれ」とかいう問題が社会間題としてクローズ・アップ され始めた。 
+たとえば朝日新聞は昭和４８牟ｌｌ月に「算数ぎらいな子」という特集をしている。 
+その中に岐阜県のある教育研究所がまとめた６年生対象の調査結果を報じている。<br>
+「学校の勉強でいちはんわかりにくい科目は」の問いに、理科１９％、社会１８％、国語ｌｌ％を 断然押えて、３５％の子どもが算数をあげている。<br>
+「算数の勉強がよくわかるか」には、約半数の４８％の子か半分以上わからないと答え、 とくに５年生の場合は６４％にものぼっている。<br>
+このような算数ぎらい、落ちこぼれを作る最大の原因として、新指導要領で目玉商品として登場した 「集合」をやり玉にあげている。<br>
+その見出しも「集合ブームの陰で－教える側も自信がない、つけ焼き刃になりがち」となっていて、 中々ショッキングである。 本文中にも、数々のすぐれた教育実践で父母の信頼が厚い、東京のある先生の言葉として<br>
+<br>
+「私もその一人ですが、毎日の授業で“教えるよりもこっちが本当に教わりたい”と弱音を吐く 先生が多いですよ」<br>
+という思痴を引用している。<br>
+このような先生がたの戸惑い、自信のなさを裏づけるものとして、集合の本のブームについてふれ、 
+「つけ焼き刃では、とても子どもたちを理解させられるような授業は無理だと思う。だから、ただでさえ 
+高学年になると学力差がついているのに、余計算数ぎらいな子がふえるのは当然だ。集合がわからない、 
+教師が算数ぎらいをつくっているといえるわけだ」という言葉で結んでいる。<br>
+<br>
+「落ちこぼれ」に対し「落ちこぼし」という造語まで生まれ、特に算数・数学が一番多くマスコミに 取り上げられた。 そういう社会状態の中、フィールズ賞・文化勲賞に輝く小平邦彦、広中平祐というお歴々が数学教育の 現代化を批判し始めた。<br>
+小平は昭和５０年にある雑誌に「数学教育を現代化の呪縛から解放せよ」という一文を載せ、およそ 次のように述べている。<br>
+<br>
+数学を教える場合、数学の生成発展の歴史に従ってやらなくてはならない。 それを無視して一足飛びに現代の集合論を教えようとするから無理がでてくる。<br>
+それを小・中学生に教えようとするのだから、つまらんおもちやの部分しか教えられないようになる。<br>
+結局、おもちゃの数学を教えるために時間とエネルギーを浪費し、本物の数学をおろそかにするようになってしまう。<br>
+これが小平の主張である。<br>
+しかし、生成発展の歴史にしたがって教えなけれはならないという説には大きな疑問があるし、この中で 集合という概念と集合論という学問とを意識的にすりかえているという問題点もある。<br>
+したがって小平説は数学教育の理論としては同調しにくいが、マスコミはこれを大きく取り上げ現代化批判を 始めた。 「落ちこぼし」の元凶を「集合」にみつけ、その根拠を権威者小平の説に求めたのである。<br>
+<br>
+あのように鳴り物入りで出発した「現代化」が、かくも簡単に崩壌したのはなぜであろうか。 その原因として次の三つが考えられる。<br>
+<br>
+１）現代化は科学振興という大義名文のもと、国家的見地からの押しつけとして進められたところに 最大の問題があった。 したがって、公害問題など科学万能社会への批判が拡がってくると、現代化をいとも簡単に放棄するという 結果を招来したのである。<br>
+２）現代化指導要領の二つの柱「内容の精選」と「現代化の導入」の矛盾が現実のものとなった。 
+つまり、現代化の精神により内容を単純化、明確化することにより、見通しのよいものにするという自画自賛が、 
+絵にかいた餅にしかすぎず、したがって、現代化教材の分だけの負担増となり、落ちこぼれを作る原因となった。<br>
+３）現場教師が現代化教材の意義と役割を十分にのみこめないまま、見切り発車をしたため、集合・関数・ 確率などの新教材についての指導が徹底せず、落ちこぼれを作る原因となった。<br>
+このような批判の結果、あれだけ積極的に取り入れた現代化をあきらめ集合などの新教材を破棄する方針を 決めたのである。 特に、落ちこぼれをなくすため、教材や時間数の軽減によりゆとりある授業を試みる方向へと転換していった。<br>
+昭和５１年の教育課程審議会の答申によると「教育課程の基準の改善は、自ら考え正しく判断できる力をもつ 児童生徒の育成ということを重視しながら、次のようなねらいの達成を目指して行う必要がある」として 次の三つをあげている。<br>
+<br>
+（ｌ）人間性豊かな児童生徒を育てること。<br>
+（２）ゆとりあるしかも充実した学校生活が送れるようにすること。<br>
+（３）国民として必要とされる基礎的・基本的な内容を重視するとともに児童生徒の個性や能力に 応じた教育が行われるようにすること。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="68"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/68">68</a>]</li>
+<li class="title"><h2>教えてｇｏｏ</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2016年 3月30日(水)11時32分18秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/9042/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Foshiete.goo.ne.jp%2Fqa%2F6818555.html" target="_blank" rel="nofollow">http://oshiete.goo.ne.jp/qa/6818555.html</a><br>
+＞台形と平行四辺形の定義について<br>
+<br>
+解決済<br>
+気になる<br>
+1件<br>
+質問者：Mozart3質問日時：2011/06/18 16:36回答数：7件<br>
+恐れ入ります。<br>
+<br>
+台形と平行四辺形の定義について、学校とインターネットで結論が統一されていないようで、<br>
+詳しい方に伺いたいと思います。<br>
+<br>
+焦点は、台形の定義を、<br>
+(1) 「一組以上の向かい合う線が並行」とするか、<br>
+(2) 「一組のみ（2組はNG)の向かい合う線が並行」とするかに依存していまして、<br>
+<br>
+学校やこどもちゃれんじでは(2)となっており、wikipediaでは(1)となっています。<br>
+<br>
+<br>
+追加では、長方形と正方形の定義でも同じようなことが言えるかと思います。<br>
+<br>
+この違いは、すでに統一されているものなのか、<br>
+判断者によって(1)と(2)に揺らいでしまって良いものかを伺えれば幸いです。<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+＞それを教育するのにふさわしい発達段階は，中学校以降だと思います．<br>
+<br>
+<br>
+<br>
+<br>
+出ました！「発達段階」<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="67"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/67">67</a>]</li>
+<li class="title"><h2>平行四辺形は台形ではない</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2016年 3月30日(水)10時29分24秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/9041/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fbbs.inter-edu.com%2Fbbs1%2Fjuku%2Fdata%2Fju0010%2Flog%2Ftree_117.htm" target="_blank" rel="nofollow">http://bbs.inter-edu.com/bbs1/juku/data/ju0010/log/tree_117.htm</a><br>
+<br>
+<font color="#0000FF">「右の４本のぼうを使って四角形を作ることにします。このときできる四角形は<br>
+次のどれになりますか。すべて答えなさい。ただし、ぼうは切ったり、折ったり、<br>
+長さが余ったりしません。<br>
+正方形、長方形、平行四辺形、台形、ひし形」<br>
+<br>
+描かれているぼうは２本ずつ長さが同じぼうがあわせて４本。<br>
+</font><br>
+<br>
+正解は「長方形　平行四辺形」で、<font color="#FF0000"><font size="5">「台形」は除外されている</font></font>とのこと。<br>
+<br>
+<br>
+日能研の掲示板らしいが、日能研の問題なのかどうなのかは不明。<br>
+<br>
+<br>
+この件を最初に書き込んだ人の認識はまともだけど、レスが酷すぎる。結局、この人も最後は「納得」してしまっている。<br>
+<br>
+<br>
+<font color="#0000FF">冷静に考えるとあなたのおっしゃりたいことがわかります。<br>
+例えば　正答が「正方形」の所に<br>
+「長方形」と書いたら、そりゃあ正方形は長方形に含まれるけれど<br>
+バツでしょ？<br>
+ということですよね。<br>
+<br>
+今回のことは、私が「すべて」という言葉の問題作成者の意図を考えなかったせいだと思います。<br>
+国語の講師の方が<br>
+「２０字前後で書け、というときは、何故２０字以内で書け、でないのか考えれば文字数は決まってくる」<br>
+とおっしゃっていました。<br>
+今回の問題で作者が「すべて」としたのは、<br>
+「長方形だけでも平行四辺形だけでもバツ」<br>
+と言いたかったので<br>
+「集合の弁図から考えられる全ての答えを記せ。」<br>
+ではないと気付くべきでした。<br>
+<br>
+自分では正しい主張のつもりでしたが、よく考えると<br>
+こう書いてもバツじゃないはず！<br>
+と、問題の揚げ足を取って大騒ぎしていたようです。 </font><br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="66"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/66">66</a>]</li>
+<li class="title"><h2>想定の斜め上を行く算数教育</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2016年 3月28日(月)19時07分34秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/9015/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Ftwitter.com%2Fliyehuku%2Fstatus%2F702991234659442688" target="_blank" rel="nofollow">https://twitter.com/liyehuku/status/702991234659442688</a><br>
+<br>
+「次の図の中にいくつ四角形があるか答えなさい」で、正方形・長方形以外の四角形の数を数えたら不正解。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="65"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/65">65</a>]</li>
+<li class="title"><h2>学校図書によると　３ｘは単項式で３ｘ＋０は多項式</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2015年 8月18日(火)20時47分20秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/8442/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+ツイッターのほうで報告した。<br>
+<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Ftwitter.com%2Fsekibunnteisuu%2Fstatus%2F633073938331930624" target="_blank" rel="nofollow">https://twitter.com/sekibunnteisuu/status/633073938331930624</a><br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Ftwitter.com%2Fsekibunnteisuu%2Fstatus%2F633436499950735360" target="_blank" rel="nofollow">https://twitter.com/sekibunnteisuu/status/633436499950735360</a><br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="64"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/64">64</a>]</li>
+<li class="title"><h2>数学セミナーに載っていた「現代化」失敗の話</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2015年 8月18日(火)12時35分1秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/8441/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+ずいぶん前のことで詳細は忘れたが以下のような話が数セミに載った事がある。<br>
+<br>
+｛０，１，２｝は体になっている。但し演算の結果、３以上になったら３で割ったあまりをその結果とする。<br>
+<br>
+こんな説明を教師にしたらしい。<br>
+<br>
+ところが「２の逆元がない」と言う教師がいた。<br>
+<br>
+｛０，１，２｝から２つａとｂを取り出したときに・・・<br>
+<br>
+という説明をしてあったのだが、この段階で「異なる２つ」と認識してしまったらしい。<br>
+<br>
+こういう状況では現代化は難しいと思っていたが案の定頓挫した、<br>
+<br>
+というような内容だった。<br>
+<br>
+<br>
+それなりに数学をやっていれば無意識に判断している常識<br>
+<br>
+正方形は長方形、ＡＢはＡＢ自身に平行、・・・<br>
+<br>
+<br>
+と、<br>
+<br>
+日常の言葉からのニュアンス<br>
+<br>
+「正方形は長方形とは違うでしょう」<br>
+「２つ並んでいないと平行とは言わないんじゃないの？ＡＢがＡＢと平行なんて言い方はおかしい」<br>
+「関数と言うのはｘが変化したらｙも変化するのだから、ｙがずっと同じ値だったらそれは関数と言うのはおかしい」<br>
+<br>
+<br>
+こういう乖離があったときに、算数・数学教育は後者に近くなってしまうのではないだろうか？<br>
+<br>
+<br>
+「そうしないと子供が混乱するから」という大義名分もある。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="63"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/63">63</a>]</li>
+<li class="title"><h2>反射律</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2015年 8月18日(火)12時18分17秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/8440/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+ △ＡＢＣ∽△ＡＢＣ　の例は、「正方形は長方形か」という「特殊は一般に内包されるか」問題とは別の<br>
+<br>
+「同値関係における反射律が成り立つのか」　というカテゴリーになる。<br>
+<br>
+<br>
+直方体があって、「辺ＡＢと平行な辺」として、辺ＡＢ自身はどうなのか？<br>
+<br>
+という類。<br>
+<br>
+ある程度数学をやっている人なら、辺ＡＢと辺ＡＢは平行、と答えるだろうが、算数・数学教育の世界ではおそらく周知されていない予感がする。<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="62"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/62">62</a>]</li>
+<li class="title"><h2>△ＡＢＣ∽△ＡＢＣ　が誤答？</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2015年 8月16日(日)10時17分23秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/explain/index/comm_id/8432/" target="_blank">編集済</a></li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/8432/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Ftwitter.com%2Fbampaku%2Fstatus%2F476747228367699968" target="_blank" rel="nofollow">https://twitter.com/bampaku/status/476747228367699968</a><br>
+＞「次の図形のうち、三角形ABCと相似なものはいくつあるか」って問題で、三角形ABCをカウントしたらバツにされた経験は今でも根に持っています。<br>
+<br>
+<br>
+補足　三角形ＡＢＣとは別の合同な三角形はカウントされていたとのこと。<br>
+<br>
+「合同は相似比１：１の相似」ということを理解していなかったのではなく、<br>
+<br>
+「ある図形はその図形それ自身に相似」ということを理解していなかったらしい。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="61"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/61">61</a>]</li>
+<li class="title"><h2>長方形は平行四辺形に属する？？</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2015年 5月19日(火)10時36分5秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/8162/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/1-?M=JU&amp;JUR=http%3A%2F%2Foshiete.goo.ne.jp%2Fqa%2F5741627.html" target="_blank" rel="nofollow">http://oshiete.goo.ne.jp/qa/5741627.html</a><br>
+長方形は平行四辺形に属する？？<br>
+<br>
+問「～で平行四辺形が存在することを示せ」<br>
+<br>
+という問題で解法には<br>
+「四角形PQRSでPQ(ベクトル)＝SR(ベクトル)を示せばいい」<br>
+とあるんですが、これだけでどうして大丈夫なんでしょうか？<br>
+<br>
+これだと長方形を除外していなくて十分条件にはならなのではないかと<br>
+思うんですが・・・。<br>
+これが正解ということは、長方形は平行四辺形の一種であると考えるべきなんでしょうか？<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="60"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/60">60</a>]</li>
+<li class="title"><h2>正方形は長方形でかつひし形、という前提の問題</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2015年 5月19日(火)10時22分46秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/8161/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/1-?M=JU&amp;JUR=http%3A%2F%2Fdetail.chiebukuro.yahoo.co.jp%2Fqa%2Fquestion_detail%2Fq1413391049" target="_blank" rel="nofollow">http://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q1413391049</a><br>
+算数の問題です。<br>
+『平行四辺形が10個あります。<br>
+この中にひし形が7個、長方形が5個、<br>
+ひし形でも長方形でもないもが1個あります。<br>
+この中に正方形は何個ありますか？』<br>
+<br>
+<br>
+これ自体は面白い問題だけど、正方形が長方形なのか曖昧な状態だと混乱することになる。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="59"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/59">59</a>]</li>
+<li class="title"><h2>岐阜県教育総合センター</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2015年 5月14日(木)23時24分25秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/8134/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+岐阜県教育総合センター<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/1-?M=JU&amp;JUR=http%3A%2F%2Fwww.gifu-net.ed.jp%2Fssd%2Fsien%2Fkiso%2Fhyoukamonndai%2Fmondaiindex.html" target="_blank" rel="nofollow">http://www.gifu-net.ed.jp/ssd/sien/kiso/hyoukamonndai/mondaiindex.html</a> …<br>
+第３学年<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/1-?M=JU&amp;JUR=http%3A%2F%2Fwww.gifu-net.ed.jp%2Fssd%2Fsien%2Fkiso%2Fhyoukamonndai%2F3index.html" target="_blank" rel="nofollow">http://www.gifu-net.ed.jp/ssd/sien/kiso/hyoukamonndai/3index.html</a> …<br>
+１５二等辺三角形と正三角形<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/1-?M=JU&amp;JUR=http%3A%2F%2Fwww.gifu-net.ed.jp%2Fssd%2Fsien%2Fkiso%2Fh24_hojuumondai%2F3nenn%2F3315_nitouhennsannkakukeitoseisannkakukei.pdf" target="_blank" rel="nofollow">http://www.gifu-net.ed.jp/ssd/sien/kiso/h24_hojuumondai/3nenn/3315_nitouhennsannkakukeitoseisannkakukei.pdf</a> …<br>
+正三角形は二等辺三角形ではないとしている<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="58"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/58">58</a>]</li>
+<li class="title"><h2>子育て・もとば育て</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2015年 5月14日(木)23時13分40秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/8133/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+正三角形は二等辺三角形ではないと言う解釈になっている<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/1-?M=JU&amp;JUR=http%3A%2F%2Fhappylilac.net%2F" target="_blank" rel="nofollow">http://happylilac.net/</a><br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/1-?M=JU&amp;JUR=http%3A%2F%2Fhappylilac.net%2Fsankakukei-ans.pdf" target="_blank" rel="nofollow">http://happylilac.net/sankakukei-ans.pdf</a> …<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="57"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/57">57</a>]</li>
+<li class="title"><h2>甲府市教育委員会　学力向上計画　</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2015年 5月14日(木)23時08分11秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/explain/index/comm_id/8132/" target="_blank">編集済</a></li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/8132/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+甲府市教育委員会　学力向上計画　「正三角形は二等辺三角形ではない」としている。　甲府市教委の学力向上が必要<br>
+<br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/1-?M=JU&amp;JUR=http%3A%2F%2Fwww.city.kofu.yamanashi.jp%2Fgakkoukyoiku%2Fgakusui%2Fh21%2Fprint%2Fprint.html" target="_blank" rel="nofollow">http://www.city.kofu.yamanashi.jp/gakkoukyoiku/gakusui/h21/print/print.html</a><br>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/1-?M=JU&amp;JUR=http%3A%2F%2Fwww.city.kofu.yamanashi.jp%2Fgakkoukyoiku%2Fgakusui%2Fh21%2Fprint%2Fsp%2F4-3-1.pdf" target="_blank" rel="nofollow">http://www.city.kofu.yamanashi.jp/gakkoukyoiku/gakusui/h21/print/sp/4-3-1.pdf</a> …<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="56"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/56">56</a>]</li>
+<li class="title"><h2> 正三角形は二等辺三角形じゃないだとう！？</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2015年 5月14日(木)23時02分59秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/8131/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/1-?M=JU&amp;JUR=http%3A%2F%2Fsrad.jp%2F%7Ehig%2Fjournal%2F547437%2F" target="_blank" rel="nofollow">http://srad.jp/~hig/journal/547437/</a><br>
+先日小学生の娘のテストを見ていたら、気になる回答があった。<br>
+問題は下記のような簡単なもの。<br>
+<br>
+問１）この中で二等辺三角形はいくつあるでしょうか？<br>
+問２）この中で正三角形はいくつあるでしょうか？<br>
+<br>
+あぁ、問１はよくある引っかけだな、と思ったら答えがおかしい。<br>
+正三角形の分が足りないじゃないか！<br>
+あぁ、また「算数と数学は違うのよぉ。」なんていうおかしな話になっているのか。。。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="55"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/55">55</a>]</li>
+<li class="title"><h2>ブログ</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2015年 5月12日(火)16時35分1秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/8124/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.sho6.info%2Farchives%2F528" target="_blank" rel="nofollow">http://www.sho6.info/archives/528</a><br>
+「ひし形なんだけどさ、全ての辺の長さが同じだから、対角線を引くと二つの辺は同じ長さになるよね。」<br>
+<br>
+「うん、だから二等辺三角形が２つできるって考えたんだろ？」<br>
+<br>
+「そうなんだけどさあ…、同じ長さ辺以外のもうひとつの辺なんだけど、これが他の２つの辺と同じながさじゃないってことはどうやって説明すればいいのかなあ…」<br>
+<br>
+「へ？それ、説明必要？」<br>
+<br>
+「だってさあ、３つとも同じ長さになっちゃったら、正三角形になるじゃん。」<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="54"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/54">54</a>]</li>
+<li class="title"><h2>正方形も！</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2015年 4月18日(土)17時57分12秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/8018/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fblog.goo.ne.jp%2Fmh0920-yh%2Fe%2F6627a8b114a095d274ade554ef3dcfa1" target="_blank" rel="nofollow">http://blog.goo.ne.jp/mh0920-yh/e/6627a8b114a095d274ade554ef3dcfa1</a><br>
+<br>
+<font size="7"><font color="#FF0000">大日本図書『たのしい算数』は、<br>
+<br>
+正方形は長方形ではない<br>
+<br>
+としてる！</font><br>
+<br>
+</font>正三角形と二等辺三角形、台形と平行四辺形に関しては、<br>
+<br>
+「３人いて２人きたら、５人。これを４人と答えたら間違い。『２つの辺が等しい』は『３つの辺が等しい』は除外される。」<br>
+<br>
+という（屁）理屈も可能だが、<br>
+<br>
+算数での長方形の定義は　４つの角が直角の四角形　だから、<br>
+正方形はどう考えても正方形<br>
+<br>
+言い訳はできないはず。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="53"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/53">53</a>]</li>
+<li class="title"><h2>大日本図書『たのしい算数』</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2015年 4月18日(土)08時32分0秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/8017/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fblog.goo.ne.jp%2Fmh0920-yh%2Fe%2Ffc74b3c22515e31359e53733bc4ae0c2%3Fst%3D0%23comment-form" target="_blank" rel="nofollow">http://blog.goo.ne.jp/mh0920-yh/e/fc74b3c22515e31359e53733bc4ae0c2?st=0#comment-form</a><br>
+<br>
+<br>
+<font color="#FF0000"><font size="6">大日本図書『たのしい算数』では、<br>
+<br>
+正三角形は二等辺三角形ではない<br>
+<br>
+としている。</font></font><br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="52"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/52">52</a>]</li>
+<li class="title"><h2>教師は「二等辺三角形とは、二つの辺の長さが同じで、もうひとつの辺の長さが違う三角形」</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2015年 3月 1日(日)03時59分34秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/7815/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+教えて！goo<br>
+<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Foshiete.goo.ne.jp%2Fqa%2F7362558.html%26isShow%3Dopen" target="_blank" rel="nofollow">http://oshiete.goo.ne.jp/qa/7362558.html&amp;isShow=open</a><br>
+先日、小学校三年生の子供の授業参観に行きました<br>
+<br>
+算数の授業で、教師は「二等辺三角形とは、二つの辺の長さが同じで、もうひとつの辺の長さが違う三角形」と、数学的に明らかな誤りを教えていました<br>
+<br>
+さすがに授業中に誤りを指摘するのは自重しましたが、このような明らかな誤りを教えている場合はどう対処すべきでしょうか?<br>
+<br>
+自分の子供には正しい定義を教えておきましたが<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="51"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/51">51</a>]</li>
+<li class="title"><h2>ありそうな事例だけど、実際にはどうなのだろうか、というのをいくつか</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2015年 2月10日(火)07時50分16秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/explain/index/comm_id/7782/" target="_blank">編集済</a></li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/7782/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+合同は相似か？<br>
+<br>
+線分ＡＢと線分ＡＢは平行か？<br>
+<br>
+△ＡＢＣと△ＡＢＣは合同か？<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="50"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/50">50</a>]</li>
+<li class="title"><h2>Re: 質問</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2015年 1月26日(月)06時59分0秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/7761/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/49">&gt;&gt;49</a><br>
+&gt; 二等辺三角形の定義が、<br>
+&gt; 「二本の辺のみが同じ長さの三角形」<br>
+&gt; ではなく、<br>
+&gt; 「少なくとも二本の辺が同じ長さの三角形」<br>
+&gt; であることの根拠はなんですか？<br>
+&gt;<br>
+<br>
+<br>
+定義はその場の決め事でしょう。自然数の定義も、０を入れる流儀と、入れない流儀があります。<br>
+<br>
+どこでの定義の話をしていますか？<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="49"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/49">49</a>]</li>
+<li class="title"><h2>質問</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">バルタン成人</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2015年 1月25日(日)23時03分41秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/7760/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+二等辺三角形の定義が、<br>
+「二本の辺のみが同じ長さの三角形」<br>
+ではなく、<br>
+「少なくとも二本の辺が同じ長さの三角形」<br>
+であることの根拠はなんですか？<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="48"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/48">48</a>]</li>
+<li class="title"><h2>三角形は四角形ですかね？</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2015年 1月15日(木)07時38分24秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/7744/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+「正方形は長方形ではない」という定義は可能だし、「凹四角形は四角形ではない」という定義も可能でしょうが、「４本の直線で囲まれた図形」なら、凹四角形はまごうことなき四角形。<br>
+<br>
+　私自身は小学校時代、凹四角形どころか三角形も四角形であると認識していました。<br>
+<br>
+　内角の和は問題ないけど、多角形の外角の和＝１８０度　は、時計回りと反時計回りで角度に正負をつける必要性が生じるので若干厄介なのかな？一般角を扱うのは高校数学から。<br>
+<br>
+　高校数学の順列組み合わせの問題集で平面上に点が散らばっていて、それらの点を頂点とする四角形がいくつかあるかを問う問題がありました。<br>
+<br>
+　凸四角形に関しては４点選べば１つが決定するけど、凹四角形だと３つ出てきて、かなりややこしくなる。<br>
+<br>
+　解答では凸四角形の数しか書いてなかった。作成した側は凹四角形のことを失念していたと思われる。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="47"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/47">47</a>]</li>
+<li class="title"><h2>&lt;&lt;46</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">papapa</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2015年 1月15日(木)00時41分53秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/7743/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+凹四角形という言葉を初めて聞きました。指導書でも見たことはなく、「算数教育業界（笑）」でも一般的ではありません。<br>
+<br>
+２年生で初めて学習する四角形の定義は「４本の直線で囲まれた図形」です。自分の知っている全ての小学校教員は、凹型四角形を四角形と捉えています。ま
+た、もし２年生の段階で自由に描かせて凹型四角形を描いたら、「素晴らしい図形感覚の持ち主」として大いに褒めると思います。<br>
+<br>
+繰り返しになりますが、（＊）の事例を「四角形ではない」という教員は見たことも聞いたこともありません。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="46"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/46">46</a>]</li>
+<li class="title"><h2>「ブーメラン形は四角形ではない」？</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">ゴルゴ・サーディーン</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2015年 1月14日(水)22時53分30秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/explain/index/comm_id/7742/" target="_blank">編集済</a></li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/7742/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+凹四角形という用語があるのを初めて知りました。<br>
+<br>
+■凹四角形は四角形ではない、と言われた例<br>
+　<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Foshiete1.watch.impress.co.jp%2Fqa4790426.html" target="_blank" rel="nofollow">http://oshiete1.watch.impress.co.jp/qa4790426.html</a>　（＊）<br>
+　<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2F58ch.goyah.net%2Ffashion%2Fzakka%2F73-pic.html" target="_blank" rel="nofollow">http://58ch.goyah.net/fashion/zakka/73-pic.html</a><br>
+　<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fdetail.chiebukuro.yahoo.co.jp%2Fqa%2Fquestion_detail%2Fq107486510" target="_blank" rel="nofollow">http://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q107486510</a><br>
+<br>
+■ただしそれは、掛順固定のような業界全体の病ではなくて、<br>
+　あくまで個々の教師の資質の問題です。<br>
+　“あの”啓林館でも「凹四角形」を認めています。<br>
+　<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.shinko-keirin.co.jp%2Fkeirinkan%2Ftea%2Fchu%2Fjissen%2Fsugaku%2F201407%2Findex.html" target="_blank" rel="nofollow">http://www.shinko-keirin.co.jp/keirinkan/tea/chu/jissen/sugaku/201407/index.html</a><br>
+<br>
+<br>
+（＊…のベストアンサーの人が<br>
+　　「凹多角形は内角の和の公式等を満たさない」<br>
+　としているのですが、それは何なんでしょう？　）<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="45"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/45">45</a>]</li>
+<li class="title"><h2>Re: ちょっとした疑問</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2014年12月27日(土)07時12分29秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/7699/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/44">&gt;&gt;44</a><br>
+&gt; 正三角形を描いて二辺が等しいとすると、正三角形は二等辺三角形ではないとする人はどういう図形と答えるのか疑問に思いました。<br>
+&gt; 正三角形かもしれないので不明と答えたりするんですかね。<br>
+<br>
+正方形が長方形であることや、ひし形が平行四辺形であることは、教科書の定義を文字通り解釈するなら自明なんだけど、<br>
+<br>
+「正三角形は二等辺三角形」「平行四辺形は台形」は、ビミョーですね。<br>
+「2つの辺が等しい」は「3つは駄目」、「1組の辺が平行」は「二組は駄目」と解釈する人は多そう。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="44"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/44">44</a>]</li>
+<li class="title"><h2>ちょっとした疑問</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">TaKu</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2014年12月24日(水)21時06分16秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/7694/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+正三角形を描いて二辺が等しいとすると、正三角形は二等辺三角形ではないとする人はどういう図形と答えるのか疑問に思いました。<br>
+正三角形かもしれないので不明と答えたりするんですかね。<br>
+<div class="Kiji_Img">
+<img src="%E6%AD%A3%E6%96%B9%E5%BD%A2%E3%81%AF%E9%95%B7%E6%96%B9%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F%E3%80%80%E6%AD%A3%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AF%E4%BA%8C%E7%AD%89%E8%BE%BA%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F_files/0007694M.jpg" vspace="5" height="297" border="0" width="350">
+</div>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="43"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/43">43</a>]</li>
+<li class="title"><h2>ブログ</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2014年12月15日(月)06時42分35秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/7683/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+正三角形は二等辺三角形か。正方形は長方形か。<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.sho6.info%2Farchives%2F528" target="_blank" rel="nofollow">http://www.sho6.info/archives/528</a><br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="42"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/42">42</a>]</li>
+<li class="title"><h2>Re: 集合図</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">ゴルゴ・サーディーン</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2014年12月 9日(火)23時26分52秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/7679/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/41">&gt;&gt;41</a><br>
+<font color="#0000A0"><b>&gt;疑いの余地はないと思うのですが…</b></font><br>
+<br>
+疑いの余地の無いシンプルな事実を平然と無視するのが、業界の流儀なのでしょうね。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="41"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/41">41</a>]</li>
+<li class="title"><h2>集合図</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">papapa</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2014年12月 9日(火)22時22分12秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/7678/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+学校図書４年の教科書には、四角形の集合図が掲載されています。三角形はありませんが…<br>
+集合図を指導すれば、「正方形は長方形の特別な形⇒４辺が等しい長方形を正方形といいます。」に疑いの余地はないと思うのですが…<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="40"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/40">40</a>]</li>
+<li class="title"><h2>東京都算数教育研究会は「正方形は長方形ではない」</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2014年12月 6日(土)18時04分2秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/7675/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fd.hatena.ne.jp%2Ftakehikom%2F20141127%2F1417036309" target="_blank" rel="nofollow">http://d.hatena.ne.jp/takehikom/20141127/1417036309</a><br>
+＞例えば，東京都算数教育研究会が平成23年度に実施した学力調査には，第2学年*1を対象として，以下のような出題があります．<br>
+<br>
+こういうのを探し出してくれるtakehikom氏はありがたい。<br>
+<br>
+＞正方形を長方形の仲間に入れないという指導・採点の方針に，賛同します．<br>
+<br>
+言っていることは相変わらずアホだけど・・・<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="39"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/39">39</a>]</li>
+<li class="title"><h2>教科書の記述は分かりにくい</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2014年11月20日(木)22時31分42秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/explain/index/comm_id/7634/" target="_blank">編集済</a></li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/7634/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+学校図書小２下より<br>
+<br>
+【４つのかどがすべて直角な四角形を、長方形といいます。】としてある。<br>
+<br>
+本題とは関係ないが「直角な」というのは違和感がある。辞書で調べたら「直角」は形容動詞らしいから、いいのかな？<br>
+<br>
+<br>
+これからすると正方形は長方形であることは疑いないが、<br>
+<br>
+正方形を図示して、「長方形とちがうところはどこでしょうか。」という問題を出している。「図示した長方形とちがうところ」ともとれるが、文だけ読むと「図示した四角形（正方形）は長方形と違う」と言っているようにも見える。<br>
+<br>
+<br>
+<div class="Kiji_Img">
+<a href="https://8254.teacup.com/kakezannojunjo/img/bbs/0007634.jpg" target="_blank">
+<img src="%E6%AD%A3%E6%96%B9%E5%BD%A2%E3%81%AF%E9%95%B7%E6%96%B9%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F%E3%80%80%E6%AD%A3%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AF%E4%BA%8C%E7%AD%89%E8%BE%BA%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F_files/0007634M.jpg" id="IMGID7634" style="cursor:pointer" class="clickable" vspace="5" height="628" border="0" width="400">
+</a>
+</div>
+
+
+
+<div class="Kiji_Img">
+<a href="https://8254.teacup.com/kakezannojunjo/img/bbs/0007634_2.jpg" target="_blank">
+<img src="%E6%AD%A3%E6%96%B9%E5%BD%A2%E3%81%AF%E9%95%B7%E6%96%B9%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F%E3%80%80%E6%AD%A3%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AF%E4%BA%8C%E7%AD%89%E8%BE%BA%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F_files/0007634_2M.jpg" id="IMGID7634_2" style="cursor:pointer" class="clickable" vspace="5" height="621" border="0" width="400">
+</a>
+</div>
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="38"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/38">38</a>]</li>
+<li class="title"><h2>読売小町</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2014年11月20日(木)22時23分13秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/7631/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+小学校　正方形が長方形でないのはなぜ？（駄）<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fkomachi.yomiuri.co.jp%2Ft%2F2014%2F1114%2F689149.htm%3Fo%3D0%26p%3D0" target="_blank" rel="nofollow">http://komachi.yomiuri.co.jp/t/2014/1114/689149.htm?o=0&amp;p=0</a><br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="37"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/37">37</a>]</li>
+<li class="title"><h2>なんで？</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">tankicHi573</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2014年 4月28日(月)02時34分29秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/6857/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+＞しかも、「かけられる数」などは、有害無益な言葉。<br>
+<br>
+とは思わんけど。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="36"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/36">36</a>]</li>
+<li class="title"><h2>Re: 朝日新聞花まる先生より</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2014年 4月27日(日)22時40分5秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/6856/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/35">&gt;&gt;35</a><br>
+<br>
+重箱つつきに思われるかもしれないが、算数の授業なのだからこのあたり、教える側は神経を使ってほしい。「平行四辺形」を「長方形ではない平行四辺形」と言えば良いだけのこと。<br>
+<br>
+「言いにくい」「煩わしい」という意見もあるかもしれないが、「かけられる数」「くらべられる数」だって相当言いにくい。<br>
+<br>
+　しかも、「かけられる数」などは、有害無益な言葉。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="35"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/35">35</a>]</li>
+<li class="title"><h2>朝日新聞花まる先生より</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2014年 4月27日(日)22時36分28秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/6855/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.asahi.com%2Farticles%2FASG2F6TWKG2FUZVL00D.html" target="_blank" rel="nofollow">http://www.asahi.com/articles/ASG2F6TWKG2FUZVL00D.html</a><br>
+<br>
+（花まる先生）斜め重ね面積増えた！<br>
+「斜角柱の勉強をします」と時川先生は５年藤組のみんなに告げた。先生は積み重ねた３０枚の四角いコースターを教卓に置き、手品師のように斜めにスライドさせた。「すごい」<br>
+<br>
+　「ずらしても高さは？」「変わらない」。この斜めの柱のような形を「斜角柱といいます」と先生は説明した。<br>
+<br>
+　方眼紙で作った、底面が正方形の斜角柱を見せながら先生は「展開図を作るならどんな面が必要でしょうか」と聞いた。<br>
+<br>
+　「正方形２枚、長方形２枚、平行四辺形２枚」という意見が出た。側面に長方形が使われているのが分からない子もいたが、先生は側面をぐるりと回して長方形の面を見せた。「おーっ」<br>
+<br>
+　<font color="#FF0000">「側面がすべて平行四辺形になる場合もありますが、今日はこのように一対だけが平行四辺形の斜角柱で展開図を考えます」と先生。</font><br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="34"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/34">34</a>]</li>
+<li class="title"><h2>啓林館、「正三角形は二等辺三角形の特別な場合である」を削除</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2014年 3月13日(木)08時25分5秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/6626/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Ftwitter.com%2Fohmasu_risa%2Fstatus%2F441783073718276096" target="_blank" rel="nofollow">https://twitter.com/ohmasu_risa/status/441783073718276096</a><br>
+＞啓林館の著者の一人は、「正三角形は二等辺三角形の特別な場合である」と記述したところ、現場教員の執筆者に回ったあと見事に削除されたとのことです。検定で削除の指示があったわけではありません。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="33"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/33">33</a>]</li>
+<li class="title"><h2>おはようございます。</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">キャサリン</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2014年 1月15日(水)08時34分23秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/6387/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+イラストレーター岡部貴聡さん<br>
+<br>
+岡部貴聡さんご本人と掲示板の皆様に、私の勝手な思い込みの投稿でご迷惑をおかけしました。<br>
+<br>
+お詫びいたします。<br>
+ごめんなさい。<br>
+<br>
+岡部貴聡さんの名前を初めてお聞きの方には見当違いの拙い文章と重複の投稿には失礼をお許しください。<br>
+<br>
+投稿が不適切と思われましたら削除して下さいますか？<br>
+お手数ですがよろしくお願いします。	<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="32"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/32">32</a>]</li>
+<li class="title"><h2>Re: ネタ失礼</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">Maria</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2014年 1月 6日(月)17時22分43秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/6337/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/31">&gt;&gt;31</a><br>
+＞＞２年生の段階では正方形と長方形は別の図形とするが全く別のものとは強調しない<br>
+<br>
+&gt; 何を言っているのか わからねーと思うが<br>
+&gt; おれも　何をされたのか わからなかった…<br>
+&gt; 頭がどうにかなりそうだった ……　詭弁だとか算数教育ワールドだとか<br>
+&gt; そんなチャチなもんじゃあ 断じてねえ<br>
+&gt; もっと恐ろしいものの片鱗を 味わったぜ ……<br>
+<br>
+　食品業界ではクルマエビとウシエビ（ブラックタイガー。クルマエビ科）は別のエビとするが、別の食材とは強調しない。<br>
+　食品業界ではヒラメ（カレイ目ヒラメ亜目ヒラメ科）とオヒョウ（カレイ目カレイ科）は別の魚とするが、いわゆる“エンガワ”がカレイのエンガワだとは強調しない。<br>
+<br>
+　「大人になるって、そういうことなんだよ」というのが教育であるという話もあるかと。<br>
+<br>
+　ちなみに、ヒラタケ（ヒラタケ科）は現在でも「しめじ」で流通中。ブナシメジ（タモギタケ。シメジ科）は「本しめじ」で流通中で（本当はＮＧ）、同じくタモギタケは見かけが全然違うので「しめじ」を名のれず苦戦中。おいしいのにね。<br>
+　エノキタケはキシメジ科なので、「××しめじ」という商品名はＯＫでいいと思うのだけど、タモギタケ同様、なんか扱いが悪い。でもって「なめたけ」は大抵エノキタケであって、ナメコではない。<br>
+<br>
+　要は、大人の事情っていうコトでしょう。<br>
+
+
+
+
+
+<p><a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fanimaleconomicus.blog106.fc2.com%2F" target="_blank" class="link_url">http://animaleconomicus.blog106.fc2.com/</a></p>
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="31"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/31">31</a>]</li>
+<li class="title"><h2>ネタ失礼</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">kankichi573</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2014年 1月 5日(日)12時00分21秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/6320/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/29">&gt;&gt;29</a><br>
+&gt; <a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Ftwitter.com%2Fsunchanuiguru%2Fstatus%2F419464069569974272%2Fphoto%2F1" target="_blank" rel="nofollow">https://twitter.com/sunchanuiguru/status/419464069569974272/photo/1</a><br>
+&gt; ＞２年生の段階では正方形と長方形は別の図形とするが全く別のものとは強調しない<br>
+<br>
+何を言っているのか　わからねーと思うが<br>
+おれも　何をされたのか　わからなかった…<br>
+頭がどうにかなりそうだった…　詭弁だとか算数教育ワールドだとか<br>
+そんなチャチなもんじゃあ　断じてねえ<br>
+もっと恐ろしいものの片鱗を　味わったぜ…<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="30"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/30">30</a>]</li>
+<li class="title"><h2>Re: 1989年検定の学校図書の算数教科書・教師用指導書</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">鰹節猫吉</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2014年 1月 4日(土)23時40分1秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/6314/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/29">&gt;&gt;29</a><br>
+&gt; <a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Ftwitter.com%2Fsunchanuiguru%2Fstatus%2F419464069569974272%2Fphoto%2F1" target="_blank" rel="nofollow">https://twitter.com/sunchanuiguru/status/419464069569974272/photo/1</a><br>
+&gt; ＞２年生の段階では正方形と長方形は別の図形とするが全く別のものとは強調しない<br>
+<br>
+<br>
+<br>
+独特のおかしな言い回しなので、何を言ってるのかわけがわからなくなってくるのですが…<br>
+<br>
+算数教育の本は、みんなこんな感じだけど、これは酷い…<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="29"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/29">29</a>]</li>
+<li class="title"><h2>1989年検定の学校図書の算数教科書・教師用指導書</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2014年 1月 4日(土)22時47分49秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/6313/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=https%3A%2F%2Ftwitter.com%2Fsunchanuiguru%2Fstatus%2F419464069569974272%2Fphoto%2F1" target="_blank" rel="nofollow">https://twitter.com/sunchanuiguru/status/419464069569974272/photo/1</a><br>
+＞２年生の段階では正方形と長方形は別の図形とするが全く別のものとは強調しない<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="28"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/28">28</a>]</li>
+<li class="title"><h2>おはようございます</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">キャサリン</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2013年12月10日(火)11時02分14秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/6155/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+イラストレーター岡部貴聡さん<br>
+<br>
+岡部貴聡さんご本人と掲示板の皆様に、私の勝手な思い込みの投稿でご迷惑をおかけしました。 お詫びいたします。<br>
+<br>
+ ごめんなさい。<br>
+<br>
+岡部貴聡さんの名前を初めてお聞きの方には見当違いの拙い文章と重複の投稿には失礼をお許し下さい。<br>
+<br>
+お騒がせしました。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="27"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/27">27</a>]</li>
+<li class="title"><h2>指導書も雑だね</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2013年12月 8日(日)14時14分20秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/6139/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+鰹節猫吉さんが報告してくれたこの事例<br>
+<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs/t48/16" target="_blank" rel="nofollow">http://8254.teacup.com/kakezannojunjo/bbs/t48/16</a><br>
+<br>
+２枚目の画像の問題は、文科省が「そういう問題は出してはいけない」としているもの。それが指導書に書かれている。<br>
+<br>
+実にいい加減。<br>
+<br>
+<br>
+ちなみに以前、私立中学の入試問題を見ていたら、問題文に「長方形（正方形を含む）」とあった。<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="26"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/26">26</a>]</li>
+<li class="title"><h2>(無題)</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">kankichi573</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2013年10月30日(水)21時42分8秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/5811/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/25">&gt;&gt;25</a><br>
+いちおう「高点法」という決まりがありまして、「かならず高い点数になるように数えなければならない」ことになってます。<br>
+<br>
+ただ、場が不穏な状況（白<font color="green">発</font>ポンで<font color="red">中</font>が行方不明とか）でなんとかかわしたい、<br>
+しかしハコテン寸前の人から上がるとドボンでゲーム終了（5200ならドボンだか1600なら耐えうる）<br>
+という比較的レアな状況で故意に安く申告ししかも<br>
+11南南七七33九九22八八<br>
+って並べられてトップ走者が気づかなければ通ってしまう可能性はあります。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="25"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/25">25</a>]</li>
+<li class="title"><h2>そこいらはいろいろ難しいらしい</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">Maria</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2013年10月30日(水)15時58分1秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/5808/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/24">&gt;&gt;24</a><br>
+&gt; 中中１１２２３３六六七七八八<br>
+&gt; という手牌があり、<br>
+&gt; １）二盃口<br>
+&gt; ２）七対子<br>
+&gt; ３）どっちでもない<br>
+&gt; という選択肢があって七対子と答えると×になるようなもんですね。<br>
+<br>
+　「クリベッジ（Cribbage）」というカードゲームがあるのですが、なかなかに計算しにくい組合せというのがありまして、そこんトコロはきっちり加算する方向で採点基準ができているようです。<br>
+　やっぱユークリッド幾何学の伝統とかが日本にはちゃんと移入できていないとかいうのが影響してるんスかね？<br>
+
+
+
+
+
+<p><a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fanimaleconomicus.blog106.fc2.com%2F" target="_blank" class="link_url">http://animaleconomicus.blog106.fc2.com/</a></p>
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="24"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/24">24</a>]</li>
+<li class="title"><h2>&gt;&gt;22</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">kankichi573</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2013年10月30日(水)14時06分34秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/5807/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+中中１１２２３３六六七七八八<br>
+という手牌があり、<br>
+１）二盃口<br>
+２）七対子<br>
+３）どっちでもない<br>
+という選択肢があって七対子と答えると×になるようなもんですね。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="23"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/23">23</a>]</li>
+<li class="title"><h2>基本は四辺形だと思います</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">Maria</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2013年10月30日(水)12時58分50秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/5806/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+　うちでは、以下の見解を支持しています。<br>
+<br>
+＞ 正三角形は二等辺三角形なのか？<br>
+　「正三角形は二等辺三角形だけど、真面目に考えるほど重要な話ではありません。小学校の先生とかだとときどきウソを教えたりするけど、聞き流しておきなさい。」<br>
+<br>
+＞ 正方形は長方形なのか？<br>
+　「以下の構造をしっかり頭に入れておきなさい。図解するとわかりやすいです。<br>
+<br>
+　一般の四辺形 ⊃ 台形<br>
+　台形 ⊃ 平行四辺形<br>
+　平行四辺形 ⊃ 長方形（矩形）<br>
+　長方形 ⊃ 正方形<br>
+　平行四辺形 ⊃ 菱形<br>
+　菱形 ∧ 長方形 ＝ 正方形<br>
+<br>
+　ついでに、<br>
+　　西洋凧形（凧形） ⊃ 菱形<br>
+というのも覚えておいていいです。<br>
+　先生が嘘を教えても、お父さんにはナイショにしておきなさい。お父さんが学校に先生をボコりに行っちゃうから。」<br>
+<br>
+　「四辺形」という言葉はあるのですが、「三辺形」という名前がないので、指導がしにくいという問題があります。ですから「三角形」は「基本的ではあるけ
+れど特殊な図形」として教えています。対角線もありませんし。そこで、指導法としては「四辺形を基本に数学的構造を教える」というのをスタンダードと考え
+ています。<br>
+　「ひとつの角が平角（１８０°）である四角形は三角形ですか？」という話もありますが、「四辺形は四辺形です。『四角形』と呼んでいいかは知りません」で納得してもらえそうです。<br>
+　そういう意味では、「多角形」という言葉を避けて「多辺形」という言葉を使っているような気もします。「五角形」というと「正五角形」「星型正五角形」「凸な五角形」などを指すコトバとして使っていることが多いような。<br>
+<br>
+　そういえば、Ｚ会の小学生用の教材でも、正方形は長方形ではなく、正三角形は二等辺三角形ではなかったような ……<br>
+
+
+
+
+
+<p><a href="https://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fanimaleconomicus.blog106.fc2.com%2F" target="_blank" class="link_url">http://animaleconomicus.blog106.fc2.com/</a></p>
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="22"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/22">22</a>]</li>
+<li class="title"><h2>ＴＯＳＳは「正方形は長方形ではない」という立場なのかな？</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2013年10月23日(水)10時50分2秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/5753/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.tos-land.net%2Fcontents%2F17%2Fcontent_texts%2F232" target="_blank" rel="nofollow">http://www.tos-land.net/contents/17/content_texts/232</a><br>
+出てきた図形が「長方形」「正方形」「どちらでもない」のどれにあてはまるのか答えるというもの。<br>
+<br>
+正方形に対して「長方形」と答えると誤答になる。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="21"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/21">21</a>]</li>
+<li class="title"><h2>正方形は長方形、という授業案</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2013年10月22日(火)12時19分36秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/explain/index/comm_id/5750/" target="_blank">編集済</a></li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/5750/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fkyouiku.oita-ed.jp%2Fkoujou-tane%2Fimage%2Fs%2520chouhoukewo.pdf" target="_blank" rel="nofollow">http://kyouiku.oita-ed.jp/koujou-tane/image/s%20chouhoukewo.pdf</a><br>
+＞①は４つのかどがぜんぶ直角になっているから長方形です。<br>
+<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.educ.juen.ac.jp%2Feduc%2Fwp-content%2Fuploads%2F200509.pdf" target="_blank" rel="nofollow">http://www.educ.juen.ac.jp/educ/wp-content/uploads/200509.pdf</a><br>
+<br>
+<br>
+ちゃんと教えている例もあるようだ。<br>
+<br>
+これで混乱するのか？<br>
+「正方形を長方形とすると子どもは混乱する」というのは本当なのか？<br>
+<br>
+「正方形は長方形ではない」と教えて混乱しないのか？<br>
+<br>
+混乱しているのは教えている側ではないのか？<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="20"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/20">20</a>]</li>
+<li class="title"><h2>関連した授業の紹介</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2013年 9月11日(水)08時56分34秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/explain/index/comm_id/5508/" target="_blank">編集済</a></li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/5508/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+先日やった授業<br>
+<br>
+<br>
+カードがあって、一方の面にＡかＢ、もう一方に１か２が書かれている。<br>
+<br>
+Ａ-１　Ａ-２　Ｂ-１　Ｂ-２　　の４枚である。<br>
+<br>
+問題１　これらのカードのいくつかを袋に入れる。入れ方は何通りか？いくつ入れてもいい。何も入れない場合も含める。<br>
+<br>
+これは１６通りと出せた。ついでに、元の数がｎの集合の部分集合の数を求めてもらったら、２^ｎと正しく答えられた。<br>
+<br>
+<br>
+問題２　その１６通りを全部書き出して、「袋の中の全てのカードに関して、『アルファベットが母音ならば、数字は奇数』が成り立っているかどうかを調べろ。（母音はこの場合Ａ）<br>
+<br>
+　最初は何も入れていない袋を、「成り立たない」としていたが、「成り立たないのは、Ａ-２が入っている場合のみ」と気づいた。<br>
+<br>
+<br>
+　このことから、Ｐが偽なら、Ｐ→Ｑは真であることを理解してもらった。<br>
+<br>
+　一見奇異に思えることでも、そうすることが合理的だからそうしているのだから、合理的に考えたら理解できる。<br>
+<br>
+　「『袋の中の全てのカードに関して』といっているのだから、袋の中にはカードが入っているのが前提。入っていないのなら、それは成り立たないと考える子が多いから、混乱させないように、空集合の場合は『成り立たない』とする方が教育指導上望ましい」<br>
+<br>
+などとしたら余計に混乱すると思う。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="19"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/19">19</a>]</li>
+<li class="title"><h2>Re: 必要十分条件は必要条件ではないのか？疑惑　数研出版の回答</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2013年 9月10日(火)13時20分5秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/5502/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/18">&gt;&gt;18</a><br>
+&gt; 悟りの境地に達してますね。<br>
+<br>
+　潔いですね。<br>
+<br>
+「部分」という言葉は便宜的なものに過ぎないと思えば、なんでもないと思うのだけど、そこに引っかかってしまう生徒はいるのでしょうね。<br>
+<br>
+　銀林浩やらあのあたりの算数教育の訳の分からない理論（？）って、そういうところに引っかかってしまう生徒にどう教えようか、というようなことで始めて、<br>
+<br>
+　そのうち「空集合や全体集合を部分集合と認識する方がおかしい」「空集合や全体集合を部分集合と認識する生徒は単にそう教わったからそうしているだけで
+ある。むしろ、空集合や全体集合を部分集合ではないと思っている生徒の方が深く考えている」「そもそも空集合や全体集合は部分集合ではない」<br>
+<br>
+などと、ミイラ取りがミイラになってしまったようにも思えます。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="18"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/18">18</a>]</li>
+<li class="title"><h2>Re: 必要十分条件は必要条件ではないのか？疑惑　数研出版の回答</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">鰹節猫吉</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2013年 9月10日(火)12時42分39秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/5501/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/16">&gt;&gt;16</a><br>
+&gt; 「必要十分条件であれば、必要条件でもあるし十分条件でもある」<br>
+&gt; 「ｘ＝２は　３ｘ＝６　であるための（　　）」は括弧に「必要条件」「十分条件」を入れても正しい<br>
+&gt;<br>
+&gt; ということをちゃんと教えるのだろうか？<br>
+&gt;<br>
+&gt; はっきり言って、はなはだ疑問である。<br>
+<br>
+<br>
+<br>
+私は、ちゃんと教わりました。<br>
+<br>
+高校の数学の先生は、部分集合を全部書けという問題について、<br>
+<br>
+<br>
+「はい、分からない人は、自分自身と空集合をわすれずに書くと覚えてください。全部で２の累乗個になると覚えてください。そういうものだと思えばいいです。分からない人は覚えることもできないと思いますが、そういうものだと思えばよろしい。」<br>
+<br>
+<br>
+と説明。<br>
+<br>
+悟りの境地に達してますね。<br>
+<br>
+全方位外交している。<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="17"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/17">17</a>]</li>
+<li class="title"><h2>数研出版の教科書</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2013年 9月 9日(月)16時36分47秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/5500/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+今の高校１年生がつかっている数研出版の教科書「数学Ⅰ」、ｐ５４の問題では、□にあてはまるのはどれか？という問題で、<br>
+<br>
+選択肢が「必要条件ではあるが十分条件ではない」などとなっている。<br>
+<br>
+私の指摘が功を奏したのかもしれない。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="16"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/16">16</a>]</li>
+<li class="title"><h2>必要十分条件は必要条件ではないのか？疑惑　数研出版の回答</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2013年 8月 6日(火)09時06分8秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/explain/index/comm_id/5350/" target="_blank">編集済</a></li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/5350/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/6">&gt;&gt;6</a>のような事例に関して、以前、教科書を出版している数研出版に問い合わせたことがある。これに関して、文章で回答が来た。著者に私の質問を回して、その回答を編集部から私に郵送したもの。<br>
+<br>
+　要旨は<br>
+<br>
+<br>
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
+入試問題を作成するときは曖昧さを回避するために、「必要条件ではあるが十分条件ではない」というような選択肢にする。<br>
+教科書は教師と生徒のやりとりがあることが前提である。<br>
+<br>
+　教科書の文章なので読みやすさを優先して、「必要条件」「十分条件」「必要十分条件」「必要条件でも十分条件でもない」とした。<br>
+<br>
+＞必要条件、十分条件、必要十分条件の違いが理解できていることが確認できれば、この練習の目的は達成できたことになります。<br>
+（この部分、原文のまま）<br>
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
+2006.11.26<br>
+<br>
+「必要条件ではあるが十分条件ではない」とすることで読みにくくなるのか？<br>
+<br>
+「必要条件」「十分条件」「必要十分条件」「必要条件でも十分条件でもない」を選択肢にしても、「ｘ＝２は　３ｘ＝６　であるための（　　）」の正解を「必要十分条件」のみとすることはまずいのではないだろうか？<br>
+<br>
+<br>
+「この練習の目的は達成できたことになります。」、かけ算順序擁護論でも似たようなことを言う人がいるが、「それが何か？」と思ってしまう・<br>
+<br>
+　目的が何であれ、「これはおかしいのでは？」と指摘しているのであって、「こういう目的です」は回答になり得ていない。<br>
+<br>
+　教師とのやりとりを前提にしているというが、<br>
+<br>
+「必要十分条件であれば、必要条件でもあるし十分条件でもある」<br>
+「ｘ＝２は　３ｘ＝６　であるための（　　）」は括弧に「必要条件」「十分条件」を入れても正しい<br>
+<br>
+ということをちゃんと教えるのだろうか？<br>
+<br>
+はっきり言って、はなはだ疑問である。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="15"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/15">15</a>]</li>
+<li class="title"><h2>「勝手な回答をされる方が多い」？</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2013年 8月 1日(木)12時18分21秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/5336/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Foshiete.goo.ne.jp%2Fqa%2F3326280.html" target="_blank" rel="nofollow">http://oshiete.goo.ne.jp/qa/3326280.html</a><br>
+＞勝手な回答をされる方が多いですが、正しい答えはこうです。<br>
+問題：正方形は長方形か？<br>
+回答:ケースバイケース。そのときの定義による。<br>
+ただし、学年その他の事情によって、暗黙の了解によるときもある。<br>
+たとえば、小学生では、正方形は長方形と呼ばない。<br>
+<br>
+<br>
+<br>
+「小学生では、正方形は長方形と呼ばない。」もまた勝手な回答。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="14"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/14">14</a>]</li>
+<li class="title"><h2>菱形は平行四辺形か？</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2013年 8月 1日(木)12時07分14秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/explain/index/comm_id/5335/" target="_blank">編集済</a></li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/5335/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Foshiete.goo.ne.jp%2Fqa%2F6975906.html" target="_blank" rel="nofollow">http://oshiete.goo.ne.jp/qa/6975906.html</a><br>
+<br>
+&gt;娘（小６）の夏休みの宿題の答え合わせをしています。<br>
+図形の問題で、図形を分類するものがありました。<br>
+娘は、ひし形を平行四辺形に分類してしまいました。<br>
+ひし形に分類するのが最適であるのは分かるのですが、間違いではない気がして…<br>
+<br>
+どう思われますか？<br>
+&gt;問題文の全文です<br>
+『(ア)～(カ)の中から、台形、平行四辺形、ひし形を選びましょう。』<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="13"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/13">13</a>]</li>
+<li class="title"><h2>ベネッセ</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2013年 7月30日(火)09時42分2秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/explain/index/comm_id/5324/" target="_blank">編集済</a></li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/5324/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fkita-kaneko.com%2Farchives%2F959" target="_blank" rel="nofollow">http://kita-kaneko.com/archives/959</a><br><br>　ベネッセに限らず、市販の算数問題集は私が調べた限り、「正三角形は二等辺三角形に非ず」という立場です。<br><br>　文科省の回答　「正方形は長方形である、正三角形は二等辺三角形である、と積極的には教えない。そこは棚上げ」<br><br>学校現場の一部（幸い、それほど多いわけではないと思われる）では、棚から下ろしてしまい、「正方形は長方形ではない」「正三角形は二等辺三角形ではない」という誤りを教えていて、<br><br>市販の問題集では、「正方形は長方形ではない」「正三角形は二等辺三角形ではない」が主流<br><br><br>となっているようである。<br><br><br>「子供が混乱するから・・・」という“配慮”が混乱を招いている。<br><br><font size="5"><font color="#FF0000">目的が正しいから手段が正当化される。その手段によってそもそもの目的が、むしろ阻害されたとしても、知ったことではない。一端正当化された手段は、誰が何と言おうと正当なんだ！</font></font><br><br><br>かけ算の順序もそうだけど、この構造、どうにかならないものなのか？<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="12"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/12">12</a>]</li>
+<li class="title"><h2>正方形ではない長方形では成り立つが、正方形では成り立たない命題</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2013年 7月29日(月)13時34分2秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/5319/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+長方形に関する命題「縦と横の長さの差の逆数が存在する」<br>
+<br>
+これは正方形でない長方形にはあてはまるが正方形にはあてはまらない。<br>
+<br>
+<br>
+「正方形ではない長方形で成り立つことは、すべて正方形でも成り立つ」と言ってしまうと、相手に付け入る隙を与えるので注意が必要。<br>
+<br>
+<br>
+「正方形ではない長方形で成り立つが、正方形では成り立たない命題をあげて下さい」と相手にゆだねるのが得策。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="11"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/11">11</a>]</li>
+<li class="title"><h2>三角形は四角形だ！</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2013年 7月29日(月)13時29分0秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/5318/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+正方形は特殊な長方形、という私の立場はどこまで敷衍できるのか？<br>
+<br>
+四角形の１つの角が１８０度になれば、三角形。だから、「三角形は四角形」は良さそう。凹四角形というのもあるのだから、１８０度だけ除外する必要はない。<br>
+<br>
+　三角形の１つの角を１８０度にして残りの２つを０度にするのは？<br>
+<br>
+　０が絡むと少々違和感がある。<br>
+<br>
+「三角形は長方形だ」の論拠も、「一つの辺が０」という理由だとどうだろうか？<br>
+<br>
+<br>
+　でも、これもいいとしよう。<br>
+<br>
+　全ての辺が０で点になったら？<br>
+<br>
+<br>
+点は、全ての辺が０の三角形であり四角形であり、さらに正方形であり直角三角形であり、半径０の円でもある。<br>
+<br>
+<br>
+シュールだけどまあいいかな？<br>
+<br>
+<br>
+<br>
+このあたりになると、そもそも何のために図形を分類するのか、と言うことになってしまうが、<br>
+<br>
+<br>
+例えば、力の合成やベクトルの和において「平行四辺形の対角線が、合力になる。ベクトルの和になる」という場合に、たまたま２つの力やベクトルの向きが平行で、平行四辺形がつぶれた形になったときに、<br>
+<br>
+「平行四辺形にならないので対角線が作れない。だから合力が求められない」というようでは困る。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="10"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/10">10</a>]</li>
+<li class="title"><h2>棚から三角、</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2013年 7月29日(月)13時10分46秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/5317/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fslashdot.jp%2Fjournal%2F547437%2F%25E6%25AD%25A3%25E4%25B8%2589%25E8%25A7%2592%25E5%25BD%25A2%25E3%2581%25AF%25E4%25BA%258C%25E7%25AD%2589%25E8%25BE%25BA%25E4%25B8%2589%25E8%25A7%2592%25E5%25BD%25A2%25E3%2581%2598%25E3%2582%2583%25E3%2581%25AA%25E3%2581%2584%25E3%2581%25A0%25E3%2581%25A8%25E3%2581%2586%25EF%25BC%2581%25EF%25BC%259F" target="_blank" rel="nofollow">http://slashdot.jp/journal/547437/%E6%AD%A3%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AF%E4%BA%8C%E7%AD%89%E8%BE%BA%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%98%E3%82%83%E3%81%AA%E3%81%84%E3%81%A0%E3%81%A8%E3%81%86%EF%BC%81%EF%BC%9F</a><br>
+<br>
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
+先日小学生の娘のテストを見ていたら、気になる回答があった。<br>
+問題は下記のような簡単なもの。<br>
+<br>
+問１）この中で二等辺三角形はいくつあるでしょうか？<br>
+問２）この中で正三角形はいくつあるでしょうか？<br>
+<br>
+あぁ、問１はよくある引っかけだな、と思ったら答えがおかしい。<br>
+正三角形の分が足りないじゃないか！<br>
+あぁ、また「算数と数学は違うのよぉ。」なんていうおかしな話になっているのか。。。<br>
+<br>
+正三角形と二等辺三角形<br>
+<br>
+以前スラドでも掛け算の順番についてひと悶着あったが、こいつはちょっとまずくないかい？<br>
+二等辺三角形の定義が変わってしまうじゃないか。<br>
+<br>
+ただし，「正三角形は，二等辺三角形の特別な形です」というところまでは取り扱わないことになっています。<br>
+<br>
+じゃぁ、問１問２の様な設問をしちゃぁいけないんじゃないか？<br>
+娘には「数学」で言うところの区分けと理由をちゃんと教えておいた。流石に中学校ではそう習うだろうし。<br>
+が、学校では教えられた通りの答えを書くようにとも言い添えて。<br>
+出題者の望む答えをちゃんと察して回答しなきゃならないなんて高等問題なんだなぁ。。。<br>
+<br>
+＃今日、改めて娘に確認してみたら、「正三角形は二等辺三角形の仲間って知ってるよ。」とあっさり、拍子抜け。<br>
+＃先生に教えてもらったよと。先日はそんなこと言っていなかったのでその後教えたようだ。<br>
+＃そういえば昨年まで中学校の数学の先生をやっていた方なので良心がとがめたのかも。<br>
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
+<br>
+この中で紹介されているリンクは啓林館<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fwww.shinko-keirin.co.jp%2Fkeirinkan%2Fsansu%2FWebHelp%2F03%2Fpage3_15.html" target="_blank" rel="nofollow">http://www.shinko-keirin.co.jp/keirinkan/sansu/WebHelp/03/page3_15.html</a><br>
+<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="9"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/9">9</a>]</li>
+<li class="title"><h2>現代化　集合</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2013年 7月29日(月)13時05分53秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/5316/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+　調べていくとどうも、かつて算数教育で「現代化」というのが提唱されて、それで集合を教えられたらしい。私はその世代。<br>
+<br>
+　だからそのときは、正方形は長方形であるといことが明確に教えられたようなんだけど、<br>
+<br>
+「子供には難しいから」ということで、教えなくなった。<br>
+<br>
+<br>
+それで、「正方形は長方形でない」と教えるという混乱が起きてしまっているようです。<br>
+<br>
+<br>
+「かけ算の順序」と同様の話。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="8"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/8">8</a>]</li>
+<li class="title"><h2>正三角形は二等辺三角形か？</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2013年 7月29日(月)13時00分56秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/5315/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fplaza.rakuten.co.jp%2Fpinnote%2Fdiary%2F200810110000%2F" target="_blank" rel="nofollow">http://plaza.rakuten.co.jp/pinnote/diary/200810110000/</a><br>
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
+息子がやった算数のプリントを見ていた。<br>
+<br>
+<br>
+【問題】<br>
+<br>
+「３cmの棒が３本、４cmの棒が３本、５cmの棒が３本あります。<br>
+このうち、３本だけ使って一番大きな二等辺三角形を作った場合、<br>
+その二等辺三角形の辺の長さの合計は何ｃｍになるでしょう？」<br>
+<br>
+<br>
+【正解】<br>
+　５ｃｍ＋５ｃｍ＋４ｃｍ＝１４cm　（答え１４ｃｍ）<br>
+<br>
+【息子の回答】<br>
+　５ｃｍ＋５ｃｍ＋５ｃｍ＝１５cm　（答え１５ｃｍ）<br>
+<br>
+<br>
+　息子の回答は誤答ということでペケをもらってきたが、私から見ると<br>
+息子の回答の方が正解に思える。<br>
+<br>
+<br>
+正三角形も二等辺三角形の一種だと思うからだ。<br>
+<br>
+二等辺三角形の定義は「2本の辺の長さが等しい三角形」<br>
+であり、正三角形はその定義に当てはまる。<br>
+<br>
+問題文としては<br>
+「正三角形以外の二等辺三角形」<br>
+と限定しなくてはならないのではないかな？<br>
+<br>
+学校では　「正三角形は二等辺三角形ではない」と教えてるのかな？<br>
+<br>
+<br>
+「四角形」＞「平行四辺形」＞「長方形」＞「正方形」<br>
+とかも　ちゃんと教えてくれるのかな？<br>
+<br>
+　ちょっと不安。<br>
+<br>
+　考えすぎ？<br>
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
+<br>
+棚から下ろして間違って教えちゃう事例、やっぱりあるんだね。<br>
+<br>
+<br>
+<br>
+<a href="http://8254.teacup.com/kakezannojunjo/bbs?M=JU&amp;JUR=http%3A%2F%2Fdetail.chiebukuro.yahoo.co.jp%2Fqa%2Fquestion_detail%2Fq1032523360" target="_blank" rel="nofollow">http://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q1032523360</a><br>
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
+だから私も納得がいかなくて塾に問い合わせてみました。<br>
+塾の先生によると、小学校3年生では、学校では正三角形と二等辺三角形は別のものとして教えているそうです。現在の小学3年生の指導要領では、ベン図は出
+てこないので正三角形が二等辺三角形に含まれるという関係は理解させることができません。それよりも、まず二等辺三角形がどのような形なのか、正三角形が
+どのような形なのかを理解させる段階なのだそうです。その上で塾では小学4年生になったら、「実は正三角形は二等辺三角形なのだ」ということを教えるそう
+です。<br>
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝<br>
+<br>
+<br>
+「正三角形は二等辺三角形である」とは教えない、<br>
+<br>
+が<br>
+<br>
+「「正三角形は二等辺三角形でない」とは教える<br>
+<br>
+<br>
+になってしまう混乱があるようだ。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="7"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/7">7</a>]</li>
+<li class="title"><h2>２ちゃんねる数学板で話題になった、運転免許の問題</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2013年 7月29日(月)12時23分24秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/5314/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+ずいぶん前に２ちゃんねる数学板で話題になった、運転免許の問題がある。<br>運転免許の問題は、文が示されていて、正誤（○×）を答えるものである。<br><br><br>「仮免許を取得して公道で運転するには、免許を取得して２年以上経過した人が助手席に乗らないとならない」、正しいか誤りか？<br><br>ちなみに、道交法では、仮免で公道を運転するには、免許取得後３年以上経過した人が助手席に乗ることが必要となっている。<br><br><br>　大半の意見は「数学的には○だけど、免許の試験としては×だろう。日常言語は数学と違うから仕方ない。」というもの。「教官に『対偶を考えたらどうでしょうか』と言っても、『待遇、あんまりよくないね』といわれるのがオチ」<br><br>　というものだった。<br><br><br>　ところが、このあたりの事情に詳しい人が以下のようなコメントをした。<br><br><br>「かつては話題になっているような問題が<font color="#FF0000">○が正解として出題されたこともある</font>。しかし、数学の論理・命題を理解しているかどうか、と、自動車を安全に運転できるかどうかは関係ないということで、今はそのような出題はない」<br><br><br>「運転免許問題、素晴らしいぞ！」と思った。<br><br><br>教科書会社は是非見習ってほしい。<br><br><br><br>自
+動車学校に通っているときに、「時速５０㎞規制の標識が示されていて、『この標識のところでは時速７０㎞以上で走ってはいけない』という問題の場合、とう
+ぜん○ですよね？」と質問したら、「いや、それは５０岐路規制の標識だから、「時速７０㎞以上で走ってはいけない」は×だよ」と言われて、「自動車免許の
+問題は実に不可解」と思ったのだが、<br><br>　この教官の勘違いであり、さらにそもそもこのような問題は出されないと言うことらしい。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="6"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/6">6</a>]</li>
+<li class="title"><h2>「x=2」は、「３ｘ＝６」であるための必要条件でも十分条件でもない？？？</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2013年 7月29日(月)12時07分21秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/5313/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+高校では単項式は多項式であるとはっきりと教えている。<br>
+<br>
+ところが、「正方形は長方形か？」と同様のことが高校数学でもある。<br>
+<br>
+しかも、まさにこのようなことを学ぶ論理・命題の単元において！<br>
+<br>
+<br>
+「x=2」は、「３ｘ＝６」であるための（　　　）<br>
+<br>
+括弧にあてはまるもっとも適当な文言を選択するという問題。<br>
+<br>
+Ａ　必要条件である<br>
+Ｂ　十分条件である<br>
+Ｃ　必要十分条件である<br>
+Ｄ　必要条件でも十分条件でもない<br>
+<br>
+<br>
+ｘ^2－５ｘ＋６＝０　の解を問われて、ｘ＝２　と答えると減点される。全てか不足なく答えるのが慣習だから、ｘ＝２，３が正解とされる。<br>
+<br>
+それに従えば、「Ａ、Ｂ、Ｃ」という答案が正解となるはずだが、これは「Ｃ」のみが正解だという。<br>
+<br>
+ＰならばＱ　が成り立つときに、ＰはＱの十分条件　ＱはＰの必要条件<br>
+教科書にはそう書いてある。<br>
+<br>
+「但し、ＱならばＰも成り立っているときは、ＰはＱの十分条件ではなくなってしまう」などとは書かれてない。<br>
+<br>
+ところが、教科書問題の場合、Ｃのみが正解だという。そうすると、ＡやＢは誤り、つまり、必要条件でもない、十分条件でもない、となるので、「Ｄ　必要条件でも十分条件でもない」となってしまう。<br>
+<br>
+<br>
+実に不可解である。<br>
+<br>
+<br>
+教科書会社に問い合わせたところ、「“もっとも適当なもの”とあるので、必要十分条件がもっとも適当ということでこれが正解」という、<br>
+<br>
+もっともらしいテキトーな回答でお茶を逃がすだけだった。<br>
+<br>
+<br>
+<br>
+<br>
+センター試験はこのあたりはぬかりなくて、選択肢が「必要条件ではあるが十分条件ではない」という具合になっている。<br>
+<br>
+教科書もそうすればいいのにと思う。<br>
+<br>
+なぜそれをしないで、「必要十分条件は必要条件でも十分条件でもない」という誤った認識を持たせかねない出題にしているのだろうか？<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="5"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/5">5</a>]</li>
+<li class="title"><h2>単項式は多項式ではない？</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2013年 7月29日(月)11時52分13秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/5312/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+正方形は長方形であることは中学では比較的明示的に教えられるのだが、<br>
+<br>
+単項式を多項式ではないと教えられるようである。<br>
+<br>
+教科書がそうなっている。正方形・長方形に関しては、教科書では棚上げが徹底しているが、中学教科書では、「これは単項式ですか？多項式ですか？」という問題になっている。<br>
+<br>
+教科書会社の説明だと「１つだけの項からなる文字式を多項式とすることに抵抗を感じる中学生もいるから」というのだが、<br>
+<br>
+いくつかの文字式を提示して「この中で単項式はどれですか？」という問題にすればいいだけのこと。そうであれば、単項式を多項式と認識しようがしまいが、答えは同じになる。<br>
+<br>
+　「単項式は多項式ではない」となると、<br>
+<br>
+多項式同士の積、和、差は多項式<br>
+<br>
+というのが成り立たなくなる。<br>
+<br>
+<br>
+「子供が混乱しないように」という“配慮”が、数学の整合性を壊して、混乱を招いている。<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="4"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/4">4</a>]</li>
+<li class="title"><h2>正三角形は三角形ではない？　正方形は四角形ではない？</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2013年 7月29日(月)11時44分17秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/5311/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+「正方形は長方形ではない」という指導に合理性があるとしよう。<br>
+「長方形は平行四辺形ではない」とするべきなのか？<br>
+<br>
+「正方形は長方形ではない」という理屈からしたら、当然そうなる。<br>
+<br>
+では、「特殊は一般に含まれない」とすべきなのか？<br>
+<br>
+<br>
+そうすると、「正方形は四角形ではない」「直角二等辺三角形は直角三角形でも二等辺三角形でもない」となってしまう。<br>
+<br>
+<br>
+それはさすがにおかしいとなるだろう。<br>
+<br>
+<br>
+では、「特殊は一般から除外する」というのは、どこまで適用するのか？<br>
+<br>
+「菱形は平行四辺形ではない」「平行四辺形は台形ではない」<br>
+<br>
+このあたりになると微妙である。<br>
+<br>
+<br>
+正方形をさして敢えて「これは長方形です」というのは確かに違和感がある。「これは長方形ではない」というのは、日常言語感覚としては違和感はない。<br>
+<br>
+かといって、正方形をさして「これは四角形ではない」というのは違和感がすごくある。「これは四角形です」というのは全然違和感がない。<br>
+<br>
+<br>
+違和感という曖昧なものを基準にすると、菱形-平行四辺形-台形　あたりで微妙になってしまう。<br>
+<br>
+<br>
+<br>
+これって、「最初の段階では、かけ算に順序があるとした方がいい」という話が、ずるずると続いてしまい、わり算で包含除と等分除が違うとなったり、比例のところで順序が混乱したりしているのと同様だと思う。<br>
+<br>
+　一時の方便を墨守することで混乱してしまう。<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="3"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/3">3</a>]</li>
+<li class="title"><h2>ところが、文科省国立教育政策研究所は、・・・</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2013年 7月29日(月)11時31分26秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/5310/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+　文科省国立教育政策研究所は、文科省と見解がちがう。対応も横柄。このあたり、かけ算の順序と同様。<br>
+<br>
+　教師の裁量で「正方形は長方形ではない」と教えることもあり得るというもの。<br>
+<br>
+　この見解が出てきた経緯も、「日本の算数教育はこれでいいのか？」と思わせるようなものである。<br>
+<br>
+直方体の体積＝（　）×（　）×（　）<br>
+立方体の体積＝（　）×（　）×（　）<br>
+<br>
+このような問題にどちらも（たて）×（よこ）×（たかさ）と書いたら、直方体の方は○で、立方体の方はバツになった。<br>
+立方体の体積は（一辺）×（一辺）×（一辺）が正解。<br>
+<br>
+という事例があることについてどう思うか質問したところ、<br>
+<br>
+「小学校では立方体は直方体であると教えないので、立方体を直方体とは別の立体と認識させる指導に合理性はある。」との回答。<br>
+<br>
+<br>
+　教科書の公式通りに書かないと正解にしないという指導を正当化した上に、「立方体は直方体ではない」という指導も正当化している。<br>
+<br>
+　文科省（本省）見解とは矛盾する。文科省の説明は、正方形と長方形を例にしてのものだったが、立方体と直方体に関しても同様である。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<dl>
+<dt>
+<ul>
+<li><a name="2"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/2">2</a>]</li>
+<li class="title"><h2>文科省の見解　　割とまともで常識的</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2013年 7月29日(月)11時19分54秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/5309/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+　で、文科省に問い合わせたところ、<br>
+<br>
+「正方形が長方形であることは子供にとって難しくて混乱を招きかねないので、敢えて触れない。子供の状況に応じて、発展的内容として、教師の裁量で、正方形は長方形であると教えてもいい」<br>
+<br>
+とのこと。<br>
+<br>
+要するに、棚上げ。棚から下ろして「正方形は長方形だよ」と教えてもいい　　　ということである。<br>
+<br>
+<br>
+で、<br>
+<br>
+「小学校の間は、子供が正方形を長方形と認識しても、長方形でないと認識しても構わない。それによって正解が異なるような問題は望ましくない。」<br>
+<br>
+「指摘されているような直方体の問題は、問題として不適切。敢えて出すなら、『４つ』と『６つ』、どちらも正解とすべき。あるいは、発展的内容として『正
+方形は長方形』として『６つ』のみを正解とするものありえる。いずれにしても、“『４つ』のみが正解で、『６つ』は不正解”などというのは、あり得ない」<br>
+<br>
+<br>
+だそうで、そのテキストの問題・模範解答、ともに駄目だという話。<br>
+<br>
+そのテキストは、塾を顧客にしている。一般には市販されていない。<br>
+<br>
+奥付や出版社が書いていなくて、「うちの塾のオリジナルテキストです」という体裁が取れるようになっている。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+<hr>
+<!--kiji 記事開始-->
+<div class="kiji">
+<a name="bottom"></a><dl>
+<dt>
+<ul>
+<li><a name="1"></a>[<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/1">1</a>]</li>
+<li class="title"><h2>プロローグ　ある問題集から</h2></li>
+
+<!--投稿者名-->
+<li>投稿者：<span class="name"><font size=""></font><font size="" color="">積分定数</font></span></li>
+<!--/投稿者名-->
+
+<li>投稿日：2013年 7月29日(月)11時06分54秒</li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/threadpost/index/thread_id/44/comm_id/5308/">返信</a></li>
+</ul>
+</dt>
+<dd class="img">
+&nbsp;
+</dd>
+
+<dd class="text">
+以前勤めていた塾のテキストに、３×３×５の直方体（単位は㎝だったと思う。数値はテキトー）が描かれていて、「長方形の面はいくつありますか？」という問題があった。<br>
+<br>
+正解は「４つ」とされていた。<br>
+<br>
+算数の教科書を確認したところ、長方形は４つの角が直角な四角形のことと書かれていて、辺の長さへの言及はなかった。<br>
+<br>
+これに関して疑問に思い、２ちゃんねるの数学板でスレッドを立てたが、「小学校ではそうやって教えるのだ」とドヤ顔でいう人はいても、詳しいことは分からなかった。数学板では当然、「そんな指導はまずいだろうが！」という声が多数だった。<br>
+
+
+
+
+
+
+
+
+
+
+</dd>
+</dl>
+</div>
+<div class="clear"></div>
+<!--kiji 記事終了-->
+</div>
+<!--contents 終了--->
+
+<hr>
+<!--navi ページナビゲーション開始-->
+<div class="navi">
+<ul>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs">掲示板に戻る</a></li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/101n-">新着レス</a></li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/l50">最新50件</a></li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/-100">1-100件</a></li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/search?thread_id=44">検索</a></li>
+<li><a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/102-144">≪前の100件</a></li>
+
+<li><a href="#top">▲ページ上へ</a></li>
+</ul>
+</div>
+<!--navi ページナビゲーション終了-->
+<hr>
+
+
+
+  <center><div style="margin: 10px 0px 10px 0px;">
+  <table border="0px;">
+  <tbody><tr>
+  <td style="padding: 5px;" valign="top">
+<!--      fluct グループ名「レンタル掲示板：300x250（フッター左_AdSense以外用SSL）」      -->
+
+<!--      fluct ユニット名「レンタル掲示板：300x250（フッター左_AdSense以外用SSL）」     -->
+<script type="text/javascript">
+//<![CDATA[
+if(typeof(adingoFluct)!="undefined") adingoFluct.showAd('1000138850');
+//]]>
+</script>
+
+  </td>
+  <td style="padding: 5px; vertical-align: top;">
+<div style="width: 300px; height: 250px;"><a href="https://www.teacup.com/fbbs" target="_blank"><img src="%E6%AD%A3%E6%96%B9%E5%BD%A2%E3%81%AF%E9%95%B7%E6%96%B9%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F%E3%80%80%E6%AD%A3%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AF%E4%BA%8C%E7%AD%89%E8%BE%BA%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F_files/regist_rbbs_b.jpg" alt="レンタル掲示板" height="250" border="0" width="300"></a></div>
+
+  </td>
+  </tr>
+  </tbody></table>
+</div>
+</center><div class="spacer"></div>
+
+<!--管理スレッド関連開始-->
+<div id="mythema">
+<div class="mycontents">
+<!--掲示板　スレッド一覧開始-->
+<div id="thread_list">
+<h4>スレッド一覧</h4>
+<ol>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t47/l50" title="22/03/03(木)22:17">某氏ウォッチング</a>(452)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t21/l50" title="22/01/13(木)17:45">コメント欄１０代目</a>(3140)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t58/l50" title="22/01/07(金)17:23">心理学</a>(143)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t53/l50" title="22/01/07(金)17:15">テープ図　比例直線図　など</a>(62)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t50/l50" title="21/12/16(木)17:59">指導要領の研究</a>(151)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t44/l50" title="21/11/17(水)21:53">正方形は長方形なのか？　正三角形は二等辺三角形なのか？</a>(144)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t27/l50" title="21/09/30(木)03:39">桜井進氏 &amp; 根上生也氏 がひどすぎる件</a>(23)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t78/l50" title="21/09/01(水)16:54">海外の事例</a>(17)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t94/l50" title="21/06/01(火)20:18">動画授業</a>(2)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t61/l50" title="21/05/20(木)21:36">大学附属小学校（筑波を除く）関係</a>(41)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t70/l50" title="21/03/22(月)13:35">中学数学・高校数学に関して</a>(74)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t84/l50" title="21/02/22(月)17:41">「言語活動の充実」、「言語能力の向上」</a>(23)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t40/l50" title="21/02/01(月)06:59">国語教育について</a>(65)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t28/l50" title="21/01/03(日)12:31">理科の時間</a>(234)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t71/l50" title="20/12/19(土)20:13">０は偶数でも奇数でもない？</a>(83)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t32/l50" title="20/12/16(水)14:12">計算の工夫</a>(22)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t83/l50" title="20/07/07(火)16:37">算数・数学の学び方・教え方について、あれこれ</a>(62)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t86/l50" title="20/07/05(日)22:48">数学教育協議会（数教協）・水道方式など</a>(43)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t43/l50" title="20/07/01(水)06:54">微分の読み方　ｄｙ／ｄｘを「ディーワイディーエックス」と読むことについて</a>(91)</li>
+<li>◇<a href="https://8254.teacup.com/kakezannojunjo/bbs/t79/l50" title="20/06/30(火)20:38">算数教育界では「2.5個」はアウト？</a>(18)</li>
+</ol>
+<a href="https://8254.teacup.com/kakezannojunjo/bbs/index/all">スレッド一覧(全93)</a>&nbsp;
+<img src="%E6%AD%A3%E6%96%B9%E5%BD%A2%E3%81%AF%E9%95%B7%E6%96%B9%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F%E3%80%80%E6%AD%A3%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AF%E4%BA%8C%E7%AD%89%E8%BE%BA%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F_files/icon_search15x15.gif" height="15" width="15"><a href="https://www.teacup.com/list/" target="_blank" rel="nofollow">他のスレッドを探す</a>&nbsp;
+<img src="%E6%AD%A3%E6%96%B9%E5%BD%A2%E3%81%AF%E9%95%B7%E6%96%B9%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F%E3%80%80%E6%AD%A3%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AF%E4%BA%8C%E7%AD%89%E8%BE%BA%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F_files/DE6AE.gif" height="15" width="15"><a href="https://8254.teacup.com/kakezannojunjo/bbsadm/userthread/" target="_top">スレッド作成</a>
+
+<img src="%E6%AD%A3%E6%96%B9%E5%BD%A2%E3%81%AF%E9%95%B7%E6%96%B9%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F%E3%80%80%E6%AD%A3%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AF%E4%BA%8C%E7%AD%89%E8%BE%BA%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F_files/icon_memo15x15.gif"><a href="https://8254.teacup.com/kakezannojunjo/bbs">掲示板に戻る</a>
+<br>
+<br>
+*掲示板をお持ちでない方へ、まずは掲示板を作成しましょう。<img src="%E6%AD%A3%E6%96%B9%E5%BD%A2%E3%81%AF%E9%95%B7%E6%96%B9%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F%E3%80%80%E6%AD%A3%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AF%E4%BA%8C%E7%AD%89%E8%BE%BA%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F_files/icon_memo15x15.gif"><a href="https://my.teacup.com/regist/bbs" target="_blank">無料掲示板作成</a></div>
+<!--掲示板　スレッド一覧終了-->
+<hr>
+
+</div>
+</div>
+<!--管理スレッド関連終了-->
+
+</div>
+
+
+<!--footer 開始--->
+<div id="footer">
+
+    
+    <script language="JavaScript" src="%E6%AD%A3%E6%96%B9%E5%BD%A2%E3%81%AF%E9%95%B7%E6%96%B9%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F%E3%80%80%E6%AD%A3%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AF%E4%BA%8C%E7%AD%89%E8%BE%BA%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F_files/pop.js" type="text/javascript"></script><div id="span0" class="popstyle">現在この掲示板は、記事からはメールを送れない設定になっています。メールアドレスを入力して投稿した場合、管理人は管理画面の投稿の管理の投稿者名からメールが送れます。 </div><div id="span1" class="popstyle">検索した動画を記事に埋め込むことができます。<br>※掲示板設定で、[画像の貼付][動画の貼付]を共に許可している必要があります</div><div id="span2" class="popstyle"></div><div id="span3" class="popstyle"></div><div id="span4" class="popstyle"></div><div id="span5" class="popstyle"></div><div id="span6" class="popstyle"></div><div id="span7" class="popstyle"></div><div id="span8" class="popstyle"></div><div id="span9" class="popstyle"></div><div id="span10" class="popstyle"></div><div id="span11" class="popstyle"></div><div id="span12" class="popstyle"></div><div id="span13" class="popstyle"></div><div id="span14" class="popstyle"></div><div id="span15" class="popstyle"></div><div id="span16" class="popstyle"></div><div id="span17" class="popstyle"></div><div id="span18" class="popstyle"></div><div id="span19" class="popstyle"></div><div id="span20" class="popstyle"></div>
+
+    <!--home オプションメニュー開始-->
+    <div class="home">
+    <ul>
+    <li><img src="%E6%AD%A3%E6%96%B9%E5%BD%A2%E3%81%AF%E9%95%B7%E6%96%B9%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F%E3%80%80%E6%AD%A3%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AF%E4%BA%8C%E7%AD%89%E8%BE%BA%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F_files/icon_home15x15.gif" alt="ホーム" height="15" width="15">
+        <a href="http://www.teacup.com/" target="_blank">ホームページへ</a>
+        </li>
+    <li><img src="%E6%AD%A3%E6%96%B9%E5%BD%A2%E3%81%AF%E9%95%B7%E6%96%B9%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F%E3%80%80%E6%AD%A3%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AF%E4%BA%8C%E7%AD%89%E8%BE%BA%E4%B8%89%E8%A7%92%E5%BD%A2%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F_files/icon_mail15x15.gif" alt="メール" height="15" width="15"><a href="https://8254.teacup.com/kakezannojunjo/bbs/mailform">管理者にメール</a></li>
+    </ul>
+    </div>
+    <!--home オプションメニュー終了-->
+    
+    
+    <!--login ログイン開始-->
+    <div id="login">
+    <table cellspacing="0" cellpadding="2" border="0">
+    <tbody><tr>
+    <td>
+        <form method="post" action="/kakezannojunjo/bbsadm/login" target="_top">
+        <input value="管理メニュー" name="submit" type="submit">
+        </form>
+    </td>
+            <td>
+        <form method="post" action="/kakezannojunjo/bbs/mypost/index/thread_id/44">
+        <input name="submit" value="自分の投稿の編集・削除" type="submit">
+        </form>
+    </td>
+            </tr>
+    </tbody></table>
+    
+    </div>
+
+    <div align="right">
+    <!--login ログイン開始-->
+        <!--閲覧パスログイン中開始 -->
+            <!--閲覧パスログイン中終了 -->
+  
+  <h4><a href="https://www.teacup.com/fbbs/" target="_blank">
+teacup.レンタル掲示板</a></h4>
+<!--新google新-analytics開始-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-37971288-6', 'auto');
+  ga('send', 'pageview');
+
+  ga('create', 'UA-37971288-3', 'auto', {'name': 'oldTracker'});
+  ga('oldTracker.set', 'dimension2', '3185');
+  ga('oldTracker.set', 'dimension3', 'L0');
+    ga('oldTracker.set', 'dimension4', 'flag');
+      ga('oldTracker.set', 'dimension5', 'none');
+    ga('oldTracker.send', 'pageview');
+</script>
+<!--新google新-analytics終了-->
+
+
+    </div>
+
+</div>
+<!--footer 終了--->
+
+
+<!--wrapper 終了--->
+
+
+
+
+</body></html>
